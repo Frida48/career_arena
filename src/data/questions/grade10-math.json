@@ -1,0 +1,2315 @@
+{
+  "grade": 10,
+  "subject": "math",
+  "sections": [
+    {
+      "id": "equations",
+      "title": "Tənliklər və bərabərsizliklər",
+      "description": "Kvadrat bərabərsizliklər, Viyet teoremi, modullu, irrasional və kəsr-rasional tənliklər, sistemlər.",
+      "questions": [
+        {
+          "id": "g10-math-equations-001",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat bərabərsizlik",
+          "difficulty": "medium",
+          "text": "x² − 8x ≤ 0 bərabərsizliyinin neçə tam həlli var?",
+          "type": "single",
+          "options": [
+            "9",
+            "11",
+            "8",
+            "7",
+            "10"
+          ],
+          "correctIndex": 0,
+          "explanation": "Köklər 0 və 8. Həllər çoxluğu [0; 8], tam həllər sayı 9."
+        },
+        {
+          "id": "g10-math-equations-002",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "hard",
+          "text": "x² + bx − 8 = 0 tənliyinin bir kökü -4-dür. b-ni tapın.",
+          "type": "single",
+          "options": [
+            "2",
+            "3",
+            "-2",
+            "-8",
+            "1"
+          ],
+          "correctIndex": 0,
+          "explanation": "x₁·x₂ = -8 ⇒ x₂ = -8 : -4 = 2. b = −(x₁ + x₂) = 2."
+        },
+        {
+          "id": "g10-math-equations-003",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Modullu tənliklər",
+          "difficulty": "medium",
+          "text": "|x − 0| = 8 tənliyinin köklərinin cəmini tapın.",
+          "type": "single",
+          "options": [
+            "-1",
+            "0",
+            "16",
+            "1",
+            "8"
+          ],
+          "correctIndex": 1,
+          "explanation": "x = 0 + 8 = 8 və ya x = 0 − 8 = -8. Cəm: 0."
+        },
+        {
+          "id": "g10-math-equations-004",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "İrrasional tənliklər",
+          "difficulty": "medium",
+          "text": "√(x + 8) = 3 tənliyini həll edin.",
+          "type": "single",
+          "options": [
+            "2",
+            "1",
+            "9",
+            "-5",
+            "11"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hər iki tərəfi kvadrata yüksəldirik: x + 8 = 9 ⇒ x = 1."
+        },
+        {
+          "id": "g10-math-equations-005",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "x + y = 5 və xy = -6 olarsa, x² + y² neçədir?",
+          "type": "single",
+          "options": [
+            "-60",
+            "25",
+            "31",
+            "13",
+            "37"
+          ],
+          "correctIndex": 4,
+          "explanation": "x² + y² = (x + y)² − 2xy = 25 − -12 = 37."
+        },
+        {
+          "id": "g10-math-equations-006",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kəsr-rasional tənliklər",
+          "difficulty": "easy",
+          "text": "4/(x + 2) = 4 tənliyini həll edin.",
+          "type": "open",
+          "answer": "-1",
+          "explanation": "x + 2 = 4 : 4 = 1 ⇒ x = -1 (x ≠ −2)."
+        },
+        {
+          "id": "g10-math-equations-007",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat bərabərsizlik",
+          "difficulty": "medium",
+          "text": "x² + 7x + 10 < 0 bərabərsizliyinin neçə tam həlli var?",
+          "type": "single",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "7",
+            "3"
+          ],
+          "correctIndex": 1,
+          "explanation": "Köklər -5 və -2. Həllər çoxluğu (-5; -2), tam həllər sayı 2."
+        },
+        {
+          "id": "g10-math-equations-008",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "hard",
+          "text": "x² + bx + 6 = 0 tənliyinin bir kökü -3-dür. b-ni tapın.",
+          "type": "single",
+          "options": [
+            "-2",
+            "-5",
+            "5",
+            "2",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "x₁·x₂ = 6 ⇒ x₂ = 6 : -3 = -2. b = −(x₁ + x₂) = 5."
+        },
+        {
+          "id": "g10-math-equations-009",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Modullu tənliklər",
+          "difficulty": "medium",
+          "text": "|x + 2| = 6 tənliyinin köklərinin cəmini tapın.",
+          "type": "single",
+          "options": [
+            "4",
+            "12",
+            "-2",
+            "-3",
+            "-4"
+          ],
+          "correctIndex": 4,
+          "explanation": "x = -2 + 6 = 4 və ya x = -2 − 6 = -8. Cəm: -4."
+        },
+        {
+          "id": "g10-math-equations-010",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "İrrasional tənliklər",
+          "difficulty": "medium",
+          "text": "√(x + 8) = 4 tənliyini həll edin.",
+          "type": "single",
+          "options": [
+            "16",
+            "12",
+            "-4",
+            "9",
+            "8"
+          ],
+          "correctIndex": 4,
+          "explanation": "Hər iki tərəfi kvadrata yüksəldirik: x + 8 = 16 ⇒ x = 8."
+        },
+        {
+          "id": "g10-math-equations-011",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "x + y = -3 və xy = -4 olarsa, x² + y² neçədir?",
+          "type": "single",
+          "options": [
+            "17",
+            "9",
+            "13",
+            "24",
+            "1"
+          ],
+          "correctIndex": 0,
+          "explanation": "x² + y² = (x + y)² − 2xy = 9 − -8 = 17."
+        },
+        {
+          "id": "g10-math-equations-012",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kəsr-rasional tənliklər",
+          "difficulty": "easy",
+          "text": "2/(x + 3) = 2 tənliyini həll edin.",
+          "type": "open",
+          "answer": "-2",
+          "explanation": "x + 3 = 2 : 2 = 1 ⇒ x = -2 (x ≠ −3)."
+        },
+        {
+          "id": "g10-math-equations-013",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat bərabərsizlik",
+          "difficulty": "medium",
+          "text": "x² − 2x − 3 < 0 bərabərsizliyinin neçə tam həlli var?",
+          "type": "single",
+          "options": [
+            "4",
+            "1",
+            "3",
+            "2",
+            "5"
+          ],
+          "correctIndex": 2,
+          "explanation": "Köklər -1 və 3. Həllər çoxluğu (-1; 3), tam həllər sayı 3."
+        },
+        {
+          "id": "g10-math-equations-014",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "hard",
+          "text": "x² + bx − 12 = 0 tənliyinin bir kökü -2-dir. b-ni tapın.",
+          "type": "single",
+          "options": [
+            "-6",
+            "4",
+            "-4",
+            "6",
+            "-12"
+          ],
+          "correctIndex": 2,
+          "explanation": "x₁·x₂ = -12 ⇒ x₂ = -12 : -2 = 6. b = −(x₁ + x₂) = -4."
+        },
+        {
+          "id": "g10-math-equations-015",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Modullu tənliklər",
+          "difficulty": "medium",
+          "text": "|x + 2| = 4 tənliyinin köklərinin cəmini tapın.",
+          "type": "single",
+          "options": [
+            "-2",
+            "4",
+            "8",
+            "-4",
+            "2"
+          ],
+          "correctIndex": 3,
+          "explanation": "x = -2 + 4 = 2 və ya x = -2 − 4 = -6. Cəm: -4."
+        },
+        {
+          "id": "g10-math-equations-016",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "İrrasional tənliklər",
+          "difficulty": "medium",
+          "text": "√(x + 7) = 4 tənliyini həll edin.",
+          "type": "single",
+          "options": [
+            "10",
+            "11",
+            "-3",
+            "16",
+            "9"
+          ],
+          "correctIndex": 4,
+          "explanation": "Hər iki tərəfi kvadrata yüksəldirik: x + 7 = 16 ⇒ x = 9."
+        },
+        {
+          "id": "g10-math-equations-017",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "x + y = 0 və xy = -1 olarsa, x² + y² neçədir?",
+          "type": "single",
+          "options": [
+            "1",
+            "3",
+            "2",
+            "0",
+            "-2"
+          ],
+          "correctIndex": 2,
+          "explanation": "x² + y² = (x + y)² − 2xy = 0 − -2 = 2."
+        },
+        {
+          "id": "g10-math-equations-018",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kəsr-rasional tənliklər",
+          "difficulty": "easy",
+          "text": "22/(x + 2) = 2 tənliyini həll edin.",
+          "type": "open",
+          "answer": "9",
+          "explanation": "x + 2 = 22 : 2 = 11 ⇒ x = 9 (x ≠ −2)."
+        },
+        {
+          "id": "g10-math-equations-019",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat bərabərsizlik",
+          "difficulty": "medium",
+          "text": "x² + 6x + 5 ≤ 0 bərabərsizliyinin neçə tam həlli var?",
+          "type": "single",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "3",
+            "7"
+          ],
+          "correctIndex": 0,
+          "explanation": "Köklər -5 və -1. Həllər çoxluğu [-5; -1], tam həllər sayı 5."
+        },
+        {
+          "id": "g10-math-equations-020",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "hard",
+          "text": "x² + bx − 24 = 0 tənliyinin bir kökü 4-dür. b-ni tapın.",
+          "type": "single",
+          "options": [
+            "-2",
+            "-24",
+            "6",
+            "2",
+            "-6"
+          ],
+          "correctIndex": 3,
+          "explanation": "x₁·x₂ = -24 ⇒ x₂ = -24 : 4 = -6. b = −(x₁ + x₂) = 2."
+        },
+        {
+          "id": "g10-math-equations-021",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Modullu tənliklər",
+          "difficulty": "medium",
+          "text": "|x − 4| = 3 tənliyinin köklərinin cəmini tapın.",
+          "type": "single",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "-8",
+            "4"
+          ],
+          "correctIndex": 1,
+          "explanation": "x = 4 + 3 = 7 və ya x = 4 − 3 = 1. Cəm: 8."
+        },
+        {
+          "id": "g10-math-equations-022",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "İrrasional tənliklər",
+          "difficulty": "medium",
+          "text": "√(x + 9) = 5 tənliyini həll edin.",
+          "type": "single",
+          "options": [
+            "17",
+            "-4",
+            "25",
+            "14",
+            "16"
+          ],
+          "correctIndex": 4,
+          "explanation": "Hər iki tərəfi kvadrata yüksəldirik: x + 9 = 25 ⇒ x = 16."
+        },
+        {
+          "id": "g10-math-equations-023",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "x + y = 2 və xy = 0 olarsa, x² + y² neçədir?",
+          "type": "single",
+          "options": [
+            "5",
+            "0",
+            "3",
+            "6",
+            "4"
+          ],
+          "correctIndex": 4,
+          "explanation": "x² + y² = (x + y)² − 2xy = 4 − 0 = 4."
+        },
+        {
+          "id": "g10-math-equations-024",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kəsr-rasional tənliklər",
+          "difficulty": "easy",
+          "text": "30/(x + 1) = 5 tənliyini həll edin.",
+          "type": "open",
+          "answer": "5",
+          "explanation": "x + 1 = 30 : 5 = 6 ⇒ x = 5 (x ≠ −1)."
+        },
+        {
+          "id": "g10-math-equations-025",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat bərabərsizlik",
+          "difficulty": "medium",
+          "text": "x² + 4x − 12 < 0 bərabərsizliyinin neçə tam həlli var?",
+          "type": "single",
+          "options": [
+            "9",
+            "8",
+            "7",
+            "6",
+            "5"
+          ],
+          "correctIndex": 2,
+          "explanation": "Köklər -6 və 2. Həllər çoxluğu (-6; 2), tam həllər sayı 7."
+        },
+        {
+          "id": "g10-math-equations-026",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "hard",
+          "text": "x² + bx + 0 = 0 tənliyinin bir kökü -6-dır. b-ni tapın.",
+          "type": "single",
+          "options": [
+            "5",
+            "0",
+            "6",
+            "7",
+            "-6"
+          ],
+          "correctIndex": 2,
+          "explanation": "x₁·x₂ = 0 ⇒ x₂ = 0 : -6 = 0. b = −(x₁ + x₂) = 6."
+        },
+        {
+          "id": "g10-math-equations-027",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "İrrasional tənliklər",
+          "difficulty": "medium",
+          "text": "√(x + 3) = 2 tənliyini həll edin.",
+          "type": "single",
+          "options": [
+            "-1",
+            "2",
+            "4",
+            "1",
+            "5"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hər iki tərəfi kvadrata yüksəldirik: x + 3 = 4 ⇒ x = 1."
+        },
+        {
+          "id": "g10-math-equations-028",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "x + y = 0 və xy = -9 olarsa, x² + y² neçədir?",
+          "type": "single",
+          "options": [
+            "0",
+            "19",
+            "-18",
+            "18",
+            "9"
+          ],
+          "correctIndex": 3,
+          "explanation": "x² + y² = (x + y)² − 2xy = 0 − -18 = 18."
+        },
+        {
+          "id": "g10-math-equations-029",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kəsr-rasional tənliklər",
+          "difficulty": "easy",
+          "text": "55/(x + 4) = 5 tənliyini həll edin.",
+          "type": "single",
+          "options": [
+            "8",
+            "-7",
+            "11",
+            "15",
+            "7"
+          ],
+          "correctIndex": 4,
+          "explanation": "x + 4 = 55 : 5 = 11 ⇒ x = 7 (x ≠ −4)."
+        },
+        {
+          "id": "g10-math-equations-030",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "equations",
+          "sectionTitle": "Tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat bərabərsizlik",
+          "difficulty": "medium",
+          "text": "x² − 4x − 12 ≤ 0 bərabərsizliyinin neçə tam həlli var?",
+          "type": "open",
+          "answer": "9",
+          "explanation": "Köklər -2 və 6. Həllər çoxluğu [-2; 6], tam həllər sayı 9."
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Funksiyalar",
+      "description": "Kvadrat və modullu funksiya, tərs və mürəkkəb funksiya, təyin oblastı.",
+      "questions": [
+        {
+          "id": "g10-math-functions-001",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = x² + 2x − 6 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "7",
+            "-6",
+            "-1",
+            "-8",
+            "-7"
+          ],
+          "correctIndex": 4,
+          "explanation": "Təpə nöqtəsi: x₀ = −b/(2a) = -1, y(x₀) = -7. a > 0 olduğu üçün bu ən kiçik qiymətdir."
+        },
+        {
+          "id": "g10-math-functions-002",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Tərs funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = 4x + 2 funksiyası üçün f⁻¹(26) qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "6",
+            "106",
+            "-6",
+            "7",
+            "26"
+          ],
+          "correctIndex": 0,
+          "explanation": "f(x) = 26 ⇒ 4x = 24 ⇒ x = 6. Deməli, f⁻¹(26) = 6."
+        },
+        {
+          "id": "g10-math-functions-003",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Mürəkkəb funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = x + 3 və g(x) = x² olarsa, f(g(1)) neçədir?",
+          "type": "single",
+          "options": [
+            "3",
+            "5",
+            "16",
+            "1",
+            "4"
+          ],
+          "correctIndex": 4,
+          "explanation": "g(1) = 1; f(1) = 1·1 + 3 = 4."
+        },
+        {
+          "id": "g10-math-functions-004",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Modullu funksiya",
+          "difficulty": "easy",
+          "text": "y = |x − 5| funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "2",
+            "-1",
+            "0",
+            "5",
+            "1"
+          ],
+          "correctIndex": 2,
+          "explanation": "|x − 5| ≥ 0, ən kiçik qiyməti 0-dır (x = 5). Deməli, ymin = 0."
+        },
+        {
+          "id": "g10-math-functions-005",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Xətti funksiya",
+          "difficulty": "easy",
+          "text": "f(x) = ax + b xətti funksiyası üçün f(1) = 5 və f(2) = 7. f(7) neçədir?",
+          "type": "single",
+          "options": [
+            "17",
+            "23",
+            "10",
+            "14",
+            "11"
+          ],
+          "correctIndex": 0,
+          "explanation": "a = f(2) − f(1) = 2, b = 3. f(7) = 2·7 + 3 = 17."
+        },
+        {
+          "id": "g10-math-functions-006",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Təyin oblastı",
+          "difficulty": "medium",
+          "text": "y = √(x + 3) + √(5 − x) funksiyasının təyin oblastında neçə tam ədəd var?",
+          "type": "open",
+          "answer": "9",
+          "explanation": "x − (-3) ≥ 0 və 5 − x ≥ 0 ⇒ x ∈ [-3; 5]. Tam ədədlər: 9."
+        },
+        {
+          "id": "g10-math-functions-007",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = x² + 4x − 2 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "-5",
+            "-7",
+            "-2",
+            "6",
+            "-6"
+          ],
+          "correctIndex": 4,
+          "explanation": "Təpə nöqtəsi: x₀ = −b/(2a) = -2, y(x₀) = -6. a > 0 olduğu üçün bu ən kiçik qiymətdir."
+        },
+        {
+          "id": "g10-math-functions-008",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Tərs funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = -2x + 6 funksiyası üçün f⁻¹(4) qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "-2",
+            "4",
+            "-1",
+            "1",
+            "-5"
+          ],
+          "correctIndex": 3,
+          "explanation": "f(x) = 4 ⇒ -2x = -2 ⇒ x = 1. Deməli, f⁻¹(4) = 1."
+        },
+        {
+          "id": "g10-math-functions-009",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Mürəkkəb funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = x − 4 və g(x) = x² − 3 olarsa, f(g(-1)) neçədir?",
+          "type": "single",
+          "options": [
+            "-9",
+            "-6",
+            "22",
+            "-2",
+            "-3"
+          ],
+          "correctIndex": 1,
+          "explanation": "g(-1) = -2; f(-2) = 1·-2 − 4 = -6."
+        },
+        {
+          "id": "g10-math-functions-010",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Modullu funksiya",
+          "difficulty": "easy",
+          "text": "y = |x − 3| − 3 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "-2",
+            "0",
+            "-4",
+            "-3",
+            "3"
+          ],
+          "correctIndex": 3,
+          "explanation": "|x − 3| ≥ 0, ən kiçik qiyməti 0-dır (x = 3). Deməli, ymin = -3."
+        },
+        {
+          "id": "g10-math-functions-011",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Xətti funksiya",
+          "difficulty": "easy",
+          "text": "f(x) = ax + b xətti funksiyası üçün f(1) = -1 və f(2) = 3. f(8) neçədir?",
+          "type": "single",
+          "options": [
+            "3",
+            "27",
+            "-36",
+            "32",
+            "37"
+          ],
+          "correctIndex": 1,
+          "explanation": "a = f(2) − f(1) = 4, b = -5. f(8) = 4·8 − 5 = 27."
+        },
+        {
+          "id": "g10-math-functions-012",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Təyin oblastı",
+          "difficulty": "medium",
+          "text": "y = √(x + 3) + √(−x) funksiyasının təyin oblastında neçə tam ədəd var?",
+          "type": "open",
+          "answer": "4",
+          "explanation": "x − (-3) ≥ 0 və 0 − x ≥ 0 ⇒ x ∈ [-3; 0]. Tam ədədlər: 4."
+        },
+        {
+          "id": "g10-math-functions-013",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = 3x² − 18x + 26 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "26",
+            "-1",
+            "2",
+            "3",
+            "1"
+          ],
+          "correctIndex": 1,
+          "explanation": "Təpə nöqtəsi: x₀ = −b/(2a) = 3, y(x₀) = -1. a > 0 olduğu üçün bu ən kiçik qiymətdir."
+        },
+        {
+          "id": "g10-math-functions-014",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Tərs funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = 2x funksiyası üçün f⁻¹(-2) qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "1",
+            "0",
+            "-4",
+            "-2",
+            "-1"
+          ],
+          "correctIndex": 4,
+          "explanation": "f(x) = -2 ⇒ 2x = -2 ⇒ x = -1. Deməli, f⁻¹(-2) = -1."
+        },
+        {
+          "id": "g10-math-functions-015",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Mürəkkəb funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = 3x + 1 və g(x) = x² + 5 olarsa, f(g(-1)) neçədir?",
+          "type": "single",
+          "options": [
+            "19",
+            "24",
+            "6",
+            "9",
+            "4"
+          ],
+          "correctIndex": 0,
+          "explanation": "g(-1) = 6; f(6) = 3·6 + 1 = 19."
+        },
+        {
+          "id": "g10-math-functions-016",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Modullu funksiya",
+          "difficulty": "easy",
+          "text": "y = |x − 0| + 1 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "0",
+            "-1",
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 2,
+          "explanation": "|x − 0| ≥ 0, ən kiçik qiyməti 0-dır (x = 0). Deməli, ymin = 1."
+        },
+        {
+          "id": "g10-math-functions-017",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Xətti funksiya",
+          "difficulty": "easy",
+          "text": "f(x) = ax + b xətti funksiyası üçün f(1) = -1 və f(2) = 2. f(5) neçədir?",
+          "type": "single",
+          "options": [
+            "19",
+            "-17",
+            "15",
+            "11",
+            "1"
+          ],
+          "correctIndex": 3,
+          "explanation": "a = f(2) − f(1) = 3, b = -4. f(5) = 3·5 − 4 = 11."
+        },
+        {
+          "id": "g10-math-functions-018",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Təyin oblastı",
+          "difficulty": "medium",
+          "text": "y = √(x + 1) + √(5 − x) funksiyasının təyin oblastında neçə tam ədəd var?",
+          "type": "open",
+          "answer": "7",
+          "explanation": "x − (-1) ≥ 0 və 5 − x ≥ 0 ⇒ x ∈ [-1; 5]. Tam ədədlər: 7."
+        },
+        {
+          "id": "g10-math-functions-019",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = x² + 6x + 3 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "3",
+            "-5",
+            "6",
+            "-6",
+            "-3"
+          ],
+          "correctIndex": 3,
+          "explanation": "Təpə nöqtəsi: x₀ = −b/(2a) = -3, y(x₀) = -6. a > 0 olduğu üçün bu ən kiçik qiymətdir."
+        },
+        {
+          "id": "g10-math-functions-020",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Tərs funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = 2x − 4 funksiyası üçün f⁻¹(4) qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "-4",
+            "0",
+            "5",
+            "4",
+            "3"
+          ],
+          "correctIndex": 3,
+          "explanation": "f(x) = 4 ⇒ 2x = 8 ⇒ x = 4. Deməli, f⁻¹(4) = 4."
+        },
+        {
+          "id": "g10-math-functions-021",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Mürəkkəb funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = 2x − 4 və g(x) = x² olarsa, f(g(-1)) neçədir?",
+          "type": "single",
+          "options": [
+            "1",
+            "-3",
+            "-1",
+            "36",
+            "-2"
+          ],
+          "correctIndex": 4,
+          "explanation": "g(-1) = 1; f(1) = 2·1 − 4 = -2."
+        },
+        {
+          "id": "g10-math-functions-022",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Modullu funksiya",
+          "difficulty": "easy",
+          "text": "y = |x + 4| + 1 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "-4",
+            "0",
+            "-3",
+            "1",
+            "-1"
+          ],
+          "correctIndex": 3,
+          "explanation": "|x − -4| ≥ 0, ən kiçik qiyməti 0-dır (x = -4). Deməli, ymin = 1."
+        },
+        {
+          "id": "g10-math-functions-023",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Xətti funksiya",
+          "difficulty": "easy",
+          "text": "f(x) = ax + b xətti funksiyası üçün f(1) = 0 və f(2) = 3. f(7) neçədir?",
+          "type": "single",
+          "options": [
+            "18",
+            "24",
+            "4",
+            "-18",
+            "21"
+          ],
+          "correctIndex": 0,
+          "explanation": "a = f(2) − f(1) = 3, b = -3. f(7) = 3·7 − 3 = 18."
+        },
+        {
+          "id": "g10-math-functions-024",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Təyin oblastı",
+          "difficulty": "medium",
+          "text": "y = √(x − 2) + √(5 − x) funksiyasının təyin oblastında neçə tam ədəd var?",
+          "type": "open",
+          "answer": "4",
+          "explanation": "x − (2) ≥ 0 və 5 − x ≥ 0 ⇒ x ∈ [2; 5]. Tam ədədlər: 4."
+        },
+        {
+          "id": "g10-math-functions-025",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = 2x² + 12x + 17 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "-3",
+            "17",
+            "-1",
+            "0",
+            "1"
+          ],
+          "correctIndex": 2,
+          "explanation": "Təpə nöqtəsi: x₀ = −b/(2a) = -3, y(x₀) = -1. a > 0 olduğu üçün bu ən kiçik qiymətdir."
+        },
+        {
+          "id": "g10-math-functions-026",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Tərs funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = 2x + 7 funksiyası üçün f⁻¹(3) qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "13",
+            "2",
+            "-2",
+            "5",
+            "3"
+          ],
+          "correctIndex": 2,
+          "explanation": "f(x) = 3 ⇒ 2x = -4 ⇒ x = -2. Deməli, f⁻¹(3) = -2."
+        },
+        {
+          "id": "g10-math-functions-027",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Mürəkkəb funksiya",
+          "difficulty": "medium",
+          "text": "f(x) = 3x − 1 və g(x) = x² − 2 olarsa, f(g(2)) neçədir?",
+          "type": "single",
+          "options": [
+            "23",
+            "2",
+            "11",
+            "3",
+            "5"
+          ],
+          "correctIndex": 4,
+          "explanation": "g(2) = 2; f(2) = 3·2 − 1 = 5."
+        },
+        {
+          "id": "g10-math-functions-028",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Modullu funksiya",
+          "difficulty": "easy",
+          "text": "y = |x − 2| − 4 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "0",
+            "-2",
+            "2",
+            "4",
+            "-4"
+          ],
+          "correctIndex": 4,
+          "explanation": "|x − 2| ≥ 0, ən kiçik qiyməti 0-dır (x = 2). Deməli, ymin = -4."
+        },
+        {
+          "id": "g10-math-functions-029",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Xətti funksiya",
+          "difficulty": "easy",
+          "text": "f(x) = ax + b xətti funksiyası üçün f(1) = -7 və f(2) = -9. f(5) neçədir?",
+          "type": "single",
+          "options": [
+            "-27",
+            "0",
+            "-15",
+            "-10",
+            "-5"
+          ],
+          "correctIndex": 2,
+          "explanation": "a = f(2) − f(1) = -2, b = -5. f(5) = -2·5 − 5 = -15."
+        },
+        {
+          "id": "g10-math-functions-030",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = 2x² + 12x + 26 funksiyasının ən kiçik qiymətini tapın.",
+          "type": "open",
+          "answer": "8",
+          "explanation": "Təpə nöqtəsi: x₀ = −b/(2a) = -3, y(x₀) = 8. a > 0 olduğu üçün bu ən kiçik qiymətdir."
+        }
+      ]
+    },
+    {
+      "id": "trigonometry",
+      "title": "Triqonometriya",
+      "description": "Radian ölçü, xüsusi bucaqlar, əsas eynilik, ikiqat bucaq, çevirmə düsturları, kosinuslar teoremi.",
+      "questions": [
+        {
+          "id": "g10-math-trigonometry-001",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Radian ölçü",
+          "difficulty": "easy",
+          "text": "240° bucağın radian ölçüsünü tapın.",
+          "type": "single",
+          "options": [
+            "2π/3",
+            "5π/3",
+            "π/6",
+            "3π/4",
+            "4π/3"
+          ],
+          "correctIndex": 4,
+          "explanation": "240° = 240·π/180 = 4π/3."
+        },
+        {
+          "id": "g10-math-trigonometry-002",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Xüsusi bucaqların triqonometrik funksiyaları",
+          "difficulty": "medium",
+          "text": "Hesablayın: cos 60° + 6·tg² 60°",
+          "type": "single",
+          "options": [
+            "1/2",
+            "-35/2",
+            "-37/2",
+            "39/2",
+            "37/2"
+          ],
+          "correctIndex": 4,
+          "explanation": "cos 60° = 1/2, tg² 60° = 3. Nəticə: 1·1/2 + (6)·3 = 37/2."
+        },
+        {
+          "id": "g10-math-trigonometry-003",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Əsas triqonometrik eynilik",
+          "difficulty": "hard",
+          "text": "sin α = 15/17 və α — II rüb bucağıdır. tg α-nı tapın.",
+          "type": "single",
+          "options": [
+            "-15/8",
+            "8/15",
+            "-8/15",
+            "15/17",
+            "15/8"
+          ],
+          "correctIndex": 0,
+          "explanation": "II rübdə cos α < 0: cos α = −8/17. tg α = sin α / cos α = −15/8."
+        },
+        {
+          "id": "g10-math-trigonometry-004",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "İkiqat bucaq düsturları",
+          "difficulty": "medium",
+          "text": "sin α = 8/17, cos α = 15/17 olarsa, sin 2α-nı tapın.",
+          "type": "single",
+          "options": [
+            "161/289",
+            "23/17",
+            "120/289",
+            "240/289",
+            "16/17"
+          ],
+          "correctIndex": 3,
+          "explanation": "sin 2α = 2 sin α cos α = 2·8/17·15/17 = 240/289."
+        },
+        {
+          "id": "g10-math-trigonometry-005",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Kosinuslar teoremi",
+          "difficulty": "hard",
+          "text": "Üçbucağın iki tərəfi 8 və 3, onlar arasındakı bucaq 120°-dir. Üçüncü tərəfin kvadratını tapın.",
+          "type": "single",
+          "options": [
+            "73",
+            "105",
+            "97",
+            "49",
+            "121"
+          ],
+          "correctIndex": 2,
+          "explanation": "c² = a² + b² − 2ab·cos 120° = 64 + 9 + 24 = 97."
+        },
+        {
+          "id": "g10-math-trigonometry-006",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Çevirmə düsturları",
+          "difficulty": "medium",
+          "text": "Sadələşdirin: cos(180° − α)",
+          "type": "single",
+          "options": [
+            "−sin α",
+            "−cos α",
+            "cos α",
+            "sin α",
+            "tg α"
+          ],
+          "correctIndex": 1,
+          "explanation": "Çevirmə düsturuna görə cos(180° − α) = −cos α."
+        },
+        {
+          "id": "g10-math-trigonometry-007",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Radian ölçü",
+          "difficulty": "easy",
+          "text": "330° bucağın radian ölçüsünü tapın.",
+          "type": "single",
+          "options": [
+            "π/3",
+            "π",
+            "3π/4",
+            "11π/6",
+            "2π/3"
+          ],
+          "correctIndex": 3,
+          "explanation": "330° = 330·π/180 = 11π/6."
+        },
+        {
+          "id": "g10-math-trigonometry-008",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Xüsusi bucaqların triqonometrik funksiyaları",
+          "difficulty": "medium",
+          "text": "Hesablayın: 2·sin 90° + cos 360°",
+          "type": "single",
+          "options": [
+            "-3",
+            "3",
+            "2",
+            "1",
+            "4"
+          ],
+          "correctIndex": 1,
+          "explanation": "sin 90° = 1, cos 360° = 1. Nəticə: 2·1 + (1)·1 = 3."
+        },
+        {
+          "id": "g10-math-trigonometry-009",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Əsas triqonometrik eynilik",
+          "difficulty": "hard",
+          "text": "sin α = 8/17 və α — II rüb bucağıdır. tg α-nı tapın.",
+          "type": "single",
+          "options": [
+            "8/17",
+            "-8/15",
+            "8/15",
+            "-15/8",
+            "15/8"
+          ],
+          "correctIndex": 1,
+          "explanation": "II rübdə cos α < 0: cos α = −15/17. tg α = sin α / cos α = −8/15."
+        },
+        {
+          "id": "g10-math-trigonometry-010",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Kosinuslar teoremi",
+          "difficulty": "hard",
+          "text": "Üçbucağın iki tərəfi 9 və 3, onlar arasındakı bucaq 120°-dir. Üçüncü tərəfin kvadratını tapın.",
+          "type": "single",
+          "options": [
+            "144",
+            "117",
+            "126",
+            "90",
+            "63"
+          ],
+          "correctIndex": 1,
+          "explanation": "c² = a² + b² − 2ab·cos 120° = 81 + 9 + 27 = 117."
+        },
+        {
+          "id": "g10-math-trigonometry-011",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Çevirmə düsturları",
+          "difficulty": "medium",
+          "text": "Sadələşdirin: cos(360° − α)",
+          "type": "single",
+          "options": [
+            "cos α",
+            "−sin α",
+            "−cos α",
+            "sin α",
+            "tg α"
+          ],
+          "correctIndex": 0,
+          "explanation": "Çevirmə düsturuna görə cos(360° − α) = cos α."
+        },
+        {
+          "id": "g10-math-trigonometry-012",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Radian ölçü",
+          "difficulty": "easy",
+          "text": "150° bucağın radian ölçüsünü tapın.",
+          "type": "single",
+          "options": [
+            "π/3",
+            "2π/3",
+            "7π/6",
+            "5π/6",
+            "4π/3"
+          ],
+          "correctIndex": 3,
+          "explanation": "150° = 150·π/180 = 5π/6."
+        },
+        {
+          "id": "g10-math-trigonometry-013",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Xüsusi bucaqların triqonometrik funksiyaları",
+          "difficulty": "medium",
+          "text": "Hesablayın: 3·tg² 60° − 2·tg 135°",
+          "type": "single",
+          "options": [
+            "11",
+            "7",
+            "-11",
+            "12",
+            "9"
+          ],
+          "correctIndex": 0,
+          "explanation": "tg² 60° = 3, tg 135° = -1. Nəticə: 3·3 + (-2)·-1 = 11."
+        },
+        {
+          "id": "g10-math-trigonometry-014",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Əsas triqonometrik eynilik",
+          "difficulty": "medium",
+          "text": "sin α = 8/17 və α — I rüb bucağıdır. cos α-nı tapın.",
+          "type": "single",
+          "options": [
+            "15/17",
+            "-15/17",
+            "8/17",
+            "8/15",
+            "17/15"
+          ],
+          "correctIndex": 0,
+          "explanation": "cos α = √(1 − sin²α) = √(1 − 64/289) = 15/17."
+        },
+        {
+          "id": "g10-math-trigonometry-015",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Kosinuslar teoremi",
+          "difficulty": "hard",
+          "text": "Üçbucağın iki tərəfi 5 və 6, onlar arasındakı bucaq 120°-dir. Üçüncü tərəfin kvadratını tapın.",
+          "type": "single",
+          "options": [
+            "96",
+            "31",
+            "121",
+            "61",
+            "91"
+          ],
+          "correctIndex": 4,
+          "explanation": "c² = a² + b² − 2ab·cos 120° = 25 + 36 + 30 = 91."
+        },
+        {
+          "id": "g10-math-trigonometry-016",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Radian ölçü",
+          "difficulty": "easy",
+          "text": "120° bucağın radian ölçüsünü tapın.",
+          "type": "single",
+          "options": [
+            "2π/3",
+            "π/3",
+            "3π/2",
+            "π/2",
+            "π/6"
+          ],
+          "correctIndex": 0,
+          "explanation": "120° = 120·π/180 = 2π/3."
+        },
+        {
+          "id": "g10-math-trigonometry-017",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Xüsusi bucaqların triqonometrik funksiyaları",
+          "difficulty": "medium",
+          "text": "Hesablayın: sin 30° − 2·tg² 60°",
+          "type": "single",
+          "options": [
+            "-11/2",
+            "1/2",
+            "11/2",
+            "13/2",
+            "-9/2"
+          ],
+          "correctIndex": 0,
+          "explanation": "sin 30° = 1/2, tg² 60° = 3. Nəticə: 1·1/2 + (-2)·3 = -11/2."
+        },
+        {
+          "id": "g10-math-trigonometry-018",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Əsas triqonometrik eynilik",
+          "difficulty": "medium",
+          "text": "sin α = 4/5 və α — I rüb bucağıdır. cos α-nı tapın.",
+          "type": "open",
+          "answer": "3/5",
+          "explanation": "cos α = √(1 − sin²α) = √(1 − 16/25) = 3/5."
+        },
+        {
+          "id": "g10-math-trigonometry-019",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "İkiqat bucaq düsturları",
+          "difficulty": "medium",
+          "text": "sin α = 5/13, cos α = 12/13 olarsa, sin 2α-nı tapın.",
+          "type": "single",
+          "options": [
+            "120/169",
+            "10/13",
+            "60/169",
+            "119/169",
+            "17/13"
+          ],
+          "correctIndex": 0,
+          "explanation": "sin 2α = 2 sin α cos α = 2·5/13·12/13 = 120/169."
+        },
+        {
+          "id": "g10-math-trigonometry-020",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Kosinuslar teoremi",
+          "difficulty": "hard",
+          "text": "Üçbucağın iki tərəfi 7 və 6, onlar arasındakı bucaq 120°-dir. Üçüncü tərəfin kvadratını tapın.",
+          "type": "single",
+          "options": [
+            "127",
+            "43",
+            "134",
+            "169",
+            "85"
+          ],
+          "correctIndex": 0,
+          "explanation": "c² = a² + b² − 2ab·cos 120° = 49 + 36 + 42 = 127."
+        },
+        {
+          "id": "g10-math-trigonometry-021",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Çevirmə düsturları",
+          "difficulty": "medium",
+          "text": "Sadələşdirin: cos(90° + α)",
+          "type": "single",
+          "options": [
+            "tg α",
+            "−cos α",
+            "cos α",
+            "sin α",
+            "−sin α"
+          ],
+          "correctIndex": 4,
+          "explanation": "Çevirmə düsturuna görə cos(90° + α) = −sin α."
+        },
+        {
+          "id": "g10-math-trigonometry-022",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Radian ölçü",
+          "difficulty": "easy",
+          "text": "270° bucağın radian ölçüsünü tapın.",
+          "type": "single",
+          "options": [
+            "3π/2",
+            "11π/6",
+            "π",
+            "2π/3",
+            "π/4"
+          ],
+          "correctIndex": 0,
+          "explanation": "270° = 270·π/180 = 3π/2."
+        },
+        {
+          "id": "g10-math-trigonometry-023",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Xüsusi bucaqların triqonometrik funksiyaları",
+          "difficulty": "medium",
+          "text": "Hesablayın: 3·cos 360° + 2·sin² 45°",
+          "type": "single",
+          "options": [
+            "5",
+            "-4",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 4,
+          "explanation": "cos 360° = 1, sin² 45° = 1/2. Nəticə: 3·1 + (2)·1/2 = 4."
+        },
+        {
+          "id": "g10-math-trigonometry-024",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Əsas triqonometrik eynilik",
+          "difficulty": "hard",
+          "text": "sin α = 3/5 və α — II rüb bucağıdır. tg α-nı tapın.",
+          "type": "open",
+          "answer": "-3/4",
+          "explanation": "II rübdə cos α < 0: cos α = −4/5. tg α = sin α / cos α = −3/4."
+        },
+        {
+          "id": "g10-math-trigonometry-025",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Kosinuslar teoremi",
+          "difficulty": "hard",
+          "text": "Üçbucağın iki tərəfi 5 və 6, onlar arasındakı bucaq 60°-dir. Üçüncü tərəfin kvadratını tapın.",
+          "type": "single",
+          "options": [
+            "121",
+            "31",
+            "61",
+            "91",
+            "36"
+          ],
+          "correctIndex": 1,
+          "explanation": "c² = a² + b² − 2ab·cos 60° = 25 + 36 − 30 = 31."
+        },
+        {
+          "id": "g10-math-trigonometry-026",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Radian ölçü",
+          "difficulty": "easy",
+          "text": "135° bucağın radian ölçüsünü tapın.",
+          "type": "single",
+          "options": [
+            "3π/2",
+            "11π/6",
+            "π/2",
+            "3π/4",
+            "7π/6"
+          ],
+          "correctIndex": 3,
+          "explanation": "135° = 135·π/180 = 3π/4."
+        },
+        {
+          "id": "g10-math-trigonometry-027",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Xüsusi bucaqların triqonometrik funksiyaları",
+          "difficulty": "medium",
+          "text": "Hesablayın: 4·cos 360° + 2·sin 270°",
+          "type": "single",
+          "options": [
+            "4",
+            "6",
+            "2",
+            "-2",
+            "3"
+          ],
+          "correctIndex": 2,
+          "explanation": "cos 360° = 1, sin 270° = -1. Nəticə: 4·1 + (2)·-1 = 2."
+        },
+        {
+          "id": "g10-math-trigonometry-028",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Əsas triqonometrik eynilik",
+          "difficulty": "medium",
+          "text": "sin α = 15/17 və α — I rüb bucağıdır. cos α-nı tapın.",
+          "type": "single",
+          "options": [
+            "17/8",
+            "15/8",
+            "15/17",
+            "-8/17",
+            "8/17"
+          ],
+          "correctIndex": 4,
+          "explanation": "cos α = √(1 − sin²α) = √(1 − 225/289) = 8/17."
+        },
+        {
+          "id": "g10-math-trigonometry-029",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Kosinuslar teoremi",
+          "difficulty": "hard",
+          "text": "Üçbucağın iki tərəfi 5 və 3, onlar arasındakı bucaq 60°-dir. Üçüncü tərəfin kvadratını tapın.",
+          "type": "single",
+          "options": [
+            "34",
+            "24",
+            "64",
+            "19",
+            "49"
+          ],
+          "correctIndex": 3,
+          "explanation": "c² = a² + b² − 2ab·cos 60° = 25 + 9 − 15 = 19."
+        },
+        {
+          "id": "g10-math-trigonometry-030",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "trigonometry",
+          "sectionTitle": "Triqonometriya",
+          "topic": "Çevirmə düsturları",
+          "difficulty": "medium",
+          "text": "Sadələşdirin: sin(360° − α)",
+          "type": "single",
+          "options": [
+            "cos α",
+            "tg α",
+            "−cos α",
+            "sin α",
+            "−sin α"
+          ],
+          "correctIndex": 4,
+          "explanation": "Çevirmə düsturuna görə sin(360° − α) = −sin α."
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "Həndəsə və kombinatorika",
+      "description": "Çoxbucaqlılar, çevrə və bucaqlar, kombinasiya, yerləşdirmə və ehtimal.",
+      "questions": [
+        {
+          "id": "g10-math-geometry-001",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "easy",
+          "text": "Qabarıq 12-bucaqlının daxili bucaqlarının cəmini tapın (dərəcə ilə).",
+          "type": "single",
+          "options": [
+            "1620",
+            "1980",
+            "2160",
+            "3600",
+            "1800"
+          ],
+          "correctIndex": 4,
+          "explanation": "S = 180°·(n − 2) = 180°·10 = 1800°."
+        },
+        {
+          "id": "g10-math-geometry-002",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "medium",
+          "text": "Düzgün 18-bucaqlının bir daxili bucağını tapın (dərəcə ilə).",
+          "type": "single",
+          "options": [
+            "160",
+            "405/2",
+            "2880",
+            "20",
+            "170"
+          ],
+          "correctIndex": 0,
+          "explanation": "180°·(n − 2)/n = 180°·16/18 = 160°."
+        },
+        {
+          "id": "g10-math-geometry-003",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çevrə və bucaqlar",
+          "difficulty": "easy",
+          "text": "Çevrənin mərkəzi bucağı 50°-dir. Həmin qövsə söykənən daxilə çəkilmiş bucağı tapın.",
+          "type": "single",
+          "options": [
+            "25",
+            "130",
+            "100",
+            "50",
+            "65"
+          ],
+          "correctIndex": 0,
+          "explanation": "Daxilə çəkilmiş bucaq eyni qövsə söykənən mərkəzi bucağın yarısına bərabərdir: 25°."
+        },
+        {
+          "id": "g10-math-geometry-004",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "9 şagirddən 2 nəfərlik nümayəndə heyətini neçə üsulla seçmək olar?",
+          "type": "single",
+          "options": [
+            "45",
+            "84",
+            "36",
+            "72",
+            "18"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sıra əhəmiyyətsizdir — kombinasiya: C(9; 2) = 36."
+        },
+        {
+          "id": "g10-math-geometry-005",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "9 iştirakçı arasında I, II yerləri neçə üsulla bölüşdürmək olar?",
+          "type": "single",
+          "options": [
+            "362880",
+            "36",
+            "72",
+            "73",
+            "81"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sıra əhəmiyyətlidir — yerləşdirmə: A(9; 2) = 72."
+        },
+        {
+          "id": "g10-math-geometry-006",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Ehtimal",
+          "difficulty": "medium",
+          "text": "İki zər atılır. Düşən xalların cəminin 11 olması ehtimalını tapın.",
+          "type": "open",
+          "answer": "1/18",
+          "explanation": "Əlverişli hallar: 2, bütün hallar: 36. P = 1/18."
+        },
+        {
+          "id": "g10-math-geometry-007",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "easy",
+          "text": "Qabarıq 8-bucaqlının daxili bucaqlarının cəmini tapın (dərəcə ilə).",
+          "type": "single",
+          "options": [
+            "1080",
+            "2160",
+            "1260",
+            "1440",
+            "900"
+          ],
+          "correctIndex": 0,
+          "explanation": "S = 180°·(n − 2) = 180°·6 = 1080°."
+        },
+        {
+          "id": "g10-math-geometry-008",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "medium",
+          "text": "Düzgün 8-bucaqlının bir daxili bucağını tapın (dərəcə ilə).",
+          "type": "single",
+          "options": [
+            "135",
+            "45",
+            "240",
+            "315/2",
+            "1080"
+          ],
+          "correctIndex": 0,
+          "explanation": "180°·(n − 2)/n = 180°·6/8 = 135°."
+        },
+        {
+          "id": "g10-math-geometry-009",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çevrə və bucaqlar",
+          "difficulty": "easy",
+          "text": "Çevrəyə daxilə çəkilmiş bucaq 35°-dir. Həmin qövsə söykənən mərkəzi bucağı tapın.",
+          "type": "single",
+          "options": [
+            "70",
+            "35",
+            "140",
+            "145",
+            "125"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mərkəzi bucaq daxilə çəkilmiş bucağın iki mislidir: 70°."
+        },
+        {
+          "id": "g10-math-geometry-010",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "6 şagirddən 3 nəfərlik nümayəndə heyətini neçə üsulla seçmək olar?",
+          "type": "single",
+          "options": [
+            "26",
+            "15",
+            "20",
+            "120",
+            "18"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sıra əhəmiyyətsizdir — kombinasiya: C(6; 3) = 20."
+        },
+        {
+          "id": "g10-math-geometry-011",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "7 iştirakçı arasında I, II və III yerləri neçə üsulla bölüşdürmək olar?",
+          "type": "single",
+          "options": [
+            "35",
+            "5040",
+            "210",
+            "343",
+            "105"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sıra əhəmiyyətlidir — yerləşdirmə: A(7; 3) = 210."
+        },
+        {
+          "id": "g10-math-geometry-012",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Ehtimal",
+          "difficulty": "medium",
+          "text": "İki zər atılır. Düşən xalların cəminin 9 olması ehtimalını tapın.",
+          "type": "open",
+          "answer": "1/9",
+          "explanation": "Əlverişli hallar: 4, bütün hallar: 36. P = 1/9."
+        },
+        {
+          "id": "g10-math-geometry-013",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "easy",
+          "text": "Qabarıq 6-bucaqlının daxili bucaqlarının cəmini tapın (dərəcə ilə).",
+          "type": "single",
+          "options": [
+            "540",
+            "720",
+            "1440",
+            "1080",
+            "900"
+          ],
+          "correctIndex": 1,
+          "explanation": "S = 180°·(n − 2) = 180°·4 = 720°."
+        },
+        {
+          "id": "g10-math-geometry-014",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çevrə və bucaqlar",
+          "difficulty": "easy",
+          "text": "Çevrənin mərkəzi bucağı 140°-dir. Həmin qövsə söykənən daxilə çəkilmiş bucağı tapın.",
+          "type": "single",
+          "options": [
+            "140",
+            "40",
+            "280",
+            "70",
+            "20"
+          ],
+          "correctIndex": 3,
+          "explanation": "Daxilə çəkilmiş bucaq eyni qövsə söykənən mərkəzi bucağın yarısına bərabərdir: 70°."
+        },
+        {
+          "id": "g10-math-geometry-015",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "10 şagirddən 3 nəfərlik nümayəndə heyətini neçə üsulla seçmək olar?",
+          "type": "single",
+          "options": [
+            "210",
+            "720",
+            "130",
+            "30",
+            "120"
+          ],
+          "correctIndex": 4,
+          "explanation": "Sıra əhəmiyyətsizdir — kombinasiya: C(10; 3) = 120."
+        },
+        {
+          "id": "g10-math-geometry-016",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "9 iştirakçı arasında I, II və III yerləri neçə üsulla bölüşdürmək olar?",
+          "type": "single",
+          "options": [
+            "252",
+            "362880",
+            "729",
+            "504",
+            "84"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sıra əhəmiyyətlidir — yerləşdirmə: A(9; 3) = 504."
+        },
+        {
+          "id": "g10-math-geometry-017",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Ehtimal",
+          "difficulty": "medium",
+          "text": "İki zər atılır. Düşən xalların cəminin 6 olması ehtimalını tapın.",
+          "type": "single",
+          "options": [
+            "1/6",
+            "5/12",
+            "1/36",
+            "5/36",
+            "41/36"
+          ],
+          "correctIndex": 3,
+          "explanation": "Əlverişli hallar: 5, bütün hallar: 36. P = 5/36."
+        },
+        {
+          "id": "g10-math-geometry-018",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "easy",
+          "text": "Qabarıq 13-bucaqlının daxili bucaqlarının cəmini tapın (dərəcə ilə).",
+          "type": "open",
+          "answer": "1980",
+          "explanation": "S = 180°·(n − 2) = 180°·11 = 1980°."
+        },
+        {
+          "id": "g10-math-geometry-019",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "easy",
+          "text": "Düzgün 5-bucaqlının xarici bucağını tapın (dərəcə ilə).",
+          "type": "single",
+          "options": [
+            "108",
+            "36",
+            "72",
+            "120",
+            "82"
+          ],
+          "correctIndex": 2,
+          "explanation": "Düzgün çoxbucaqlının xarici bucağı 360°/n = 72°."
+        },
+        {
+          "id": "g10-math-geometry-020",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çevrə və bucaqlar",
+          "difficulty": "easy",
+          "text": "Çevrəyə daxilə çəkilmiş bucaq 55°-dir. Həmin qövsə söykənən mərkəzi bucağı tapın.",
+          "type": "single",
+          "options": [
+            "145",
+            "110",
+            "55",
+            "220",
+            "125"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mərkəzi bucaq daxilə çəkilmiş bucağın iki mislidir: 110°."
+        },
+        {
+          "id": "g10-math-geometry-021",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "9 şagirddən 3 nəfərlik nümayəndə heyətini neçə üsulla seçmək olar?",
+          "type": "single",
+          "options": [
+            "93",
+            "126",
+            "27",
+            "84",
+            "504"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sıra əhəmiyyətsizdir — kombinasiya: C(9; 3) = 84."
+        },
+        {
+          "id": "g10-math-geometry-022",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "8 iştirakçı arasında I, II yerləri neçə üsulla bölüşdürmək olar?",
+          "type": "single",
+          "options": [
+            "40320",
+            "57",
+            "56",
+            "64",
+            "28"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sıra əhəmiyyətlidir — yerləşdirmə: A(8; 2) = 56."
+        },
+        {
+          "id": "g10-math-geometry-023",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Ehtimal",
+          "difficulty": "medium",
+          "text": "İki zər atılır. Düşən xalların cəminin 4 olması ehtimalını tapın.",
+          "type": "single",
+          "options": [
+            "1/36",
+            "1/12",
+            "1/4",
+            "1/6",
+            "1/9"
+          ],
+          "correctIndex": 1,
+          "explanation": "Əlverişli hallar: 3, bütün hallar: 36. P = 1/12."
+        },
+        {
+          "id": "g10-math-geometry-024",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "easy",
+          "text": "Qabarıq 9-bucaqlının daxili bucaqlarının cəmini tapın (dərəcə ilə).",
+          "type": "open",
+          "answer": "1260",
+          "explanation": "S = 180°·(n − 2) = 180°·7 = 1260°."
+        },
+        {
+          "id": "g10-math-geometry-025",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "medium",
+          "text": "Düzgün 10-bucaqlının bir daxili bucağını tapın (dərəcə ilə).",
+          "type": "single",
+          "options": [
+            "144",
+            "1440",
+            "225",
+            "162",
+            "36"
+          ],
+          "correctIndex": 0,
+          "explanation": "180°·(n − 2)/n = 180°·8/10 = 144°."
+        },
+        {
+          "id": "g10-math-geometry-026",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çevrə və bucaqlar",
+          "difficulty": "easy",
+          "text": "Çevrəyə daxilə çəkilmiş bucaq 32°-dir. Həmin qövsə söykənən mərkəzi bucağı tapın.",
+          "type": "single",
+          "options": [
+            "128",
+            "32",
+            "64",
+            "122",
+            "148"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mərkəzi bucaq daxilə çəkilmiş bucağın iki mislidir: 64°."
+        },
+        {
+          "id": "g10-math-geometry-027",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "easy",
+          "text": "Qabarıq 5-bucaqlının daxili bucaqlarının cəmini tapın (dərəcə ilə).",
+          "type": "single",
+          "options": [
+            "360",
+            "900",
+            "720",
+            "1080",
+            "540"
+          ],
+          "correctIndex": 4,
+          "explanation": "S = 180°·(n − 2) = 180°·3 = 540°."
+        },
+        {
+          "id": "g10-math-geometry-028",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Çoxbucaqlılar",
+          "difficulty": "easy",
+          "text": "Düzgün 12-bucaqlının xarici bucağını tapın (dərəcə ilə).",
+          "type": "single",
+          "options": [
+            "30",
+            "36",
+            "40",
+            "15",
+            "150"
+          ],
+          "correctIndex": 0,
+          "explanation": "Düzgün çoxbucaqlının xarici bucağı 360°/n = 30°."
+        },
+        {
+          "id": "g10-math-geometry-029",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "6 şagirddən 2 nəfərlik nümayəndə heyətini neçə üsulla seçmək olar?",
+          "type": "single",
+          "options": [
+            "12",
+            "15",
+            "20",
+            "30",
+            "21"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sıra əhəmiyyətsizdir — kombinasiya: C(6; 2) = 15."
+        },
+        {
+          "id": "g10-math-geometry-030",
+          "grade": 10,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə və kombinatorika",
+          "topic": "Kombinatorika",
+          "difficulty": "medium",
+          "text": "6 iştirakçı arasında I, II yerləri neçə üsulla bölüşdürmək olar?",
+          "type": "open",
+          "answer": "30",
+          "explanation": "Sıra əhəmiyyətlidir — yerləşdirmə: A(6; 2) = 30."
+        }
+      ]
+    }
+  ]
+}

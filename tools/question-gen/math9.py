@@ -1,7 +1,7 @@
 """9-cu sinif riyaziyyat: 4 bölmə × 30 sual (kodla yaradılır, cavablar hesablanır)."""
 import math
 from fractions import Fraction as F
-from common import build_section, save, fr, dec
+from common import build_section, save, fr, cop, dat, abl, dec
 
 # ---------- 1. Ədədlər və hesablamalar ----------
 
@@ -212,7 +212,7 @@ def arith_nth(r):
 def arith_sum(r):
     a1, d, n = r.randint(1, 6), r.choice([2, 3, 4]), r.choice([10, 12, 15, 20])
     s = n * (2 * a1 + (n - 1) * d) // 2
-    return dict(t=f"Ədədi silsilənin birinci həddi {a1}, fərqi {d}-dür. İlk {n} həddin cəmini tapın.",
+    return dict(t=f"Ədədi silsilənin birinci həddi {a1}, fərqi {cop(d)}. İlk {n} həddin cəmini tapın.",
                 a=s, d=[s - n, n * (a1 + (n - 1) * d), a1 + (n - 1) * d, s + d * n],
                 e=f"Sₙ = (2a₁ + (n − 1)d)·n/2 = (2·{a1} + {n - 1}·{d})·{n}/2 = {s}.",
                 topic="Ədədi silsilə", diff="medium")
