@@ -12,7 +12,7 @@ npm run dev      # http://localhost:3000
 npm run build    # tip yoxlaması + production build (dist/)
 ```
 
-Node.js 20+ tövsiyə olunur.
+Node.js 22.22+ lazımdır (`react-router` 8 bunu tələb edir).
 
 ## Quruluş
 
@@ -30,6 +30,7 @@ src/
     questionBank.ts        # 30 suallıq nümunə bank (MOCK)
     community.ts           # reytinq, rəylər, paketlər (MOCK)
     examData.ts            # fənlər və ilkin sual datası (MOCK)
+    questions/             # 9–11-ci siniflər üçün sual bankı (JSON, tools/question-gen ilə yaradılır)
   components/              # Navbar, Footer, BackBar, Modal, Accordion, StarRating, FiveStepCycle, ...
   screens/                 # hər səhifə üçün bir fayl
   assets/                  # logo.png buraya qoyulur

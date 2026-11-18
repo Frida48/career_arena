@@ -1,0 +1,2297 @@
+{
+  "grade": 9,
+  "subject": "math",
+  "sections": [
+    {
+      "id": "numbers",
+      "title": "Ədədlər və hesablamalar",
+      "questions": [
+        {
+          "id": "g9-math-numbers-001",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "ƏBOB və ƏKOB",
+          "difficulty": "medium",
+          "text": "24 və 54 ədədlərinin ən kiçik ortaq bölünəninin (ƏKOB) ən böyük ortaq bölənə (ƏBOB) nisbətini tapın.",
+          "type": "single",
+          "options": [
+            "6",
+            "18",
+            "1296",
+            "36",
+            "216"
+          ],
+          "correctIndex": 3,
+          "explanation": "ƏBOB(24; 54) = 6, ƏKOB(24; 54) = 216. Nisbət: 216 : 6 = 36."
+        },
+        {
+          "id": "g9-math-numbers-002",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Adi kəsrlər",
+          "difficulty": "easy",
+          "text": "Hesablayın: 3/3 + 2/9",
+          "type": "single",
+          "options": [
+            "5/12",
+            "11/9",
+            "34/27",
+            "5/27",
+            "2/9"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ortaq məxrəcə gətiririk: 3/3 + 2/9 = 11/9."
+        },
+        {
+          "id": "g9-math-numbers-003",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Faiz",
+          "difficulty": "medium",
+          "text": "Malın qiyməti 400 manat idi. Qiymət əvvəlcə 20% artırıldı, sonra yeni qiymət 40% endirildi. Malın son qiyməti neçə manatdır?",
+          "type": "single",
+          "options": [
+            "288",
+            "560",
+            "328",
+            "289",
+            "320"
+          ],
+          "correctIndex": 0,
+          "explanation": "400 · 1,2 · 0,6 = 288 manat. Faizləri sadəcə toplayıb-çıxmaq olmaz."
+        },
+        {
+          "id": "g9-math-numbers-004",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Faiz",
+          "difficulty": "easy",
+          "text": "Sinifdə 600 səhifəlik kitabın 30%-i oxunub. Neçə səhifə oxunmayıb?",
+          "type": "single",
+          "options": [
+            "20",
+            "430",
+            "420",
+            "570",
+            "180"
+          ],
+          "correctIndex": 2,
+          "explanation": "Oxunan: 600 · 30/100 = 180. Oxunmayan: 600 − 180 = 420."
+        },
+        {
+          "id": "g9-math-numbers-005",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Kvadrat köklər",
+          "difficulty": "medium",
+          "text": "Sadələşdirin: √27 + √12",
+          "type": "single",
+          "options": [
+            "5√3",
+            "√3",
+            "4√3",
+            "√39",
+            "6√3"
+          ],
+          "correctIndex": 0,
+          "explanation": "√27 = 3√3, √12 = 2√3. Cəm: 5√3."
+        },
+        {
+          "id": "g9-math-numbers-006",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Tam üstlü qüvvət",
+          "difficulty": "easy",
+          "text": "Hesablayın: (3^6 · 3^6) : 3^8",
+          "type": "open",
+          "answer": "81",
+          "explanation": "Eyni əsaslı qüvvətlər: 3^(6+6−8) = 3^4 = 81."
+        },
+        {
+          "id": "g9-math-numbers-007",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Nisbət və tənasüb",
+          "difficulty": "easy",
+          "text": "75 ədədini 2 : 3 nisbətində iki hissəyə bölün. Böyük hissə neçədir?",
+          "type": "single",
+          "options": [
+            "45",
+            "15",
+            "37",
+            "47",
+            "30"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bir pay: 75 : (2+3) = 15. Böyük hissə: 3 · 15 = 45."
+        },
+        {
+          "id": "g9-math-numbers-008",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "ƏBOB və ƏKOB",
+          "difficulty": "medium",
+          "text": "10 və 12 ədədlərinin ən kiçik ortaq bölünəninin (ƏKOB) ən böyük ortaq bölənə (ƏBOB) nisbətini tapın.",
+          "type": "single",
+          "options": [
+            "120",
+            "2",
+            "15",
+            "60",
+            "30"
+          ],
+          "correctIndex": 4,
+          "explanation": "ƏBOB(10; 12) = 2, ƏKOB(10; 12) = 60. Nisbət: 60 : 2 = 30."
+        },
+        {
+          "id": "g9-math-numbers-009",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Adi kəsrlər",
+          "difficulty": "easy",
+          "text": "Hesablayın: 2/3 + 3/8",
+          "type": "single",
+          "options": [
+            "13/12",
+            "5/24",
+            "5/11",
+            "1/4",
+            "25/24"
+          ],
+          "correctIndex": 4,
+          "explanation": "Ortaq məxrəcə gətiririk: 2/3 + 3/8 = 25/24."
+        },
+        {
+          "id": "g9-math-numbers-010",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Faiz",
+          "difficulty": "medium",
+          "text": "Malın qiyməti 250 manat idi. Qiymət əvvəlcə 10% artırıldı, sonra yeni qiymət 40% endirildi. Malın son qiyməti neçə manatdır?",
+          "type": "single",
+          "options": [
+            "225",
+            "190",
+            "350",
+            "165",
+            "175"
+          ],
+          "correctIndex": 3,
+          "explanation": "250 · 1,1 · 0,6 = 165 manat. Faizləri sadəcə toplayıb-çıxmaq olmaz."
+        },
+        {
+          "id": "g9-math-numbers-011",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Faiz",
+          "difficulty": "easy",
+          "text": "Sinifdə 450 səhifəlik kitabın 15%-i oxunub. Neçə səhifə oxunmayıb?",
+          "type": "single",
+          "options": [
+            "382,5",
+            "67,5",
+            "30",
+            "435",
+            "392,5"
+          ],
+          "correctIndex": 0,
+          "explanation": "Oxunan: 450 · 15/100 = 67,5. Oxunmayan: 450 − 67,5 = 382,5."
+        },
+        {
+          "id": "g9-math-numbers-012",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Kvadrat köklər",
+          "difficulty": "medium",
+          "text": "Sadələşdirin: √8 + √18",
+          "type": "single",
+          "options": [
+            "√2",
+            "4√2",
+            "5√2",
+            "√26",
+            "6√2"
+          ],
+          "correctIndex": 2,
+          "explanation": "√8 = 2√2, √18 = 3√2. Cəm: 5√2."
+        },
+        {
+          "id": "g9-math-numbers-013",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Tam üstlü qüvvət",
+          "difficulty": "easy",
+          "text": "Hesablayın: (5^5 · 5^3) : 5^8",
+          "type": "single",
+          "options": [
+            "5",
+            "78125",
+            "1",
+            "0",
+            "1/5"
+          ],
+          "correctIndex": 2,
+          "explanation": "Eyni əsaslı qüvvətlər: 5^(5+3−8) = 5^0 = 1."
+        },
+        {
+          "id": "g9-math-numbers-014",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Nisbət və tənasüb",
+          "difficulty": "easy",
+          "text": "64 ədədini 3 : 5 nisbətində iki hissəyə bölün. Böyük hissə neçədir?",
+          "type": "single",
+          "options": [
+            "16",
+            "40",
+            "32",
+            "24",
+            "43"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bir pay: 64 : (3+5) = 8. Böyük hissə: 5 · 8 = 40."
+        },
+        {
+          "id": "g9-math-numbers-015",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "ƏBOB və ƏKOB",
+          "difficulty": "medium",
+          "text": "14 və 18 ədədlərinin ən kiçik ortaq bölünəninin (ƏKOB) ən böyük ortaq bölənə (ƏBOB) nisbətini tapın.",
+          "type": "single",
+          "options": [
+            "63/2",
+            "126",
+            "252",
+            "2",
+            "63"
+          ],
+          "correctIndex": 4,
+          "explanation": "ƏBOB(14; 18) = 2, ƏKOB(14; 18) = 126. Nisbət: 126 : 2 = 63."
+        },
+        {
+          "id": "g9-math-numbers-016",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Adi kəsrlər",
+          "difficulty": "easy",
+          "text": "Hesablayın: 1/3 + 4/2",
+          "type": "single",
+          "options": [
+            "5/2",
+            "1",
+            "7/3",
+            "2/3",
+            "5/6"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ortaq məxrəcə gətiririk: 1/3 + 4/2 = 7/3."
+        },
+        {
+          "id": "g9-math-numbers-017",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Faiz",
+          "difficulty": "medium",
+          "text": "Malın qiyməti 100 manat idi. Qiymət əvvəlcə 25% artırıldı, sonra yeni qiymət 20% endirildi. Malın son qiyməti neçə manatdır?",
+          "type": "single",
+          "options": [
+            "110",
+            "120",
+            "105",
+            "75",
+            "100"
+          ],
+          "correctIndex": 4,
+          "explanation": "100 · 1,25 · 0,8 = 100 manat. Faizləri sadəcə toplayıb-çıxmaq olmaz."
+        },
+        {
+          "id": "g9-math-numbers-018",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Faiz",
+          "difficulty": "easy",
+          "text": "Sinifdə 360 səhifəlik kitabın 30%-i oxunub. Neçə səhifə oxunmayıb?",
+          "type": "open",
+          "answer": "252",
+          "explanation": "Oxunan: 360 · 30/100 = 108. Oxunmayan: 360 − 108 = 252."
+        },
+        {
+          "id": "g9-math-numbers-019",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Kvadrat köklər",
+          "difficulty": "medium",
+          "text": "Sadələşdirin: √18 + √32",
+          "type": "single",
+          "options": [
+            "√2",
+            "12√2",
+            "7√2",
+            "8√2",
+            "√50"
+          ],
+          "correctIndex": 2,
+          "explanation": "√18 = 3√2, √32 = 4√2. Cəm: 7√2."
+        },
+        {
+          "id": "g9-math-numbers-020",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Tam üstlü qüvvət",
+          "difficulty": "easy",
+          "text": "Hesablayın: (5^6 · 5^4) : 5^9",
+          "type": "single",
+          "options": [
+            "25",
+            "1",
+            "5",
+            "30517578125",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "Eyni əsaslı qüvvətlər: 5^(6+4−9) = 5^1 = 5."
+        },
+        {
+          "id": "g9-math-numbers-021",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Nisbət və tənasüb",
+          "difficulty": "easy",
+          "text": "120 ədədini 3 : 7 nisbətində iki hissəyə bölün. Böyük hissə neçədir?",
+          "type": "single",
+          "options": [
+            "84",
+            "36",
+            "48",
+            "60",
+            "87"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bir pay: 120 : (3+7) = 12. Böyük hissə: 7 · 12 = 84."
+        },
+        {
+          "id": "g9-math-numbers-022",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "ƏBOB və ƏKOB",
+          "difficulty": "medium",
+          "text": "28 və 36 ədədlərinin ən kiçik ortaq bölünəninin (ƏKOB) ən böyük ortaq bölənə (ƏBOB) nisbətini tapın.",
+          "type": "single",
+          "options": [
+            "1008",
+            "63/2",
+            "4",
+            "252",
+            "63"
+          ],
+          "correctIndex": 4,
+          "explanation": "ƏBOB(28; 36) = 4, ƏKOB(28; 36) = 252. Nisbət: 252 : 4 = 63."
+        },
+        {
+          "id": "g9-math-numbers-023",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Adi kəsrlər",
+          "difficulty": "easy",
+          "text": "Hesablayın: 4/3 + 4/8",
+          "type": "single",
+          "options": [
+            "15/8",
+            "1/3",
+            "11/6",
+            "8/11",
+            "2/3"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ortaq məxrəcə gətiririk: 4/3 + 4/8 = 11/6."
+        },
+        {
+          "id": "g9-math-numbers-024",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Faiz",
+          "difficulty": "medium",
+          "text": "Malın qiyməti 800 manat idi. Qiymət əvvəlcə 10% artırıldı, sonra yeni qiymət 10% endirildi. Malın son qiyməti neçə manatdır?",
+          "type": "open",
+          "answer": "792",
+          "explanation": "800 · 1,1 · 0,9 = 792 manat. Faizləri sadəcə toplayıb-çıxmaq olmaz."
+        },
+        {
+          "id": "g9-math-numbers-025",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Faiz",
+          "difficulty": "easy",
+          "text": "Sinifdə 120 səhifəlik kitabın 30%-i oxunub. Neçə səhifə oxunmayıb?",
+          "type": "single",
+          "options": [
+            "4",
+            "84",
+            "90",
+            "94",
+            "36"
+          ],
+          "correctIndex": 1,
+          "explanation": "Oxunan: 120 · 30/100 = 36. Oxunmayan: 120 − 36 = 84."
+        },
+        {
+          "id": "g9-math-numbers-026",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Kvadrat köklər",
+          "difficulty": "medium",
+          "text": "Sadələşdirin: √12 + √48",
+          "type": "single",
+          "options": [
+            "√60",
+            "7√3",
+            "2√3",
+            "8√3",
+            "6√3"
+          ],
+          "correctIndex": 4,
+          "explanation": "√12 = 2√3, √48 = 4√3. Cəm: 6√3."
+        },
+        {
+          "id": "g9-math-numbers-027",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Tam üstlü qüvvət",
+          "difficulty": "easy",
+          "text": "Hesablayın: (5^6 · 5^5) : 5^9",
+          "type": "single",
+          "options": [
+            "25",
+            "10",
+            "125",
+            "476837158203125",
+            "5"
+          ],
+          "correctIndex": 0,
+          "explanation": "Eyni əsaslı qüvvətlər: 5^(6+5−9) = 5^2 = 25."
+        },
+        {
+          "id": "g9-math-numbers-028",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Nisbət və tənasüb",
+          "difficulty": "easy",
+          "text": "30 ədədini 1 : 4 nisbətində iki hissəyə bölün. Böyük hissə neçədir?",
+          "type": "single",
+          "options": [
+            "15",
+            "24",
+            "25",
+            "6",
+            "18"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bir pay: 30 : (1+4) = 6. Böyük hissə: 4 · 6 = 24."
+        },
+        {
+          "id": "g9-math-numbers-029",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "ƏBOB və ƏKOB",
+          "difficulty": "medium",
+          "text": "18 və 60 ədədlərinin ən kiçik ortaq bölünəninin (ƏKOB) ən böyük ortaq bölənə (ƏBOB) nisbətini tapın.",
+          "type": "single",
+          "options": [
+            "6",
+            "15",
+            "30",
+            "180",
+            "1080"
+          ],
+          "correctIndex": 2,
+          "explanation": "ƏBOB(18; 60) = 6, ƏKOB(18; 60) = 180. Nisbət: 180 : 6 = 30."
+        },
+        {
+          "id": "g9-math-numbers-030",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "numbers",
+          "sectionTitle": "Ədədlər və hesablamalar",
+          "topic": "Adi kəsrlər",
+          "difficulty": "easy",
+          "text": "Hesablayın: 5/3 + 5/3",
+          "type": "open",
+          "answer": "10/3",
+          "explanation": "Ortaq məxrəcə gətiririk: 5/3 + 5/3 = 10/3."
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "title": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+      "questions": [
+        {
+          "id": "g9-math-algebra-001",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti tənlik",
+          "difficulty": "easy",
+          "text": "Tənliyi həll edin: 4x − 7 = 1x + 14",
+          "type": "single",
+          "options": [
+            "-7",
+            "21/5",
+            "9",
+            "7/3",
+            "7"
+          ],
+          "correctIndex": 4,
+          "explanation": "4x − 1x = 14 − (-7) ⇒ 3x = 21 ⇒ x = 7."
+        },
+        {
+          "id": "g9-math-algebra-002",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "medium",
+          "text": "x² − 3x − 10 = 0 tənliyinin köklərinin hasilini tapın.",
+          "type": "single",
+          "options": [
+            "10",
+            "-10",
+            "3",
+            "-9",
+            "-3"
+          ],
+          "correctIndex": 1,
+          "explanation": "Viyet teoremi: x₁ + x₂ = 3, x₁ · x₂ = -10."
+        },
+        {
+          "id": "g9-math-algebra-003",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat tənlik",
+          "difficulty": "medium",
+          "text": "x² − 2x − 35 = 0 tənliyinin böyük kökünü tapın.",
+          "type": "single",
+          "options": [
+            "-7",
+            "-5",
+            "7",
+            "2",
+            "5"
+          ],
+          "correctIndex": 2,
+          "explanation": "Diskriminant: D = 144. Köklər: x₁ = -5, x₂ = 7."
+        },
+        {
+          "id": "g9-math-algebra-004",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Qısa vurma düsturları",
+          "difficulty": "medium",
+          "text": "a + b = 8 və ab = 6 olarsa, a² + b² ifadəsinin qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "76",
+            "10",
+            "58",
+            "64",
+            "52"
+          ],
+          "correctIndex": 4,
+          "explanation": "a² + b² = (a + b)² − 2ab = 64 − 12 = 52."
+        },
+        {
+          "id": "g9-math-algebra-005",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "Sistemi həll edin: { x + y = 6;  5x − 2y = 2 }. x · y hasilini tapın.",
+          "type": "single",
+          "options": [
+            "6",
+            "-2",
+            "9",
+            "-8",
+            "8"
+          ],
+          "correctIndex": 4,
+          "explanation": "Birinci tənlikdən y = 6 − x. Yerinə qoyduqda x = 2, y = 4. Hasil: 8."
+        },
+        {
+          "id": "g9-math-algebra-006",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti bərabərsizlik",
+          "difficulty": "medium",
+          "text": "5x + 3 > 9 bərabərsizliyinin ən kiçik tam həllini tapın.",
+          "type": "open",
+          "answer": "2",
+          "explanation": "5x > 6 ⇒ x > 6/5. Ən kiçik tam həll: 2."
+        },
+        {
+          "id": "g9-math-algebra-007",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti tənlik",
+          "difficulty": "easy",
+          "text": "Tənliyi həll edin: 5x + 0 = 2x − 3",
+          "type": "single",
+          "options": [
+            "-2",
+            "-3/7",
+            "0",
+            "1",
+            "-1"
+          ],
+          "correctIndex": 4,
+          "explanation": "5x − 2x = -3 − (0) ⇒ 3x = -3 ⇒ x = -1."
+        },
+        {
+          "id": "g9-math-algebra-008",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "medium",
+          "text": "x² − 1x − 12 = 0 tənliyinin köklərinin cəmini tapın.",
+          "type": "single",
+          "options": [
+            "2",
+            "-12",
+            "1",
+            "-1",
+            "12"
+          ],
+          "correctIndex": 2,
+          "explanation": "Viyet teoremi: x₁ + x₂ = 1, x₁ · x₂ = -12."
+        },
+        {
+          "id": "g9-math-algebra-009",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat tənlik",
+          "difficulty": "medium",
+          "text": "2x² − 16x + 24 = 0 tənliyinin böyük kökünü tapın.",
+          "type": "single",
+          "options": [
+            "6",
+            "-6",
+            "-2",
+            "2",
+            "8"
+          ],
+          "correctIndex": 0,
+          "explanation": "Diskriminant: D = 64. Köklər: x₁ = 2, x₂ = 6."
+        },
+        {
+          "id": "g9-math-algebra-010",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Qısa vurma düsturları",
+          "difficulty": "medium",
+          "text": "a + b = 6 və ab = 6 olarsa, a² + b² ifadəsinin qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "48",
+            "30",
+            "24",
+            "6",
+            "36"
+          ],
+          "correctIndex": 2,
+          "explanation": "a² + b² = (a + b)² − 2ab = 36 − 12 = 24."
+        },
+        {
+          "id": "g9-math-algebra-011",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "Sistemi həll edin: { x + y = -2;  2x − 3y = -14 }. x · y hasilini tapın.",
+          "type": "single",
+          "options": [
+            "8",
+            "-6",
+            "-2",
+            "-7",
+            "-8"
+          ],
+          "correctIndex": 4,
+          "explanation": "Birinci tənlikdən y = -2 − x. Yerinə qoyduqda x = -4, y = 2. Hasil: -8."
+        },
+        {
+          "id": "g9-math-algebra-012",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti bərabərsizlik",
+          "difficulty": "medium",
+          "text": "3x + 2 > -6 bərabərsizliyinin ən kiçik tam həllini tapın.",
+          "type": "open",
+          "answer": "-2",
+          "explanation": "3x > -8 ⇒ x > -8/3. Ən kiçik tam həll: -2."
+        },
+        {
+          "id": "g9-math-algebra-013",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti tənlik",
+          "difficulty": "easy",
+          "text": "Tənliyi həll edin: 5x − 9 = 2x − 6",
+          "type": "single",
+          "options": [
+            "1",
+            "-5",
+            "3",
+            "3/7",
+            "-1"
+          ],
+          "correctIndex": 0,
+          "explanation": "5x − 2x = -6 − (-9) ⇒ 3x = 3 ⇒ x = 1."
+        },
+        {
+          "id": "g9-math-algebra-014",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "medium",
+          "text": "x² + 7x + 6 = 0 tənliyinin köklərinin hasilini tapın.",
+          "type": "single",
+          "options": [
+            "-7",
+            "-6",
+            "6",
+            "5",
+            "7"
+          ],
+          "correctIndex": 2,
+          "explanation": "Viyet teoremi: x₁ + x₂ = -7, x₁ · x₂ = 6."
+        },
+        {
+          "id": "g9-math-algebra-015",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat tənlik",
+          "difficulty": "medium",
+          "text": "2x² − 10x + 8 = 0 tənliyinin böyük kökünü tapın.",
+          "type": "single",
+          "options": [
+            "4",
+            "-4",
+            "5",
+            "1",
+            "-1"
+          ],
+          "correctIndex": 0,
+          "explanation": "Diskriminant: D = 36. Köklər: x₁ = 1, x₂ = 4."
+        },
+        {
+          "id": "g9-math-algebra-016",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Qısa vurma düsturları",
+          "difficulty": "medium",
+          "text": "a + b = 4 və ab = 1 olarsa, a² + b² ifadəsinin qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "16",
+            "14",
+            "15",
+            "7",
+            "18"
+          ],
+          "correctIndex": 1,
+          "explanation": "a² + b² = (a + b)² − 2ab = 16 − 2 = 14."
+        },
+        {
+          "id": "g9-math-algebra-017",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "Sistemi həll edin: { x + y = -4;  2x − 3y = -8 }. x · y hasilini tapın.",
+          "type": "single",
+          "options": [
+            "0",
+            "2",
+            "1",
+            "-4",
+            "-1"
+          ],
+          "correctIndex": 0,
+          "explanation": "Birinci tənlikdən y = -4 − x. Yerinə qoyduqda x = -4, y = 0. Hasil: 0."
+        },
+        {
+          "id": "g9-math-algebra-018",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti bərabərsizlik",
+          "difficulty": "medium",
+          "text": "3x − 8 > 6 bərabərsizliyinin ən kiçik tam həllini tapın.",
+          "type": "open",
+          "answer": "5",
+          "explanation": "3x > 14 ⇒ x > 14/3. Ən kiçik tam həll: 5."
+        },
+        {
+          "id": "g9-math-algebra-019",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti tənlik",
+          "difficulty": "easy",
+          "text": "Tənliyi həll edin: 9x + 2 = 4x + 22",
+          "type": "single",
+          "options": [
+            "-4",
+            "4",
+            "24/5",
+            "6",
+            "20/13"
+          ],
+          "correctIndex": 1,
+          "explanation": "9x − 4x = 22 − (2) ⇒ 5x = 20 ⇒ x = 4."
+        },
+        {
+          "id": "g9-math-algebra-020",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "medium",
+          "text": "x² − 9x + 18 = 0 tənliyinin köklərinin cəmini tapın.",
+          "type": "single",
+          "options": [
+            "18",
+            "9",
+            "-18",
+            "10",
+            "-9"
+          ],
+          "correctIndex": 1,
+          "explanation": "Viyet teoremi: x₁ + x₂ = 9, x₁ · x₂ = 18."
+        },
+        {
+          "id": "g9-math-algebra-021",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat tənlik",
+          "difficulty": "medium",
+          "text": "x² − 8x + 7 = 0 tənliyinin böyük kökünü tapın.",
+          "type": "single",
+          "options": [
+            "8",
+            "-7",
+            "1",
+            "7",
+            "-1"
+          ],
+          "correctIndex": 3,
+          "explanation": "Diskriminant: D = 36. Köklər: x₁ = 1, x₂ = 7."
+        },
+        {
+          "id": "g9-math-algebra-022",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Qısa vurma düsturları",
+          "difficulty": "medium",
+          "text": "a + b = 6 və ab = 4 olarsa, a² + b² ifadəsinin qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "32",
+            "44",
+            "8",
+            "36",
+            "28"
+          ],
+          "correctIndex": 4,
+          "explanation": "a² + b² = (a + b)² − 2ab = 36 − 8 = 28."
+        },
+        {
+          "id": "g9-math-algebra-023",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "Sistemi həll edin: { x + y = 7;  3x − 1y = 9 }. x · y hasilini tapın.",
+          "type": "single",
+          "options": [
+            "7",
+            "-12",
+            "1",
+            "12",
+            "13"
+          ],
+          "correctIndex": 3,
+          "explanation": "Birinci tənlikdən y = 7 − x. Yerinə qoyduqda x = 4, y = 3. Hasil: 12."
+        },
+        {
+          "id": "g9-math-algebra-024",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti bərabərsizlik",
+          "difficulty": "medium",
+          "text": "3x + 9 > -4 bərabərsizliyinin ən kiçik tam həllini tapın.",
+          "type": "open",
+          "answer": "-4",
+          "explanation": "3x > -13 ⇒ x > -13/3. Ən kiçik tam həll: -4."
+        },
+        {
+          "id": "g9-math-algebra-025",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti tənlik",
+          "difficulty": "easy",
+          "text": "Tənliyi həll edin: 4x − 2 = 1x − 2",
+          "type": "single",
+          "options": [
+            "-1",
+            "-4/3",
+            "2",
+            "1",
+            "0"
+          ],
+          "correctIndex": 4,
+          "explanation": "4x − 1x = -2 − (-2) ⇒ 3x = 0 ⇒ x = 0."
+        },
+        {
+          "id": "g9-math-algebra-026",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Viyet teoremi",
+          "difficulty": "medium",
+          "text": "x² − 5x + 6 = 0 tənliyinin köklərinin hasilini tapın.",
+          "type": "single",
+          "options": [
+            "-6",
+            "7",
+            "5",
+            "-5",
+            "6"
+          ],
+          "correctIndex": 4,
+          "explanation": "Viyet teoremi: x₁ + x₂ = 5, x₁ · x₂ = 6."
+        },
+        {
+          "id": "g9-math-algebra-027",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Kvadrat tənlik",
+          "difficulty": "medium",
+          "text": "x² + 5x − 6 = 0 tənliyinin böyük kökünü tapın.",
+          "type": "single",
+          "options": [
+            "-6",
+            "-1",
+            "6",
+            "-5",
+            "1"
+          ],
+          "correctIndex": 4,
+          "explanation": "Diskriminant: D = 49. Köklər: x₁ = -6, x₂ = 1."
+        },
+        {
+          "id": "g9-math-algebra-028",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Qısa vurma düsturları",
+          "difficulty": "medium",
+          "text": "a + b = 9 və ab = 2 olarsa, a² + b² ifadəsinin qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "81",
+            "79",
+            "85",
+            "77",
+            "16"
+          ],
+          "correctIndex": 3,
+          "explanation": "a² + b² = (a + b)² − 2ab = 81 − 4 = 77."
+        },
+        {
+          "id": "g9-math-algebra-029",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Tənliklər sistemi",
+          "difficulty": "medium",
+          "text": "Sistemi həll edin: { x + y = 9;  5x − 2y = 38 }. x · y hasilini tapın.",
+          "type": "single",
+          "options": [
+            "8",
+            "-8",
+            "7",
+            "9",
+            "10"
+          ],
+          "correctIndex": 0,
+          "explanation": "Birinci tənlikdən y = 9 − x. Yerinə qoyduqda x = 8, y = 1. Hasil: 8."
+        },
+        {
+          "id": "g9-math-algebra-030",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "algebra",
+          "sectionTitle": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+          "topic": "Xətti bərabərsizlik",
+          "difficulty": "medium",
+          "text": "5x + 9 > -6 bərabərsizliyinin ən kiçik tam həllini tapın.",
+          "type": "open",
+          "answer": "-2",
+          "explanation": "5x > -15 ⇒ x > -3. Ən kiçik tam həll: -2."
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Funksiyalar və silsilələr",
+      "questions": [
+        {
+          "id": "g9-math-functions-001",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Xətti funksiya",
+          "difficulty": "easy",
+          "text": "y = 4x − 20 funksiyasının qrafiki absis oxunu hansı nöqtədə kəsir? (nöqtənin absisini yazın)",
+          "type": "single",
+          "options": [
+            "-20",
+            "20",
+            "-5",
+            "5",
+            "4"
+          ],
+          "correctIndex": 3,
+          "explanation": "y = 0 ⇒ 4x = 20 ⇒ x = 5."
+        },
+        {
+          "id": "g9-math-functions-002",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Xətti funksiya",
+          "difficulty": "medium",
+          "text": "A(2; 8) və B(4; 12) nöqtələrindən keçən düz xəttin bucaq əmsalını tapın.",
+          "type": "single",
+          "options": [
+            "-2",
+            "1/2",
+            "3",
+            "2",
+            "4"
+          ],
+          "correctIndex": 3,
+          "explanation": "k = (y₂ − y₁)/(x₂ − x₁) = (12 − 8)/(4 − 2) = 2."
+        },
+        {
+          "id": "g9-math-functions-003",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = −x² + 8x + 4 parabolasının təpə nöqtəsinin ordinatını tapın.",
+          "type": "single",
+          "options": [
+            "-20",
+            "4",
+            "21",
+            "22",
+            "20"
+          ],
+          "correctIndex": 4,
+          "explanation": "x₀ = −b/(2a) = 4; y₀ = y(4) = 20."
+        },
+        {
+          "id": "g9-math-functions-004",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Ədədi silsilə",
+          "difficulty": "easy",
+          "text": "Ədədi silsilədə a₁ = 3, d = 4. a₁₁ həddini tapın.",
+          "type": "single",
+          "options": [
+            "132",
+            "43",
+            "47",
+            "39",
+            "44"
+          ],
+          "correctIndex": 1,
+          "explanation": "aₙ = a₁ + (n − 1)d = 3 + 10·(4) = 43."
+        },
+        {
+          "id": "g9-math-functions-005",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Ədədi silsilə",
+          "difficulty": "medium",
+          "text": "Ədədi silsilənin birinci həddi 1, fərqi 3-dür. İlk 20 həddin cəmini tapın.",
+          "type": "single",
+          "options": [
+            "570",
+            "58",
+            "590",
+            "650",
+            "1160"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sₙ = (2a₁ + (n − 1)d)·n/2 = (2·1 + 19·3)·20/2 = 590."
+        },
+        {
+          "id": "g9-math-functions-006",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Həndəsi silsilə",
+          "difficulty": "medium",
+          "text": "Həndəsi silsilədə b₁ = 2, q = -2. b₅ həddini tapın.",
+          "type": "open",
+          "answer": "32",
+          "explanation": "bₙ = b₁·qⁿ⁻¹ = 2·(-2)^4 = 32."
+        },
+        {
+          "id": "g9-math-functions-007",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Funksiyanın qiyməti",
+          "difficulty": "easy",
+          "text": "f(x) = 2x² + 5x − 3 olarsa, f(3) qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "36",
+            "30",
+            "0",
+            "-30",
+            "24"
+          ],
+          "correctIndex": 1,
+          "explanation": "f(3) = 2·(3)² + (5)·(3) + (-3) = 30."
+        },
+        {
+          "id": "g9-math-functions-008",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Xətti funksiya",
+          "difficulty": "easy",
+          "text": "y = -3x + 0 funksiyasının qrafiki absis oxunu hansı nöqtədə kəsir? (nöqtənin absisini yazın)",
+          "type": "single",
+          "options": [
+            "1",
+            "-1",
+            "2",
+            "0",
+            "-3"
+          ],
+          "correctIndex": 3,
+          "explanation": "y = 0 ⇒ -3x = 0 ⇒ x = 0."
+        },
+        {
+          "id": "g9-math-functions-009",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Xətti funksiya",
+          "difficulty": "medium",
+          "text": "A(0; 1) və B(6; 13) nöqtələrindən keçən düz xəttin bucaq əmsalını tapın.",
+          "type": "single",
+          "options": [
+            "1",
+            "1/2",
+            "-2",
+            "3",
+            "2"
+          ],
+          "correctIndex": 4,
+          "explanation": "k = (y₂ − y₁)/(x₂ − x₁) = (13 − 1)/(6 − 0) = 2."
+        },
+        {
+          "id": "g9-math-functions-010",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = x² + 0x − 6 parabolasının təpə nöqtəsinin absisini tapın.",
+          "type": "single",
+          "options": [
+            "-1",
+            "1",
+            "2",
+            "0",
+            "-6"
+          ],
+          "correctIndex": 3,
+          "explanation": "x₀ = −b/(2a) = 0; y₀ = y(0) = -6."
+        },
+        {
+          "id": "g9-math-functions-011",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Ədədi silsilə",
+          "difficulty": "easy",
+          "text": "Ədədi silsilədə a₁ = -3, d = 4. a₁₁ həddini tapın.",
+          "type": "single",
+          "options": [
+            "33",
+            "38",
+            "-132",
+            "37",
+            "41"
+          ],
+          "correctIndex": 3,
+          "explanation": "aₙ = a₁ + (n − 1)d = -3 + 10·(4) = 37."
+        },
+        {
+          "id": "g9-math-functions-012",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Ədədi silsilə",
+          "difficulty": "medium",
+          "text": "Ədədi silsilənin birinci həddi 4, fərqi 4-dür. İlk 20 həddin cəmini tapın.",
+          "type": "open",
+          "answer": "840",
+          "explanation": "Sₙ = (2a₁ + (n − 1)d)·n/2 = (2·4 + 19·4)·20/2 = 840."
+        },
+        {
+          "id": "g9-math-functions-013",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Həndəsi silsilə",
+          "difficulty": "medium",
+          "text": "Həndəsi silsilədə b₁ = 2, q = 2. b₄ həddini tapın.",
+          "type": "single",
+          "options": [
+            "32",
+            "8",
+            "12",
+            "16",
+            "-16"
+          ],
+          "correctIndex": 3,
+          "explanation": "bₙ = b₁·qⁿ⁻¹ = 2·(2)^3 = 16."
+        },
+        {
+          "id": "g9-math-functions-014",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Funksiyanın qiyməti",
+          "difficulty": "easy",
+          "text": "f(x) = x² − 3x − 6 olarsa, f(-1) qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "-5",
+            "-2",
+            "-8",
+            "2",
+            "10"
+          ],
+          "correctIndex": 1,
+          "explanation": "f(-1) = 1·(-1)² + (-3)·(-1) + (-6) = -2."
+        },
+        {
+          "id": "g9-math-functions-015",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Xətti funksiya",
+          "difficulty": "easy",
+          "text": "y = 3x + 15 funksiyasının qrafiki absis oxunu hansı nöqtədə kəsir? (nöqtənin absisini yazın)",
+          "type": "single",
+          "options": [
+            "5",
+            "-5",
+            "-15",
+            "3",
+            "15"
+          ],
+          "correctIndex": 1,
+          "explanation": "y = 0 ⇒ 3x = -15 ⇒ x = -5."
+        },
+        {
+          "id": "g9-math-functions-016",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Xətti funksiya",
+          "difficulty": "medium",
+          "text": "A(0; -4) və B(3; 2) nöqtələrindən keçən düz xəttin bucaq əmsalını tapın.",
+          "type": "single",
+          "options": [
+            "-4",
+            "1/2",
+            "2",
+            "-2",
+            "3"
+          ],
+          "correctIndex": 2,
+          "explanation": "k = (y₂ − y₁)/(x₂ − x₁) = (2 − -4)/(3 − 0) = 2."
+        },
+        {
+          "id": "g9-math-functions-017",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = x² + 6x + 4 parabolasının təpə nöqtəsinin ordinatını tapın.",
+          "type": "single",
+          "options": [
+            "4",
+            "-4",
+            "-5",
+            "5",
+            "-3"
+          ],
+          "correctIndex": 2,
+          "explanation": "x₀ = −b/(2a) = -3; y₀ = y(-3) = -5."
+        },
+        {
+          "id": "g9-math-functions-018",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Ədədi silsilə",
+          "difficulty": "easy",
+          "text": "Ədədi silsilədə a₁ = 9, d = 2. a₂₀ həddini tapın.",
+          "type": "open",
+          "answer": "47",
+          "explanation": "aₙ = a₁ + (n − 1)d = 9 + 19·(2) = 47."
+        },
+        {
+          "id": "g9-math-functions-019",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Ədədi silsilə",
+          "difficulty": "medium",
+          "text": "Ədədi silsilənin birinci həddi 2, fərqi 2-dür. İlk 20 həddin cəmini tapın.",
+          "type": "single",
+          "options": [
+            "420",
+            "40",
+            "400",
+            "800",
+            "460"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sₙ = (2a₁ + (n − 1)d)·n/2 = (2·2 + 19·2)·20/2 = 420."
+        },
+        {
+          "id": "g9-math-functions-020",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Həndəsi silsilə",
+          "difficulty": "medium",
+          "text": "Həndəsi silsilədə b₁ = 1, q = -2. b₄ həddini tapın.",
+          "type": "single",
+          "options": [
+            "16",
+            "8",
+            "-8",
+            "4",
+            "-6"
+          ],
+          "correctIndex": 2,
+          "explanation": "bₙ = b₁·qⁿ⁻¹ = 1·(-2)^3 = -8."
+        },
+        {
+          "id": "g9-math-functions-021",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Funksiyanın qiyməti",
+          "difficulty": "easy",
+          "text": "f(x) = −x² − 5x + 6 olarsa, f(1) qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "-1",
+            "10",
+            "-12",
+            "0",
+            "1"
+          ],
+          "correctIndex": 3,
+          "explanation": "f(1) = -1·(1)² + (-5)·(1) + (6) = 0."
+        },
+        {
+          "id": "g9-math-functions-022",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Xətti funksiya",
+          "difficulty": "medium",
+          "text": "A(0; -1) və B(4; 3) nöqtələrindən keçən düz xəttin bucaq əmsalını tapın.",
+          "type": "single",
+          "options": [
+            "-1",
+            "3",
+            "1",
+            "0",
+            "2"
+          ],
+          "correctIndex": 2,
+          "explanation": "k = (y₂ − y₁)/(x₂ − x₁) = (3 − -1)/(4 − 0) = 1."
+        },
+        {
+          "id": "g9-math-functions-023",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = −x² + 0x + 0 parabolasının təpə nöqtəsinin absisini tapın.",
+          "type": "single",
+          "options": [
+            "1",
+            "-1",
+            "-2",
+            "0",
+            "2"
+          ],
+          "correctIndex": 3,
+          "explanation": "x₀ = −b/(2a) = 0; y₀ = y(0) = 0."
+        },
+        {
+          "id": "g9-math-functions-024",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Ədədi silsilə",
+          "difficulty": "easy",
+          "text": "Ədədi silsilədə a₁ = 7, d = -3. a₁₉ həddini tapın.",
+          "type": "open",
+          "answer": "-47",
+          "explanation": "aₙ = a₁ + (n − 1)d = 7 + 18·(-3) = -47."
+        },
+        {
+          "id": "g9-math-functions-025",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Ədədi silsilə",
+          "difficulty": "medium",
+          "text": "Ədədi silsilənin birinci həddi 2, fərqi 3-dür. İlk 15 həddin cəmini tapın.",
+          "type": "single",
+          "options": [
+            "345",
+            "330",
+            "390",
+            "44",
+            "660"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sₙ = (2a₁ + (n − 1)d)·n/2 = (2·2 + 14·3)·15/2 = 345."
+        },
+        {
+          "id": "g9-math-functions-026",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Həndəsi silsilə",
+          "difficulty": "medium",
+          "text": "Həndəsi silsilədə b₁ = 3, q = -2. b₄ həddini tapın.",
+          "type": "single",
+          "options": [
+            "-24",
+            "12",
+            "48",
+            "-18",
+            "24"
+          ],
+          "correctIndex": 0,
+          "explanation": "bₙ = b₁·qⁿ⁻¹ = 3·(-2)^3 = -24."
+        },
+        {
+          "id": "g9-math-functions-027",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Funksiyanın qiyməti",
+          "difficulty": "easy",
+          "text": "f(x) = x² + 5x + 3 olarsa, f(1) qiymətini tapın.",
+          "type": "single",
+          "options": [
+            "3",
+            "-1",
+            "10",
+            "9",
+            "-9"
+          ],
+          "correctIndex": 3,
+          "explanation": "f(1) = 1·(1)² + (5)·(1) + (3) = 9."
+        },
+        {
+          "id": "g9-math-functions-028",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Xətti funksiya",
+          "difficulty": "easy",
+          "text": "y = 2x + 10 funksiyasının qrafiki absis oxunu hansı nöqtədə kəsir? (nöqtənin absisini yazın)",
+          "type": "single",
+          "options": [
+            "-10",
+            "-5",
+            "10",
+            "5",
+            "2"
+          ],
+          "correctIndex": 1,
+          "explanation": "y = 0 ⇒ 2x = -10 ⇒ x = -5."
+        },
+        {
+          "id": "g9-math-functions-029",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Xətti funksiya",
+          "difficulty": "medium",
+          "text": "A(0; 1) və B(3; 7) nöqtələrindən keçən düz xəttin bucaq əmsalını tapın.",
+          "type": "single",
+          "options": [
+            "2",
+            "-2",
+            "1",
+            "1/2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "explanation": "k = (y₂ − y₁)/(x₂ − x₁) = (7 − 1)/(3 − 0) = 2."
+        },
+        {
+          "id": "g9-math-functions-030",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "functions",
+          "sectionTitle": "Funksiyalar və silsilələr",
+          "topic": "Kvadrat funksiya",
+          "difficulty": "medium",
+          "text": "y = 2x² − 4x − 1 parabolasının təpə nöqtəsinin ordinatını tapın.",
+          "type": "open",
+          "answer": "-3",
+          "explanation": "x₀ = −b/(2a) = 1; y₀ = y(1) = -3."
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "Həndəsə, statistika və ehtimal",
+      "questions": [
+        {
+          "id": "g9-math-geometry-001",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Pifaqor teoremi",
+          "difficulty": "easy",
+          "text": "Düzbucaqlı üçbucağın katetləri 3 sm və 4 sm-dir. Hipotenuzu tapın (sm).",
+          "type": "single",
+          "options": [
+            "6",
+            "5",
+            "7",
+            "4",
+            "3"
+          ],
+          "correctIndex": 1,
+          "explanation": "c = √(3² + 4²) = √25 = 5."
+        },
+        {
+          "id": "g9-math-geometry-002",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Üçbucağın bucaqları",
+          "difficulty": "medium",
+          "text": "Üçbucağın iki bucağı 42° və 50°-dir. Üçüncü bucağa qonşu xarici bucağı tapın.",
+          "type": "single",
+          "options": [
+            "88",
+            "130",
+            "178",
+            "138",
+            "92"
+          ],
+          "correctIndex": 4,
+          "explanation": "Xarici bucaq ona qonşu olmayan iki daxili bucağın cəminə bərabərdir: 42° + 50° = 92°."
+        },
+        {
+          "id": "g9-math-geometry-003",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Çevrə və dairə",
+          "difficulty": "easy",
+          "text": "Radiusu 7 sm olan dairənin sahəsini tapın.",
+          "type": "single",
+          "options": [
+            "14π sm²",
+            "49π sm²",
+            "7π sm²",
+            "196π sm²",
+            "98π sm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "S = πr² = π·7² = 49π sm²."
+        },
+        {
+          "id": "g9-math-geometry-004",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Dördbucaqlılar",
+          "difficulty": "easy",
+          "text": "Trapesiyanın oturacaqları 4 sm və 17 sm, hündürlüyü 4 sm-dir. Sahəsini tapın (sm²).",
+          "type": "single",
+          "options": [
+            "26",
+            "68",
+            "84",
+            "42",
+            "46"
+          ],
+          "correctIndex": 3,
+          "explanation": "S = (a + b)/2 · h = (4 + 17)/2 · 4 = 42."
+        },
+        {
+          "id": "g9-math-geometry-005",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Statistika",
+          "difficulty": "easy",
+          "text": "8; 29; 6; 13; 24 ədədlərinin ədədi ortasını tapın.",
+          "type": "single",
+          "options": [
+            "16",
+            "17",
+            "20",
+            "23",
+            "13"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cəm 80, say 5. Ədədi orta: 80 : 5 = 16."
+        },
+        {
+          "id": "g9-math-geometry-006",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Ehtimal",
+          "difficulty": "medium",
+          "text": "Qutuda 4 qırmızı, 4 göy və 4 yaşıl kürə var. Təsadüfi götürülən kürənin göy olmaması ehtimalını tapın.",
+          "type": "open",
+          "answer": "2/3",
+          "explanation": "Əlverişli hallar: 4 + 4 = 8, bütün hallar: 12. P = 2/3."
+        },
+        {
+          "id": "g9-math-geometry-007",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Pifaqor teoremi",
+          "difficulty": "easy",
+          "text": "Düzbucaqlı üçbucağın hipotenuzu 15 sm, bir kateti 12 sm-dir. Digər kateti tapın (sm).",
+          "type": "single",
+          "options": [
+            "10",
+            "8",
+            "9",
+            "11",
+            "3"
+          ],
+          "correctIndex": 2,
+          "explanation": "a = √(15² − 12²) = √81 = 9."
+        },
+        {
+          "id": "g9-math-geometry-008",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Üçbucağın bucaqları",
+          "difficulty": "medium",
+          "text": "Üçbucağın iki bucağı 32° və 48°-dir. Üçüncü bucağa qonşu xarici bucağı tapın.",
+          "type": "single",
+          "options": [
+            "148",
+            "132",
+            "190",
+            "100",
+            "80"
+          ],
+          "correctIndex": 4,
+          "explanation": "Xarici bucaq ona qonşu olmayan iki daxili bucağın cəminə bərabərdir: 32° + 48° = 80°."
+        },
+        {
+          "id": "g9-math-geometry-009",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Çevrə və dairə",
+          "difficulty": "easy",
+          "text": "Diametri 10 sm olan çevrənin uzunluğunu tapın.",
+          "type": "single",
+          "options": [
+            "20π sm",
+            "5π sm",
+            "10π sm",
+            "25π sm",
+            "100π sm"
+          ],
+          "correctIndex": 2,
+          "explanation": "C = πd = 10π sm."
+        },
+        {
+          "id": "g9-math-geometry-010",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Dördbucaqlılar",
+          "difficulty": "easy",
+          "text": "Trapesiyanın oturacaqları 10 sm və 20 sm, hündürlüyü 8 sm-dir. Sahəsini tapın (sm²).",
+          "type": "single",
+          "options": [
+            "240",
+            "200",
+            "120",
+            "40",
+            "128"
+          ],
+          "correctIndex": 2,
+          "explanation": "S = (a + b)/2 · h = (10 + 20)/2 · 8 = 120."
+        },
+        {
+          "id": "g9-math-geometry-011",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Statistika",
+          "difficulty": "easy",
+          "text": "25; 10; 21; 8; 26 ədədlərinin ədədi ortasını tapın.",
+          "type": "single",
+          "options": [
+            "17",
+            "45/2",
+            "19",
+            "18",
+            "21"
+          ],
+          "correctIndex": 3,
+          "explanation": "Cəm 90, say 5. Ədədi orta: 90 : 5 = 18."
+        },
+        {
+          "id": "g9-math-geometry-012",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Ehtimal",
+          "difficulty": "medium",
+          "text": "Qutuda 2 qırmızı, 3 göy və 4 yaşıl kürə var. Təsadüfi götürülən kürənin göy olmaması ehtimalını tapın.",
+          "type": "open",
+          "answer": "2/3",
+          "explanation": "Əlverişli hallar: 2 + 4 = 6, bütün hallar: 9. P = 2/3."
+        },
+        {
+          "id": "g9-math-geometry-013",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Pifaqor teoremi",
+          "difficulty": "easy",
+          "text": "Düzbucaqlı üçbucağın katetləri 9 sm və 12 sm-dir. Hipotenuzu tapın (sm).",
+          "type": "single",
+          "options": [
+            "13",
+            "14",
+            "21",
+            "15",
+            "16"
+          ],
+          "correctIndex": 3,
+          "explanation": "c = √(9² + 12²) = √225 = 15."
+        },
+        {
+          "id": "g9-math-geometry-014",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Üçbucağın bucaqları",
+          "difficulty": "easy",
+          "text": "Üçbucağın iki bucağı 32° və 62°-dir. Üçüncü bucağı tapın.",
+          "type": "single",
+          "options": [
+            "96",
+            "86",
+            "148",
+            "28",
+            "94"
+          ],
+          "correctIndex": 1,
+          "explanation": "180° − 32° − 62° = 86°."
+        },
+        {
+          "id": "g9-math-geometry-015",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Çevrə və dairə",
+          "difficulty": "easy",
+          "text": "Diametri 12 sm olan çevrənin uzunluğunu tapın.",
+          "type": "single",
+          "options": [
+            "6π sm",
+            "144π sm",
+            "24π sm",
+            "12π sm",
+            "36π sm"
+          ],
+          "correctIndex": 3,
+          "explanation": "C = πd = 12π sm."
+        },
+        {
+          "id": "g9-math-geometry-016",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Dördbucaqlılar",
+          "difficulty": "easy",
+          "text": "Trapesiyanın oturacaqları 4 sm və 14 sm, hündürlüyü 8 sm-dir. Sahəsini tapın (sm²).",
+          "type": "single",
+          "options": [
+            "80",
+            "72",
+            "144",
+            "40",
+            "56"
+          ],
+          "correctIndex": 1,
+          "explanation": "S = (a + b)/2 · h = (4 + 14)/2 · 8 = 72."
+        },
+        {
+          "id": "g9-math-geometry-017",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Statistika",
+          "difficulty": "easy",
+          "text": "20; 19; 13; 30; 18 ədədlərinin ədədi ortasını tapın.",
+          "type": "single",
+          "options": [
+            "19",
+            "17",
+            "21",
+            "25",
+            "20"
+          ],
+          "correctIndex": 4,
+          "explanation": "Cəm 100, say 5. Ədədi orta: 100 : 5 = 20."
+        },
+        {
+          "id": "g9-math-geometry-018",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Ehtimal",
+          "difficulty": "medium",
+          "text": "Qutuda 2 qırmızı, 5 göy və 1 yaşıl kürə var. Təsadüfi götürülən kürənin göy olmaması ehtimalını tapın.",
+          "type": "open",
+          "answer": "3/8",
+          "explanation": "Əlverişli hallar: 2 + 1 = 3, bütün hallar: 8. P = 3/8."
+        },
+        {
+          "id": "g9-math-geometry-019",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Üçbucağın bucaqları",
+          "difficulty": "easy",
+          "text": "Üçbucağın iki bucağı 35° və 52°-dir. Üçüncü bucağı tapın.",
+          "type": "single",
+          "options": [
+            "103",
+            "145",
+            "93",
+            "38",
+            "87"
+          ],
+          "correctIndex": 2,
+          "explanation": "180° − 35° − 52° = 93°."
+        },
+        {
+          "id": "g9-math-geometry-020",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Çevrə və dairə",
+          "difficulty": "easy",
+          "text": "Diametri 4 sm olan çevrənin uzunluğunu tapın.",
+          "type": "single",
+          "options": [
+            "16π sm",
+            "5π sm",
+            "2π sm",
+            "4π sm",
+            "8π sm"
+          ],
+          "correctIndex": 3,
+          "explanation": "C = πd = 4π sm."
+        },
+        {
+          "id": "g9-math-geometry-021",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Dördbucaqlılar",
+          "difficulty": "easy",
+          "text": "Trapesiyanın oturacaqları 6 sm və 17 sm, hündürlüyü 6 sm-dir. Sahəsini tapın (sm²).",
+          "type": "single",
+          "options": [
+            "33",
+            "102",
+            "69",
+            "75",
+            "138"
+          ],
+          "correctIndex": 2,
+          "explanation": "S = (a + b)/2 · h = (6 + 17)/2 · 6 = 69."
+        },
+        {
+          "id": "g9-math-geometry-022",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Statistika",
+          "difficulty": "easy",
+          "text": "9; 3; 6; 2; 29 ədədlər sırasının medianını tapın.",
+          "type": "single",
+          "options": [
+            "3",
+            "7",
+            "49/5",
+            "6",
+            "9"
+          ],
+          "correctIndex": 3,
+          "explanation": "Artan sıra: 2; 3; 6; 9; 29. Ortadakı ədəd: 6."
+        },
+        {
+          "id": "g9-math-geometry-023",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Ehtimal",
+          "difficulty": "medium",
+          "text": "Qutuda 6 qırmızı, 3 göy və 5 yaşıl kürə var. Təsadüfi götürülən kürənin göy olmaması ehtimalını tapın.",
+          "type": "single",
+          "options": [
+            "11/14",
+            "3/14",
+            "11/3",
+            "5/14",
+            "3/7"
+          ],
+          "correctIndex": 0,
+          "explanation": "Əlverişli hallar: 6 + 5 = 11, bütün hallar: 14. P = 11/14."
+        },
+        {
+          "id": "g9-math-geometry-024",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Pifaqor teoremi",
+          "difficulty": "easy",
+          "text": "Düzbucaqlı üçbucağın hipotenuzu 13 sm, bir kateti 12 sm-dir. Digər kateti tapın (sm).",
+          "type": "open",
+          "answer": "5",
+          "explanation": "a = √(13² − 12²) = √25 = 5."
+        },
+        {
+          "id": "g9-math-geometry-025",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Üçbucağın bucaqları",
+          "difficulty": "easy",
+          "text": "Üçbucağın iki bucağı 42° və 26°-dir. Üçüncü bucağı tapın.",
+          "type": "single",
+          "options": [
+            "112",
+            "122",
+            "68",
+            "138",
+            "64"
+          ],
+          "correctIndex": 0,
+          "explanation": "180° − 42° − 26° = 112°."
+        },
+        {
+          "id": "g9-math-geometry-026",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Çevrə və dairə",
+          "difficulty": "easy",
+          "text": "Radiusu 8 sm olan dairənin sahəsini tapın.",
+          "type": "single",
+          "options": [
+            "128π sm²",
+            "16π sm²",
+            "64π sm²",
+            "256π sm²",
+            "8π sm²"
+          ],
+          "correctIndex": 2,
+          "explanation": "S = πr² = π·8² = 64π sm²."
+        },
+        {
+          "id": "g9-math-geometry-027",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Dördbucaqlılar",
+          "difficulty": "easy",
+          "text": "Trapesiyanın oturacaqları 11 sm və 19 sm, hündürlüyü 6 sm-dir. Sahəsini tapın (sm²).",
+          "type": "single",
+          "options": [
+            "90",
+            "96",
+            "24",
+            "180",
+            "209"
+          ],
+          "correctIndex": 0,
+          "explanation": "S = (a + b)/2 · h = (11 + 19)/2 · 6 = 90."
+        },
+        {
+          "id": "g9-math-geometry-028",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Statistika",
+          "difficulty": "easy",
+          "text": "15; 26; 11; 21; 7 ədədlərinin ədədi ortasını tapın.",
+          "type": "single",
+          "options": [
+            "19",
+            "17",
+            "16",
+            "15",
+            "20"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cəm 80, say 5. Ədədi orta: 80 : 5 = 16."
+        },
+        {
+          "id": "g9-math-geometry-029",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Ehtimal",
+          "difficulty": "medium",
+          "text": "Qutuda 7 qırmızı, 5 göy və 5 yaşıl kürə var. Təsadüfi götürülən kürənin göy olmaması ehtimalını tapın.",
+          "type": "single",
+          "options": [
+            "12/17",
+            "29/17",
+            "12/5",
+            "5/17",
+            "7/17"
+          ],
+          "correctIndex": 0,
+          "explanation": "Əlverişli hallar: 7 + 5 = 12, bütün hallar: 17. P = 12/17."
+        },
+        {
+          "id": "g9-math-geometry-030",
+          "grade": 9,
+          "subject": "math",
+          "sectionId": "geometry",
+          "sectionTitle": "Həndəsə, statistika və ehtimal",
+          "topic": "Üçbucağın bucaqları",
+          "difficulty": "medium",
+          "text": "Üçbucağın iki bucağı 74° və 38°-dir. Üçüncü bucağa qonşu xarici bucağı tapın.",
+          "type": "open",
+          "answer": "112",
+          "explanation": "Xarici bucaq ona qonşu olmayan iki daxili bucağın cəminə bərabərdir: 74° + 38° = 112°."
+        }
+      ]
+    }
+  ]
+}

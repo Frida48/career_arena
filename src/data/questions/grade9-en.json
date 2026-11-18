@@ -1,0 +1,1854 @@
+{
+  "grade": 9,
+  "subject": "en",
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "questions": [
+        {
+          "id": "g9-en-grammar-001",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Present Simple",
+          "difficulty": "easy",
+          "text": "She ___ to school every day.",
+          "type": "single",
+          "options": [
+            "is going",
+            "go",
+            "goes",
+            "going",
+            "gone"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hər gün təkrarlanan iş — Present Simple; he/she/it ilə -s/-es artırılır."
+        },
+        {
+          "id": "g9-en-grammar-002",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Present Continuous",
+          "difficulty": "easy",
+          "text": "Look! The children ___ in the garden.",
+          "type": "single",
+          "options": [
+            "plays",
+            "played",
+            "have played",
+            "play",
+            "are playing"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Look!» indi baş verən hərəkəti göstərir — Present Continuous."
+        },
+        {
+          "id": "g9-en-grammar-003",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Past Simple",
+          "difficulty": "easy",
+          "text": "I ___ my homework yesterday evening.",
+          "type": "single",
+          "options": [
+            "does",
+            "have done",
+            "did",
+            "am doing",
+            "do"
+          ],
+          "correctIndex": 2,
+          "explanation": "«Yesterday» keçmişdə bitmiş iş — Past Simple."
+        },
+        {
+          "id": "g9-en-grammar-004",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Past Continuous",
+          "difficulty": "medium",
+          "text": "While I ___ TV, the phone rang.",
+          "type": "single",
+          "options": [
+            "was watching",
+            "have watched",
+            "watch",
+            "am watching",
+            "watched"
+          ],
+          "correctIndex": 0,
+          "explanation": "Uzun davam edən keçmiş hərəkəti qısa hərəkət kəsir — Past Continuous."
+        },
+        {
+          "id": "g9-en-grammar-005",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Present Perfect",
+          "difficulty": "easy",
+          "text": "I have lived here ___ 2015.",
+          "type": "single",
+          "options": [
+            "for",
+            "from",
+            "ago",
+            "during",
+            "since"
+          ],
+          "correctIndex": 4,
+          "explanation": "Konkret başlanğıc nöqtəsi ilə «since» işlənir."
+        },
+        {
+          "id": "g9-en-grammar-006",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Present Perfect",
+          "difficulty": "medium",
+          "text": "They ___ to London.",
+          "type": "single",
+          "options": [
+            "never were been",
+            "are never been",
+            "has never been",
+            "have never been",
+            "never have been"
+          ],
+          "correctIndex": 3,
+          "explanation": "They + have + never + V3: have never been."
+        },
+        {
+          "id": "g9-en-grammar-007",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "First Conditional",
+          "difficulty": "medium",
+          "text": "If it rains tomorrow, we ___ at home.",
+          "type": "single",
+          "options": [
+            "stay",
+            "staying",
+            "would stay",
+            "stayed",
+            "will stay"
+          ],
+          "correctIndex": 4,
+          "explanation": "Real şərt: If + Present Simple, will + V1."
+        },
+        {
+          "id": "g9-en-grammar-008",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Comparatives",
+          "difficulty": "easy",
+          "text": "This book is ___ than that one.",
+          "type": "single",
+          "options": [
+            "the more interesting",
+            "interestinger",
+            "most interesting",
+            "more interestinger",
+            "more interesting"
+          ],
+          "correctIndex": 4,
+          "explanation": "Uzun sifətlərdə müqayisə dərəcəsi «more» ilə düzəlir."
+        },
+        {
+          "id": "g9-en-grammar-009",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Superlatives",
+          "difficulty": "easy",
+          "text": "Mount Everest is ___ mountain in the world.",
+          "type": "single",
+          "options": [
+            "the highest",
+            "highest",
+            "the most high",
+            "higher",
+            "the higher"
+          ],
+          "correctIndex": 0,
+          "explanation": "Üstünlük dərəcəsi: the + -est."
+        },
+        {
+          "id": "g9-en-grammar-010",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Quantifiers",
+          "difficulty": "easy",
+          "text": "There isn't ___ milk in the fridge.",
+          "type": "single",
+          "options": [
+            "a",
+            "any",
+            "many",
+            "few",
+            "some"
+          ],
+          "correctIndex": 1,
+          "explanation": "İnkar cümlədə sayılmayan isimlə «any» işlənir."
+        },
+        {
+          "id": "g9-en-grammar-011",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Quantifiers",
+          "difficulty": "easy",
+          "text": "How ___ apples do you need?",
+          "type": "single",
+          "options": [
+            "lot",
+            "any",
+            "many",
+            "much",
+            "more of"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sayılan isimlərlə «how many»."
+        },
+        {
+          "id": "g9-en-grammar-012",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Articles",
+          "difficulty": "easy",
+          "text": "She is ___ honest girl.",
+          "type": "single",
+          "options": [
+            "– (artikl lazım deyil)",
+            "the",
+            "some",
+            "a",
+            "an"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Honest» sözündə h oxunmur, söz sait səslə başlayır — an."
+        },
+        {
+          "id": "g9-en-grammar-013",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Modals",
+          "difficulty": "medium",
+          "text": "You ___ wear a uniform at school. It's a rule.",
+          "type": "single",
+          "options": [
+            "can",
+            "could",
+            "might",
+            "must",
+            "may"
+          ],
+          "correctIndex": 3,
+          "explanation": "Qayda, məcburiyyət — must."
+        },
+        {
+          "id": "g9-en-grammar-014",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Passive Voice",
+          "difficulty": "medium",
+          "text": "The letter ___ yesterday.",
+          "type": "single",
+          "options": [
+            "sent",
+            "has sent",
+            "sends",
+            "was sent",
+            "is sent"
+          ],
+          "correctIndex": 3,
+          "explanation": "Keçmiş zamanda məchul növ: was/were + V3."
+        },
+        {
+          "id": "g9-en-grammar-015",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Passive Voice",
+          "difficulty": "medium",
+          "text": "English ___ in many countries.",
+          "type": "single",
+          "options": [
+            "spoke",
+            "has spoke",
+            "speaks",
+            "is speaking",
+            "is spoken"
+          ],
+          "correctIndex": 4,
+          "explanation": "İndiki zamanda məchul növ: is/are + V3."
+        },
+        {
+          "id": "g9-en-grammar-016",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Prepositions",
+          "difficulty": "easy",
+          "text": "I'm interested ___ history.",
+          "type": "single",
+          "options": [
+            "of",
+            "for",
+            "in",
+            "at",
+            "on"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sabit birləşmə: interested in."
+        },
+        {
+          "id": "g9-en-grammar-017",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Prepositions",
+          "difficulty": "medium",
+          "text": "We arrived ___ Baku at 6 p.m.",
+          "type": "single",
+          "options": [
+            "into",
+            "to",
+            "on",
+            "in",
+            "at the"
+          ],
+          "correctIndex": 3,
+          "explanation": "Şəhər və ölkə adları ilə: arrive in."
+        },
+        {
+          "id": "g9-en-grammar-018",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Gerund / Infinitive",
+          "difficulty": "medium",
+          "text": "He enjoys ___ football.",
+          "type": "single",
+          "options": [
+            "to play",
+            "played",
+            "plays",
+            "play",
+            "playing"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Enjoy» feilindən sonra -ing forması gəlir."
+        },
+        {
+          "id": "g9-en-grammar-019",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Gerund / Infinitive",
+          "difficulty": "medium",
+          "text": "I want ___ a doctor.",
+          "type": "single",
+          "options": [
+            "becoming",
+            "to become",
+            "became",
+            "becomes",
+            "become"
+          ],
+          "correctIndex": 1,
+          "explanation": "«Want» feilindən sonra to + V1 gəlir."
+        },
+        {
+          "id": "g9-en-grammar-020",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Prepositions",
+          "difficulty": "easy",
+          "text": "My sister is good ___ maths.",
+          "type": "single",
+          "options": [
+            "with",
+            "at",
+            "for",
+            "in",
+            "on"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sabit birləşmə: good at."
+        },
+        {
+          "id": "g9-en-grammar-021",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Relative Clauses",
+          "difficulty": "medium",
+          "text": "This is the boy ___ won the prize.",
+          "type": "single",
+          "options": [
+            "what",
+            "whose",
+            "where",
+            "which",
+            "who"
+          ],
+          "correctIndex": 4,
+          "explanation": "İnsanlara aid budaq cümlədə «who» işlənir."
+        },
+        {
+          "id": "g9-en-grammar-022",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Future Forms",
+          "difficulty": "medium",
+          "text": "I ___ to the cinema tomorrow; I've already bought tickets.",
+          "type": "single",
+          "options": [
+            "went",
+            "am going",
+            "go",
+            "have gone",
+            "was going"
+          ],
+          "correctIndex": 1,
+          "explanation": "Əvvəlcədən planlaşdırılmış iş üçün Present Continuous işlənir."
+        },
+        {
+          "id": "g9-en-grammar-023",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Reported Speech",
+          "difficulty": "hard",
+          "text": "She asked me where I ___.",
+          "type": "single",
+          "options": [
+            "lived",
+            "living",
+            "do live",
+            "am living",
+            "live"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vasitəli sualda zaman bir pillə geri çəkilir, söz sırası nəqli cümlədəki kimi olur."
+        },
+        {
+          "id": "g9-en-grammar-024",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Linking Words",
+          "difficulty": "easy",
+          "text": "We didn't go out ___ it was raining.",
+          "type": "single",
+          "options": [
+            "or",
+            "although",
+            "so",
+            "because",
+            "but"
+          ],
+          "correctIndex": 3,
+          "explanation": "Səbəb bildirir — because."
+        },
+        {
+          "id": "g9-en-grammar-025",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Linking Words",
+          "difficulty": "medium",
+          "text": "___ she was tired, she finished her work.",
+          "type": "single",
+          "options": [
+            "Because",
+            "So",
+            "Although",
+            "But",
+            "Despite"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qarşılaşdırma: although + cümlə. «Despite»dən sonra isim gəlir."
+        },
+        {
+          "id": "g9-en-grammar-026",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Subject–Verb Agreement",
+          "difficulty": "hard",
+          "text": "Neither Ali nor his friends ___ at home.",
+          "type": "single",
+          "options": [
+            "is",
+            "has been",
+            "was",
+            "were",
+            "be"
+          ],
+          "correctIndex": 3,
+          "explanation": "Neither…nor quruluşunda feil özünə yaxın mübtədaya (friends) uyğunlaşır."
+        },
+        {
+          "id": "g9-en-grammar-027",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Present Perfect",
+          "difficulty": "easy",
+          "text": "He has just ___ his breakfast.",
+          "type": "single",
+          "options": [
+            "finishing",
+            "finishes",
+            "finished",
+            "finish",
+            "to finish"
+          ],
+          "correctIndex": 2,
+          "explanation": "Have/has + V3."
+        },
+        {
+          "id": "g9-en-grammar-028",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Indirect Questions",
+          "difficulty": "hard",
+          "text": "Could you tell me what time ___?",
+          "type": "single",
+          "options": [
+            "it is",
+            "it be",
+            "it does",
+            "is it",
+            "does it be"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dolayı sualda söz sırası nəqli cümlədəki kimidir: it is."
+        },
+        {
+          "id": "g9-en-grammar-029",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Present Perfect Continuous",
+          "difficulty": "medium",
+          "text": "I've been waiting for you ___ two hours.",
+          "type": "single",
+          "options": [
+            "for",
+            "from",
+            "ago",
+            "since",
+            "during"
+          ],
+          "correctIndex": 0,
+          "explanation": "Müddət bildirəndə «for» işlənir."
+        },
+        {
+          "id": "g9-en-grammar-030",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Past Continuous",
+          "difficulty": "medium",
+          "text": "At 8 o'clock last night, I ___ dinner.",
+          "type": "single",
+          "options": [
+            "have",
+            "was having",
+            "am having",
+            "will have",
+            "have had"
+          ],
+          "correctIndex": 1,
+          "explanation": "Keçmişdə konkret anda davam edən hərəkət — Past Continuous."
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "questions": [
+        {
+          "id": "g9-en-vocabulary-001",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Synonyms",
+          "difficulty": "easy",
+          "text": "Choose the synonym of «huge».",
+          "type": "single",
+          "options": [
+            "enormous",
+            "weak",
+            "tiny",
+            "quiet",
+            "narrow"
+          ],
+          "correctIndex": 0,
+          "explanation": "Huge = enormous (çox böyük)."
+        },
+        {
+          "id": "g9-en-vocabulary-002",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Antonyms",
+          "difficulty": "easy",
+          "text": "Choose the antonym of «ancient».",
+          "type": "single",
+          "options": [
+            "historic",
+            "aged",
+            "old",
+            "antique",
+            "modern"
+          ],
+          "correctIndex": 4,
+          "explanation": "Ancient (qədim) — modern (müasir)."
+        },
+        {
+          "id": "g9-en-vocabulary-003",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "easy",
+          "text": "I need to ___ a decision.",
+          "type": "single",
+          "options": [
+            "tell",
+            "get",
+            "make",
+            "do",
+            "say"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sabit birləşmə: make a decision."
+        },
+        {
+          "id": "g9-en-vocabulary-004",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "easy",
+          "text": "Please ___ attention to the board.",
+          "type": "single",
+          "options": [
+            "make",
+            "put",
+            "pay",
+            "take",
+            "do"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sabit birləşmə: pay attention."
+        },
+        {
+          "id": "g9-en-vocabulary-005",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "easy",
+          "text": "She ___ the bus to work every morning.",
+          "type": "single",
+          "options": [
+            "does",
+            "takes",
+            "walks",
+            "makes",
+            "brings"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nəqliyyatdan istifadə: take the bus."
+        },
+        {
+          "id": "g9-en-vocabulary-006",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "easy",
+          "text": "Please ___ your shoes before entering the room.",
+          "type": "single",
+          "options": [
+            "turn off",
+            "take off",
+            "give up",
+            "take on",
+            "look after"
+          ],
+          "correctIndex": 1,
+          "explanation": "Take off — (paltarı, ayaqqabını) çıxarmaq."
+        },
+        {
+          "id": "g9-en-vocabulary-007",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "easy",
+          "text": "Can you ___ my cat while I'm away?",
+          "type": "single",
+          "options": [
+            "look after",
+            "look at",
+            "look up",
+            "look out",
+            "look for"
+          ],
+          "correctIndex": 0,
+          "explanation": "Look after — qayğısına qalmaq."
+        },
+        {
+          "id": "g9-en-vocabulary-008",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "medium",
+          "text": "I'm ___ my keys. Have you seen them?",
+          "type": "single",
+          "options": [
+            "looking for",
+            "looking at",
+            "looking up",
+            "looking forward",
+            "looking after"
+          ],
+          "correctIndex": 0,
+          "explanation": "Look for — axtarmaq."
+        },
+        {
+          "id": "g9-en-vocabulary-009",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Verbs",
+          "difficulty": "medium",
+          "text": "We ___ a lot of money on our holiday.",
+          "type": "single",
+          "options": [
+            "spent",
+            "bought",
+            "paid",
+            "cost",
+            "lent"
+          ],
+          "correctIndex": 0,
+          "explanation": "Spend money on something — nəyəsə pul xərcləmək."
+        },
+        {
+          "id": "g9-en-vocabulary-010",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "easy",
+          "text": "He is a very ___ person. He always helps others. (HELP)",
+          "type": "single",
+          "options": [
+            "helping",
+            "helper",
+            "helpful",
+            "helped",
+            "helpless"
+          ],
+          "correctIndex": 2,
+          "explanation": "Helpful — köməksevər (sifət)."
+        },
+        {
+          "id": "g9-en-vocabulary-011",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "medium",
+          "text": "The ___ of the city is about two million. (POPULATE)",
+          "type": "single",
+          "options": [
+            "popular",
+            "populous",
+            "populating",
+            "population",
+            "populate"
+          ],
+          "correctIndex": 3,
+          "explanation": "Artikldan sonra isim lazımdır: population (əhali)."
+        },
+        {
+          "id": "g9-en-vocabulary-012",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "easy",
+          "text": "She answered the question ___. (CORRECT)",
+          "type": "single",
+          "options": [
+            "correction",
+            "correctly",
+            "correct",
+            "correctness",
+            "corrected"
+          ],
+          "correctIndex": 1,
+          "explanation": "Feili təsvir edən söz zərf olmalıdır: correctly."
+        },
+        {
+          "id": "g9-en-vocabulary-013",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "-ed / -ing Adjectives",
+          "difficulty": "medium",
+          "text": "It was a ___ film; I fell asleep.",
+          "type": "single",
+          "options": [
+            "bored",
+            "boredom",
+            "boring",
+            "bores",
+            "bore"
+          ],
+          "correctIndex": 2,
+          "explanation": "Əşyanın xüsusiyyəti -ing ilə ifadə olunur: boring film."
+        },
+        {
+          "id": "g9-en-vocabulary-014",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "-ed / -ing Adjectives",
+          "difficulty": "medium",
+          "text": "I was very ___ when I heard the news.",
+          "type": "single",
+          "options": [
+            "surprising",
+            "surprised",
+            "surprises",
+            "surprise",
+            "surprisingly"
+          ],
+          "correctIndex": 1,
+          "explanation": "İnsanın hissi -ed ilə ifadə olunur: I was surprised."
+        },
+        {
+          "id": "g9-en-vocabulary-015",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Groups",
+          "difficulty": "easy",
+          "text": "Which word does not belong to the group: apple, banana, carrot, orange, grape?",
+          "type": "single",
+          "options": [
+            "apple",
+            "grape",
+            "carrot",
+            "orange",
+            "banana"
+          ],
+          "correctIndex": 2,
+          "explanation": "Carrot tərəvəzdir, digərləri meyvədir."
+        },
+        {
+          "id": "g9-en-vocabulary-016",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Jobs",
+          "difficulty": "easy",
+          "text": "A person who designs buildings is called an ___.",
+          "type": "single",
+          "options": [
+            "pilot",
+            "electrician",
+            "mechanic",
+            "engineer",
+            "architect"
+          ],
+          "correctIndex": 4,
+          "explanation": "Architect — memar."
+        },
+        {
+          "id": "g9-en-vocabulary-017",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Places",
+          "difficulty": "easy",
+          "text": "A place where you can borrow books is a ___.",
+          "type": "single",
+          "options": [
+            "library",
+            "bakery",
+            "pharmacy",
+            "bookshop",
+            "museum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Library — kitabxana; bookshop-da kitab satılır."
+        },
+        {
+          "id": "g9-en-vocabulary-018",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Antonyms",
+          "difficulty": "easy",
+          "text": "The opposite of «cheap» is ___.",
+          "type": "single",
+          "options": [
+            "easy",
+            "low",
+            "expensive",
+            "free",
+            "poor"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cheap (ucuz) — expensive (bahalı)."
+        },
+        {
+          "id": "g9-en-vocabulary-019",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Meaning",
+          "difficulty": "easy",
+          "text": "«Exhausted» means ___.",
+          "type": "single",
+          "options": [
+            "very tired",
+            "very bored",
+            "very happy",
+            "very angry",
+            "very hungry"
+          ],
+          "correctIndex": 0,
+          "explanation": "Exhausted — çox yorğun."
+        },
+        {
+          "id": "g9-en-vocabulary-020",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Meaning",
+          "difficulty": "medium",
+          "text": "«Purchase» means ___.",
+          "type": "single",
+          "options": [
+            "borrow",
+            "rent",
+            "sell",
+            "buy",
+            "lend"
+          ],
+          "correctIndex": 3,
+          "explanation": "Purchase — satın almaq."
+        },
+        {
+          "id": "g9-en-vocabulary-021",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Meaning",
+          "difficulty": "medium",
+          "text": "Which word means «to say that you are sorry»?",
+          "type": "single",
+          "options": [
+            "admit",
+            "refuse",
+            "complain",
+            "apologize",
+            "promise"
+          ],
+          "correctIndex": 3,
+          "explanation": "Apologize — üzr istəmək."
+        },
+        {
+          "id": "g9-en-vocabulary-022",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Adjectives",
+          "difficulty": "easy",
+          "text": "The weather was so ___ that we stayed inside.",
+          "type": "single",
+          "options": [
+            "warm",
+            "awful",
+            "lovely",
+            "sunny",
+            "pleasant"
+          ],
+          "correctIndex": 1,
+          "explanation": "Evdə qalmağın səbəbi pis havadır: awful."
+        },
+        {
+          "id": "g9-en-vocabulary-023",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Say / Tell",
+          "difficulty": "medium",
+          "text": "My grandfather ___ a lot of interesting stories.",
+          "type": "single",
+          "options": [
+            "says",
+            "talks",
+            "tells",
+            "speaks",
+            "chats"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sabit birləşmə: tell a story."
+        },
+        {
+          "id": "g9-en-vocabulary-024",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Borrow / Lend",
+          "difficulty": "medium",
+          "text": "Can I ___ your pen for a minute?",
+          "type": "single",
+          "options": [
+            "rent",
+            "owe",
+            "lend",
+            "give",
+            "borrow"
+          ],
+          "correctIndex": 4,
+          "explanation": "Borrow — (kiminsə əşyasını) müvəqqəti götürmək."
+        },
+        {
+          "id": "g9-en-vocabulary-025",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Verbs",
+          "difficulty": "easy",
+          "text": "He ___ the exam because he didn't study.",
+          "type": "single",
+          "options": [
+            "failed",
+            "passed",
+            "lost",
+            "won",
+            "succeeded"
+          ],
+          "correctIndex": 0,
+          "explanation": "Oxumadığı üçün imtahandan kəsildi: failed."
+        },
+        {
+          "id": "g9-en-vocabulary-026",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Environment",
+          "difficulty": "easy",
+          "text": "We should ___ energy by turning off the lights.",
+          "type": "single",
+          "options": [
+            "save",
+            "spend",
+            "break",
+            "waste",
+            "keep up"
+          ],
+          "correctIndex": 0,
+          "explanation": "Save energy — enerjiyə qənaət etmək."
+        },
+        {
+          "id": "g9-en-vocabulary-027",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Irregular Plurals",
+          "difficulty": "easy",
+          "text": "The plural of «child» is ___.",
+          "type": "single",
+          "options": [
+            "childes",
+            "children",
+            "childs",
+            "childrens",
+            "childer"
+          ],
+          "correctIndex": 1,
+          "explanation": "Child — children (qeyri-qaydalı cəm)."
+        },
+        {
+          "id": "g9-en-vocabulary-028",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Adverbs of Frequency",
+          "difficulty": "easy",
+          "text": "«Rarely» means ___.",
+          "type": "single",
+          "options": [
+            "not often",
+            "always",
+            "every day",
+            "often",
+            "usually"
+          ],
+          "correctIndex": 0,
+          "explanation": "Rarely — nadir hallarda."
+        },
+        {
+          "id": "g9-en-vocabulary-029",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Adjectives + Prepositions",
+          "difficulty": "medium",
+          "text": "She screams when she sees spiders. She is ___ of them.",
+          "type": "single",
+          "options": [
+            "afraid",
+            "fond",
+            "proud",
+            "jealous",
+            "tired"
+          ],
+          "correctIndex": 0,
+          "explanation": "Be afraid of — qorxmaq."
+        },
+        {
+          "id": "g9-en-vocabulary-030",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Parts of Speech",
+          "difficulty": "easy",
+          "text": "Which word is a noun?",
+          "type": "single",
+          "options": [
+            "happen",
+            "happy",
+            "happiness",
+            "unhappy",
+            "happily"
+          ],
+          "correctIndex": 2,
+          "explanation": "-ness şəkilçisi isim düzəldir."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "questions": [
+        {
+          "id": "g9-en-reading-001",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Nigar lives on the ninth floor of a tall building in Baku, so she has no garden. Two years ago she decided to grow vegetables on her balcony. She started with tomatoes and herbs in old plastic boxes. At first, most of the plants died because they got too much sun in the afternoon. Nigar read about the problem and moved the boxes to the shady side of the balcony. She also began to water them early in the morning instead of in the evening. Now her balcony is full of green leaves, and her family eats fresh salad almost every day. Last spring Nigar showed her neighbours how to start their own balcony gardens.",
+          "text": "Why did Nigar start growing vegetables on her balcony?",
+          "type": "single",
+          "options": [
+            "Vegetables were expensive.",
+            "Her neighbours had balcony gardens.",
+            "She had no garden.",
+            "She wanted to sell them.",
+            "Her teacher asked her to."
+          ],
+          "correctIndex": 2,
+          "explanation": "Mətndə deyilir: doqquzuncu mərtəbədə yaşadığı üçün bağı yoxdur."
+        },
+        {
+          "id": "g9-en-reading-002",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Nigar lives on the ninth floor of a tall building in Baku, so she has no garden. Two years ago she decided to grow vegetables on her balcony. She started with tomatoes and herbs in old plastic boxes. At first, most of the plants died because they got too much sun in the afternoon. Nigar read about the problem and moved the boxes to the shady side of the balcony. She also began to water them early in the morning instead of in the evening. Now her balcony is full of green leaves, and her family eats fresh salad almost every day. Last spring Nigar showed her neighbours how to start their own balcony gardens.",
+          "text": "Why did most of the plants die at first?",
+          "type": "single",
+          "options": [
+            "They did not get enough water.",
+            "It was too cold on the balcony.",
+            "They got too much afternoon sun.",
+            "Insects ate them.",
+            "The boxes were too small."
+          ],
+          "correctIndex": 2,
+          "explanation": "«…because they got too much sun in the afternoon.»"
+        },
+        {
+          "id": "g9-en-reading-003",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Nigar lives on the ninth floor of a tall building in Baku, so she has no garden. Two years ago she decided to grow vegetables on her balcony. She started with tomatoes and herbs in old plastic boxes. At first, most of the plants died because they got too much sun in the afternoon. Nigar read about the problem and moved the boxes to the shady side of the balcony. She also began to water them early in the morning instead of in the evening. Now her balcony is full of green leaves, and her family eats fresh salad almost every day. Last spring Nigar showed her neighbours how to start their own balcony gardens.",
+          "text": "What did Nigar change about watering?",
+          "type": "single",
+          "options": [
+            "She watered them twice a day.",
+            "She watered the plants early in the morning.",
+            "She watered them in the evening.",
+            "She stopped watering them.",
+            "She used rainwater only."
+          ],
+          "correctIndex": 1,
+          "explanation": "«…water them early in the morning instead of in the evening.»"
+        },
+        {
+          "id": "g9-en-reading-004",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Nigar lives on the ninth floor of a tall building in Baku, so she has no garden. Two years ago she decided to grow vegetables on her balcony. She started with tomatoes and herbs in old plastic boxes. At first, most of the plants died because they got too much sun in the afternoon. Nigar read about the problem and moved the boxes to the shady side of the balcony. She also began to water them early in the morning instead of in the evening. Now her balcony is full of green leaves, and her family eats fresh salad almost every day. Last spring Nigar showed her neighbours how to start their own balcony gardens.",
+          "text": "The word «shady» in the text is closest in meaning to ___.",
+          "type": "single",
+          "options": [
+            "out of direct sunlight",
+            "near the street",
+            "full of plants",
+            "very wet",
+            "very windy"
+          ],
+          "correctIndex": 0,
+          "explanation": "Shady — kölgəli, birbaşa günəş düşməyən."
+        },
+        {
+          "id": "g9-en-reading-005",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Nigar lives on the ninth floor of a tall building in Baku, so she has no garden. Two years ago she decided to grow vegetables on her balcony. She started with tomatoes and herbs in old plastic boxes. At first, most of the plants died because they got too much sun in the afternoon. Nigar read about the problem and moved the boxes to the shady side of the balcony. She also began to water them early in the morning instead of in the evening. Now her balcony is full of green leaves, and her family eats fresh salad almost every day. Last spring Nigar showed her neighbours how to start their own balcony gardens.",
+          "text": "What did Nigar do last spring?",
+          "type": "single",
+          "options": [
+            "She sold salad to her neighbours.",
+            "She started growing tomatoes.",
+            "She moved to a house with a garden.",
+            "She taught her neighbours to start balcony gardens.",
+            "She bought new plastic boxes."
+          ],
+          "correctIndex": 3,
+          "explanation": "Son cümləyə baxın."
+        },
+        {
+          "id": "g9-en-reading-006",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Every Saturday a big blue bus stops in the centre of a small village near Shamakhi. It is not an ordinary bus — it is a library on wheels. Inside, there are shelves with about two thousand books, two computers and a small table for children. The village has no library of its own, so the bus is very popular. People can borrow up to three books for two weeks. The driver, Mr Rauf, is also the librarian. He says that the most popular books are adventure stories for teenagers and cookery books for adults. In winter, when the roads are icy, the bus sometimes cannot come, and the villagers say they really miss it.",
+          "text": "What is special about the blue bus?",
+          "type": "single",
+          "options": [
+            "It is a restaurant.",
+            "It is a school.",
+            "It is a library.",
+            "It is a shop.",
+            "It is a hospital."
+          ],
+          "correctIndex": 2,
+          "explanation": "«…it is a library on wheels.»"
+        },
+        {
+          "id": "g9-en-reading-007",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Every Saturday a big blue bus stops in the centre of a small village near Shamakhi. It is not an ordinary bus — it is a library on wheels. Inside, there are shelves with about two thousand books, two computers and a small table for children. The village has no library of its own, so the bus is very popular. People can borrow up to three books for two weeks. The driver, Mr Rauf, is also the librarian. He says that the most popular books are adventure stories for teenagers and cookery books for adults. In winter, when the roads are icy, the bus sometimes cannot come, and the villagers say they really miss it.",
+          "text": "How many books can a person borrow at one time?",
+          "type": "single",
+          "options": [
+            "ten",
+            "three",
+            "two",
+            "four",
+            "five"
+          ],
+          "correctIndex": 1,
+          "explanation": "«People can borrow up to three books…»"
+        },
+        {
+          "id": "g9-en-reading-008",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every Saturday a big blue bus stops in the centre of a small village near Shamakhi. It is not an ordinary bus — it is a library on wheels. Inside, there are shelves with about two thousand books, two computers and a small table for children. The village has no library of its own, so the bus is very popular. People can borrow up to three books for two weeks. The driver, Mr Rauf, is also the librarian. He says that the most popular books are adventure stories for teenagers and cookery books for adults. In winter, when the roads are icy, the bus sometimes cannot come, and the villagers say they really miss it.",
+          "text": "Who is Mr Rauf?",
+          "type": "single",
+          "options": [
+            "a teacher",
+            "a writer of cookery books",
+            "the head of the village",
+            "a computer engineer",
+            "the driver and the librarian"
+          ],
+          "correctIndex": 4,
+          "explanation": "«The driver, Mr Rauf, is also the librarian.»"
+        },
+        {
+          "id": "g9-en-reading-009",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every Saturday a big blue bus stops in the centre of a small village near Shamakhi. It is not an ordinary bus — it is a library on wheels. Inside, there are shelves with about two thousand books, two computers and a small table for children. The village has no library of its own, so the bus is very popular. People can borrow up to three books for two weeks. The driver, Mr Rauf, is also the librarian. He says that the most popular books are adventure stories for teenagers and cookery books for adults. In winter, when the roads are icy, the bus sometimes cannot come, and the villagers say they really miss it.",
+          "text": "Which books are most popular with adults?",
+          "type": "single",
+          "options": [
+            "cookery books",
+            "children's books",
+            "computer books",
+            "adventure stories",
+            "history books"
+          ],
+          "correctIndex": 0,
+          "explanation": "Böyüklər arasında yemək kitabları populyardır."
+        },
+        {
+          "id": "g9-en-reading-010",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every Saturday a big blue bus stops in the centre of a small village near Shamakhi. It is not an ordinary bus — it is a library on wheels. Inside, there are shelves with about two thousand books, two computers and a small table for children. The village has no library of its own, so the bus is very popular. People can borrow up to three books for two weeks. The driver, Mr Rauf, is also the librarian. He says that the most popular books are adventure stories for teenagers and cookery books for adults. In winter, when the roads are icy, the bus sometimes cannot come, and the villagers say they really miss it.",
+          "text": "Why does the bus sometimes not come in winter?",
+          "type": "single",
+          "options": [
+            "The driver is on holiday.",
+            "The books are returned.",
+            "There are no readers.",
+            "The bus is too cold.",
+            "The roads are icy."
+          ],
+          "correctIndex": 4,
+          "explanation": "«…when the roads are icy, the bus sometimes cannot come…»"
+        },
+        {
+          "id": "g9-en-reading-011",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "The robotics club at School No. 47 meets twice a week after lessons. This year twelve students are preparing for a national competition in which robots must find their way through a maze. The team's first robot was fast but kept hitting the walls. The students then added two extra sensors, which made the robot slower but much more accurate. Their teacher, Ms Leyla, does not write any code for them. She only asks questions and helps them test their ideas. 'When the robot fails, we learn the most,' says Murad, the youngest member of the team. The competition will take place in March, and the club is now looking for a sponsor to pay for new parts.",
+          "text": "What must the robots do in the competition?",
+          "type": "single",
+          "options": [
+            "draw pictures",
+            "play football",
+            "find their way through a maze",
+            "carry heavy boxes",
+            "answer questions"
+          ],
+          "correctIndex": 2,
+          "explanation": "«…robots must find their way through a maze.»"
+        },
+        {
+          "id": "g9-en-reading-012",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "The robotics club at School No. 47 meets twice a week after lessons. This year twelve students are preparing for a national competition in which robots must find their way through a maze. The team's first robot was fast but kept hitting the walls. The students then added two extra sensors, which made the robot slower but much more accurate. Their teacher, Ms Leyla, does not write any code for them. She only asks questions and helps them test their ideas. 'When the robot fails, we learn the most,' says Murad, the youngest member of the team. The competition will take place in March, and the club is now looking for a sponsor to pay for new parts.",
+          "text": "What was the problem with the first robot?",
+          "type": "single",
+          "options": [
+            "It kept hitting the walls.",
+            "It was too expensive.",
+            "It had no sensors.",
+            "It was too heavy.",
+            "It was too slow."
+          ],
+          "correctIndex": 0,
+          "explanation": "«…was fast but kept hitting the walls.»"
+        },
+        {
+          "id": "g9-en-reading-013",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "The robotics club at School No. 47 meets twice a week after lessons. This year twelve students are preparing for a national competition in which robots must find their way through a maze. The team's first robot was fast but kept hitting the walls. The students then added two extra sensors, which made the robot slower but much more accurate. Their teacher, Ms Leyla, does not write any code for them. She only asks questions and helps them test their ideas. 'When the robot fails, we learn the most,' says Murad, the youngest member of the team. The competition will take place in March, and the club is now looking for a sponsor to pay for new parts.",
+          "text": "What happened after the students added two sensors?",
+          "type": "single",
+          "options": [
+            "The robot stopped working.",
+            "The robot became faster.",
+            "Nothing changed.",
+            "The robot broke the walls.",
+            "The robot became slower but more accurate."
+          ],
+          "correctIndex": 4,
+          "explanation": "«…made the robot slower but much more accurate.»"
+        },
+        {
+          "id": "g9-en-reading-014",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "The robotics club at School No. 47 meets twice a week after lessons. This year twelve students are preparing for a national competition in which robots must find their way through a maze. The team's first robot was fast but kept hitting the walls. The students then added two extra sensors, which made the robot slower but much more accurate. Their teacher, Ms Leyla, does not write any code for them. She only asks questions and helps them test their ideas. 'When the robot fails, we learn the most,' says Murad, the youngest member of the team. The competition will take place in March, and the club is now looking for a sponsor to pay for new parts.",
+          "text": "How does Ms Leyla help the team?",
+          "type": "single",
+          "options": [
+            "She writes the code for them.",
+            "She pays for new parts.",
+            "She chooses the team members.",
+            "She builds the robot herself.",
+            "She asks questions and helps them test ideas."
+          ],
+          "correctIndex": 4,
+          "explanation": "«She only asks questions and helps them test their ideas.»"
+        },
+        {
+          "id": "g9-en-reading-015",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "The robotics club at School No. 47 meets twice a week after lessons. This year twelve students are preparing for a national competition in which robots must find their way through a maze. The team's first robot was fast but kept hitting the walls. The students then added two extra sensors, which made the robot slower but much more accurate. Their teacher, Ms Leyla, does not write any code for them. She only asks questions and helps them test their ideas. 'When the robot fails, we learn the most,' says Murad, the youngest member of the team. The competition will take place in March, and the club is now looking for a sponsor to pay for new parts.",
+          "text": "What is the club looking for now?",
+          "type": "single",
+          "options": [
+            "new members",
+            "a maze",
+            "a new teacher",
+            "a bigger room",
+            "a sponsor"
+          ],
+          "correctIndex": 4,
+          "explanation": "Son cümlə: «…looking for a sponsor to pay for new parts.»"
+        },
+        {
+          "id": "g9-en-reading-016",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Camels are well suited to life in the desert. Contrary to a popular belief, a camel's hump does not hold water. It stores fat, which the animal can use for energy when there is little food. Camels can go for many days without drinking, and when they finally find water, they can drink a very large amount in a few minutes. Their long eyelashes and the ability to close their noses protect them from sand during storms. Wide, soft feet help them walk on hot sand without sinking. Because of these features, people in desert regions have used camels for transport for thousands of years.",
+          "text": "What does a camel's hump store?",
+          "type": "single",
+          "options": [
+            "water",
+            "fat",
+            "air",
+            "sand",
+            "milk"
+          ],
+          "correctIndex": 1,
+          "explanation": "«It stores fat…»"
+        },
+        {
+          "id": "g9-en-reading-017",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Camels are well suited to life in the desert. Contrary to a popular belief, a camel's hump does not hold water. It stores fat, which the animal can use for energy when there is little food. Camels can go for many days without drinking, and when they finally find water, they can drink a very large amount in a few minutes. Their long eyelashes and the ability to close their noses protect them from sand during storms. Wide, soft feet help them walk on hot sand without sinking. Because of these features, people in desert regions have used camels for transport for thousands of years.",
+          "text": "What popular belief does the text say is wrong?",
+          "type": "single",
+          "options": [
+            "that camels can carry people",
+            "that camels have long eyelashes",
+            "that camels live in deserts",
+            "that camels have wide feet",
+            "that the hump holds water"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Contrary to a popular belief, a camel's hump does not hold water.»"
+        },
+        {
+          "id": "g9-en-reading-018",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Camels are well suited to life in the desert. Contrary to a popular belief, a camel's hump does not hold water. It stores fat, which the animal can use for energy when there is little food. Camels can go for many days without drinking, and when they finally find water, they can drink a very large amount in a few minutes. Their long eyelashes and the ability to close their noses protect them from sand during storms. Wide, soft feet help them walk on hot sand without sinking. Because of these features, people in desert regions have used camels for transport for thousands of years.",
+          "text": "What helps camels during sandstorms?",
+          "type": "single",
+          "options": [
+            "their thick tails",
+            "their short legs",
+            "their wide feet",
+            "their humps",
+            "long eyelashes and noses they can close"
+          ],
+          "correctIndex": 4,
+          "explanation": "Kirpiklər və burnu bağlaya bilməsi."
+        },
+        {
+          "id": "g9-en-reading-019",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Camels are well suited to life in the desert. Contrary to a popular belief, a camel's hump does not hold water. It stores fat, which the animal can use for energy when there is little food. Camels can go for many days without drinking, and when they finally find water, they can drink a very large amount in a few minutes. Their long eyelashes and the ability to close their noses protect them from sand during storms. Wide, soft feet help them walk on hot sand without sinking. Because of these features, people in desert regions have used camels for transport for thousands of years.",
+          "text": "Why don't camels sink in hot sand?",
+          "type": "single",
+          "options": [
+            "Their legs are short.",
+            "They walk only at night.",
+            "They walk very fast.",
+            "Their feet are wide and soft.",
+            "They are very light."
+          ],
+          "correctIndex": 3,
+          "explanation": "«Wide, soft feet help them…»"
+        },
+        {
+          "id": "g9-en-reading-020",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Camels are well suited to life in the desert. Contrary to a popular belief, a camel's hump does not hold water. It stores fat, which the animal can use for energy when there is little food. Camels can go for many days without drinking, and when they finally find water, they can drink a very large amount in a few minutes. Their long eyelashes and the ability to close their noses protect them from sand during storms. Wide, soft feet help them walk on hot sand without sinking. Because of these features, people in desert regions have used camels for transport for thousands of years.",
+          "text": "What is the main idea of the text?",
+          "type": "single",
+          "options": [
+            "Deserts are very hot.",
+            "People no longer use camels.",
+            "Camels have features that help them live in the desert.",
+            "Camels need a lot of water every day.",
+            "Camels are dangerous animals."
+          ],
+          "correctIndex": 2,
+          "explanation": "Mətn dəvənin səhra həyatına uyğunlaşmasından bəhs edir."
+        },
+        {
+          "id": "g9-en-reading-021",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Scientists say that teenagers need between eight and ten hours of sleep every night, but many get much less. One reason is that the body clock changes during the teenage years, so young people naturally feel sleepy later in the evening. Another reason is the use of phones and tablets in bed. The light from screens tells the brain that it is still daytime. Lack of sleep can make it harder to concentrate, remember new information and control emotions. Doctors advise teenagers to go to bed at the same time every day, to keep their phones out of the bedroom and to avoid drinks with caffeine in the evening.",
+          "text": "How many hours of sleep do teenagers need?",
+          "type": "single",
+          "options": [
+            "about 4 hours",
+            "8–10 hours",
+            "6–7 hours",
+            "11–12 hours",
+            "5–6 hours"
+          ],
+          "correctIndex": 1,
+          "explanation": "«…between eight and ten hours…»"
+        },
+        {
+          "id": "g9-en-reading-022",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Scientists say that teenagers need between eight and ten hours of sleep every night, but many get much less. One reason is that the body clock changes during the teenage years, so young people naturally feel sleepy later in the evening. Another reason is the use of phones and tablets in bed. The light from screens tells the brain that it is still daytime. Lack of sleep can make it harder to concentrate, remember new information and control emotions. Doctors advise teenagers to go to bed at the same time every day, to keep their phones out of the bedroom and to avoid drinks with caffeine in the evening.",
+          "text": "Why do teenagers feel sleepy later in the evening?",
+          "type": "single",
+          "options": [
+            "They eat too much.",
+            "Their body clock changes.",
+            "They drink too much water.",
+            "Their schools start late.",
+            "They do too much sport."
+          ],
+          "correctIndex": 1,
+          "explanation": "«…the body clock changes during the teenage years…»"
+        },
+        {
+          "id": "g9-en-reading-023",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Scientists say that teenagers need between eight and ten hours of sleep every night, but many get much less. One reason is that the body clock changes during the teenage years, so young people naturally feel sleepy later in the evening. Another reason is the use of phones and tablets in bed. The light from screens tells the brain that it is still daytime. Lack of sleep can make it harder to concentrate, remember new information and control emotions. Doctors advise teenagers to go to bed at the same time every day, to keep their phones out of the bedroom and to avoid drinks with caffeine in the evening.",
+          "text": "How does screen light affect the brain?",
+          "type": "single",
+          "options": [
+            "It helps the brain relax.",
+            "It makes the brain think it is still day.",
+            "It makes people hungry.",
+            "It has no effect.",
+            "It improves memory."
+          ],
+          "correctIndex": 1,
+          "explanation": "«The light from screens tells the brain that it is still daytime.»"
+        },
+        {
+          "id": "g9-en-reading-024",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Scientists say that teenagers need between eight and ten hours of sleep every night, but many get much less. One reason is that the body clock changes during the teenage years, so young people naturally feel sleepy later in the evening. Another reason is the use of phones and tablets in bed. The light from screens tells the brain that it is still daytime. Lack of sleep can make it harder to concentrate, remember new information and control emotions. Doctors advise teenagers to go to bed at the same time every day, to keep their phones out of the bedroom and to avoid drinks with caffeine in the evening.",
+          "text": "According to the text, lack of sleep can make it harder to ___.",
+          "type": "single",
+          "options": [
+            "see clearly",
+            "run fast",
+            "eat properly",
+            "control emotions",
+            "speak foreign languages"
+          ],
+          "correctIndex": 3,
+          "explanation": "«…harder to concentrate, remember new information and control emotions.»"
+        },
+        {
+          "id": "g9-en-reading-025",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Scientists say that teenagers need between eight and ten hours of sleep every night, but many get much less. One reason is that the body clock changes during the teenage years, so young people naturally feel sleepy later in the evening. Another reason is the use of phones and tablets in bed. The light from screens tells the brain that it is still daytime. Lack of sleep can make it harder to concentrate, remember new information and control emotions. Doctors advise teenagers to go to bed at the same time every day, to keep their phones out of the bedroom and to avoid drinks with caffeine in the evening.",
+          "text": "Which piece of advice is given in the text?",
+          "type": "single",
+          "options": [
+            "Sleep only at weekends.",
+            "Use a tablet to fall asleep.",
+            "Drink coffee before bed.",
+            "Go to bed at different times.",
+            "Keep phones out of the bedroom."
+          ],
+          "correctIndex": 4,
+          "explanation": "Həkimlər telefonu yataq otağından kənarda saxlamağı məsləhət görür."
+        },
+        {
+          "id": "g9-en-reading-026",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "The Palace of the Shaki Khans is one of the most famous historical buildings in Azerbaijan. It was built in the 18th century as a summer residence for the rulers of Shaki. The palace is not very large, but it is famous for its colourful wall paintings and its shebeke windows. Shebeke is a traditional art in which small pieces of coloured glass are fitted into a wooden frame without nails or glue. When sunlight passes through the windows, the rooms fill with red, blue and green light. Today the palace is a museum, and tourists from many countries visit it every year.",
+          "text": "When was the palace built?",
+          "type": "single",
+          "options": [
+            "in the 20th century",
+            "in the 16th century",
+            "in the 19th century",
+            "in the 18th century",
+            "two years ago"
+          ],
+          "correctIndex": 3,
+          "explanation": "«It was built in the 18th century…»"
+        },
+        {
+          "id": "g9-en-reading-027",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "The Palace of the Shaki Khans is one of the most famous historical buildings in Azerbaijan. It was built in the 18th century as a summer residence for the rulers of Shaki. The palace is not very large, but it is famous for its colourful wall paintings and its shebeke windows. Shebeke is a traditional art in which small pieces of coloured glass are fitted into a wooden frame without nails or glue. When sunlight passes through the windows, the rooms fill with red, blue and green light. Today the palace is a museum, and tourists from many countries visit it every year.",
+          "text": "What was the palace used for originally?",
+          "type": "single",
+          "options": [
+            "a school",
+            "a hotel for tourists",
+            "a glass factory",
+            "a summer residence for the rulers",
+            "a museum"
+          ],
+          "correctIndex": 3,
+          "explanation": "«…as a summer residence for the rulers of Shaki.»"
+        },
+        {
+          "id": "g9-en-reading-028",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "The Palace of the Shaki Khans is one of the most famous historical buildings in Azerbaijan. It was built in the 18th century as a summer residence for the rulers of Shaki. The palace is not very large, but it is famous for its colourful wall paintings and its shebeke windows. Shebeke is a traditional art in which small pieces of coloured glass are fitted into a wooden frame without nails or glue. When sunlight passes through the windows, the rooms fill with red, blue and green light. Today the palace is a museum, and tourists from many countries visit it every year.",
+          "text": "What is shebeke?",
+          "type": "single",
+          "options": [
+            "a building material made of stone",
+            "a kind of carpet",
+            "a type of wall painting",
+            "a traditional dance",
+            "an art of fitting coloured glass into wooden frames"
+          ],
+          "correctIndex": 4,
+          "explanation": "Mətndə şəbəkənin tərifi verilir."
+        },
+        {
+          "id": "g9-en-reading-029",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "The Palace of the Shaki Khans is one of the most famous historical buildings in Azerbaijan. It was built in the 18th century as a summer residence for the rulers of Shaki. The palace is not very large, but it is famous for its colourful wall paintings and its shebeke windows. Shebeke is a traditional art in which small pieces of coloured glass are fitted into a wooden frame without nails or glue. When sunlight passes through the windows, the rooms fill with red, blue and green light. Today the palace is a museum, and tourists from many countries visit it every year.",
+          "text": "What is NOT used to make shebeke?",
+          "type": "single",
+          "options": [
+            "nails",
+            "a wooden frame",
+            "small pieces of glass",
+            "coloured glass",
+            "wood"
+          ],
+          "correctIndex": 0,
+          "explanation": "«…without nails or glue.»"
+        },
+        {
+          "id": "g9-en-reading-030",
+          "grade": 9,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "The Palace of the Shaki Khans is one of the most famous historical buildings in Azerbaijan. It was built in the 18th century as a summer residence for the rulers of Shaki. The palace is not very large, but it is famous for its colourful wall paintings and its shebeke windows. Shebeke is a traditional art in which small pieces of coloured glass are fitted into a wooden frame without nails or glue. When sunlight passes through the windows, the rooms fill with red, blue and green light. Today the palace is a museum, and tourists from many countries visit it every year.",
+          "text": "What is the palace today?",
+          "type": "single",
+          "options": [
+            "a museum",
+            "a home for the rulers",
+            "a hotel",
+            "a library",
+            "a school"
+          ],
+          "correctIndex": 0,
+          "explanation": "«Today the palace is a museum…»"
+        }
+      ]
+    }
+  ]
+}
