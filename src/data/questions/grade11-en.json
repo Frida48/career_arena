@@ -1,0 +1,1857 @@
+{
+  "grade": 11,
+  "subject": "en",
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "description": "Mixed və inverted conditionals, inversion, wishes, perfect modals, reported speech və passive.",
+      "questions": [
+        {
+          "id": "g11-en-grammar-001",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Third Conditional",
+          "difficulty": "medium",
+          "text": "If I had known about the meeting, I ___ it.",
+          "type": "single",
+          "options": [
+            "would attend",
+            "would have attended",
+            "will attend",
+            "attended",
+            "had attended"
+          ],
+          "correctIndex": 1,
+          "explanation": "Keçmişə aid qeyri-real şərt: would have + V3."
+        },
+        {
+          "id": "g11-en-grammar-002",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Mixed Conditionals",
+          "difficulty": "hard",
+          "text": "If she ___ harder last year, she would be at university now.",
+          "type": "single",
+          "options": [
+            "had studied",
+            "has studied",
+            "studies",
+            "would study",
+            "studied"
+          ],
+          "correctIndex": 0,
+          "explanation": "Qarışıq şərt: keçmiş şərt (Past Perfect) → indiki nəticə."
+        },
+        {
+          "id": "g11-en-grammar-003",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Wishes",
+          "difficulty": "medium",
+          "text": "I wish I ___ that rude comment yesterday.",
+          "type": "single",
+          "options": [
+            "hadn't made",
+            "haven't made",
+            "wouldn't make",
+            "didn't make",
+            "don't make"
+          ],
+          "correctIndex": 0,
+          "explanation": "Keçmişə peşmanlıq: wish + Past Perfect."
+        },
+        {
+          "id": "g11-en-grammar-004",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Inversion",
+          "difficulty": "hard",
+          "text": "Not only ___ the exam, but she also got the highest score.",
+          "type": "single",
+          "options": [
+            "she did pass",
+            "did she pass",
+            "passed she",
+            "has she passed",
+            "she passed"
+          ],
+          "correctIndex": 1,
+          "explanation": "«Not only» cümlənin əvvəlində gəldikdə inversiya olur."
+        },
+        {
+          "id": "g11-en-grammar-005",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Inversion",
+          "difficulty": "hard",
+          "text": "Hardly ___ home when it started to rain.",
+          "type": "single",
+          "options": [
+            "did we get",
+            "we got",
+            "have we got",
+            "we had got",
+            "had we got"
+          ],
+          "correctIndex": 4,
+          "explanation": "Hardly … when quruluşunda Past Perfect ilə inversiya."
+        },
+        {
+          "id": "g11-en-grammar-006",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Future Perfect Passive",
+          "difficulty": "hard",
+          "text": "The report ___ by the time the manager arrives.",
+          "type": "single",
+          "options": [
+            "has finished",
+            "will be finishing",
+            "will finish",
+            "will have been finished",
+            "is finished"
+          ],
+          "correctIndex": 3,
+          "explanation": "Gələcəkdə müəyyən andan əvvəl bitəcək iş, məchul növ."
+        },
+        {
+          "id": "g11-en-grammar-007",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Passive Reporting",
+          "difficulty": "medium",
+          "text": "She is said ___ fluent in five languages.",
+          "type": "single",
+          "options": [
+            "to being",
+            "being",
+            "be",
+            "that she is",
+            "to be"
+          ],
+          "correctIndex": 4,
+          "explanation": "Be said + to + V1."
+        },
+        {
+          "id": "g11-en-grammar-008",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Gerund / Infinitive",
+          "difficulty": "medium",
+          "text": "He denied ___ the window.",
+          "type": "single",
+          "options": [
+            "break",
+            "to break",
+            "breaking",
+            "broke",
+            "to have broke"
+          ],
+          "correctIndex": 2,
+          "explanation": "«Deny»dən sonra -ing."
+        },
+        {
+          "id": "g11-en-grammar-009",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Gerund / Infinitive",
+          "difficulty": "hard",
+          "text": "I remember ___ him at the party last year.",
+          "type": "single",
+          "options": [
+            "met",
+            "to have meet",
+            "meet",
+            "meeting",
+            "to meet"
+          ],
+          "correctIndex": 3,
+          "explanation": "Remember + -ing — keçmişdə olanı xatırlamaq."
+        },
+        {
+          "id": "g11-en-grammar-010",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Gerund / Infinitive",
+          "difficulty": "hard",
+          "text": "Remember ___ the door when you leave.",
+          "type": "single",
+          "options": [
+            "lock",
+            "locking",
+            "to lock",
+            "to locking",
+            "locked"
+          ],
+          "correctIndex": 2,
+          "explanation": "Remember + to — gələcəkdə ediləcək işi unutmamaq."
+        },
+        {
+          "id": "g11-en-grammar-011",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Unreal Past",
+          "difficulty": "hard",
+          "text": "It's high time we ___ home.",
+          "type": "single",
+          "options": [
+            "going",
+            "will go",
+            "went",
+            "go",
+            "have gone"
+          ],
+          "correctIndex": 2,
+          "explanation": "«It's high time» + Past Simple (indiki mənada)."
+        },
+        {
+          "id": "g11-en-grammar-012",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Unreal Past",
+          "difficulty": "hard",
+          "text": "I'd rather you ___ smoke here.",
+          "type": "single",
+          "options": [
+            "not",
+            "don't",
+            "won't",
+            "haven't",
+            "didn't"
+          ],
+          "correctIndex": 4,
+          "explanation": "Would rather + başqa şəxs + Past Simple."
+        },
+        {
+          "id": "g11-en-grammar-013",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Relative Clauses",
+          "difficulty": "medium",
+          "text": "The man ___ car was stolen called the police.",
+          "type": "single",
+          "options": [
+            "who",
+            "that",
+            "whose",
+            "which",
+            "whom"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sahiblik bildirir — whose."
+        },
+        {
+          "id": "g11-en-grammar-014",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Reported Questions",
+          "difficulty": "medium",
+          "text": "She asked me where ___.",
+          "type": "single",
+          "options": [
+            "was I",
+            "have I been",
+            "I had been",
+            "had I been",
+            "I have been"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vasitəli sualda söz sırası nəqli cümlədəki kimidir, zaman geri çəkilir."
+        },
+        {
+          "id": "g11-en-grammar-015",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Reported Commands",
+          "difficulty": "medium",
+          "text": "He told me ___ late again.",
+          "type": "single",
+          "options": [
+            "not be",
+            "to not being",
+            "not to be",
+            "no to be",
+            "don't be"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vasitəli inkar əmr: told + obyekt + not to + V1."
+        },
+        {
+          "id": "g11-en-grammar-016",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Linking Words",
+          "difficulty": "medium",
+          "text": "___ it was raining, they continued the match.",
+          "type": "single",
+          "options": [
+            "In spite",
+            "Even though",
+            "Despite",
+            "However",
+            "Because of"
+          ],
+          "correctIndex": 1,
+          "explanation": "Even though + cümlə; despite + isim."
+        },
+        {
+          "id": "g11-en-grammar-017",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Linking Words",
+          "difficulty": "medium",
+          "text": "___ the bad weather, the flight left on time.",
+          "type": "single",
+          "options": [
+            "Although",
+            "Despite",
+            "Even though",
+            "However",
+            "Whereas"
+          ],
+          "correctIndex": 1,
+          "explanation": "Despite + isim (birləşmə)."
+        },
+        {
+          "id": "g11-en-grammar-018",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Inverted Conditionals",
+          "difficulty": "hard",
+          "text": "Had I known, I ___ you.",
+          "type": "single",
+          "options": [
+            "would tell",
+            "told",
+            "had told",
+            "would have told",
+            "will tell"
+          ],
+          "correctIndex": 3,
+          "explanation": "Had I known = If I had known → would have + V3."
+        },
+        {
+          "id": "g11-en-grammar-019",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Future Perfect",
+          "difficulty": "medium",
+          "text": "By next June, I ___ here for ten years.",
+          "type": "single",
+          "options": [
+            "have worked",
+            "will work",
+            "will have worked",
+            "am working",
+            "work"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gələcəkdəki bir ana qədər tamamlanmış müddət."
+        },
+        {
+          "id": "g11-en-grammar-020",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Modals (Past)",
+          "difficulty": "hard",
+          "text": "You ___ have bought milk; there's plenty in the fridge.",
+          "type": "single",
+          "options": [
+            "can't",
+            "couldn't",
+            "needn't",
+            "mustn't",
+            "wouldn't"
+          ],
+          "correctIndex": 2,
+          "explanation": "Needn't have + V3 — lazım olmayan iş görülüb."
+        },
+        {
+          "id": "g11-en-grammar-021",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Modals (Past)",
+          "difficulty": "hard",
+          "text": "She ___ have taken the bus — she always walks.",
+          "type": "single",
+          "options": [
+            "would",
+            "must",
+            "can't",
+            "should",
+            "needn't"
+          ],
+          "correctIndex": 2,
+          "explanation": "Can't have + V3 — keçmişə dair inamlı inkar ehtimal."
+        },
+        {
+          "id": "g11-en-grammar-022",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Passive Voice",
+          "difficulty": "medium",
+          "text": "The problem ___ at the moment.",
+          "type": "single",
+          "options": [
+            "is being discussed",
+            "is discussing",
+            "is discussed being",
+            "discusses",
+            "has discussed"
+          ],
+          "correctIndex": 0,
+          "explanation": "Present Continuous Passive: is being + V3."
+        },
+        {
+          "id": "g11-en-grammar-023",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Be used to",
+          "difficulty": "medium",
+          "text": "I'm not used to ___ in such a big city.",
+          "type": "single",
+          "options": [
+            "lived",
+            "be living",
+            "living",
+            "to live",
+            "live"
+          ],
+          "correctIndex": 2,
+          "explanation": "Be used to + -ing."
+        },
+        {
+          "id": "g11-en-grammar-024",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Inversion",
+          "difficulty": "hard",
+          "text": "Scarcely had the show begun ___ the lights went out.",
+          "type": "single",
+          "options": [
+            "as",
+            "that",
+            "then",
+            "than",
+            "when"
+          ],
+          "correctIndex": 4,
+          "explanation": "Scarcely … when."
+        },
+        {
+          "id": "g11-en-grammar-025",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Inversion",
+          "difficulty": "hard",
+          "text": "No sooner had I sat down ___ the phone rang.",
+          "type": "single",
+          "options": [
+            "when",
+            "then",
+            "than",
+            "that",
+            "as"
+          ],
+          "correctIndex": 2,
+          "explanation": "No sooner … than."
+        },
+        {
+          "id": "g11-en-grammar-026",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Suggest",
+          "difficulty": "medium",
+          "text": "She suggested ___ to the museum.",
+          "type": "single",
+          "options": [
+            "we to go",
+            "going",
+            "to go",
+            "go",
+            "went"
+          ],
+          "correctIndex": 1,
+          "explanation": "Suggest + -ing (və ya suggest that we go)."
+        },
+        {
+          "id": "g11-en-grammar-027",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Inverted Conditionals",
+          "difficulty": "hard",
+          "text": "Were I in your position, I ___ the offer.",
+          "type": "single",
+          "options": [
+            "will accept",
+            "had accepted",
+            "accept",
+            "accepted",
+            "would accept"
+          ],
+          "correctIndex": 4,
+          "explanation": "Were I = If I were → would + V1."
+        },
+        {
+          "id": "g11-en-grammar-028",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Gerund",
+          "difficulty": "medium",
+          "text": "There's no point ___ about it now.",
+          "type": "single",
+          "options": [
+            "worrying",
+            "worry",
+            "to worry",
+            "of worry",
+            "worried"
+          ],
+          "correctIndex": 0,
+          "explanation": "There's no point (in) + -ing."
+        },
+        {
+          "id": "g11-en-grammar-029",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Comparatives",
+          "difficulty": "easy",
+          "text": "The more you read, ___ your vocabulary will be.",
+          "type": "single",
+          "options": [
+            "the richest",
+            "the richer",
+            "more rich",
+            "most rich",
+            "richer"
+          ],
+          "correctIndex": 1,
+          "explanation": "The more …, the + müqayisə dərəcəsi."
+        },
+        {
+          "id": "g11-en-grammar-030",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Relative Clauses",
+          "difficulty": "hard",
+          "text": "He's the person ___ I spoke on the phone.",
+          "type": "single",
+          "options": [
+            "to which",
+            "who",
+            "whom",
+            "which",
+            "to whom"
+          ],
+          "correctIndex": 4,
+          "explanation": "Rəsmi üslubda önlük «whom»dan əvvəl gəlir: to whom."
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "description": "Idioms, phrasal verbs, collocations, word formation və dependent prepositions.",
+      "questions": [
+        {
+          "id": "g11-en-vocabulary-001",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Idioms",
+          "difficulty": "easy",
+          "text": "«A piece of cake» means ___.",
+          "type": "single",
+          "options": [
+            "very sweet",
+            "very easy",
+            "very small",
+            "very expensive",
+            "very boring"
+          ],
+          "correctIndex": 1,
+          "explanation": "A piece of cake — çox asan iş."
+        },
+        {
+          "id": "g11-en-vocabulary-002",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Idioms",
+          "difficulty": "medium",
+          "text": "«To break the ice» means ___.",
+          "type": "single",
+          "options": [
+            "to start a friendly conversation",
+            "to damage something",
+            "to win a game",
+            "to feel very cold",
+            "to end a relationship"
+          ],
+          "correctIndex": 0,
+          "explanation": "Break the ice — tanışlıqda gərginliyi aradan qaldırmaq."
+        },
+        {
+          "id": "g11-en-vocabulary-003",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Idioms",
+          "difficulty": "medium",
+          "text": "«Once in a blue moon» means ___.",
+          "type": "single",
+          "options": [
+            "very quickly",
+            "at night",
+            "always",
+            "very rarely",
+            "every month"
+          ],
+          "correctIndex": 3,
+          "explanation": "Once in a blue moon — çox nadir hallarda."
+        },
+        {
+          "id": "g11-en-vocabulary-004",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Idioms",
+          "difficulty": "medium",
+          "text": "«To hit the books» means ___.",
+          "type": "single",
+          "options": [
+            "to stop reading",
+            "to throw books",
+            "to study hard",
+            "to write a book",
+            "to buy books"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hit the books — ciddi oxumaq."
+        },
+        {
+          "id": "g11-en-vocabulary-005",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Choice",
+          "difficulty": "medium",
+          "text": "She was ___ by the beauty of the landscape.",
+          "type": "single",
+          "options": [
+            "overworked",
+            "overwhelmed",
+            "overdone",
+            "overslept",
+            "overcharged"
+          ],
+          "correctIndex": 1,
+          "explanation": "Overwhelmed — heyran qalmış, sarsılmış."
+        },
+        {
+          "id": "g11-en-vocabulary-006",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "medium",
+          "text": "The company decided to ___ 50 new employees.",
+          "type": "single",
+          "options": [
+            "take on",
+            "take over",
+            "take off",
+            "take after",
+            "take in"
+          ],
+          "correctIndex": 0,
+          "explanation": "Take on — işə götürmək."
+        },
+        {
+          "id": "g11-en-vocabulary-007",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "medium",
+          "text": "I need to ___ my French before the trip.",
+          "type": "single",
+          "options": [
+            "brush off",
+            "brush away",
+            "brush up on",
+            "brush aside",
+            "brush down"
+          ],
+          "correctIndex": 2,
+          "explanation": "Brush up on — biliyi təzələmək."
+        },
+        {
+          "id": "g11-en-vocabulary-008",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "easy",
+          "text": "The plane ___ at 6 a.m.",
+          "type": "single",
+          "options": [
+            "took on",
+            "took up",
+            "took out",
+            "took over",
+            "took off"
+          ],
+          "correctIndex": 4,
+          "explanation": "Take off — (təyyarə) havaya qalxmaq."
+        },
+        {
+          "id": "g11-en-vocabulary-009",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "medium",
+          "text": "We must ___ a solution to this problem.",
+          "type": "single",
+          "options": [
+            "come down with",
+            "come across",
+            "come round",
+            "come up with",
+            "come into"
+          ],
+          "correctIndex": 3,
+          "explanation": "Come up with — (fikir, həll) tapmaq."
+        },
+        {
+          "id": "g11-en-vocabulary-010",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "medium",
+          "text": "He ___ with flu last week.",
+          "type": "single",
+          "options": [
+            "came down",
+            "came up",
+            "came across",
+            "came over",
+            "came into"
+          ],
+          "correctIndex": 0,
+          "explanation": "Come down with — xəstələnmək."
+        },
+        {
+          "id": "g11-en-vocabulary-011",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "easy",
+          "text": "The ___ of the new medicine has saved many lives. (DISCOVER)",
+          "type": "single",
+          "options": [
+            "discovered",
+            "discoverer",
+            "discover",
+            "discovering",
+            "discovery"
+          ],
+          "correctIndex": 4,
+          "explanation": "Artikldan sonra isim: discovery."
+        },
+        {
+          "id": "g11-en-vocabulary-012",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "medium",
+          "text": "Her ___ to help others is admirable. (WILLING)",
+          "type": "single",
+          "options": [
+            "will",
+            "willingly",
+            "willing",
+            "unwilling",
+            "willingness"
+          ],
+          "correctIndex": 4,
+          "explanation": "Willingness — hazır olma, istək."
+        },
+        {
+          "id": "g11-en-vocabulary-013",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "medium",
+          "text": "The results were ___; nobody expected them. (PREDICT)",
+          "type": "single",
+          "options": [
+            "unpredictable",
+            "predicted",
+            "predictable",
+            "prediction",
+            "predicting"
+          ],
+          "correctIndex": 0,
+          "explanation": "Heç kim gözləmirdi — inkar sifət: unpredictable."
+        },
+        {
+          "id": "g11-en-vocabulary-014",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "hard",
+          "text": "His explanation was completely ___. I didn't understand anything. (COMPREHEND)",
+          "type": "single",
+          "options": [
+            "comprehensible",
+            "comprehension",
+            "comprehending",
+            "comprehensive",
+            "incomprehensible"
+          ],
+          "correctIndex": 4,
+          "explanation": "Incomprehensible — anlaşılmaz."
+        },
+        {
+          "id": "g11-en-vocabulary-015",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "easy",
+          "text": "The city is famous for its ___ architecture. (IMPRESS)",
+          "type": "single",
+          "options": [
+            "impressive",
+            "impressively",
+            "impression",
+            "impressed",
+            "impress"
+          ],
+          "correctIndex": 0,
+          "explanation": "İsimdən əvvəl sifət: impressive."
+        },
+        {
+          "id": "g11-en-vocabulary-016",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "easy",
+          "text": "Sometimes you have to ___ a risk to succeed.",
+          "type": "single",
+          "options": [
+            "get",
+            "give",
+            "take",
+            "do",
+            "make"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sabit birləşmə: take a risk."
+        },
+        {
+          "id": "g11-en-vocabulary-017",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "medium",
+          "text": "It's too early to ___ a conclusion.",
+          "type": "single",
+          "options": [
+            "pull",
+            "put",
+            "draw",
+            "give",
+            "do"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sabit birləşmə: draw a conclusion."
+        },
+        {
+          "id": "g11-en-vocabulary-018",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "easy",
+          "text": "The match was cancelled because of heavy ___.",
+          "type": "single",
+          "options": [
+            "sky",
+            "sun",
+            "light",
+            "rain",
+            "heat"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sabit birləşmə: heavy rain."
+        },
+        {
+          "id": "g11-en-vocabulary-019",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Synonyms",
+          "difficulty": "medium",
+          "text": "Choose the synonym of «obsolete».",
+          "type": "single",
+          "options": [
+            "essential",
+            "modern",
+            "outdated",
+            "popular",
+            "complicated"
+          ],
+          "correctIndex": 2,
+          "explanation": "Obsolete — köhnəlmiş."
+        },
+        {
+          "id": "g11-en-vocabulary-020",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Synonyms",
+          "difficulty": "easy",
+          "text": "Choose the synonym of «diligent».",
+          "type": "single",
+          "options": [
+            "careless",
+            "talkative",
+            "clever",
+            "lazy",
+            "hard-working"
+          ],
+          "correctIndex": 4,
+          "explanation": "Diligent — çalışqan."
+        },
+        {
+          "id": "g11-en-vocabulary-021",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Antonyms",
+          "difficulty": "medium",
+          "text": "Choose the antonym of «scarce».",
+          "type": "single",
+          "options": [
+            "plentiful",
+            "rare",
+            "tiny",
+            "limited",
+            "expensive"
+          ],
+          "correctIndex": 0,
+          "explanation": "Scarce (az, qıt) — plentiful (bol)."
+        },
+        {
+          "id": "g11-en-vocabulary-022",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Meaning",
+          "difficulty": "medium",
+          "text": "«Reluctant» means ___.",
+          "type": "single",
+          "options": [
+            "tired",
+            "unwilling",
+            "eager",
+            "angry",
+            "happy"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reluctant — istəksiz."
+        },
+        {
+          "id": "g11-en-vocabulary-023",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Meaning",
+          "difficulty": "medium",
+          "text": "The verb «to enhance» is closest in meaning to ___.",
+          "type": "single",
+          "options": [
+            "to measure",
+            "to improve",
+            "to hide",
+            "to destroy",
+            "to reduce"
+          ],
+          "correctIndex": 1,
+          "explanation": "Enhance — yaxşılaşdırmaq, artırmaq."
+        },
+        {
+          "id": "g11-en-vocabulary-024",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Confusing Words",
+          "difficulty": "hard",
+          "text": "The government plans to ___ taxes on sugary drinks.",
+          "type": "single",
+          "options": [
+            "implore",
+            "impress",
+            "impose",
+            "imply",
+            "import"
+          ],
+          "correctIndex": 2,
+          "explanation": "Impose a tax — vergi tətbiq etmək."
+        },
+        {
+          "id": "g11-en-vocabulary-025",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Confusing Words",
+          "difficulty": "medium",
+          "text": "The medicine had a strong ___ on him.",
+          "type": "single",
+          "options": [
+            "effect",
+            "affect",
+            "effective",
+            "effort",
+            "affection"
+          ],
+          "correctIndex": 0,
+          "explanation": "Effect (isim) — təsir; affect — feildir."
+        },
+        {
+          "id": "g11-en-vocabulary-026",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Confusing Words",
+          "difficulty": "medium",
+          "text": "The ___ of the event is to raise money for charity.",
+          "type": "single",
+          "options": [
+            "suppose",
+            "purchase",
+            "purpose",
+            "porpoise",
+            "propose"
+          ],
+          "correctIndex": 2,
+          "explanation": "Purpose — məqsəd."
+        },
+        {
+          "id": "g11-en-vocabulary-027",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Choice",
+          "difficulty": "medium",
+          "text": "She has a ___ for languages; she learns them very easily.",
+          "type": "single",
+          "options": [
+            "present",
+            "price",
+            "prise",
+            "prize",
+            "gift"
+          ],
+          "correctIndex": 4,
+          "explanation": "Have a gift for something — nəyəsə qabiliyyəti olmaq."
+        },
+        {
+          "id": "g11-en-vocabulary-028",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Dependent Prepositions",
+          "difficulty": "medium",
+          "text": "He was accused ___ stealing the money.",
+          "type": "single",
+          "options": [
+            "with",
+            "for",
+            "on",
+            "of",
+            "about"
+          ],
+          "correctIndex": 3,
+          "explanation": "Accuse somebody of something."
+        },
+        {
+          "id": "g11-en-vocabulary-029",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Dependent Prepositions",
+          "difficulty": "easy",
+          "text": "The success of the project depends ___ teamwork.",
+          "type": "single",
+          "options": [
+            "from",
+            "of",
+            "on",
+            "in",
+            "at"
+          ],
+          "correctIndex": 2,
+          "explanation": "Depend on."
+        },
+        {
+          "id": "g11-en-vocabulary-030",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Choice",
+          "difficulty": "medium",
+          "text": "Despite the difficulties, they ___ to finish the project on time.",
+          "type": "single",
+          "options": [
+            "managed",
+            "reached",
+            "succeeded",
+            "won",
+            "achieved"
+          ],
+          "correctIndex": 0,
+          "explanation": "Manage to do something; «succeed» isə «in + -ing» ilə işlənir."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "description": "Altı orijinal mətn üzrə əsas fikir, nəticə çıxarma, müəllifin mövqeyi və söz mənası.",
+      "questions": [
+        {
+          "id": "g11-en-reading-001",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "When companies first sent their staff home to work, many managers expected productivity to fall. In many cases the opposite happened. Without long commutes, employees had more time and energy, and some reported finishing tasks faster in a quiet home environment. Yet remote work has a less visible cost. Younger workers, in particular, say they learn less because they cannot simply watch and ask experienced colleagues. Casual conversations by the coffee machine, which often produce new ideas, have largely disappeared. As a result, a growing number of firms now ask employees to come to the office two or three days a week, hoping to keep the benefits of both worlds.",
+          "text": "What did many managers expect when staff started working from home?",
+          "type": "single",
+          "options": [
+            "more meetings",
+            "a fall in productivity",
+            "longer commutes",
+            "more office space",
+            "higher salaries"
+          ],
+          "correctIndex": 1,
+          "explanation": "Birinci cümləyə baxın."
+        },
+        {
+          "id": "g11-en-reading-002",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "When companies first sent their staff home to work, many managers expected productivity to fall. In many cases the opposite happened. Without long commutes, employees had more time and energy, and some reported finishing tasks faster in a quiet home environment. Yet remote work has a less visible cost. Younger workers, in particular, say they learn less because they cannot simply watch and ask experienced colleagues. Casual conversations by the coffee machine, which often produce new ideas, have largely disappeared. As a result, a growing number of firms now ask employees to come to the office two or three days a week, hoping to keep the benefits of both worlds.",
+          "text": "Why did some employees finish tasks faster at home?",
+          "type": "single",
+          "options": [
+            "They had better computers.",
+            "They worked at night.",
+            "They had more time and a quieter environment.",
+            "Their managers helped them more.",
+            "They worked fewer hours."
+          ],
+          "correctIndex": 2,
+          "explanation": "Uzun yol olmadığı üçün vaxt və enerji artdı."
+        },
+        {
+          "id": "g11-en-reading-003",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "When companies first sent their staff home to work, many managers expected productivity to fall. In many cases the opposite happened. Without long commutes, employees had more time and energy, and some reported finishing tasks faster in a quiet home environment. Yet remote work has a less visible cost. Younger workers, in particular, say they learn less because they cannot simply watch and ask experienced colleagues. Casual conversations by the coffee machine, which often produce new ideas, have largely disappeared. As a result, a growing number of firms now ask employees to come to the office two or three days a week, hoping to keep the benefits of both worlds.",
+          "text": "What is the «less visible cost» of remote work?",
+          "type": "single",
+          "options": [
+            "Employees work too slowly.",
+            "Younger workers learn less from experienced colleagues.",
+            "Managers lose their jobs.",
+            "Offices become empty.",
+            "Electricity bills increase."
+          ],
+          "correctIndex": 1,
+          "explanation": "Gənc işçilər təcrübəli həmkarlarını izləyib soruşa bilmir."
+        },
+        {
+          "id": "g11-en-reading-004",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "When companies first sent their staff home to work, many managers expected productivity to fall. In many cases the opposite happened. Without long commutes, employees had more time and energy, and some reported finishing tasks faster in a quiet home environment. Yet remote work has a less visible cost. Younger workers, in particular, say they learn less because they cannot simply watch and ask experienced colleagues. Casual conversations by the coffee machine, which often produce new ideas, have largely disappeared. As a result, a growing number of firms now ask employees to come to the office two or three days a week, hoping to keep the benefits of both worlds.",
+          "text": "According to the text, what often produced new ideas?",
+          "type": "single",
+          "options": [
+            "online training",
+            "formal meetings",
+            "long commutes",
+            "casual conversations in the office",
+            "working alone"
+          ],
+          "correctIndex": 3,
+          "explanation": "«Casual conversations by the coffee machine…»"
+        },
+        {
+          "id": "g11-en-reading-005",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "When companies first sent their staff home to work, many managers expected productivity to fall. In many cases the opposite happened. Without long commutes, employees had more time and energy, and some reported finishing tasks faster in a quiet home environment. Yet remote work has a less visible cost. Younger workers, in particular, say they learn less because they cannot simply watch and ask experienced colleagues. Casual conversations by the coffee machine, which often produce new ideas, have largely disappeared. As a result, a growing number of firms now ask employees to come to the office two or three days a week, hoping to keep the benefits of both worlds.",
+          "text": "Why do many firms now ask staff to come in two or three days a week?",
+          "type": "single",
+          "options": [
+            "to punish lazy workers",
+            "to save money on rent",
+            "because employees asked for it",
+            "to combine the advantages of both ways of working",
+            "to stop remote work completely"
+          ],
+          "correctIndex": 3,
+          "explanation": "«…hoping to keep the benefits of both worlds.»"
+        },
+        {
+          "id": "g11-en-reading-006",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "On a summer afternoon, the centre of a large city can be several degrees hotter than the countryside around it. This effect is known as an urban heat island. Concrete, asphalt and dark roofs absorb sunlight during the day and release the heat slowly at night, so cities cool down far less than rural areas. Cars, air conditioners and factories add even more heat. The consequences are serious: higher energy bills, poorer air quality and greater health risks for elderly people. Fortunately, there are solutions. Planting trees, creating parks and painting roofs in light colours can noticeably reduce temperatures, while green roofs covered with plants also help to absorb rainwater.",
+          "text": "What is an urban heat island?",
+          "type": "single",
+          "options": [
+            "a type of air conditioner",
+            "a cold area in a city",
+            "an island in a hot sea",
+            "a park in the city centre",
+            "a city area that is hotter than the countryside around it"
+          ],
+          "correctIndex": 4,
+          "explanation": "Birinci iki cümləyə baxın."
+        },
+        {
+          "id": "g11-en-reading-007",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "On a summer afternoon, the centre of a large city can be several degrees hotter than the countryside around it. This effect is known as an urban heat island. Concrete, asphalt and dark roofs absorb sunlight during the day and release the heat slowly at night, so cities cool down far less than rural areas. Cars, air conditioners and factories add even more heat. The consequences are serious: higher energy bills, poorer air quality and greater health risks for elderly people. Fortunately, there are solutions. Planting trees, creating parks and painting roofs in light colours can noticeably reduce temperatures, while green roofs covered with plants also help to absorb rainwater.",
+          "text": "Why do cities cool down less at night?",
+          "type": "single",
+          "options": [
+            "People switch off their lights.",
+            "There is no sun in the evening.",
+            "There is more wind in cities.",
+            "Rivers keep cities warm.",
+            "Buildings and roads release stored heat slowly."
+          ],
+          "correctIndex": 4,
+          "explanation": "Beton və asfalt günün istiliyini gecə yavaş-yavaş buraxır."
+        },
+        {
+          "id": "g11-en-reading-008",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "On a summer afternoon, the centre of a large city can be several degrees hotter than the countryside around it. This effect is known as an urban heat island. Concrete, asphalt and dark roofs absorb sunlight during the day and release the heat slowly at night, so cities cool down far less than rural areas. Cars, air conditioners and factories add even more heat. The consequences are serious: higher energy bills, poorer air quality and greater health risks for elderly people. Fortunately, there are solutions. Planting trees, creating parks and painting roofs in light colours can noticeably reduce temperatures, while green roofs covered with plants also help to absorb rainwater.",
+          "text": "Which consequence is mentioned in the text?",
+          "type": "single",
+          "options": [
+            "colder winters",
+            "higher energy bills",
+            "cheaper housing",
+            "more tourists",
+            "less traffic"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nəticələr sırasına baxın."
+        },
+        {
+          "id": "g11-en-reading-009",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "On a summer afternoon, the centre of a large city can be several degrees hotter than the countryside around it. This effect is known as an urban heat island. Concrete, asphalt and dark roofs absorb sunlight during the day and release the heat slowly at night, so cities cool down far less than rural areas. Cars, air conditioners and factories add even more heat. The consequences are serious: higher energy bills, poorer air quality and greater health risks for elderly people. Fortunately, there are solutions. Planting trees, creating parks and painting roofs in light colours can noticeably reduce temperatures, while green roofs covered with plants also help to absorb rainwater.",
+          "text": "Which solution is NOT mentioned?",
+          "type": "single",
+          "options": [
+            "building taller buildings",
+            "green roofs",
+            "painting roofs in light colours",
+            "planting trees",
+            "creating parks"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mətndə hündür binalar həll kimi göstərilmir."
+        },
+        {
+          "id": "g11-en-reading-010",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "On a summer afternoon, the centre of a large city can be several degrees hotter than the countryside around it. This effect is known as an urban heat island. Concrete, asphalt and dark roofs absorb sunlight during the day and release the heat slowly at night, so cities cool down far less than rural areas. Cars, air conditioners and factories add even more heat. The consequences are serious: higher energy bills, poorer air quality and greater health risks for elderly people. Fortunately, there are solutions. Planting trees, creating parks and painting roofs in light colours can noticeably reduce temperatures, while green roofs covered with plants also help to absorb rainwater.",
+          "text": "What is the tone of the last part of the text?",
+          "type": "single",
+          "options": [
+            "hopeful",
+            "humorous",
+            "sad",
+            "angry",
+            "indifferent"
+          ],
+          "correctIndex": 0,
+          "explanation": "«Fortunately, there are solutions.»"
+        },
+        {
+          "id": "g11-en-reading-011",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Kamran had practised the violin piece for months, but as he waited behind the curtain, his hands were shaking. He could hear the audience whispering and imagined every possible mistake. His teacher noticed his face and quietly told him to breathe slowly and to focus on the first four notes only — not on the whole performance. When Kamran stepped onto the stage, he followed her advice. The first notes sounded weak, but gradually his confidence returned. He made one small mistake in the middle, yet he kept playing. When he finished, the hall burst into applause. Later he admitted that the mistake had taught him something: a performance does not need to be perfect to move people.",
+          "text": "How did Kamran feel before the performance?",
+          "type": "single",
+          "options": [
+            "angry",
+            "bored",
+            "very nervous",
+            "relaxed",
+            "sleepy"
+          ],
+          "correctIndex": 2,
+          "explanation": "Əlləri titrəyirdi."
+        },
+        {
+          "id": "g11-en-reading-012",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Kamran had practised the violin piece for months, but as he waited behind the curtain, his hands were shaking. He could hear the audience whispering and imagined every possible mistake. His teacher noticed his face and quietly told him to breathe slowly and to focus on the first four notes only — not on the whole performance. When Kamran stepped onto the stage, he followed her advice. The first notes sounded weak, but gradually his confidence returned. He made one small mistake in the middle, yet he kept playing. When he finished, the hall burst into applause. Later he admitted that the mistake had taught him something: a performance does not need to be perfect to move people.",
+          "text": "What did his teacher advise him to do?",
+          "type": "single",
+          "options": [
+            "practise the whole piece again",
+            "breathe slowly and focus on the first few notes",
+            "look at the audience",
+            "cancel the performance",
+            "play faster than usual"
+          ],
+          "correctIndex": 1,
+          "explanation": "Müəllim nəfəs almağı və ilk dörd nota fikir verməyi məsləhət gördü."
+        },
+        {
+          "id": "g11-en-reading-013",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Kamran had practised the violin piece for months, but as he waited behind the curtain, his hands were shaking. He could hear the audience whispering and imagined every possible mistake. His teacher noticed his face and quietly told him to breathe slowly and to focus on the first four notes only — not on the whole performance. When Kamran stepped onto the stage, he followed her advice. The first notes sounded weak, but gradually his confidence returned. He made one small mistake in the middle, yet he kept playing. When he finished, the hall burst into applause. Later he admitted that the mistake had taught him something: a performance does not need to be perfect to move people.",
+          "text": "What happened in the middle of the performance?",
+          "type": "single",
+          "options": [
+            "He stopped and left the stage.",
+            "He made a small mistake but continued.",
+            "The audience laughed.",
+            "His teacher joined him.",
+            "A string broke."
+          ],
+          "correctIndex": 1,
+          "explanation": "«He made one small mistake… yet he kept playing.»"
+        },
+        {
+          "id": "g11-en-reading-014",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Kamran had practised the violin piece for months, but as he waited behind the curtain, his hands were shaking. He could hear the audience whispering and imagined every possible mistake. His teacher noticed his face and quietly told him to breathe slowly and to focus on the first four notes only — not on the whole performance. When Kamran stepped onto the stage, he followed her advice. The first notes sounded weak, but gradually his confidence returned. He made one small mistake in the middle, yet he kept playing. When he finished, the hall burst into applause. Later he admitted that the mistake had taught him something: a performance does not need to be perfect to move people.",
+          "text": "The phrase «burst into applause» suggests that the audience ___.",
+          "type": "single",
+          "options": [
+            "suddenly started clapping loudly",
+            "left the hall quickly",
+            "remained silent",
+            "started to sing",
+            "complained about the mistake"
+          ],
+          "correctIndex": 0,
+          "explanation": "Burst into — qəfildən başlamaq."
+        },
+        {
+          "id": "g11-en-reading-015",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Kamran had practised the violin piece for months, but as he waited behind the curtain, his hands were shaking. He could hear the audience whispering and imagined every possible mistake. His teacher noticed his face and quietly told him to breathe slowly and to focus on the first four notes only — not on the whole performance. When Kamran stepped onto the stage, he followed her advice. The first notes sounded weak, but gradually his confidence returned. He made one small mistake in the middle, yet he kept playing. When he finished, the hall burst into applause. Later he admitted that the mistake had taught him something: a performance does not need to be perfect to move people.",
+          "text": "What lesson did Kamran learn?",
+          "type": "single",
+          "options": [
+            "A performance can move people even if it isn't perfect.",
+            "Teachers are always right.",
+            "He should stop playing the violin.",
+            "Mistakes always ruin a performance.",
+            "Audiences never notice mistakes."
+          ],
+          "correctIndex": 0,
+          "explanation": "Son cümləyə baxın."
+        },
+        {
+          "id": "g11-en-reading-016",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "For more than a thousand years, the network of trade routes known as the Silk Road connected China with the Mediterranean. Merchants carried silk, spices, paper and porcelain westwards, while glassware, wool and precious metals travelled east. Few traders crossed the entire route; instead, goods passed from hand to hand through many cities. Along the way, caravanserais — roadside inns with rooms for travellers and space for their animals — offered shelter and safety. However, the Silk Road was not only about goods. Religions, languages, scientific knowledge and even recipes spread along it, which is why historians often describe it as one of the first great channels of cultural exchange.",
+          "text": "What did the Silk Road connect?",
+          "type": "single",
+          "options": [
+            "China and the Mediterranean",
+            "Africa and Australia",
+            "India and Japan",
+            "Europe and America",
+            "Russia and Canada"
+          ],
+          "correctIndex": 0,
+          "explanation": "Birinci cümləyə baxın."
+        },
+        {
+          "id": "g11-en-reading-017",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "For more than a thousand years, the network of trade routes known as the Silk Road connected China with the Mediterranean. Merchants carried silk, spices, paper and porcelain westwards, while glassware, wool and precious metals travelled east. Few traders crossed the entire route; instead, goods passed from hand to hand through many cities. Along the way, caravanserais — roadside inns with rooms for travellers and space for their animals — offered shelter and safety. However, the Silk Road was not only about goods. Religions, languages, scientific knowledge and even recipes spread along it, which is why historians often describe it as one of the first great channels of cultural exchange.",
+          "text": "Which goods travelled west?",
+          "type": "single",
+          "options": [
+            "glassware and wool",
+            "precious metals only",
+            "silk, spices, paper and porcelain",
+            "cars and machines",
+            "coffee and tea only"
+          ],
+          "correctIndex": 2,
+          "explanation": "İkinci cümləyə baxın."
+        },
+        {
+          "id": "g11-en-reading-018",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "For more than a thousand years, the network of trade routes known as the Silk Road connected China with the Mediterranean. Merchants carried silk, spices, paper and porcelain westwards, while glassware, wool and precious metals travelled east. Few traders crossed the entire route; instead, goods passed from hand to hand through many cities. Along the way, caravanserais — roadside inns with rooms for travellers and space for their animals — offered shelter and safety. However, the Silk Road was not only about goods. Religions, languages, scientific knowledge and even recipes spread along it, which is why historians often describe it as one of the first great channels of cultural exchange.",
+          "text": "What does the text say about most traders?",
+          "type": "single",
+          "options": [
+            "They avoided cities.",
+            "They all crossed the entire route.",
+            "They travelled only by sea.",
+            "Few of them travelled the whole route.",
+            "They never left China."
+          ],
+          "correctIndex": 3,
+          "explanation": "«Few traders crossed the entire route…»"
+        },
+        {
+          "id": "g11-en-reading-019",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "For more than a thousand years, the network of trade routes known as the Silk Road connected China with the Mediterranean. Merchants carried silk, spices, paper and porcelain westwards, while glassware, wool and precious metals travelled east. Few traders crossed the entire route; instead, goods passed from hand to hand through many cities. Along the way, caravanserais — roadside inns with rooms for travellers and space for their animals — offered shelter and safety. However, the Silk Road was not only about goods. Religions, languages, scientific knowledge and even recipes spread along it, which is why historians often describe it as one of the first great channels of cultural exchange.",
+          "text": "What were caravanserais?",
+          "type": "single",
+          "options": [
+            "markets for silk",
+            "large ships",
+            "religious buildings",
+            "schools for merchants",
+            "roadside inns for travellers and their animals"
+          ],
+          "correctIndex": 4,
+          "explanation": "Mətndə tərifi verilib."
+        },
+        {
+          "id": "g11-en-reading-020",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "For more than a thousand years, the network of trade routes known as the Silk Road connected China with the Mediterranean. Merchants carried silk, spices, paper and porcelain westwards, while glassware, wool and precious metals travelled east. Few traders crossed the entire route; instead, goods passed from hand to hand through many cities. Along the way, caravanserais — roadside inns with rooms for travellers and space for their animals — offered shelter and safety. However, the Silk Road was not only about goods. Religions, languages, scientific knowledge and even recipes spread along it, which is why historians often describe it as one of the first great channels of cultural exchange.",
+          "text": "Why do historians call the Silk Road a channel of cultural exchange?",
+          "type": "single",
+          "options": [
+            "Ideas, religions and knowledge also spread along it.",
+            "Only cultural objects were sold there.",
+            "It was built by many countries together.",
+            "It still exists today.",
+            "It connected all continents."
+          ],
+          "correctIndex": 0,
+          "explanation": "Mallarla yanaşı din, dil, elm və reseptlər də yayılırdı."
+        },
+        {
+          "id": "g11-en-reading-021",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every day, millions of people share news stories online without checking whether they are true. False information often spreads faster than accurate reports because it is designed to provoke strong emotions such as fear or anger. Experts recommend a few simple habits. First, check who published the story and whether the source is known for reliable reporting. Second, look for the same news on other trusted websites. Third, pay attention to the date: old stories are sometimes shared as if they were new. Finally, be suspicious of headlines that seem too shocking to be true. Taking thirty seconds to think before sharing can stop a false story from reaching thousands of people.",
+          "text": "Why does false information often spread quickly?",
+          "type": "single",
+          "options": [
+            "It is easy to check.",
+            "It is always very long.",
+            "It is written by experts.",
+            "It comes from official sources.",
+            "It is designed to provoke strong emotions."
+          ],
+          "correctIndex": 4,
+          "explanation": "«…designed to provoke strong emotions such as fear or anger.»"
+        },
+        {
+          "id": "g11-en-reading-022",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Every day, millions of people share news stories online without checking whether they are true. False information often spreads faster than accurate reports because it is designed to provoke strong emotions such as fear or anger. Experts recommend a few simple habits. First, check who published the story and whether the source is known for reliable reporting. Second, look for the same news on other trusted websites. Third, pay attention to the date: old stories are sometimes shared as if they were new. Finally, be suspicious of headlines that seem too shocking to be true. Taking thirty seconds to think before sharing can stop a false story from reaching thousands of people.",
+          "text": "What is the first habit experts recommend?",
+          "type": "single",
+          "options": [
+            "checking who published the story",
+            "reading only headlines",
+            "asking friends to share it",
+            "ignoring the date",
+            "sharing it immediately"
+          ],
+          "correctIndex": 0,
+          "explanation": "«First, check who published the story…»"
+        },
+        {
+          "id": "g11-en-reading-023",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every day, millions of people share news stories online without checking whether they are true. False information often spreads faster than accurate reports because it is designed to provoke strong emotions such as fear or anger. Experts recommend a few simple habits. First, check who published the story and whether the source is known for reliable reporting. Second, look for the same news on other trusted websites. Third, pay attention to the date: old stories are sometimes shared as if they were new. Finally, be suspicious of headlines that seem too shocking to be true. Taking thirty seconds to think before sharing can stop a false story from reaching thousands of people.",
+          "text": "Why should readers pay attention to the date?",
+          "type": "single",
+          "options": [
+            "New stories are always false.",
+            "Dates are often missing.",
+            "Old news is more reliable.",
+            "Websites change dates every day.",
+            "Old stories are sometimes shared as new."
+          ],
+          "correctIndex": 4,
+          "explanation": "Üçüncü vərdişə baxın."
+        },
+        {
+          "id": "g11-en-reading-024",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every day, millions of people share news stories online without checking whether they are true. False information often spreads faster than accurate reports because it is designed to provoke strong emotions such as fear or anger. Experts recommend a few simple habits. First, check who published the story and whether the source is known for reliable reporting. Second, look for the same news on other trusted websites. Third, pay attention to the date: old stories are sometimes shared as if they were new. Finally, be suspicious of headlines that seem too shocking to be true. Taking thirty seconds to think before sharing can stop a false story from reaching thousands of people.",
+          "text": "The word «suspicious» in the text is closest in meaning to ___.",
+          "type": "single",
+          "options": [
+            "careless",
+            "certain",
+            "doubtful",
+            "excited",
+            "grateful"
+          ],
+          "correctIndex": 2,
+          "explanation": "Be suspicious of — şübhə ilə yanaşmaq."
+        },
+        {
+          "id": "g11-en-reading-025",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Every day, millions of people share news stories online without checking whether they are true. False information often spreads faster than accurate reports because it is designed to provoke strong emotions such as fear or anger. Experts recommend a few simple habits. First, check who published the story and whether the source is known for reliable reporting. Second, look for the same news on other trusted websites. Third, pay attention to the date: old stories are sometimes shared as if they were new. Finally, be suspicious of headlines that seem too shocking to be true. Taking thirty seconds to think before sharing can stop a false story from reaching thousands of people.",
+          "text": "What is the main message of the text?",
+          "type": "single",
+          "options": [
+            "A short pause to check can stop false news from spreading.",
+            "All news online is false.",
+            "Headlines are always true.",
+            "The internet should be banned.",
+            "Only experts can recognize fake news."
+          ],
+          "correctIndex": 0,
+          "explanation": "Son cümləyə baxın."
+        },
+        {
+          "id": "g11-en-reading-026",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "It is commonly believed that children learn foreign languages more easily than adults. In some ways this is true: young children often develop a more natural accent. However, research suggests that adults have important advantages too. They can understand grammar rules more quickly, use learning strategies consciously and connect new words to knowledge they already have. The main obstacles for adult learners are often not biological but practical: lack of time, fear of making mistakes and fewer chances to practise. Teachers therefore advise adults to set small, regular goals, to accept errors as part of learning and to find real situations in which to use the language.",
+          "text": "In what way do children have an advantage, according to the text?",
+          "type": "single",
+          "options": [
+            "They understand grammar rules faster.",
+            "They use strategies consciously.",
+            "They often develop a more natural accent.",
+            "They have more time.",
+            "They never make mistakes."
+          ],
+          "correctIndex": 2,
+          "explanation": "İkinci cümləyə baxın."
+        },
+        {
+          "id": "g11-en-reading-027",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "It is commonly believed that children learn foreign languages more easily than adults. In some ways this is true: young children often develop a more natural accent. However, research suggests that adults have important advantages too. They can understand grammar rules more quickly, use learning strategies consciously and connect new words to knowledge they already have. The main obstacles for adult learners are often not biological but practical: lack of time, fear of making mistakes and fewer chances to practise. Teachers therefore advise adults to set small, regular goals, to accept errors as part of learning and to find real situations in which to use the language.",
+          "text": "Which advantage of adults is mentioned?",
+          "type": "single",
+          "options": [
+            "They have more free time.",
+            "They have a better accent.",
+            "They are never afraid of mistakes.",
+            "They can connect new words to existing knowledge.",
+            "They learn without practice."
+          ],
+          "correctIndex": 3,
+          "explanation": "Böyüklərin üstünlükləri sadalanır."
+        },
+        {
+          "id": "g11-en-reading-028",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "It is commonly believed that children learn foreign languages more easily than adults. In some ways this is true: young children often develop a more natural accent. However, research suggests that adults have important advantages too. They can understand grammar rules more quickly, use learning strategies consciously and connect new words to knowledge they already have. The main obstacles for adult learners are often not biological but practical: lack of time, fear of making mistakes and fewer chances to practise. Teachers therefore advise adults to set small, regular goals, to accept errors as part of learning and to find real situations in which to use the language.",
+          "text": "According to the text, what are the main obstacles for adult learners?",
+          "type": "single",
+          "options": [
+            "biological limits of the brain",
+            "practical problems such as lack of time",
+            "difficult accents",
+            "expensive books",
+            "bad teachers"
+          ],
+          "correctIndex": 1,
+          "explanation": "«…not biological but practical…»"
+        },
+        {
+          "id": "g11-en-reading-029",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "It is commonly believed that children learn foreign languages more easily than adults. In some ways this is true: young children often develop a more natural accent. However, research suggests that adults have important advantages too. They can understand grammar rules more quickly, use learning strategies consciously and connect new words to knowledge they already have. The main obstacles for adult learners are often not biological but practical: lack of time, fear of making mistakes and fewer chances to practise. Teachers therefore advise adults to set small, regular goals, to accept errors as part of learning and to find real situations in which to use the language.",
+          "text": "What do teachers advise adults to do?",
+          "type": "single",
+          "options": [
+            "learn only one word a week",
+            "study only grammar",
+            "avoid speaking until they are perfect",
+            "stop if they make errors",
+            "set small, regular goals"
+          ],
+          "correctIndex": 4,
+          "explanation": "Son cümləyə baxın."
+        },
+        {
+          "id": "g11-en-reading-030",
+          "grade": 11,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "It is commonly believed that children learn foreign languages more easily than adults. In some ways this is true: young children often develop a more natural accent. However, research suggests that adults have important advantages too. They can understand grammar rules more quickly, use learning strategies consciously and connect new words to knowledge they already have. The main obstacles for adult learners are often not biological but practical: lack of time, fear of making mistakes and fewer chances to practise. Teachers therefore advise adults to set small, regular goals, to accept errors as part of learning and to find real situations in which to use the language.",
+          "text": "What is the writer's main purpose?",
+          "type": "single",
+          "options": [
+            "to challenge a common belief about language learning",
+            "to prove that children cannot learn languages",
+            "to compare two languages",
+            "to advertise a language school",
+            "to describe a teacher's life"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mətn ümumi yayılmış fikri tənqidi şəkildə nəzərdən keçirir."
+        }
+      ]
+    }
+  ]
+}

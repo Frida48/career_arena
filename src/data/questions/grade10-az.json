@@ -1,0 +1,1827 @@
+{
+  "grade": 10,
+  "subject": "az",
+  "sections": [
+    {
+      "id": "lexis-style",
+      "title": "Leksika və üslubiyyat",
+      "description": "Paronim, omonim, sinonim, antonim, frazeologizmlər, terminlər, alınma sözlər və üslublar.",
+      "questions": [
+        {
+          "id": "g10-az-lexis-style-001",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Paronimlər",
+          "difficulty": "medium",
+          "text": "Hansı cüt paronimdir?",
+          "type": "single",
+          "options": [
+            "gözəl – qəşəng",
+            "həyat – həyət",
+            "kitab – kitabxana",
+            "yaz (fəsil) – yaz (feil)",
+            "ağ – qara"
+          ],
+          "correctIndex": 1,
+          "explanation": "Paronimlər səslənişcə yaxın, mənaca fərqli sözlərdir: həyat (ömür) – həyət (evin qabağı)."
+        },
+        {
+          "id": "g10-az-lexis-style-002",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Paronimlər",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə söz səhv işlənib?",
+          "type": "single",
+          "options": [
+            "Həyat çox maraqlıdır.",
+            "Uşaqlar həyatda top oynayırdılar.",
+            "Uşaqlar həyətdə top oynayırdılar.",
+            "Biz həyətə çıxdıq.",
+            "Onun həyatı kənddə keçib."
+          ],
+          "correctIndex": 1,
+          "explanation": "Top həyətdə oynanılır; «həyat» sözü burada yanlış işlənib."
+        },
+        {
+          "id": "g10-az-lexis-style-003",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Terminlər",
+          "difficulty": "easy",
+          "text": "Hansı söz riyaziyyat terminidir?",
+          "type": "single",
+          "options": [
+            "metafora",
+            "hüceyrə",
+            "molekul",
+            "fonem",
+            "diskriminant"
+          ],
+          "correctIndex": 4,
+          "explanation": "Diskriminant kvadrat tənliklə bağlı riyazi termindir."
+        },
+        {
+          "id": "g10-az-lexis-style-004",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Terminlər",
+          "difficulty": "easy",
+          "text": "Hansı söz dilçilik terminidir?",
+          "type": "single",
+          "options": [
+            "morfem",
+            "inteqral",
+            "toxuma",
+            "atom",
+            "orbita"
+          ],
+          "correctIndex": 0,
+          "explanation": "Morfem — sözün mənalı ən kiçik hissəsi, dilçilik terminidir."
+        },
+        {
+          "id": "g10-az-lexis-style-005",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Üslublar",
+          "difficulty": "medium",
+          "text": "Elmi üslub üçün hansı xüsusiyyət səciyyəvidir?",
+          "type": "single",
+          "options": [
+            "terminlərdən geniş istifadə",
+            "emosional nidalar",
+            "danışıq sözlərinin işlənməsi",
+            "dialekt sözləri",
+            "obrazlı ifadələrin çoxluğu"
+          ],
+          "correctIndex": 0,
+          "explanation": "Elmi üslubda dəqiqlik və terminlər əsasdır."
+        },
+        {
+          "id": "g10-az-lexis-style-006",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Üslublar",
+          "difficulty": "medium",
+          "text": "Hansı parça rəsmi-işgüzar üsluba aiddir?",
+          "type": "single",
+          "options": [
+            "Səhər şəfəqləri dağların başına qızılı çələng hörürdü.",
+            "Hüceyrə canlı orqanizmin əsas quruluş vahididir.",
+            "Ay balam, bir gəl bura, çay soyudu!",
+            "Dostlar, bu gün sizə maraqlı bir əhvalat danışacağam.",
+            "Məni 1 sentyabr tarixindən məzuniyyətə buraxmağınızı xahiş edirəm."
+          ],
+          "correctIndex": 4,
+          "explanation": "Ərizə dili — rəsmi-işgüzar üslubdur."
+        },
+        {
+          "id": "g10-az-lexis-style-007",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Üslublar",
+          "difficulty": "easy",
+          "text": "Hansı cümlə bədii üsluba aiddir?",
+          "type": "single",
+          "options": [
+            "Su 100 dərəcədə qaynayır.",
+            "İclas saat 10-da başlayacaq.",
+            "Səhər şəfəqləri dağların başına qızılı çələng hörürdü.",
+            "Müqavilə iki nüsxədə tərtib olunur.",
+            "Ərizəni müəyyən olunmuş formada təqdim edin."
+          ],
+          "correctIndex": 2,
+          "explanation": "Obrazlı ifadə bədii üslubun əlamətidir."
+        },
+        {
+          "id": "g10-az-lexis-style-008",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Məcazi məna",
+          "difficulty": "easy",
+          "text": "Hansı birləşmədə söz məcazi mənada işlənib?",
+          "type": "single",
+          "options": [
+            "qızıl üzük",
+            "qızıl sırğa",
+            "qızıl medal",
+            "qızıl saat",
+            "qızıl ürək"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Qızıl ürək» — çox yaxşı insan mənasında məcazdır."
+        },
+        {
+          "id": "g10-az-lexis-style-009",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Omonimlər",
+          "difficulty": "easy",
+          "text": "Hansı cümlədə «qaz» sözü quş adı kimi işlənib?",
+          "type": "single",
+          "options": [
+            "Qaz plitəsini söndür.",
+            "Evə təbii qaz çəkildi.",
+            "Mətbəxdə qaz sızırdı.",
+            "Qaz sayğacı yoxlanıldı.",
+            "Gölün kənarında qazlar otlayırdı."
+          ],
+          "correctIndex": 4,
+          "explanation": "Digər cümlələrdə «qaz» maddə adıdır — omonimdir."
+        },
+        {
+          "id": "g10-az-lexis-style-010",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Antonimlər",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə antonimlər işlənib?",
+          "type": "single",
+          "options": [
+            "Gözəl və qəşəng bir gün idi.",
+            "Dostun acı sözü düşmənin şirin sözündən yaxşıdır.",
+            "Uşaq tez-tez gülürdü.",
+            "O, sakit və təmkinli adamdır.",
+            "Bağda alma və armud ağacları var."
+          ],
+          "correctIndex": 1,
+          "explanation": "Acı – şirin, dost – düşmən antonimdir."
+        },
+        {
+          "id": "g10-az-lexis-style-011",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Sinonimlər",
+          "difficulty": "easy",
+          "text": "«Arzu» sözünün sinonimi hansıdır?",
+          "type": "single",
+          "options": [
+            "səbr",
+            "kədər",
+            "şübhə",
+            "qorxu",
+            "istək"
+          ],
+          "correctIndex": 4,
+          "explanation": "Arzu — istək, dilək."
+        },
+        {
+          "id": "g10-az-lexis-style-012",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Frazeologiya",
+          "difficulty": "medium",
+          "text": "«Qulaqardına vurmaq» ifadəsinin mənası nədir?",
+          "type": "single",
+          "options": [
+            "mahnı oxumaq",
+            "diqqətlə dinləmək",
+            "fikir verməmək",
+            "pıçıldamaq",
+            "qulağı ağrımaq"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qulaqardına vurmaq — eşitməzliyə vurmaq."
+        },
+        {
+          "id": "g10-az-lexis-style-013",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Frazeologiya",
+          "difficulty": "easy",
+          "text": "«Ağzına su almaq» ifadəsinin mənası nədir?",
+          "type": "single",
+          "options": [
+            "yuyunmaq",
+            "çox danışmaq",
+            "su içmək",
+            "ağlamaq",
+            "susmaq"
+          ],
+          "correctIndex": 4,
+          "explanation": "Ağzına su almaq — dinməmək, susmaq."
+        },
+        {
+          "id": "g10-az-lexis-style-014",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Frazeologiya",
+          "difficulty": "medium",
+          "text": "«Dilə tutmaq» ifadəsinin mənası nədir?",
+          "type": "single",
+          "options": [
+            "susdurmaq",
+            "danlamaq",
+            "dil öyrənmək",
+            "şirin sözlə razı salmaq",
+            "mübahisə etmək"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dilə tutmaq — yaxşı sözlə yola gətirmək."
+        },
+        {
+          "id": "g10-az-lexis-style-015",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Frazeologiya",
+          "difficulty": "medium",
+          "text": "«Gözdən düşmək» ifadəsinin mənası nədir?",
+          "type": "single",
+          "options": [
+            "gözdən itmək",
+            "hörmətini itirmək",
+            "yuxuya getmək",
+            "yıxılmaq",
+            "görmə qabiliyyətini itirmək"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gözdən düşmək — əvvəlki hörmətini itirmək."
+        },
+        {
+          "id": "g10-az-lexis-style-016",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Frazeologiya",
+          "difficulty": "easy",
+          "text": "Hansı ifadə frazeoloji birləşmə deyil?",
+          "type": "single",
+          "options": [
+            "əl çəkmək",
+            "ağzı qulağına çatmaq",
+            "yeni kitab",
+            "göz qoymaq",
+            "baş sındırmaq"
+          ],
+          "correctIndex": 2,
+          "explanation": "«Yeni kitab» sərbəst söz birləşməsidir, sözlər həqiqi mənadadır."
+        },
+        {
+          "id": "g10-az-lexis-style-017",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Alınma sözlər",
+          "difficulty": "medium",
+          "text": "Hansı söz fars mənşəlidir?",
+          "type": "single",
+          "options": [
+            "göz",
+            "radio",
+            "daş",
+            "kompüter",
+            "şagird"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Şagird» fars dilindən alınmışdır."
+        },
+        {
+          "id": "g10-az-lexis-style-018",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Alınma sözlər",
+          "difficulty": "easy",
+          "text": "Hansı söz Avropa mənşəlidir?",
+          "type": "single",
+          "options": [
+            "bağ",
+            "demokratiya",
+            "məktəb",
+            "kitab",
+            "çörək"
+          ],
+          "correctIndex": 1,
+          "explanation": "Demokratiya yunan mənşəli, Avropa dilləri vasitəsilə keçmiş sözdür."
+        },
+        {
+          "id": "g10-az-lexis-style-019",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Neologizmlər",
+          "difficulty": "easy",
+          "text": "Hansı söz dilə son dövrlərdə daxil olmuş yeni sözdür?",
+          "type": "single",
+          "options": [
+            "dağ",
+            "brauzer",
+            "ürək",
+            "torpaq",
+            "ana"
+          ],
+          "correctIndex": 1,
+          "explanation": "Brauzer internetlə bağlı yeni sözdür."
+        },
+        {
+          "id": "g10-az-lexis-style-020",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Omonimlər",
+          "difficulty": "easy",
+          "text": "Hansı cümlədə «bal» sözü qiymət mənasında işlənib?",
+          "type": "single",
+          "options": [
+            "Süfrəyə bal qoydular.",
+            "Arılar bal toplayır.",
+            "Şagird imtahandan yüksək bal topladı.",
+            "Çaya bal qatdı.",
+            "Dağ balı çox faydalıdır."
+          ],
+          "correctIndex": 2,
+          "explanation": "Bal (qiymət) və bal (arı məhsulu) omonimdir."
+        },
+        {
+          "id": "g10-az-lexis-style-021",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Məcazi məna",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə «açıq» sözü məcazi mənada işlənib?",
+          "type": "single",
+          "options": [
+            "O, açıq ürəkli insandır.",
+            "Mağaza hələ açıqdır.",
+            "Kitab stolun üstündə açıq qalmışdı.",
+            "Qapı açıq qalmışdı.",
+            "Pəncərə açıq idi."
+          ],
+          "correctIndex": 0,
+          "explanation": "«Açıq ürəkli» — səmimi mənasında məcazdır."
+        },
+        {
+          "id": "g10-az-lexis-style-022",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Antonimlər",
+          "difficulty": "easy",
+          "text": "«Səxavətli» sözünün antonimi hansıdır?",
+          "type": "single",
+          "options": [
+            "xeyirxah",
+            "əliaçıq",
+            "comərd",
+            "xəsis",
+            "mərhəmətli"
+          ],
+          "correctIndex": 3,
+          "explanation": "Səxavətli — xəsis əks mənalıdır."
+        },
+        {
+          "id": "g10-az-lexis-style-023",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Sinonimlər",
+          "difficulty": "easy",
+          "text": "«Vəfalı» sözünün sinonimi hansıdır?",
+          "type": "single",
+          "options": [
+            "yorğun",
+            "xəsis",
+            "qorxaq",
+            "xain",
+            "sədaqətli"
+          ],
+          "correctIndex": 4,
+          "explanation": "Vəfalı — sədaqətli."
+        },
+        {
+          "id": "g10-az-lexis-style-024",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Leksik norma",
+          "difficulty": "hard",
+          "text": "Hansı cümlədə məna təkrarı (pleonazm) var?",
+          "type": "single",
+          "options": [
+            "O, öz avtobioqrafiyasını yazdı.",
+            "O, xatirələrini yazdı.",
+            "O, öz kitabını yazdı.",
+            "O, məktub yazdı.",
+            "O, tərcümeyi-halını yazdı."
+          ],
+          "correctIndex": 0,
+          "explanation": "«Avto» hissəsi artıq «öz» mənasını verir, ona görə «öz» sözü artıqdır."
+        },
+        {
+          "id": "g10-az-lexis-style-025",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Leksik norma",
+          "difficulty": "hard",
+          "text": "Hansı ifadədə məna təkrarı var?",
+          "type": "single",
+          "options": [
+            "yeni kitab",
+            "ilk addım",
+            "ilk debüt",
+            "son söz",
+            "böyük uğur"
+          ],
+          "correctIndex": 2,
+          "explanation": "Debüt — ilk çıxış deməkdir; «ilk» artıqdır."
+        },
+        {
+          "id": "g10-az-lexis-style-026",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Terminlər",
+          "difficulty": "easy",
+          "text": "«Hüceyrə» sözü hansı elm sahəsinin terminidir?",
+          "type": "single",
+          "options": [
+            "fizika",
+            "riyaziyyat",
+            "biologiya",
+            "dilçilik",
+            "ədəbiyyatşünaslıq"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hüceyrə biologiya terminidir."
+        },
+        {
+          "id": "g10-az-lexis-style-027",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Köhnəlmiş sözlər",
+          "difficulty": "medium",
+          "text": "Hansı söz köhnəlmiş sözdür?",
+          "type": "single",
+          "options": [
+            "katib",
+            "sürücü",
+            "həkim",
+            "müəllim",
+            "mirzə"
+          ],
+          "correctIndex": 4,
+          "explanation": "Mirzə — keçmişdə katib, yazı işi görən şəxs."
+        },
+        {
+          "id": "g10-az-lexis-style-028",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Alınma sözlər",
+          "difficulty": "easy",
+          "text": "Hansı söz ərəb mənşəlidir?",
+          "type": "single",
+          "options": [
+            "daş",
+            "qardaş",
+            "ədəbiyyat",
+            "yaşıl",
+            "göy"
+          ],
+          "correctIndex": 2,
+          "explanation": "«Ədəbiyyat» ərəb mənşəlidir; digərləri milli sözlərdir."
+        },
+        {
+          "id": "g10-az-lexis-style-029",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Omonimlər",
+          "difficulty": "medium",
+          "text": "Hansı cüt omonimdir?",
+          "type": "single",
+          "options": [
+            "böyük – iri",
+            "uca – alçaq",
+            "sevinc – fərəh",
+            "gəlmək – getmək",
+            "dəstə (gül dəstəsi) – dəstə (bıçağın dəstəsi)"
+          ],
+          "correctIndex": 4,
+          "explanation": "Eyni səslənən, mənaca əlaqəsiz sözlərdir."
+        },
+        {
+          "id": "g10-az-lexis-style-030",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "lexis-style",
+          "sectionTitle": "Leksika və üslubiyyat",
+          "topic": "Üslublar",
+          "difficulty": "medium",
+          "text": "Publisistik üslub əsasən harada işlənir?",
+          "type": "single",
+          "options": [
+            "dərsliklərdə və elmi əsərlərdə",
+            "şeir və hekayələrdə",
+            "ərizə və arayışlarda",
+            "qəzet və jurnal məqalələrində",
+            "ailədaxili söhbətdə"
+          ],
+          "correctIndex": 3,
+          "explanation": "Publisistik üslub mətbuat və ictimai çıxışların üslubudur."
+        }
+      ]
+    },
+    {
+      "id": "morphology",
+      "title": "Morfologiya",
+      "description": "İsim, sifət, say, əvəzlik, feilin şəkilləri, təsriflənməyən formalar və köməkçi nitq hissələri.",
+      "questions": [
+        {
+          "id": "g10-az-morphology-001",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Mənsubiyyət",
+          "difficulty": "easy",
+          "text": "Hansı sözdə mənsubiyyət şəkilçisi var?",
+          "type": "single",
+          "options": [
+            "kitabım",
+            "kitablar",
+            "kitabçı",
+            "kitabsız",
+            "kitabda"
+          ],
+          "correctIndex": 0,
+          "explanation": "-ım şəkilçisi əşyanın I şəxsə aid olduğunu bildirir."
+        },
+        {
+          "id": "g10-az-morphology-002",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Şəkilçilər",
+          "difficulty": "medium",
+          "text": "«Evimizdən» sözündə şəkilçilərin ardıcıllığı necədir?",
+          "type": "single",
+          "options": [
+            "hal + xəbərlik",
+            "hal + mənsubiyyət",
+            "cəm + hal",
+            "sözdüzəldici + hal",
+            "mənsubiyyət + hal"
+          ],
+          "correctIndex": 4,
+          "explanation": "ev + imiz (mənsubiyyət) + dən (çıxışlıq hal)."
+        },
+        {
+          "id": "g10-az-morphology-003",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Xəbərlik",
+          "difficulty": "easy",
+          "text": "Hansı sözdə xəbərlik şəkilçisi var?",
+          "type": "single",
+          "options": [
+            "müəllimlər",
+            "müəllimin",
+            "müəllimdir",
+            "müəllimlik",
+            "müəllimə"
+          ],
+          "correctIndex": 2,
+          "explanation": "-dir xəbərlik şəkilçisidir."
+        },
+        {
+          "id": "g10-az-morphology-004",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "İsim",
+          "difficulty": "easy",
+          "text": "Hansı isim mücərrəd isimdir?",
+          "type": "single",
+          "options": [
+            "ağac",
+            "masa",
+            "sevgi",
+            "daş",
+            "qələm"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sevgi gözlə görünməyən anlayışdır — mücərrəd isim."
+        },
+        {
+          "id": "g10-az-morphology-005",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "İsim",
+          "difficulty": "medium",
+          "text": "Hansı isim topluluq bildirir?",
+          "type": "single",
+          "options": [
+            "xalq",
+            "kitab",
+            "adam",
+            "quş",
+            "ev"
+          ],
+          "correctIndex": 0,
+          "explanation": "Xalq — çoxluğu bir yerdə bildirən topluluq ismidir."
+        },
+        {
+          "id": "g10-az-morphology-006",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Sifət",
+          "difficulty": "medium",
+          "text": "Hansı sifət düzəltmədir?",
+          "type": "single",
+          "options": [
+            "ağ",
+            "dadlı",
+            "uzun",
+            "yaxşı",
+            "gözəl"
+          ],
+          "correctIndex": 1,
+          "explanation": "dad + lı — şəkilçi ilə düzəlib."
+        },
+        {
+          "id": "g10-az-morphology-007",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Sifət",
+          "difficulty": "medium",
+          "text": "Hansı sifət mürəkkəbdir?",
+          "type": "single",
+          "options": [
+            "açıq",
+            "yaşıl",
+            "gözlü",
+            "ağıllı",
+            "açıqgöz"
+          ],
+          "correctIndex": 4,
+          "explanation": "açıq + göz — iki kökdən ibarətdir."
+        },
+        {
+          "id": "g10-az-morphology-008",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Say",
+          "difficulty": "easy",
+          "text": "«Beşinci sinif» birləşməsində say hansı növdəndir?",
+          "type": "single",
+          "options": [
+            "qeyri-müəyyən say",
+            "miqdar sayı",
+            "kəsr sayı",
+            "sıra sayı",
+            "bölgü sayı"
+          ],
+          "correctIndex": 3,
+          "explanation": "-inci şəkilçisi sıra sayı düzəldir."
+        },
+        {
+          "id": "g10-az-morphology-009",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Əvəzlik",
+          "difficulty": "medium",
+          "text": "Hansı əvəzlik təyini əvəzlikdir?",
+          "type": "single",
+          "options": [
+            "öz",
+            "mən",
+            "kim",
+            "hər",
+            "bu"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hər, bütün, hamı — təyini əvəzliklərdir."
+        },
+        {
+          "id": "g10-az-morphology-010",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Əvəzlik",
+          "difficulty": "easy",
+          "text": "Hansı əvəzlik sual əvəzliyidir?",
+          "type": "single",
+          "options": [
+            "hamı",
+            "hansı",
+            "heç nə",
+            "özü",
+            "həmin"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hansı — sual əvəzliyidir."
+        },
+        {
+          "id": "g10-az-morphology-011",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feilin şəkilləri",
+          "difficulty": "medium",
+          "text": "«Gəlsə» feili hansı şəkildədir?",
+          "type": "single",
+          "options": [
+            "şərt şəkli",
+            "xəbər şəkli",
+            "arzu şəkli",
+            "vacib şəkli",
+            "əmr şəkli"
+          ],
+          "correctIndex": 0,
+          "explanation": "-sa/-sə şəkilçisi şərt şəkli bildirir."
+        },
+        {
+          "id": "g10-az-morphology-012",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feilin şəkilləri",
+          "difficulty": "medium",
+          "text": "«Gələydi» feili hansı şəkildədir?",
+          "type": "single",
+          "options": [
+            "şərt şəkli",
+            "xəbər şəkli",
+            "əmr şəkli",
+            "lazım şəkli",
+            "arzu şəkli"
+          ],
+          "correctIndex": 4,
+          "explanation": "-a/-ə (+ idi) arzu şəklinin göstəricisidir."
+        },
+        {
+          "id": "g10-az-morphology-013",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feilin şəkilləri",
+          "difficulty": "medium",
+          "text": "«Getməliyəm» feili hansı şəkildədir?",
+          "type": "single",
+          "options": [
+            "lazım şəkli",
+            "vacib şəkli",
+            "şərt şəkli",
+            "arzu şəkli",
+            "əmr şəkli"
+          ],
+          "correctIndex": 0,
+          "explanation": "-malı/-məli şəkilçisi lazım şəkli bildirir."
+        },
+        {
+          "id": "g10-az-morphology-014",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feilin şəkilləri",
+          "difficulty": "easy",
+          "text": "«Oxusun» feili hansı şəkildədir?",
+          "type": "single",
+          "options": [
+            "əmr şəkli",
+            "arzu şəkli",
+            "şərt şəkli",
+            "lazım şəkli",
+            "xəbər şəkli"
+          ],
+          "correctIndex": 0,
+          "explanation": "-sın/-sin III şəxs əmr şəklidir."
+        },
+        {
+          "id": "g10-az-morphology-015",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feilin şəkilləri",
+          "difficulty": "easy",
+          "text": "Hansı feil xəbər şəklindədir?",
+          "type": "single",
+          "options": [
+            "yaza",
+            "yazmalı",
+            "yazır",
+            "yazsa",
+            "yazsın"
+          ],
+          "correctIndex": 2,
+          "explanation": "Zaman bildirən feil forması xəbər şəklidir."
+        },
+        {
+          "id": "g10-az-morphology-016",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feili sifət",
+          "difficulty": "medium",
+          "text": "Hansı birləşmədə feili sifət var?",
+          "type": "single",
+          "options": [
+            "kitabı oxudu",
+            "kitab oxuyaraq",
+            "oxunmuş kitab",
+            "kitabın vərəqi",
+            "maraqlı kitab"
+          ],
+          "correctIndex": 2,
+          "explanation": "-mış şəkilçili feil forması əşyanın əlamətini bildirir."
+        },
+        {
+          "id": "g10-az-morphology-017",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feili bağlama",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə feili bağlama var?",
+          "type": "single",
+          "options": [
+            "O, salam verdi və gülümsədi.",
+            "Salam vermək lazımdır.",
+            "Onun gülüşü gözəl idi.",
+            "Gülümsəyən qız salam verdi.",
+            "O, gülümsəyərək salam verdi."
+          ],
+          "correctIndex": 4,
+          "explanation": "Gülümsəyərək — -ərək şəkilçili feili bağlama."
+        },
+        {
+          "id": "g10-az-morphology-018",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Məsdər",
+          "difficulty": "easy",
+          "text": "Hansı söz məsdərdir?",
+          "type": "single",
+          "options": [
+            "yazıb",
+            "yazan",
+            "yazıçı",
+            "yazmaq",
+            "yazı"
+          ],
+          "correctIndex": 3,
+          "explanation": "-maq/-mək şəkilçili feil forması məsdərdir."
+        },
+        {
+          "id": "g10-az-morphology-019",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Məsdər",
+          "difficulty": "hard",
+          "text": "Hansı cümlədə məsdər mübtəda vəzifəsindədir?",
+          "type": "single",
+          "options": [
+            "Oxumaqdan yorulmadı.",
+            "Oxumaq üçün vaxt tapdı.",
+            "O, oxumağa getdi.",
+            "Mən kitab oxumağı sevirəm.",
+            "Kitab oxumaq faydalıdır."
+          ],
+          "correctIndex": 4,
+          "explanation": "Nə faydalıdır? — kitab oxumaq (adlıq halda məsdər)."
+        },
+        {
+          "id": "g10-az-morphology-020",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Zərf",
+          "difficulty": "easy",
+          "text": "Hansı zərf yer zərfidir?",
+          "type": "single",
+          "options": [
+            "yuxarı",
+            "yavaşca",
+            "tez",
+            "çox",
+            "indi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Hara? sualına cavab verir — yer zərfi."
+        },
+        {
+          "id": "g10-az-morphology-021",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Zərf",
+          "difficulty": "medium",
+          "text": "Hansı zərf kəmiyyət zərfidir?",
+          "type": "single",
+          "options": [
+            "birdən",
+            "gizlicə",
+            "sonra",
+            "aşağı",
+            "az"
+          ],
+          "correctIndex": 4,
+          "explanation": "Nə qədər? sualına cavab verir — kəmiyyət zərfi."
+        },
+        {
+          "id": "g10-az-morphology-022",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Qoşma",
+          "difficulty": "easy",
+          "text": "Hansı cümlədə qoşma işlənib?",
+          "type": "single",
+          "options": [
+            "Sənin üçün hədiyyə aldım.",
+            "Sən və mən gedirik.",
+            "Gəldim, amma səni görmədim.",
+            "Ah, nə gözəl gündür!",
+            "Bəli, bu doğrudur."
+          ],
+          "correctIndex": 0,
+          "explanation": "«Üçün» qoşmadır."
+        },
+        {
+          "id": "g10-az-morphology-023",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Bağlayıcı",
+          "difficulty": "easy",
+          "text": "Hansı bağlayıcı qarşılaşdırma bağlayıcısıdır?",
+          "type": "single",
+          "options": [
+            "və",
+            "çünki",
+            "ya",
+            "amma",
+            "ki"
+          ],
+          "correctIndex": 3,
+          "explanation": "Amma, lakin, ancaq — qarşılaşdırma bağlayıcılarıdır."
+        },
+        {
+          "id": "g10-az-morphology-024",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Bağlayıcı",
+          "difficulty": "easy",
+          "text": "Hansı bağlayıcı səbəb bildirir?",
+          "type": "single",
+          "options": [
+            "yaxud",
+            "amma",
+            "çünki",
+            "həm",
+            "və"
+          ],
+          "correctIndex": 2,
+          "explanation": "Çünki — səbəb bağlayıcısıdır."
+        },
+        {
+          "id": "g10-az-morphology-025",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Ədat",
+          "difficulty": "medium",
+          "text": "Hansı söz ədatdır?",
+          "type": "single",
+          "options": [
+            "üçün",
+            "və",
+            "əlbəttə",
+            "məhz",
+            "ah"
+          ],
+          "correctIndex": 3,
+          "explanation": "«Məhz» fikri qüvvətləndirən ədatdır."
+        },
+        {
+          "id": "g10-az-morphology-026",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Modal sözlər",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə modal söz var?",
+          "type": "single",
+          "options": [
+            "O, sabah gələcək.",
+            "Şübhəsiz, o qalib gələcək.",
+            "O qalib gəldi.",
+            "O, tez gələcək.",
+            "Onlar birlikdə gəldilər."
+          ],
+          "correctIndex": 1,
+          "explanation": "«Şübhəsiz» danışanın əminliyini bildirən modal sözdür."
+        },
+        {
+          "id": "g10-az-morphology-027",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Təqlidi sözlər",
+          "difficulty": "medium",
+          "text": "Hansı söz təqlidi sözdür?",
+          "type": "single",
+          "options": [
+            "yavaş-yavaş",
+            "az-çox",
+            "ata-ana",
+            "şır-şır",
+            "gecə-gündüz"
+          ],
+          "correctIndex": 3,
+          "explanation": "Şır-şır suyun səsini təqlid edir."
+        },
+        {
+          "id": "g10-az-morphology-028",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feilin təsirliliyi",
+          "difficulty": "medium",
+          "text": "Hansı feil təsirlidir?",
+          "type": "single",
+          "options": [
+            "getmək",
+            "oturmaq",
+            "yazmaq",
+            "gülmək",
+            "yatmaq"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nəyi yazmaq? — vasitəsiz obyekt tələb edir."
+        },
+        {
+          "id": "g10-az-morphology-029",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feilin təsirliliyi",
+          "difficulty": "medium",
+          "text": "Hansı feil təsirsizdir?",
+          "type": "single",
+          "options": [
+            "tikmək",
+            "oxumaq",
+            "uçmaq",
+            "almaq",
+            "görmək"
+          ],
+          "correctIndex": 2,
+          "explanation": "Uçmaq vasitəsiz obyekt tələb etmir."
+        },
+        {
+          "id": "g10-az-morphology-030",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "morphology",
+          "sectionTitle": "Morfologiya",
+          "topic": "Feilin zamanları",
+          "difficulty": "medium",
+          "text": "«Gələr» feili hansı zamandadır?",
+          "type": "single",
+          "options": [
+            "nəqli keçmiş zaman",
+            "qeyri-qəti gələcək zaman",
+            "indiki zaman",
+            "şühudi keçmiş zaman",
+            "qəti gələcək zaman"
+          ],
+          "correctIndex": 1,
+          "explanation": "-ar/-ər şəkilçisi qeyri-qəti gələcək zaman bildirir."
+        }
+      ]
+    },
+    {
+      "id": "syntax",
+      "title": "Sadə cümlənin sintaksisi",
+      "description": "Təktərkibli cümlələr, cümlə üzvlərinin ifadəsi, əlavə, ara söz, xitab, tabelilik əlaqəsi və durğu.",
+      "questions": [
+        {
+          "id": "g10-az-syntax-001",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Təktərkibli cümlə",
+          "difficulty": "hard",
+          "text": "Hansı cümlə şəxssiz cümlədir?",
+          "type": "single",
+          "options": [
+            "Bu yoldan getmək olmaz.",
+            "Yola tez çıxdım.",
+            "Uşaqlar yola düşdülər.",
+            "Biz yola düşdük.",
+            "Yol çox uzun idi."
+          ],
+          "correctIndex": 0,
+          "explanation": "İşi görən şəxs nə bilinir, nə də nəzərdə tutulur — şəxssiz cümlə."
+        },
+        {
+          "id": "g10-az-syntax-002",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Təktərkibli cümlə",
+          "difficulty": "hard",
+          "text": "Hansı cümlə şəxsi müəyyən cümlədir?",
+          "type": "single",
+          "options": [
+            "Bu kitabı oxumaq lazımdır.",
+            "Biz kitabxanaya gedəcəyik.",
+            "Kitabxana sabah açılacaq.",
+            "Sabah kitabxanaya gedəcəyəm.",
+            "Gözəl bir yaz günü."
+          ],
+          "correctIndex": 3,
+          "explanation": "Mübtəda yoxdur, amma şəxs şəkilçisindən (-əm) bilinir."
+        },
+        {
+          "id": "g10-az-syntax-003",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Təktərkibli cümlə",
+          "difficulty": "hard",
+          "text": "Hansı cümlə şəxsi qeyri-müəyyən cümlədir?",
+          "type": "single",
+          "options": [
+            "Qapını döy.",
+            "Gecə yarısı.",
+            "Qapını döyürlər.",
+            "Mən qapını döydüm.",
+            "Qapı açıq idi."
+          ],
+          "correctIndex": 2,
+          "explanation": "İşi görən şəxs qeyri-müəyyəndir, feil III şəxs cəmdədir."
+        },
+        {
+          "id": "g10-az-syntax-004",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Mübtəda",
+          "difficulty": "medium",
+          "text": "«Oxumaq insanı kamilləşdirir» cümləsində mübtəda nə ilə ifadə olunub?",
+          "type": "single",
+          "options": [
+            "sifətlə",
+            "isimlə",
+            "feili sifətlə",
+            "əvəzliklə",
+            "məsdərlə"
+          ],
+          "correctIndex": 4,
+          "explanation": "Mübtəda — «oxumaq» (məsdər)."
+        },
+        {
+          "id": "g10-az-syntax-005",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Mübtəda",
+          "difficulty": "medium",
+          "text": "«Yaxşılar həmişə xatırlanır» cümləsində mübtəda nə ilə ifadə olunub?",
+          "type": "single",
+          "options": [
+            "sayla",
+            "isimləşmiş sifətlə",
+            "əvəzliklə",
+            "məsdərlə",
+            "isimlə"
+          ],
+          "correctIndex": 1,
+          "explanation": "«Yaxşılar» — isim kimi işlənən sifət."
+        },
+        {
+          "id": "g10-az-syntax-006",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Mübtəda",
+          "difficulty": "medium",
+          "text": "«Beşi bu gün gəlmədi» cümləsində mübtəda nə ilə ifadə olunub?",
+          "type": "single",
+          "options": [
+            "isimlə",
+            "isimləşmiş sayla",
+            "əvəzliklə",
+            "sifətlə",
+            "zərflə"
+          ],
+          "correctIndex": 1,
+          "explanation": "«Beşi» — isim kimi işlənən say."
+        },
+        {
+          "id": "g10-az-syntax-007",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Xəbər",
+          "difficulty": "easy",
+          "text": "Hansı cümlədə xəbər feili xəbərdir?",
+          "type": "single",
+          "options": [
+            "Bu kitab mənimdir.",
+            "O, həkimdir.",
+            "Bizim evimiz böyükdür.",
+            "Uşaqlar parkda gəzirdilər.",
+            "Hava soyuqdur."
+          ],
+          "correctIndex": 3,
+          "explanation": "«Gəzirdilər» feillə ifadə olunub."
+        },
+        {
+          "id": "g10-az-syntax-008",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Tamamlıq",
+          "difficulty": "medium",
+          "text": "«Mən dostuma məktub yazdım» cümləsində neçə tamamlıq var?",
+          "type": "single",
+          "options": [
+            "4",
+            "0",
+            "3",
+            "1",
+            "2"
+          ],
+          "correctIndex": 4,
+          "explanation": "Dostuma — vasitəli, məktub — vasitəsiz tamamlıq."
+        },
+        {
+          "id": "g10-az-syntax-009",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Təyin",
+          "difficulty": "hard",
+          "text": "«Atamın aldığı kitab çox maraqlıdır» cümləsində təyin hansıdır?",
+          "type": "single",
+          "options": [
+            "atamın aldığı",
+            "çox maraqlıdır",
+            "çox",
+            "maraqlıdır",
+            "kitab"
+          ],
+          "correctIndex": 0,
+          "explanation": "Hansı kitab? — atamın aldığı (feili sifət tərkibi)."
+        },
+        {
+          "id": "g10-az-syntax-010",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Zərflik",
+          "difficulty": "easy",
+          "text": "«Biz səhər tezdən yola düşdük» cümləsində «səhər tezdən» hansı zərflikdir?",
+          "type": "single",
+          "options": [
+            "səbəb zərfliyi",
+            "zaman zərfliyi",
+            "yer zərfliyi",
+            "tərzi-hərəkət zərfliyi",
+            "məqsəd zərfliyi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nə vaxt? sualına cavab verir."
+        },
+        {
+          "id": "g10-az-syntax-011",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Zərflik",
+          "difficulty": "medium",
+          "text": "«Qorxudan onun dili tutuldu» cümləsində «qorxudan» hansı zərflikdir?",
+          "type": "single",
+          "options": [
+            "səbəb zərfliyi",
+            "yer zərfliyi",
+            "kəmiyyət zərfliyi",
+            "zaman zərfliyi",
+            "məqsəd zərfliyi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Nə səbəbə? — qorxudan."
+        },
+        {
+          "id": "g10-az-syntax-012",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Zərflik",
+          "difficulty": "medium",
+          "text": "«O, iki dəfə zəng etdi» cümləsində «iki dəfə» hansı üzvdür?",
+          "type": "single",
+          "options": [
+            "təyin",
+            "kəmiyyət zərfliyi",
+            "tamamlıq",
+            "zaman zərfliyi",
+            "xəbər"
+          ],
+          "correctIndex": 1,
+          "explanation": "Neçə dəfə? sualına cavab verir."
+        },
+        {
+          "id": "g10-az-syntax-013",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Əlavə",
+          "difficulty": "hard",
+          "text": "Hansı cümlədə əlavə var?",
+          "type": "single",
+          "options": [
+            "Müəllim, bizə yeni mövzunu izah edin.",
+            "Müəllimimiz, Səbinə xanım, bizə yeni mövzunu izah etdi.",
+            "Səbinə xanım dərsə gəldi.",
+            "Müəllimimiz bizə yeni mövzunu izah etdi.",
+            "Biz yeni mövzunu öyrəndik."
+          ],
+          "correctIndex": 1,
+          "explanation": "«Səbinə xanım» «müəllimimiz» sözünü izah edən əlavədir."
+        },
+        {
+          "id": "g10-az-syntax-014",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Durğu işarələri",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə əlavə düzgün ayrılıb?",
+          "type": "single",
+          "options": [
+            "Bakı: Azərbaycanın paytaxtı gözəl şəhərdir.",
+            "Bakı, Azərbaycanın paytaxtı, gözəl şəhərdir.",
+            "Bakı Azərbaycanın paytaxtı, gözəl şəhərdir.",
+            "Bakı, Azərbaycanın paytaxtı gözəl şəhərdir.",
+            "Bakı Azərbaycanın, paytaxtı gözəl şəhərdir."
+          ],
+          "correctIndex": 1,
+          "explanation": "Cümlənin ortasındakı əlavə hər iki tərəfdən vergüllə ayrılır."
+        },
+        {
+          "id": "g10-az-syntax-015",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Ara sözlər",
+          "difficulty": "medium",
+          "text": "Hansı ara söz ehtimal bildirir?",
+          "type": "single",
+          "options": [
+            "doğrusu",
+            "xülasə",
+            "birincisi",
+            "təəssüf ki",
+            "bəlkə"
+          ],
+          "correctIndex": 4,
+          "explanation": "Bəlkə, yəqin, deyəsən — ehtimal bildirir."
+        },
+        {
+          "id": "g10-az-syntax-016",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Ara sözlər",
+          "difficulty": "easy",
+          "text": "Hansı ara söz fikrin sırasını bildirir?",
+          "type": "single",
+          "options": [
+            "əlbəttə",
+            "deyəsən",
+            "təəssüf ki",
+            "yəqin",
+            "birincisi"
+          ],
+          "correctIndex": 4,
+          "explanation": "Birincisi, ikincisi — sıra bildirir."
+        },
+        {
+          "id": "g10-az-syntax-017",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Xitab",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə xitab düzgün ayrılıb?",
+          "type": "single",
+          "options": [
+            "Gəl qızım otur yanımda.",
+            "Gəl, qızım, otur yanımda.",
+            "Gəl: qızım, otur yanımda.",
+            "Gəl, qızım otur yanımda.",
+            "Gəl qızım, otur yanımda."
+          ],
+          "correctIndex": 1,
+          "explanation": "Cümlənin ortasındakı xitab hər iki tərəfdən vergüllə ayrılır."
+        },
+        {
+          "id": "g10-az-syntax-018",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Ümumiləşdirici söz",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə durğu işarələri düzgün qoyulub?",
+          "type": "single",
+          "options": [
+            "Bağda müxtəlif ağaclar var, alma, armud, gilas.",
+            "Bağda müxtəlif ağaclar var: alma, armud, gilas.",
+            "Bağda müxtəlif ağaclar var; alma; armud; gilas.",
+            "Bağda: müxtəlif ağaclar var alma, armud, gilas.",
+            "Bağda müxtəlif ağaclar var: alma armud gilas."
+          ],
+          "correctIndex": 1,
+          "explanation": "Ümumiləşdirici sözdən sonra gələn həmcins üzvlərdən əvvəl qoşa nöqtə qoyulur."
+        },
+        {
+          "id": "g10-az-syntax-019",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Ümumiləşdirici söz",
+          "difficulty": "hard",
+          "text": "Hansı cümlədə ümumiləşdirici söz həmcins üzvlərdən sonra gəlib?",
+          "type": "single",
+          "options": [
+            "Bağda hər cür meyvə yetişir: alma, armud, gilas.",
+            "Alma, armud, gilas — hamısı bağda yetişir.",
+            "Alma və armud bağda yetişir.",
+            "Bağda alma, armud və gilas yetişir.",
+            "Bağda meyvələr yetişir."
+          ],
+          "correctIndex": 1,
+          "explanation": "Həmcins üzvlərdən sonra gələn ümumiləşdirici sözdən əvvəl tire qoyulur."
+        },
+        {
+          "id": "g10-az-syntax-020",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Durğu işarələri",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə vergül səhv qoyulub?",
+          "type": "single",
+          "options": [
+            "Mən və qardaşım məktəbə getdik.",
+            "Nə yağış yağdı, nə də qar.",
+            "Alma, armud və üzüm aldıq.",
+            "Mən, və qardaşım məktəbə getdik.",
+            "Həm oxuyur, həm də işləyir."
+          ],
+          "correctIndex": 3,
+          "explanation": "Tək işlənən «və» bağlayıcısından əvvəl vergül qoyulmur."
+        },
+        {
+          "id": "g10-az-syntax-021",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Söz birləşmələri",
+          "difficulty": "easy",
+          "text": "Hansı birləşmə feili birləşmədir?",
+          "type": "single",
+          "options": [
+            "beş kitab",
+            "kitab oxumaq",
+            "kitabın səhifəsi",
+            "kitab rəfi",
+            "maraqlı kitab"
+          ],
+          "correctIndex": 1,
+          "explanation": "Əsas tərəf feildir — feili birləşmə."
+        },
+        {
+          "id": "g10-az-syntax-022",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Tabelilik əlaqəsi",
+          "difficulty": "hard",
+          "text": "Hansı birləşmədə idarə əlaqəsi var?",
+          "type": "single",
+          "options": [
+            "yaşıl yarpaq",
+            "üç kitab",
+            "məktəbə getmək",
+            "gözəl şəhər",
+            "tez getmək"
+          ],
+          "correctIndex": 2,
+          "explanation": "Əsas söz asılı sözün müəyyən halda olmasını tələb edir."
+        },
+        {
+          "id": "g10-az-syntax-023",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Tabelilik əlaqəsi",
+          "difficulty": "hard",
+          "text": "Hansı birləşmədə uzlaşma əlaqəsi var?",
+          "type": "single",
+          "options": [
+            "mənim kitabım",
+            "dəmir qapı",
+            "tez qaçmaq",
+            "yaşıl yarpaq",
+            "evə getmək"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mənim — kitabım: şəxsə görə uzlaşır."
+        },
+        {
+          "id": "g10-az-syntax-024",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Cümlənin növləri",
+          "difficulty": "easy",
+          "text": "Hansı cümlə nida cümləsidir?",
+          "type": "single",
+          "options": [
+            "Mənzərə necədir?",
+            "Mənzərə gözəldir.",
+            "Mənzərəni çəkdim.",
+            "Mənzərəyə bax.",
+            "Necə də gözəl mənzərədir!"
+          ],
+          "correctIndex": 4,
+          "explanation": "Güclü hiss bildirir."
+        },
+        {
+          "id": "g10-az-syntax-025",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Cümlənin növləri",
+          "difficulty": "easy",
+          "text": "Hansı cümlə inkar cümləsidir?",
+          "type": "single",
+          "options": [
+            "Bu filmə bax.",
+            "Mən bu filmə baxmışam.",
+            "Film maraqlı idi.",
+            "Filmə baxdınmı?",
+            "Mən bu filmə baxmamışam."
+          ],
+          "correctIndex": 4,
+          "explanation": "-ma inkar şəkilçisi var."
+        },
+        {
+          "id": "g10-az-syntax-026",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Cümlənin növləri",
+          "difficulty": "medium",
+          "text": "Hansı cümlə müxtəsər cümlədir?",
+          "type": "single",
+          "options": [
+            "Günəş çıxdı.",
+            "İsti günəş çıxdı.",
+            "Günəş səhər tezdən çıxdı.",
+            "Günəş yavaş-yavaş çıxdı.",
+            "Parlaq günəş dağların arxasından çıxdı."
+          ],
+          "correctIndex": 0,
+          "explanation": "Yalnız baş üzvlərdən ibarətdir."
+        },
+        {
+          "id": "g10-az-syntax-027",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Uzlaşma",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə mübtəda ilə xəbər şəxsə görə uzlaşmır?",
+          "type": "single",
+          "options": [
+            "Sən sabah teatra gedəcəksən.",
+            "Onlar sabah teatra gedəcəklər.",
+            "Biz sabah teatra gedəcəyik.",
+            "Mən sabah teatra gedəcəyəm.",
+            "Biz sabah teatra gedəcəklər."
+          ],
+          "correctIndex": 4,
+          "explanation": "«Biz» I şəxs cəmdir, xəbər «gedəcəyik» olmalıdır."
+        },
+        {
+          "id": "g10-az-syntax-028",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Tamamlıq",
+          "difficulty": "easy",
+          "text": "«Kitabı mənə ver» cümləsində vasitəsiz tamamlıq hansıdır?",
+          "type": "single",
+          "options": [
+            "ver",
+            "kitabı",
+            "mənə",
+            "mən",
+            "kitabı mənə"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nəyi? — kitabı."
+        },
+        {
+          "id": "g10-az-syntax-029",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Zərflik",
+          "difficulty": "easy",
+          "text": "«Qatar sürətlə irəliləyirdi» cümləsində «sürətlə» hansı üzvdür?",
+          "type": "single",
+          "options": [
+            "tərzi-hərəkət zərfliyi",
+            "təyin",
+            "xəbər",
+            "vasitəli tamamlıq",
+            "səbəb zərfliyi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Necə? sualına cavab verir."
+        },
+        {
+          "id": "g10-az-syntax-030",
+          "grade": 10,
+          "subject": "az",
+          "sectionId": "syntax",
+          "sectionTitle": "Sadə cümlənin sintaksisi",
+          "topic": "Zərflik",
+          "difficulty": "medium",
+          "text": "«Dənizdən sərin külək əsirdi» cümləsində «dənizdən» hansı üzvdür?",
+          "type": "single",
+          "options": [
+            "təyin",
+            "səbəb zərfliyi",
+            "vasitəli tamamlıq",
+            "mübtəda",
+            "yer zərfliyi"
+          ],
+          "correctIndex": 4,
+          "explanation": "Haradan? sualına cavab verir."
+        }
+      ]
+    }
+  ]
+}

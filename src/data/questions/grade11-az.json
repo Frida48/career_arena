@@ -1,0 +1,1837 @@
+{
+  "grade": 11,
+  "subject": "az",
+  "sections": [
+    {
+      "id": "orthography-speech",
+      "title": "Orfoqrafiya və nitq mədəniyyəti",
+      "description": "Yazı qaydaları, böyük hərf, defis, rəqəmlərin yazılışı, leksik norma və nitq etiketi.",
+      "questions": [
+        {
+          "id": "g11-az-orthography-speech-001",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "medium",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "müvəffəqqiyyət",
+            "müvəffəqiyət",
+            "müvvəffəqiyyət",
+            "müvəfəqiyyət",
+            "müvəffəqiyyət"
+          ],
+          "correctIndex": 4,
+          "explanation": "Düzgün yazılış: müvəffəqiyyət."
+        },
+        {
+          "id": "g11-az-orthography-speech-002",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "easy",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "tşəkkür",
+            "təşşəkkür",
+            "təşəkür",
+            "təşəkkür",
+            "təşəkkürr"
+          ],
+          "correctIndex": 3,
+          "explanation": "Düzgün yazılış: təşəkkür."
+        },
+        {
+          "id": "g11-az-orthography-speech-003",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "medium",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "ehtiac",
+            "ehdiyac",
+            "ehtiyyac",
+            "etiyac",
+            "ehtiyac"
+          ],
+          "correctIndex": 4,
+          "explanation": "Düzgün yazılış: ehtiyac."
+        },
+        {
+          "id": "g11-az-orthography-speech-004",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "easy",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "mühhüm",
+            "mühüm",
+            "müfüm",
+            "muhüm",
+            "mühim"
+          ],
+          "correctIndex": 1,
+          "explanation": "Düzgün yazılış: mühüm."
+        },
+        {
+          "id": "g11-az-orthography-speech-005",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "easy",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "şehir",
+            "şeyr",
+            "şiir",
+            "şeir",
+            "şeyir"
+          ],
+          "correctIndex": 3,
+          "explanation": "Düzgün yazılış: şeir."
+        },
+        {
+          "id": "g11-az-orthography-speech-006",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "medium",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "qirəat",
+            "qirayət",
+            "qıraət",
+            "qiraət",
+            "kiraət"
+          ],
+          "correctIndex": 3,
+          "explanation": "Düzgün yazılış: qiraət."
+        },
+        {
+          "id": "g11-az-orthography-speech-007",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "medium",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "ehəmiyyət",
+            "əhəmiyyət",
+            "əhəmiyət",
+            "əhamiyyət",
+            "əhəmmiyyət"
+          ],
+          "correctIndex": 1,
+          "explanation": "Düzgün yazılış: əhəmiyyət."
+        },
+        {
+          "id": "g11-az-orthography-speech-008",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "easy",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "müxtələf",
+            "müxdəlif",
+            "müxtəliv",
+            "müxtəlif",
+            "muxtəlif"
+          ],
+          "correctIndex": 3,
+          "explanation": "Düzgün yazılış: müxtəlif."
+        },
+        {
+          "id": "g11-az-orthography-speech-009",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Böyük hərf",
+          "difficulty": "easy",
+          "text": "Hansı ad düzgün yazılıb?",
+          "type": "single",
+          "options": [
+            "azərbaycan Respublikası",
+            "AZƏRBAYCAN respublikası",
+            "Azərbaycan Respublikası",
+            "Azərbaycan RESPUBLİKASI",
+            "azərbaycan respublikası"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dövlətin rəsmi adında hər söz böyük hərflə yazılır."
+        },
+        {
+          "id": "g11-az-orthography-speech-010",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Defis",
+          "difficulty": "medium",
+          "text": "Hansı söz defislə düzgün yazılıb?",
+          "type": "single",
+          "options": [
+            "ağ-saqqal",
+            "gün-orta",
+            "gec-tez",
+            "qara-göz",
+            "kitab-xana"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qoşa sözlər defislə yazılır; digərləri bitişik yazılır."
+        },
+        {
+          "id": "g11-az-orthography-speech-011",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "medium",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "isdiqamət",
+            "istiqammət",
+            "istiqamət",
+            "istiqamat",
+            "istiqəmət"
+          ],
+          "correctIndex": 2,
+          "explanation": "Düzgün yazılış: istiqamət."
+        },
+        {
+          "id": "g11-az-orthography-speech-012",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Ədatların yazılışı",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə «də» ədatı düzgün yazılıb?",
+          "type": "single",
+          "options": [
+            "Mən də sizinlə gedəcəyəm.",
+            "Mən də, sizinlə gedəcəyəm.",
+            "Məndə sizinlə gedəcəyəm.",
+            "Mənde sizinlə gedəcəyəm.",
+            "Mən-də sizinlə gedəcəyəm."
+          ],
+          "correctIndex": 0,
+          "explanation": "«Da/də» ədatı və bağlayıcısı ayrı yazılır, ondan sonra vergül qoyulmur."
+        },
+        {
+          "id": "g11-az-orthography-speech-013",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Bağlayıcıların yazılışı",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə «ki» bağlayıcısı düzgün yazılıb?",
+          "type": "single",
+          "options": [
+            "Bilirəmki sən haqlısan.",
+            "Bilirəm ki sən, haqlısan.",
+            "Bilirəm ki, sən haqlısan.",
+            "Bilirəmki, sən haqlısan.",
+            "Bilirəm-ki sən haqlısan."
+          ],
+          "correctIndex": 2,
+          "explanation": "«Ki» bağlayıcısı ayrı yazılır, ondan sonra vergül qoyulur."
+        },
+        {
+          "id": "g11-az-orthography-speech-014",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Rəqəmlərin yazılışı",
+          "difficulty": "easy",
+          "text": "«Beşinci» sözü rəqəmlə necə yazılır?",
+          "type": "single",
+          "options": [
+            "5-ci",
+            "5-cü",
+            "5-nci",
+            "5-ıncı",
+            "5ci"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sıra sayı rəqəmlə yazılarkən defisdən sonra -cı/-ci/-cu/-cü yazılır: 5-ci."
+        },
+        {
+          "id": "g11-az-orthography-speech-015",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Rəqəmlərin yazılışı",
+          "difficulty": "easy",
+          "text": "«Üçüncü» sözü rəqəmlə necə yazılır?",
+          "type": "single",
+          "options": [
+            "3-ci",
+            "3-cı",
+            "3-cu",
+            "3cü",
+            "3-cü"
+          ],
+          "correctIndex": 4,
+          "explanation": "Üçüncü → 3-cü."
+        },
+        {
+          "id": "g11-az-orthography-speech-016",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Nitq mədəniyyəti",
+          "difficulty": "hard",
+          "text": "Hansı cümlədə leksik norma pozulub?",
+          "type": "single",
+          "options": [
+            "Biz bu məsələni gələcəkdə həll edəcəyik.",
+            "Biz bu məsələni birlikdə həll edəcəyik.",
+            "Biz bu məsələni gələcək perspektivdə həll edəcəyik.",
+            "Biz bu məsələni mütləq həll edəcəyik.",
+            "Biz bu məsələni tezliklə həll edəcəyik."
+          ],
+          "correctIndex": 2,
+          "explanation": "«Perspektiv» gələcək deməkdir — «gələcək perspektiv» məna təkrarıdır."
+        },
+        {
+          "id": "g11-az-orthography-speech-017",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Nitq mədəniyyəti",
+          "difficulty": "hard",
+          "text": "Hansı ifadədə məna təkrarı yoxdur?",
+          "type": "single",
+          "options": [
+            "yaddaqalan hadisə",
+            "öz avtoportreti",
+            "gələcək perspektiv",
+            "boş vakansiya",
+            "ilk premyera"
+          ],
+          "correctIndex": 0,
+          "explanation": "Digər ifadələrdə ikinci söz birincinin mənasını artıq daşıyır."
+        },
+        {
+          "id": "g11-az-orthography-speech-018",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Nitq mədəniyyəti",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə söz yanlış işlənib?",
+          "type": "single",
+          "options": [
+            "Bu gün əhvalım yaxşıdır.",
+            "Bu gün əhalim yaxşı deyil.",
+            "Şəhərin əhalisi artır.",
+            "Kəndin əhalisi azdır.",
+            "Onun əhvalı pozulmuşdu."
+          ],
+          "correctIndex": 1,
+          "explanation": "Paronimlər qarışdırılıb: «əhval» (kef) olmalıdır, «əhali» (camaat) yox."
+        },
+        {
+          "id": "g11-az-orthography-speech-019",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Nitq etiketi",
+          "difficulty": "easy",
+          "text": "Rəsmi məktuba necə başlamaq düzgündür?",
+          "type": "single",
+          "options": [
+            "Əziz dostum,",
+            "Ay direktor,",
+            "Hey, salam!",
+            "Salam, qardaş!",
+            "Hörmətli cənab direktor,"
+          ],
+          "correctIndex": 4,
+          "explanation": "Rəsmi müraciətdə «hörmətli» sözü işlənir."
+        },
+        {
+          "id": "g11-az-orthography-speech-020",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Durğu işarələri",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə vergül səhv qoyulub?",
+          "type": "single",
+          "options": [
+            "Mən, kitabı oxudum.",
+            "O, kitabı oxudu.",
+            "Mən kitabı oxudum.",
+            "Əli, kitabı oxu.",
+            "Doğrusu, kitabı oxumadım."
+          ],
+          "correctIndex": 0,
+          "explanation": "Mübtəda «mən»dən sonra vergül qoyulmur; «o» əvəzliyindən sonra isə qoyulur."
+        },
+        {
+          "id": "g11-az-orthography-speech-021",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "İxtisarlar",
+          "difficulty": "easy",
+          "text": "Hansı ixtisarın yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "B-D-U",
+            "Bdu",
+            "BDU",
+            "bdu",
+            "bDU"
+          ],
+          "correctIndex": 2,
+          "explanation": "Baş hərflərdən düzəlmiş ixtisarlar böyük hərflərlə bitişik yazılır."
+        },
+        {
+          "id": "g11-az-orthography-speech-022",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Böyük hərf",
+          "difficulty": "easy",
+          "text": "Hansı birləşmə düzgün yazılıb?",
+          "type": "single",
+          "options": [
+            "NOVRUZ bayramı",
+            "Novruz bayramı",
+            "Novruz-bayramı",
+            "novruz bayramı",
+            "novruz Bayramı"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bayramın adı böyük hərflə, «bayram» sözü kiçik hərflə yazılır."
+        },
+        {
+          "id": "g11-az-orthography-speech-023",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Tarixlərin yazılışı",
+          "difficulty": "medium",
+          "text": "Hansı tarix düzgün yazılıb?",
+          "type": "single",
+          "options": [
+            "15 noyabr 2020-ci il",
+            "15 Noyabr 2020-ci il",
+            "15 noyabr 2020 ci il",
+            "15-noyabr 2020-ci il",
+            "15 noyabr 2020-cü il"
+          ],
+          "correctIndex": 0,
+          "explanation": "Tarixdə ay adı kiçik hərflə yazılır, ilin sıra şəkilçisi defislə: 2020-ci."
+        },
+        {
+          "id": "g11-az-orthography-speech-024",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Alınma sözlərin yazılışı",
+          "difficulty": "easy",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "kompyuter",
+            "kompüdter",
+            "komputer",
+            "kampüter",
+            "kompüter"
+          ],
+          "correctIndex": 4,
+          "explanation": "Düzgün yazılış: kompüter."
+        },
+        {
+          "id": "g11-az-orthography-speech-025",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Alınma sözlərin yazılışı",
+          "difficulty": "easy",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "redakdor",
+            "redaktor",
+            "redaktır",
+            "riedaktor",
+            "rədaktor"
+          ],
+          "correctIndex": 1,
+          "explanation": "Düzgün yazılış: redaktor."
+        },
+        {
+          "id": "g11-az-orthography-speech-026",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "medium",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "mütəxəsis",
+            "mutəxəssis",
+            "mütəhəssis",
+            "mütəxəssis",
+            "mütəxxəssis"
+          ],
+          "correctIndex": 3,
+          "explanation": "Düzgün yazılış: mütəxəssis."
+        },
+        {
+          "id": "g11-az-orthography-speech-027",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "easy",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "e'lan",
+            "elən",
+            "elaan",
+            "elan",
+            "ilan"
+          ],
+          "correctIndex": 3,
+          "explanation": "Düzgün yazılış: elan."
+        },
+        {
+          "id": "g11-az-orthography-speech-028",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "easy",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "saat",
+            "saatt",
+            "sahat",
+            "sa'at",
+            "sat"
+          ],
+          "correctIndex": 0,
+          "explanation": "Düzgün yazılış: saat."
+        },
+        {
+          "id": "g11-az-orthography-speech-029",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Üslubi norma",
+          "difficulty": "hard",
+          "text": "Hansı rəsmi mətndə danışıq üslubuna aid ifadə işlənib?",
+          "type": "single",
+          "options": [
+            "Əmr: İşçi 1 iyuldan məzuniyyətə buraxılsın.",
+            "Ərizə: Məni işdən çıxarsanız, lap yaxşı olar.",
+            "Bildiriş: İclas saat 10:00-da keçiriləcək.",
+            "Ərizə: Məni öz xahişimlə işdən azad etməyinizi xahiş edirəm.",
+            "Protokol: İclasda üç məsələ müzakirə olundu."
+          ],
+          "correctIndex": 1,
+          "explanation": "«Lap yaxşı olar» danışıq ifadəsidir, rəsmi sənədə uyğun deyil."
+        },
+        {
+          "id": "g11-az-orthography-speech-030",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "orthography-speech",
+          "sectionTitle": "Orfoqrafiya və nitq mədəniyyəti",
+          "topic": "Orfoqrafiya",
+          "difficulty": "easy",
+          "text": "Hansı sözün yazılışı düzgündür?",
+          "type": "single",
+          "options": [
+            "bazən",
+            "bəzzən",
+            "bəzan",
+            "bəzənn",
+            "bəzən"
+          ],
+          "correctIndex": 4,
+          "explanation": "Düzgün yazılış: bəzən."
+        }
+      ]
+    },
+    {
+      "id": "complex-sentence",
+      "title": "Mürəkkəb cümlə",
+      "description": "Tabesiz və tabeli mürəkkəb cümlələr, budaq cümlənin növləri, bağlama vasitələri və durğu.",
+      "questions": [
+        {
+          "id": "g11-az-complex-sentence-001",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Tabesiz mürəkkəb cümlə",
+          "difficulty": "easy",
+          "text": "Hansı cümlə tabesiz mürəkkəb cümlədir?",
+          "type": "single",
+          "options": [
+            "Günəş batdı, hava qaraldı.",
+            "Günəş batdığı üçün hava qaraldı.",
+            "Günəş batmışdı.",
+            "Bilirəm ki, günəş batıb.",
+            "Günəş batanda hava qaraldı."
+          ],
+          "correctIndex": 0,
+          "explanation": "İki bərabərhüquqlu sadə cümlədən ibarətdir."
+        },
+        {
+          "id": "g11-az-complex-sentence-002",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Tabeli mürəkkəb cümlə",
+          "difficulty": "medium",
+          "text": "Hansı cümlə tabeli mürəkkəb cümlədir?",
+          "type": "single",
+          "options": [
+            "Çalışdım ki, imtahandan yaxşı qiymət alım.",
+            "Çalışdım, imtahandan yaxşı qiymət aldım.",
+            "Çalışdım və imtahandan yaxşı qiymət aldım.",
+            "Mən çox çalışdım.",
+            "Çalışaraq yaxşı qiymət aldım."
+          ],
+          "correctIndex": 0,
+          "explanation": "«Ki» bağlayıcısı ilə budaq cümlə baş cümləyə tabe olub."
+        },
+        {
+          "id": "g11-az-complex-sentence-003",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Tabesiz mürəkkəb cümlə",
+          "difficulty": "medium",
+          "text": "Hansı cümlə bağlayıcılı tabesiz mürəkkəb cümlədir?",
+          "type": "single",
+          "options": [
+            "Yağış dayandı, külək hələ də əsirdi.",
+            "Bilirdim ki, yağış dayanacaq.",
+            "Yağış dayananda külək əsdi.",
+            "Yağış dayandı.",
+            "Yağış dayandı, amma külək hələ də əsirdi."
+          ],
+          "correctIndex": 4,
+          "explanation": "Komponentlər «amma» bağlayıcısı ilə bağlanıb."
+        },
+        {
+          "id": "g11-az-complex-sentence-004",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "medium",
+          "text": "«Kim çalışsa, o qazanar» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "zaman budaq cümləsi",
+            "tamamlıq budaq cümləsi",
+            "xəbər budaq cümləsi",
+            "mübtəda budaq cümləsi",
+            "təyin budaq cümləsi"
+          ],
+          "correctIndex": 3,
+          "explanation": "Budaq cümlə baş cümlədəki «o» mübtədasını izah edir."
+        },
+        {
+          "id": "g11-az-complex-sentence-005",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "medium",
+          "text": "«Mən bilirəm ki, sən gələcəksən» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "tamamlıq budaq cümləsi",
+            "xəbər budaq cümləsi",
+            "mübtəda budaq cümləsi",
+            "təyin budaq cümləsi",
+            "səbəb budaq cümləsi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Nəyi bilirəm? sualına cavab verir."
+        },
+        {
+          "id": "g11-az-complex-sentence-006",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "medium",
+          "text": "«Nə vaxt ki bahar gəldi, ağaclar çiçəklədi» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "zaman budaq cümləsi",
+            "səbəb budaq cümləsi",
+            "şərt budaq cümləsi",
+            "yer budaq cümləsi",
+            "məqsəd budaq cümləsi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Nə vaxt? sualına cavab verir."
+        },
+        {
+          "id": "g11-az-complex-sentence-007",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "easy",
+          "text": "«Əgər yağış yağsa, gəzintiyə getməyəcəyik» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "səbəb budaq cümləsi",
+            "məqsəd budaq cümləsi",
+            "zaman budaq cümləsi",
+            "güzəşt budaq cümləsi",
+            "şərt budaq cümləsi"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Əgər» və -sa şərt bildirir."
+        },
+        {
+          "id": "g11-az-complex-sentence-008",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "medium",
+          "text": "«Biz evdə qaldıq, çünki bərk yağış yağırdı» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "zaman budaq cümləsi",
+            "məqsəd budaq cümləsi",
+            "səbəb budaq cümləsi",
+            "güzəşt budaq cümləsi",
+            "şərt budaq cümləsi"
+          ],
+          "correctIndex": 2,
+          "explanation": "«Çünki» səbəb bildirir."
+        },
+        {
+          "id": "g11-az-complex-sentence-009",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "medium",
+          "text": "«Erkən durdum ki, qatara çatım» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "şərt budaq cümləsi",
+            "tamamlıq budaq cümləsi",
+            "zaman budaq cümləsi",
+            "məqsəd budaq cümləsi",
+            "səbəb budaq cümləsi"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nə məqsədlə? sualına cavab verir."
+        },
+        {
+          "id": "g11-az-complex-sentence-010",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "hard",
+          "text": "«Hərçənd hava soyuq idi, biz gəzintiyə çıxdıq» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "zaman budaq cümləsi",
+            "güzəşt budaq cümləsi",
+            "şərt budaq cümləsi",
+            "məqsəd budaq cümləsi",
+            "səbəb budaq cümləsi"
+          ],
+          "correctIndex": 1,
+          "explanation": "«Hərçənd» güzəşt bildirir: maneəyə baxmayaraq iş icra olunur."
+        },
+        {
+          "id": "g11-az-complex-sentence-011",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "hard",
+          "text": "«Elə bir kitab oxudum ki, onu heç vaxt unutmaram» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "təyin budaq cümləsi",
+            "nəticə budaq cümləsi",
+            "mübtəda budaq cümləsi",
+            "xəbər budaq cümləsi",
+            "tamamlıq budaq cümləsi"
+          ],
+          "correctIndex": 0,
+          "explanation": "Budaq cümlə baş cümlədəki «kitab» sözünün əlamətini açır."
+        },
+        {
+          "id": "g11-az-complex-sentence-012",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "hard",
+          "text": "«Mənim arzum budur ki, həkim olum» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "təyin budaq cümləsi",
+            "mübtəda budaq cümləsi",
+            "xəbər budaq cümləsi",
+            "məqsəd budaq cümləsi",
+            "tamamlıq budaq cümləsi"
+          ],
+          "correctIndex": 2,
+          "explanation": "Budaq cümlə baş cümlədəki «budur» xəbərini izah edir."
+        },
+        {
+          "id": "g11-az-complex-sentence-013",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "medium",
+          "text": "«Harada ki birlik var, orada qələbə var» cümləsində budaq cümlənin növü hansıdır?",
+          "type": "single",
+          "options": [
+            "zaman budaq cümləsi",
+            "səbəb budaq cümləsi",
+            "yer budaq cümləsi",
+            "şərt budaq cümləsi",
+            "təyin budaq cümləsi"
+          ],
+          "correctIndex": 2,
+          "explanation": "Harada? sualına cavab verir."
+        },
+        {
+          "id": "g11-az-complex-sentence-014",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Bağlayıcılar",
+          "difficulty": "easy",
+          "text": "Hansı bağlayıcı şərt budaq cümləsini baş cümləyə bağlayır?",
+          "type": "single",
+          "options": [
+            "və",
+            "hərçənd",
+            "əgər",
+            "çünki",
+            "amma"
+          ],
+          "correctIndex": 2,
+          "explanation": "«Əgər» şərt bağlayıcısıdır."
+        },
+        {
+          "id": "g11-az-complex-sentence-015",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Bağlayıcılar",
+          "difficulty": "medium",
+          "text": "Hansı bağlayıcı güzəşt budaq cümləsi düzəldir?",
+          "type": "single",
+          "options": [
+            "hərçənd",
+            "çünki",
+            "və",
+            "ya",
+            "əgər"
+          ],
+          "correctIndex": 0,
+          "explanation": "«Hərçənd» güzəşt bağlayıcısıdır."
+        },
+        {
+          "id": "g11-az-complex-sentence-016",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Durğu işarələri",
+          "difficulty": "easy",
+          "text": "Hansı tabesiz mürəkkəb cümlədə durğu işarəsi düzgün qoyulub?",
+          "type": "single",
+          "options": [
+            "Bahar gəldi: çöllər, yaşıllaşdı.",
+            "Bahar, gəldi çöllər yaşıllaşdı.",
+            "Bahar gəldi; çöllər, yaşıllaşdı.",
+            "Bahar gəldi çöllər yaşıllaşdı.",
+            "Bahar gəldi, çöllər yaşıllaşdı."
+          ],
+          "correctIndex": 4,
+          "explanation": "Bağlayıcısız komponentlər vergüllə ayrılır."
+        },
+        {
+          "id": "g11-az-complex-sentence-017",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Durğu işarələri",
+          "difficulty": "hard",
+          "text": "Hansı cümlədə durğu işarəsi düzgün qoyulub?",
+          "type": "single",
+          "options": [
+            "Mən bir şeyi başa düşdüm, zəhmətsiz: uğur olmur.",
+            "Mən bir şeyi başa düşdüm zəhmətsiz uğur olmur.",
+            "Mən: bir şeyi başa düşdüm zəhmətsiz uğur olmur.",
+            "Mən bir şeyi başa düşdüm: zəhmətsiz uğur olmur.",
+            "Mən bir şeyi başa düşdüm; zəhmətsiz uğur, olmur."
+          ],
+          "correctIndex": 3,
+          "explanation": "İkinci komponent birincini izah etdikdə aralarında qoşa nöqtə qoyulur."
+        },
+        {
+          "id": "g11-az-complex-sentence-018",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Durğu işarələri",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə «ki» bağlayıcısından sonra vergül qoyulmalıdır?",
+          "type": "single",
+          "options": [
+            "Bu kitab mənimdir",
+            "Biz dünən gəldik",
+            "Sən ki bu işi bacarırsan",
+            "Hava çox istidir",
+            "Ona dedim ki sabah gəlsin"
+          ],
+          "correctIndex": 4,
+          "explanation": "Budaq cümləni bağlayan «ki»dən sonra vergül qoyulur; «Sən ki…» cümləsində «ki» ədatdır."
+        },
+        {
+          "id": "g11-az-complex-sentence-019",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Sadə və mürəkkəb cümlə",
+          "difficulty": "medium",
+          "text": "Hansı cümlə sadə cümlədir?",
+          "type": "single",
+          "options": [
+            "Dərs bitdi, mən kitabxanaya getdim, orada oxudum.",
+            "Bilirsən ki, dərsdən sonra kitabxanaya gedirəm.",
+            "Dərsdən sonra kitabxanaya getdim.",
+            "Dərs bitdi və mən kitabxanaya getdim.",
+            "Əgər dərs tez bitsə, kitabxanaya gedərəm."
+          ],
+          "correctIndex": 2,
+          "explanation": "Bir qrammatik əsası var."
+        },
+        {
+          "id": "g11-az-complex-sentence-020",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Komponentlər",
+          "difficulty": "easy",
+          "text": "«Yağış yağırdı, külək əsirdi, ağaclar yırğalanırdı» cümləsi neçə komponentdən ibarətdir?",
+          "type": "single",
+          "options": [
+            "3",
+            "2",
+            "5",
+            "1",
+            "4"
+          ],
+          "correctIndex": 0,
+          "explanation": "Üç qrammatik əsas var."
+        },
+        {
+          "id": "g11-az-complex-sentence-021",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Baş cümlə",
+          "difficulty": "easy",
+          "text": "«Hamı bilir ki, Bakı qədim şəhərdir» cümləsində baş cümlə hansıdır?",
+          "type": "single",
+          "options": [
+            "Bakı qədim şəhərdir",
+            "Hamı bilir",
+            "Hamı bilir ki",
+            "ki, Bakı",
+            "qədim şəhərdir"
+          ],
+          "correctIndex": 1,
+          "explanation": "Budaq cümlə «ki»dən sonra gəlir."
+        },
+        {
+          "id": "g11-az-complex-sentence-022",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin yeri",
+          "difficulty": "medium",
+          "text": "«Əgər vaxtım olsa, sənə zəng edərəm» cümləsində budaq cümlə hansı mövqedədir?",
+          "type": "single",
+          "options": [
+            "baş cümlənin ortasında",
+            "budaq cümlə yoxdur",
+            "baş cümlədən sonra",
+            "baş cümlədən əvvəl",
+            "iki budaq cümlə var"
+          ],
+          "correctIndex": 3,
+          "explanation": "«Əgər vaxtım olsa» birinci gəlir."
+        },
+        {
+          "id": "g11-az-complex-sentence-023",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Bağlama vasitələri",
+          "difficulty": "hard",
+          "text": "«Çalışsan, qazanarsan» cümləsində budaq cümlə baş cümləyə nə ilə bağlanıb?",
+          "type": "single",
+          "options": [
+            "heç bir vasitə ilə",
+            "«ki» bağlayıcısı ilə",
+            "«çünki» bağlayıcısı ilə",
+            "şərt şəkilçisi (-san) ilə",
+            "«və» bağlayıcısı ilə"
+          ],
+          "correctIndex": 3,
+          "explanation": "Feilin şərt şəkli şəkilçisi budaq cümləni bağlayır."
+        },
+        {
+          "id": "g11-az-complex-sentence-024",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Tabesiz mürəkkəb cümlə",
+          "difficulty": "medium",
+          "text": "Hansı cümlə bölüşdürmə bağlayıcılı tabesiz mürəkkəb cümlədir?",
+          "type": "single",
+          "options": [
+            "Yağış yağır və günəş çıxır.",
+            "Yağış yağdığı üçün günəş çıxmadı.",
+            "Gah yağış yağır, gah da günəş çıxır.",
+            "Yağış yağır, amma günəş çıxır.",
+            "Yağış yağsa, günəş çıxmaz."
+          ],
+          "correctIndex": 2,
+          "explanation": "«Gah … gah» bölüşdürmə bağlayıcısıdır."
+        },
+        {
+          "id": "g11-az-complex-sentence-025",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Tabesiz mürəkkəb cümlə",
+          "difficulty": "hard",
+          "text": "Hansı cümlə inkarlıq bağlayıcılı tabesiz mürəkkəb cümlədir?",
+          "type": "single",
+          "options": [
+            "Nə zəng, nə məktub gəldi.",
+            "O zəng etdi, amma mən yazmadım.",
+            "O zəng etdi, mən məktub yazdım.",
+            "Nə o zəng etdi, nə də mən məktub yazdım.",
+            "O həm zəng etdi, həm də yazdı."
+          ],
+          "correctIndex": 3,
+          "explanation": "İki ayrı mübtəda və xəbər «nə … nə» ilə bağlanıb."
+        },
+        {
+          "id": "g11-az-complex-sentence-026",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Bağlayıcılar",
+          "difficulty": "easy",
+          "text": "Hansı bağlayıcı qarşılaşdırma əlaqəsi yaradır?",
+          "type": "single",
+          "options": [
+            "və",
+            "gah … gah",
+            "lakin",
+            "ya … ya",
+            "həm … həm"
+          ],
+          "correctIndex": 2,
+          "explanation": "«Lakin» qarşılaşdırma bağlayıcısıdır."
+        },
+        {
+          "id": "g11-az-complex-sentence-027",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Durğu işarələri",
+          "difficulty": "easy",
+          "text": "Hansı tabeli mürəkkəb cümlədə vergül düzgün qoyulub?",
+          "type": "single",
+          "options": [
+            "Əgər bilsəydim; sənə deyərdim.",
+            "Əgər bilsəydim, sənə deyərdim.",
+            "Əgər bilsəydim sənə, deyərdim.",
+            "Əgər, bilsəydim sənə deyərdim.",
+            "Əgər bilsəydim sənə deyərdim,"
+          ],
+          "correctIndex": 1,
+          "explanation": "Budaq cümlə baş cümlədən vergüllə ayrılır."
+        },
+        {
+          "id": "g11-az-complex-sentence-028",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin yeri",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə budaq cümlə baş cümlədən sonra gəlib?",
+          "type": "single",
+          "options": [
+            "Kim çalışsa, o qazanar.",
+            "Hara getsən, orada dost tap.",
+            "Əgər yağış yağsa, getmərik.",
+            "Mən istəyirəm ki, sən uğur qazanasan.",
+            "Nə vaxt gəlsən, səni gözləyərəm."
+          ],
+          "correctIndex": 3,
+          "explanation": "Baş cümlə «Mən istəyirəm», budaq cümlə ondan sonradır."
+        },
+        {
+          "id": "g11-az-complex-sentence-029",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə səbəb budaq cümləsi var?",
+          "type": "single",
+          "options": [
+            "Hava soyuq idi, evdə qaldım.",
+            "Hava soyuq olsa, evdə qalaram.",
+            "Evdə qaldım ki, dərslərimi hazırlayım.",
+            "Evdə qaldım, çünki hava çox soyuq idi.",
+            "Hərçənd hava soyuq idi, çölə çıxdım."
+          ],
+          "correctIndex": 3,
+          "explanation": "«Çünki» ilə bağlanan budaq cümlə səbəb bildirir."
+        },
+        {
+          "id": "g11-az-complex-sentence-030",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "complex-sentence",
+          "sectionTitle": "Mürəkkəb cümlə",
+          "topic": "Budaq cümlənin növləri",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə məqsəd budaq cümləsi var?",
+          "type": "single",
+          "options": [
+            "Tez çıxdım, çünki gecikirdim.",
+            "Tez çıxdım, avtobusa çatdım.",
+            "Bilirdim ki, avtobus gəlir.",
+            "Tez çıxsam, avtobusa çataram.",
+            "Tez çıxdım ki, avtobusa çatım."
+          ],
+          "correctIndex": 4,
+          "explanation": "Nə məqsədlə? — avtobusa çatmaq üçün."
+        }
+      ]
+    },
+    {
+      "id": "text-punctuation",
+      "title": "Mətn, nitq növləri və durğu",
+      "description": "Vasitəsiz və vasitəli nitq, durğu işarələri, mətnin növləri və mətn üzərində iş.",
+      "questions": [
+        {
+          "id": "g11-az-text-punctuation-001",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Vasitəsiz nitq",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə vasitəsiz nitq düzgün yazılıb?",
+          "type": "single",
+          "options": [
+            "«Sabah gələcəyəm.» — dedi dostum.",
+            "«Sabah gələcəyəm», dedi dostum.",
+            "Sabah gələcəyəm, — dedi dostum.",
+            "«Sabah gələcəyəm» dedi dostum.",
+            "«Sabah gələcəyəm», — dedi dostum."
+          ],
+          "correctIndex": 4,
+          "explanation": "Vasitəsiz nitq müəllif sözlərindən əvvəl gəldikdə dırnaqdan sonra vergül və tire qoyulur."
+        },
+        {
+          "id": "g11-az-text-punctuation-002",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Vasitəli nitq",
+          "difficulty": "medium",
+          "text": "Müəllim dedi: «Sabah imtahan olacaq.» Bu cümlənin vasitəli nitqə çevrilmiş düzgün variantı hansıdır?",
+          "type": "single",
+          "options": [
+            "Müəllim dedi ki, «sabah imtahan olacaq».",
+            "Müəllim dedi: sabah imtahan olacaq ki.",
+            "Müəllim sabah imtahan olacaq dedi ki.",
+            "Müəllim dedi ki, sabah imtahan olacaq.",
+            "Müəllim dedi, ki sabah imtahan olacaq."
+          ],
+          "correctIndex": 3,
+          "explanation": "Vasitəli nitq «ki» ilə bağlanır, dırnaq işlənmir."
+        },
+        {
+          "id": "g11-az-text-punctuation-003",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Vasitəli nitq",
+          "difficulty": "hard",
+          "text": "Anam dedi: «Mən səni gözləyəcəyəm.» Bu cümlənin vasitəli nitqə çevrilmiş düzgün variantı hansıdır?",
+          "type": "single",
+          "options": [
+            "Anam dedi ki, o məni gözləyəcəyəm.",
+            "Anam dedi ki, mənim gözləyəcəyəm.",
+            "Anam dedi ki, səni gözləyəcək.",
+            "Anam dedi ki, mən səni gözləyəcəyəm.",
+            "Anam dedi ki, məni gözləyəcək."
+          ],
+          "correctIndex": 4,
+          "explanation": "Vasitəli nitqdə şəxslər danışanın mövqeyinə görə dəyişir."
+        },
+        {
+          "id": "g11-az-text-punctuation-004",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Vasitəli nitq",
+          "difficulty": "hard",
+          "text": "Dostum soruşdu: «Sən haradasan?» Bu cümlənin vasitəli nitqə çevrilmiş düzgün variantı hansıdır?",
+          "type": "single",
+          "options": [
+            "Dostum soruşdu: mən haradayam.",
+            "Dostum soruşdu ki, mən haradayam.",
+            "Dostum soruşdu ki, haradasan.",
+            "Dostum soruşdu ki, sən haradasan?",
+            "Dostum soruşdu ki, o haradadır?"
+          ],
+          "correctIndex": 1,
+          "explanation": "«Sən» → «mən», sual işarəsi qoyulmur."
+        },
+        {
+          "id": "g11-az-text-punctuation-005",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Vasitəsiz nitq",
+          "difficulty": "hard",
+          "text": "Müəllif sözləri vasitəsiz nitqin ortasında gəlibsə, hansı yazılış düzgündür?",
+          "type": "single",
+          "options": [
+            "«Bilirsən, — dedi o, — bu iş asan deyil.»",
+            "«Bilirsən, dedi o, bu iş asan deyil.»",
+            "«Bilirsən», dedi o, «bu iş asan deyil.»",
+            "«Bilirsən — dedi o — bu iş asan deyil.»",
+            "Bilirsən, — dedi o, — «bu iş asan deyil.»"
+          ],
+          "correctIndex": 0,
+          "explanation": "Müəllif sözləri hər iki tərəfdən vergül və tire ilə ayrılır."
+        },
+        {
+          "id": "g11-az-text-punctuation-006",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Dialoq",
+          "difficulty": "easy",
+          "text": "Dialoqda hər replikadan əvvəl hansı işarə qoyulur?",
+          "type": "single",
+          "options": [
+            "tire",
+            "qoşa nöqtə",
+            "dırnaq",
+            "nöqtəli vergül",
+            "mötərizə"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dialoqun replikaları yeni sətirdən tire ilə başlayır."
+        },
+        {
+          "id": "g11-az-text-punctuation-007",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mötərizə",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə mötərizə düzgün işlənib?",
+          "type": "single",
+          "options": [
+            "Nizami (Gəncəvi 1141–1209) dahi şairdir.",
+            "Nizami Gəncəvi (1141–1209 dahi şairdir).",
+            "Nizami Gəncəvi 1141–1209 (dahi şairdir).",
+            "Nizami Gəncəvi (1141–1209) dahi şairdir.",
+            "(Nizami Gəncəvi) 1141–1209 dahi şairdir."
+          ],
+          "correctIndex": 3,
+          "explanation": "Əlavə məlumat (həyat illəri) mötərizəyə alınır."
+        },
+        {
+          "id": "g11-az-text-punctuation-008",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Nöqtəli vergül",
+          "difficulty": "hard",
+          "text": "Hansı cümlədə nöqtəli vergül düzgün işlənib?",
+          "type": "single",
+          "options": [
+            "Payızda; yarpaqlar saralır.",
+            "Payızda yarpaqlar; saralır, tökülür.",
+            "Payızda yarpaqlar saralır, tökülür; quşlar isə isti ölkələrə uçur.",
+            "Payız; gəldi.",
+            "Payızda yarpaqlar saralır tökülür quşlar; uçur."
+          ],
+          "correctIndex": 2,
+          "explanation": "Daxilində vergül olan geniş komponentlər nöqtəli vergüllə ayrılır."
+        },
+        {
+          "id": "g11-az-text-punctuation-009",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Üç nöqtə",
+          "difficulty": "easy",
+          "text": "Üç nöqtə nəyi bildirir?",
+          "type": "single",
+          "options": [
+            "sualı",
+            "əmri",
+            "sadalamanı",
+            "fikrin yarımçıq qaldığını",
+            "cümlənin tam bitdiyini"
+          ],
+          "correctIndex": 3,
+          "explanation": "Üç nöqtə fikrin bitmədiyini, fasiləni göstərir."
+        },
+        {
+          "id": "g11-az-text-punctuation-010",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn",
+          "difficulty": "medium",
+          "text": "Mətndə cümlələri bir-biri ilə əlaqələndirən əsas vasitələr hansılardır?",
+          "type": "single",
+          "options": [
+            "hecalar",
+            "yalnız sifətlər",
+            "yalnız durğu işarələri",
+            "əvəzliklər və bağlayıcılar",
+            "yalnız nidalar"
+          ],
+          "correctIndex": 3,
+          "explanation": "Əvəzliklər, bağlayıcılar və söz təkrarı cümlələri əlaqələndirir."
+        },
+        {
+          "id": "g11-az-text-punctuation-011",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "easy",
+          "passage": "Nərmin hər həftə sonu şəhər kənarındakı heyvan sığınacağına gedir. Orada sahibsiz itlərə və pişiklərə yem verir, onların yerini təmizləyir. Əvvəllər o, itlərdən qorxurdu. Lakin sığınacaqda işləyən həkim ona heyvanlarla necə davranmağı öyrətdi. İndi Nərmin hətta ən qorxaq itlərlə də dostlaşa bilir. O, sinif yoldaşlarını da bu işə cəlb etmək istəyir. Nərminin fikrincə, kiçik bir kömək belə kiminsə həyatını dəyişə bilər.",
+          "text": "Nərmin həftə sonları harada olur?",
+          "type": "single",
+          "options": [
+            "heyvan sığınacağında",
+            "nənəsinin evində",
+            "məktəbdə",
+            "kitabxanada",
+            "xəstəxanada"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mətnin birinci cümləsinə baxın."
+        },
+        {
+          "id": "g11-az-text-punctuation-012",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "easy",
+          "passage": "Nərmin hər həftə sonu şəhər kənarındakı heyvan sığınacağına gedir. Orada sahibsiz itlərə və pişiklərə yem verir, onların yerini təmizləyir. Əvvəllər o, itlərdən qorxurdu. Lakin sığınacaqda işləyən həkim ona heyvanlarla necə davranmağı öyrətdi. İndi Nərmin hətta ən qorxaq itlərlə də dostlaşa bilir. O, sinif yoldaşlarını da bu işə cəlb etmək istəyir. Nərminin fikrincə, kiçik bir kömək belə kiminsə həyatını dəyişə bilər.",
+          "text": "Nərmin əvvəllər nədən qorxurdu?",
+          "type": "single",
+          "options": [
+            "sinif yoldaşlarından",
+            "həkimdən",
+            "qaranlıqdan",
+            "pişiklərdən",
+            "itlərdən"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Əvvəllər o, itlərdən qorxurdu.»"
+        },
+        {
+          "id": "g11-az-text-punctuation-013",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "easy",
+          "passage": "Nərmin hər həftə sonu şəhər kənarındakı heyvan sığınacağına gedir. Orada sahibsiz itlərə və pişiklərə yem verir, onların yerini təmizləyir. Əvvəllər o, itlərdən qorxurdu. Lakin sığınacaqda işləyən həkim ona heyvanlarla necə davranmağı öyrətdi. İndi Nərmin hətta ən qorxaq itlərlə də dostlaşa bilir. O, sinif yoldaşlarını da bu işə cəlb etmək istəyir. Nərminin fikrincə, kiçik bir kömək belə kiminsə həyatını dəyişə bilər.",
+          "text": "Nərminə heyvanlarla davranmağı kim öyrətdi?",
+          "type": "single",
+          "options": [
+            "anası",
+            "sinif yoldaşı",
+            "qonşusu",
+            "müəllimi",
+            "sığınacaqda işləyən həkim"
+          ],
+          "correctIndex": 4,
+          "explanation": "Mətndə həkimin adı çəkilir."
+        },
+        {
+          "id": "g11-az-text-punctuation-014",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "medium",
+          "passage": "Nərmin hər həftə sonu şəhər kənarındakı heyvan sığınacağına gedir. Orada sahibsiz itlərə və pişiklərə yem verir, onların yerini təmizləyir. Əvvəllər o, itlərdən qorxurdu. Lakin sığınacaqda işləyən həkim ona heyvanlarla necə davranmağı öyrətdi. İndi Nərmin hətta ən qorxaq itlərlə də dostlaşa bilir. O, sinif yoldaşlarını da bu işə cəlb etmək istəyir. Nərminin fikrincə, kiçik bir kömək belə kiminsə həyatını dəyişə bilər.",
+          "text": "Mətnin əsas fikri hansıdır?",
+          "type": "single",
+          "options": [
+            "Kiçik yardım belə kiminsə həyatını dəyişə bilər.",
+            "Həftə sonu dincəlmək lazımdır.",
+            "Həkim olmaq çətindir.",
+            "Pişiklər itlərdən yaxşıdır.",
+            "İtlər təhlükəli heyvanlardır."
+          ],
+          "correctIndex": 0,
+          "explanation": "Əsas fikir son cümlədə ifadə olunub."
+        },
+        {
+          "id": "g11-az-text-punctuation-015",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "medium",
+          "passage": "Nərmin hər həftə sonu şəhər kənarındakı heyvan sığınacağına gedir. Orada sahibsiz itlərə və pişiklərə yem verir, onların yerini təmizləyir. Əvvəllər o, itlərdən qorxurdu. Lakin sığınacaqda işləyən həkim ona heyvanlarla necə davranmağı öyrətdi. İndi Nərmin hətta ən qorxaq itlərlə də dostlaşa bilir. O, sinif yoldaşlarını da bu işə cəlb etmək istəyir. Nərminin fikrincə, kiçik bir kömək belə kiminsə həyatını dəyişə bilər.",
+          "text": "Mətndəki «lakin» sözü hansı nitq hissəsidir?",
+          "type": "single",
+          "options": [
+            "ədat",
+            "zərf",
+            "qoşma",
+            "bağlayıcı",
+            "modal söz"
+          ],
+          "correctIndex": 3,
+          "explanation": "«Lakin» qarşılaşdırma bağlayıcısıdır."
+        },
+        {
+          "id": "g11-az-text-punctuation-016",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "easy",
+          "passage": "Keçən yaz məktəbimizdə ağacəkmə aksiyası keçirildi. Hər sinif həyətdə öz ağacını əkdi və ona ad verdi. Bizim sinif bir çinar tingi əkdi və onu «Dostluq» adlandırdı. İlk aylarda ting çox zəif idi, yarpaqları saralırdı. Biz növbə ilə onu suvarır, ətrafındakı alaq otlarını təmizləyirdik. Payıza yaxın ting xeyli böyüdü. İndi hər səhər məktəbə gələndə ilk işimiz «Dostluq»a baxmaq olur.",
+          "text": "Aksiya nə vaxt keçirilib?",
+          "type": "single",
+          "options": [
+            "bu qış",
+            "keçən yaz",
+            "keçən payız",
+            "dünən",
+            "yayda"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mətnin birinci cümləsinə baxın."
+        },
+        {
+          "id": "g11-az-text-punctuation-017",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "easy",
+          "passage": "Keçən yaz məktəbimizdə ağacəkmə aksiyası keçirildi. Hər sinif həyətdə öz ağacını əkdi və ona ad verdi. Bizim sinif bir çinar tingi əkdi və onu «Dostluq» adlandırdı. İlk aylarda ting çox zəif idi, yarpaqları saralırdı. Biz növbə ilə onu suvarır, ətrafındakı alaq otlarını təmizləyirdik. Payıza yaxın ting xeyli böyüdü. İndi hər səhər məktəbə gələndə ilk işimiz «Dostluq»a baxmaq olur.",
+          "text": "Sinif hansı ağacı əkib?",
+          "type": "single",
+          "options": [
+            "palıd",
+            "qovaq",
+            "alma",
+            "şam",
+            "çinar"
+          ],
+          "correctIndex": 4,
+          "explanation": "«…bir çinar tingi əkdi…»"
+        },
+        {
+          "id": "g11-az-text-punctuation-018",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "medium",
+          "passage": "Keçən yaz məktəbimizdə ağacəkmə aksiyası keçirildi. Hər sinif həyətdə öz ağacını əkdi və ona ad verdi. Bizim sinif bir çinar tingi əkdi və onu «Dostluq» adlandırdı. İlk aylarda ting çox zəif idi, yarpaqları saralırdı. Biz növbə ilə onu suvarır, ətrafındakı alaq otlarını təmizləyirdik. Payıza yaxın ting xeyli böyüdü. İndi hər səhər məktəbə gələndə ilk işimiz «Dostluq»a baxmaq olur.",
+          "text": "İlk aylarda tingin vəziyyəti necə idi?",
+          "type": "single",
+          "options": [
+            "meyvə verirdi",
+            "zəif idi, yarpaqları saralırdı",
+            "çiçək açmışdı",
+            "quruyub məhv oldu",
+            "çox sürətlə böyüyürdü"
+          ],
+          "correctIndex": 1,
+          "explanation": "«İlk aylarda ting çox zəif idi…»"
+        },
+        {
+          "id": "g11-az-text-punctuation-019",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "medium",
+          "passage": "Keçən yaz məktəbimizdə ağacəkmə aksiyası keçirildi. Hər sinif həyətdə öz ağacını əkdi və ona ad verdi. Bizim sinif bir çinar tingi əkdi və onu «Dostluq» adlandırdı. İlk aylarda ting çox zəif idi, yarpaqları saralırdı. Biz növbə ilə onu suvarır, ətrafındakı alaq otlarını təmizləyirdik. Payıza yaxın ting xeyli böyüdü. İndi hər səhər məktəbə gələndə ilk işimiz «Dostluq»a baxmaq olur.",
+          "text": "Şagirdlər tingə necə qulluq edirdilər?",
+          "type": "single",
+          "options": [
+            "növbə ilə suvarır, alaq otlarını təmizləyirdilər",
+            "onu başqa yerə köçürdülər",
+            "bağbana tapşırmışdılar",
+            "ona dərman vururdular",
+            "heç qulluq etmirdilər"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mətnin beşinci cümləsinə baxın."
+        },
+        {
+          "id": "g11-az-text-punctuation-020",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn üzərində iş",
+          "difficulty": "medium",
+          "passage": "Keçən yaz məktəbimizdə ağacəkmə aksiyası keçirildi. Hər sinif həyətdə öz ağacını əkdi və ona ad verdi. Bizim sinif bir çinar tingi əkdi və onu «Dostluq» adlandırdı. İlk aylarda ting çox zəif idi, yarpaqları saralırdı. Biz növbə ilə onu suvarır, ətrafındakı alaq otlarını təmizləyirdik. Payıza yaxın ting xeyli böyüdü. İndi hər səhər məktəbə gələndə ilk işimiz «Dostluq»a baxmaq olur.",
+          "text": "«Dostluq» sözü mətndə niyə dırnaqda yazılıb?",
+          "type": "single",
+          "options": [
+            "ağacın adı olduğu üçün",
+            "cümlənin əvvəlində gəldiyi üçün",
+            "vasitəsiz nitq olduğu üçün",
+            "sual bildirdiyi üçün",
+            "alınma söz olduğu üçün"
+          ],
+          "correctIndex": 0,
+          "explanation": "Şərti adlar dırnaqda yazılır."
+        },
+        {
+          "id": "g11-az-text-punctuation-021",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Durğu işarələri",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə durğu işarələri düzgün qoyulub?",
+          "type": "single",
+          "options": [
+            "Ay uşaqlar, tez gəlin!",
+            "Ay uşaqlar, tez gəlin.",
+            "Ay uşaqlar tez gəlin!",
+            "Ay, uşaqlar tez gəlin!",
+            "Ay uşaqlar! tez, gəlin"
+          ],
+          "correctIndex": 0,
+          "explanation": "«Ay uşaqlar» xitabdır, vergüllə ayrılır; əmr-çağırış nida işarəsi ilə bitir."
+        },
+        {
+          "id": "g11-az-text-punctuation-022",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Durğu işarələri",
+          "difficulty": "medium",
+          "text": "Hansı cümlənin sonunda «?!» işarəsi qoyula bilər?",
+          "type": "single",
+          "options": [
+            "Bu gün bazar ertəsidir",
+            "Mən evə gedirəm",
+            "Hava soyuqdur",
+            "Sən bunu necə bacardın",
+            "Kitabı rəfə qoy"
+          ],
+          "correctIndex": 3,
+          "explanation": "Təəccüb bildirən sual cümləsinin sonunda «?!» qoyula bilər."
+        },
+        {
+          "id": "g11-az-text-punctuation-023",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Tire",
+          "difficulty": "hard",
+          "text": "Hansı cümlədə mübtəda ilə xəbər arasında tire qoyulmalıdır?",
+          "type": "single",
+          "options": [
+            "Kitab bilik mənbəyi",
+            "Kitab stolun üstündədir",
+            "Kitab bilik mənbəyidir",
+            "Kitab maraqlıdır",
+            "Kitabı oxudum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mübtəda və xəbər isimlə ifadə olunub, xəbərlik şəkilçisi yoxdur — tire qoyulur."
+        },
+        {
+          "id": "g11-az-text-punctuation-024",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Ara cümlə",
+          "difficulty": "hard",
+          "text": "Hansı cümlədə ara cümlə var?",
+          "type": "single",
+          "options": [
+            "Bu kitab, sizə deyim, çox maraqlıdır.",
+            "Bu kitabı, Əli, oxu.",
+            "Bu kitab çox maraqlıdır.",
+            "Bu kitab, roman, çox maraqlıdır.",
+            "Bu kitab, əlbəttə, maraqlıdır."
+          ],
+          "correctIndex": 0,
+          "explanation": "«Sizə deyim» qrammatik əsası olan ara cümlədir; «əlbəttə» — ara söz, «Əli» — xitab."
+        },
+        {
+          "id": "g11-az-text-punctuation-025",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Dırnaq",
+          "difficulty": "easy",
+          "text": "Hansı cümlədə dırnaq düzgün işlənib?",
+          "type": "single",
+          "options": [
+            "Biz «Leyli və Məcnun operasına» baxdıq.",
+            "«Biz» Leyli və Məcnun operasına baxdıq.",
+            "Biz Leyli və Məcnun operasına «baxdıq».",
+            "Biz Leyli «və» Məcnun operasına baxdıq.",
+            "Biz «Leyli və Məcnun» operasına baxdıq."
+          ],
+          "correctIndex": 4,
+          "explanation": "Əsərin adı dırnaqda yazılır."
+        },
+        {
+          "id": "g11-az-text-punctuation-026",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətn",
+          "difficulty": "easy",
+          "text": "Mətndə yeni fikrə keçid adətən necə göstərilir?",
+          "type": "single",
+          "options": [
+            "nida işarəsi ilə",
+            "yeni abzasla",
+            "böyük hərflə yazılmış sözlə",
+            "mötərizə ilə",
+            "üç nöqtə ilə"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hər yeni mikromövzu yeni abzasdan başlayır."
+        },
+        {
+          "id": "g11-az-text-punctuation-027",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətnin növləri",
+          "difficulty": "medium",
+          "text": "«Səhər idi. Günəş təzəcə doğmuşdu. Kənd yavaş-yavaş oyanırdı.» Bu mətn hansı növə aiddir?",
+          "type": "single",
+          "options": [
+            "rəsmi sənəd",
+            "təsvir",
+            "elmi izah",
+            "nəql",
+            "mühakimə"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mənzərənin əlamətləri göstərilir — təsvir."
+        },
+        {
+          "id": "g11-az-text-punctuation-028",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətnin növləri",
+          "difficulty": "medium",
+          "text": "«Əvvəlcə o, kitabı açdı. Sonra bir neçə səhifə oxudu. Nəhayət, yuxuya getdi.» Bu mətn hansı növə aiddir?",
+          "type": "single",
+          "options": [
+            "elan",
+            "mühakimə",
+            "nəql",
+            "arayış",
+            "təsvir"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hadisələr ardıcıllıqla danışılır — nəql."
+        },
+        {
+          "id": "g11-az-text-punctuation-029",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Mətnin növləri",
+          "difficulty": "medium",
+          "text": "«Kitab oxumaq faydalıdır, çünki o, dünyagörüşü genişləndirir. Deməli, hər gün oxumaq lazımdır.» Bu mətn hansı növə aiddir?",
+          "type": "single",
+          "options": [
+            "nəql",
+            "elan",
+            "mühakimə",
+            "dialoq",
+            "təsvir"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fikir, səbəb və nəticə var — mühakimə."
+        },
+        {
+          "id": "g11-az-text-punctuation-030",
+          "grade": 11,
+          "subject": "az",
+          "sectionId": "text-punctuation",
+          "sectionTitle": "Mətn, nitq növləri və durğu",
+          "topic": "Ara sözlər",
+          "difficulty": "medium",
+          "text": "Hansı cümlədə ara söz düzgün ayrılıb?",
+          "type": "single",
+          "options": [
+            "Bu, iş məncə tez bitəcək.",
+            "Bu iş məncə tez, bitəcək.",
+            "Bu iş məncə, tez bitəcək.",
+            "Bu iş, məncə tez bitəcək.",
+            "Bu iş, məncə, tez bitəcək."
+          ],
+          "correctIndex": 4,
+          "explanation": "Cümlənin ortasındakı ara söz hər iki tərəfdən vergüllə ayrılır."
+        }
+      ]
+    }
+  ]
+}

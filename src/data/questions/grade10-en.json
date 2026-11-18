@@ -1,0 +1,1857 @@
+{
+  "grade": 10,
+  "subject": "en",
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "description": "Conditionals, perfect tenses, passive, reported speech, modals of deduction, gerund və infinitive.",
+      "questions": [
+        {
+          "id": "g10-en-grammar-001",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Second Conditional",
+          "difficulty": "medium",
+          "text": "If I ___ more time, I would learn Japanese.",
+          "type": "single",
+          "options": [
+            "would have",
+            "will have",
+            "had",
+            "have",
+            "having"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qeyri-real indiki şərt: If + Past Simple, would + V1."
+        },
+        {
+          "id": "g10-en-grammar-002",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Present Perfect",
+          "difficulty": "easy",
+          "text": "She ___ in this company since 2019.",
+          "type": "single",
+          "options": [
+            "worked",
+            "work",
+            "is working",
+            "has worked",
+            "works"
+          ],
+          "correctIndex": 3,
+          "explanation": "«Since» ilə keçmişdən indiyə qədər davam edən iş — Present Perfect."
+        },
+        {
+          "id": "g10-en-grammar-003",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Past Perfect",
+          "difficulty": "medium",
+          "text": "By the time we arrived, the film ___.",
+          "type": "single",
+          "options": [
+            "was already starting",
+            "had already started",
+            "already starts",
+            "has already started",
+            "already started"
+          ],
+          "correctIndex": 1,
+          "explanation": "Keçmişdəki bir anlıq hərəkətdən əvvəl bitmiş iş — Past Perfect."
+        },
+        {
+          "id": "g10-en-grammar-004",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Passive Voice",
+          "difficulty": "medium",
+          "text": "The new bridge ___ next year.",
+          "type": "single",
+          "options": [
+            "will build",
+            "will be built",
+            "built",
+            "builds",
+            "is building"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gələcək zamanda məchul növ: will be + V3."
+        },
+        {
+          "id": "g10-en-grammar-005",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Reported Speech",
+          "difficulty": "medium",
+          "text": "He said that he ___ tired.",
+          "type": "single",
+          "options": [
+            "is",
+            "has",
+            "be",
+            "was",
+            "were being"
+          ],
+          "correctIndex": 3,
+          "explanation": "Vasitəli nitqdə Present Simple → Past Simple."
+        },
+        {
+          "id": "g10-en-grammar-006",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Gerund / Infinitive",
+          "difficulty": "medium",
+          "text": "I'm looking forward to ___ you.",
+          "type": "single",
+          "options": [
+            "saw",
+            "seeing",
+            "seen",
+            "to see",
+            "see"
+          ],
+          "correctIndex": 1,
+          "explanation": "«Look forward to» birləşməsindən sonra -ing gəlir (to burada önlükdür)."
+        },
+        {
+          "id": "g10-en-grammar-007",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Modals",
+          "difficulty": "medium",
+          "text": "You'd better ___ a doctor.",
+          "type": "single",
+          "options": [
+            "seen",
+            "seeing",
+            "saw",
+            "to see",
+            "see"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Had better»dən sonra to-suz V1 gəlir."
+        },
+        {
+          "id": "g10-en-grammar-008",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Relative Clauses",
+          "difficulty": "easy",
+          "text": "This is the house ___ I was born.",
+          "type": "single",
+          "options": [
+            "which",
+            "whose",
+            "who",
+            "where",
+            "what"
+          ],
+          "correctIndex": 3,
+          "explanation": "Yer bildirən isimdən sonra «where»."
+        },
+        {
+          "id": "g10-en-grammar-009",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Wishes",
+          "difficulty": "medium",
+          "text": "I wish I ___ how to swim.",
+          "type": "single",
+          "options": [
+            "will know",
+            "know",
+            "knowing",
+            "have known",
+            "knew"
+          ],
+          "correctIndex": 4,
+          "explanation": "İndiki vəziyyətə dair arzu: wish + Past Simple."
+        },
+        {
+          "id": "g10-en-grammar-010",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Modals of Deduction",
+          "difficulty": "medium",
+          "text": "She ___ be at home — her car is outside.",
+          "type": "single",
+          "options": [
+            "can't",
+            "shouldn't",
+            "needn't",
+            "mustn't",
+            "must"
+          ],
+          "correctIndex": 4,
+          "explanation": "Güclü məntiqi ehtimal — must."
+        },
+        {
+          "id": "g10-en-grammar-011",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Modals of Deduction",
+          "difficulty": "medium",
+          "text": "He ___ be at work; it's Sunday and the office is closed.",
+          "type": "single",
+          "options": [
+            "can't",
+            "should",
+            "has to",
+            "must",
+            "will"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mümkün olmadığına əminlik — can't."
+        },
+        {
+          "id": "g10-en-grammar-012",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Comparatives",
+          "difficulty": "medium",
+          "text": "The more you practise, ___ you become.",
+          "type": "single",
+          "options": [
+            "the best",
+            "the more good",
+            "better",
+            "the better",
+            "more better"
+          ],
+          "correctIndex": 3,
+          "explanation": "The + müqayisə dərəcəsi …, the + müqayisə dərəcəsi."
+        },
+        {
+          "id": "g10-en-grammar-013",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Be used to / Used to",
+          "difficulty": "hard",
+          "text": "I'm used to ___ up early.",
+          "type": "single",
+          "options": [
+            "getting",
+            "to get",
+            "got",
+            "get",
+            "gets"
+          ],
+          "correctIndex": 0,
+          "explanation": "«Be used to» (öyrəşmək) + -ing."
+        },
+        {
+          "id": "g10-en-grammar-014",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Be used to / Used to",
+          "difficulty": "medium",
+          "text": "I used to ___ football when I was a child.",
+          "type": "single",
+          "options": [
+            "played",
+            "plays",
+            "be playing",
+            "play",
+            "playing"
+          ],
+          "correctIndex": 3,
+          "explanation": "Keçmiş vərdiş: used to + V1."
+        },
+        {
+          "id": "g10-en-grammar-015",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Causative / Let / Make",
+          "difficulty": "easy",
+          "text": "Let me ___ your bag.",
+          "type": "single",
+          "options": [
+            "carries",
+            "carry",
+            "carried",
+            "to carry",
+            "carrying"
+          ],
+          "correctIndex": 1,
+          "explanation": "«Let»dən sonra to-suz V1."
+        },
+        {
+          "id": "g10-en-grammar-016",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Causative / Let / Make",
+          "difficulty": "medium",
+          "text": "They made us ___ the room.",
+          "type": "single",
+          "options": [
+            "clean",
+            "to clean",
+            "cleans",
+            "cleaned",
+            "cleaning"
+          ],
+          "correctIndex": 0,
+          "explanation": "Məlum növdə «make somebody do» — to-suz V1."
+        },
+        {
+          "id": "g10-en-grammar-017",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Relative Clauses",
+          "difficulty": "medium",
+          "text": "The book, ___ was written in 1950, is still popular.",
+          "type": "single",
+          "options": [
+            "what",
+            "that",
+            "whose",
+            "who",
+            "which"
+          ],
+          "correctIndex": 4,
+          "explanation": "Vergüllə ayrılan (non-defining) budaq cümlədə əşya üçün «which» işlənir, «that» yox."
+        },
+        {
+          "id": "g10-en-grammar-018",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Quantifiers",
+          "difficulty": "medium",
+          "text": "I have two brothers, and ___ of them live in Baku.",
+          "type": "single",
+          "options": [
+            "both",
+            "every",
+            "all",
+            "each",
+            "either"
+          ],
+          "correctIndex": 0,
+          "explanation": "İki nəfər haqqında, cəm feillə — both."
+        },
+        {
+          "id": "g10-en-grammar-019",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Quantifiers",
+          "difficulty": "medium",
+          "text": "We have ___ bread left. Let's buy some.",
+          "type": "single",
+          "options": [
+            "little",
+            "few",
+            "a few",
+            "a lot",
+            "many"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sayılmayan isim, «az, demək olar ki, yoxdur» mənası — little."
+        },
+        {
+          "id": "g10-en-grammar-020",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Quantifiers",
+          "difficulty": "medium",
+          "text": "There were ___ people at the party, so it wasn't boring.",
+          "type": "single",
+          "options": [
+            "much",
+            "little",
+            "a little",
+            "any",
+            "a few"
+          ],
+          "correctIndex": 4,
+          "explanation": "Sayılan isim, müsbət məna — a few."
+        },
+        {
+          "id": "g10-en-grammar-021",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Reported Questions",
+          "difficulty": "medium",
+          "text": "He asked me ___ I could help him.",
+          "type": "single",
+          "options": [
+            "what",
+            "which",
+            "if",
+            "unless",
+            "that"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hə/yox sualı vasitəli nitqdə if/whether ilə verilir."
+        },
+        {
+          "id": "g10-en-grammar-022",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Superlatives",
+          "difficulty": "easy",
+          "text": "It's the ___ film I have ever seen.",
+          "type": "single",
+          "options": [
+            "excitingest",
+            "exciting",
+            "most exciting",
+            "more exciting",
+            "much exciting"
+          ],
+          "correctIndex": 2,
+          "explanation": "Üstünlük dərəcəsi: the most + uzun sifət."
+        },
+        {
+          "id": "g10-en-grammar-023",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Present Perfect Continuous",
+          "difficulty": "easy",
+          "text": "She has been studying English ___ she was ten.",
+          "type": "single",
+          "options": [
+            "since",
+            "ago",
+            "for",
+            "until",
+            "during"
+          ],
+          "correctIndex": 0,
+          "explanation": "Başlanğıc nöqtəsi — since."
+        },
+        {
+          "id": "g10-en-grammar-024",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "First Conditional",
+          "difficulty": "medium",
+          "text": "Unless you hurry, you ___ the bus.",
+          "type": "single",
+          "options": [
+            "will miss",
+            "would miss",
+            "are missing",
+            "miss",
+            "missed"
+          ],
+          "correctIndex": 0,
+          "explanation": "Unless = if not; real şərt: will + V1."
+        },
+        {
+          "id": "g10-en-grammar-025",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Past Continuous",
+          "difficulty": "medium",
+          "text": "I ___ dinner when my phone rang.",
+          "type": "single",
+          "options": [
+            "am cooking",
+            "have cooked",
+            "was cooking",
+            "had been cook",
+            "cook"
+          ],
+          "correctIndex": 2,
+          "explanation": "Kəsilən uzun keçmiş hərəkət — Past Continuous."
+        },
+        {
+          "id": "g10-en-grammar-026",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Subject–Verb Agreement",
+          "difficulty": "hard",
+          "text": "Neither of my parents ___ coffee.",
+          "type": "single",
+          "options": [
+            "have drink",
+            "drink",
+            "are drinking",
+            "drinking",
+            "drinks"
+          ],
+          "correctIndex": 4,
+          "explanation": "Rəsmi qrammatikada «neither of» təkdə feillə işlənir."
+        },
+        {
+          "id": "g10-en-grammar-027",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Gerund / Infinitive",
+          "difficulty": "easy",
+          "text": "Would you mind ___ the window?",
+          "type": "single",
+          "options": [
+            "to open",
+            "opened",
+            "opens",
+            "open",
+            "opening"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Mind»dan sonra -ing."
+        },
+        {
+          "id": "g10-en-grammar-028",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Time Clauses",
+          "difficulty": "medium",
+          "text": "I'll call you as soon as I ___ home.",
+          "type": "single",
+          "options": [
+            "will get",
+            "get",
+            "am getting",
+            "got",
+            "would get"
+          ],
+          "correctIndex": 1,
+          "explanation": "Zaman budaq cümləsində gələcək mənada Present Simple işlənir."
+        },
+        {
+          "id": "g10-en-grammar-029",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Too / Enough",
+          "difficulty": "easy",
+          "text": "She is too young ___ alone.",
+          "type": "single",
+          "options": [
+            "travelling",
+            "to travel",
+            "traveled",
+            "travel",
+            "for travel"
+          ],
+          "correctIndex": 1,
+          "explanation": "Too + sifət + to + V1."
+        },
+        {
+          "id": "g10-en-grammar-030",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar",
+          "topic": "Question Tags",
+          "difficulty": "medium",
+          "text": "You're coming tomorrow, ___?",
+          "type": "single",
+          "options": [
+            "aren't you",
+            "won't you",
+            "isn't it",
+            "don't you",
+            "are you"
+          ],
+          "correctIndex": 0,
+          "explanation": "Müsbət cümlə + inkar «tag»: You're … , aren't you?"
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "description": "Phrasal verbs, collocations, word formation və tez qarışdırılan sözlər.",
+      "questions": [
+        {
+          "id": "g10-en-vocabulary-001",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "easy",
+          "text": "The teacher asked us to ___ our mobile phones during the exam.",
+          "type": "single",
+          "options": [
+            "give in",
+            "switch on",
+            "take up",
+            "switch off",
+            "look up"
+          ],
+          "correctIndex": 3,
+          "explanation": "Switch off — söndürmək."
+        },
+        {
+          "id": "g10-en-vocabulary-002",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "medium",
+          "text": "I can't ___ the noise any longer.",
+          "type": "single",
+          "options": [
+            "put out",
+            "put up with",
+            "put away",
+            "put off",
+            "put on"
+          ],
+          "correctIndex": 1,
+          "explanation": "Put up with — dözmək."
+        },
+        {
+          "id": "g10-en-vocabulary-003",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "medium",
+          "text": "The meeting has been ___ until next week.",
+          "type": "single",
+          "options": [
+            "put off",
+            "put up",
+            "put in",
+            "put on",
+            "put down"
+          ],
+          "correctIndex": 0,
+          "explanation": "Put off — təxirə salmaq."
+        },
+        {
+          "id": "g10-en-vocabulary-004",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "medium",
+          "text": "She ___ her grandmother — they have the same eyes.",
+          "type": "single",
+          "options": [
+            "takes in",
+            "takes off",
+            "takes up",
+            "takes over",
+            "takes after"
+          ],
+          "correctIndex": 4,
+          "explanation": "Take after — (ailə üzvünə) oxşamaq."
+        },
+        {
+          "id": "g10-en-vocabulary-005",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Phrasal Verbs",
+          "difficulty": "medium",
+          "text": "We ran ___ milk, so I went to the shop.",
+          "type": "single",
+          "options": [
+            "into",
+            "away from",
+            "over",
+            "out of",
+            "through"
+          ],
+          "correctIndex": 3,
+          "explanation": "Run out of — qurtarmaq, tükənmək."
+        },
+        {
+          "id": "g10-en-vocabulary-006",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Synonyms",
+          "difficulty": "easy",
+          "text": "Choose the synonym of «reliable».",
+          "type": "single",
+          "options": [
+            "cheerful",
+            "careless",
+            "generous",
+            "dependable",
+            "curious"
+          ],
+          "correctIndex": 3,
+          "explanation": "Reliable = dependable (etibarlı)."
+        },
+        {
+          "id": "g10-en-vocabulary-007",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Antonyms",
+          "difficulty": "medium",
+          "text": "Choose the antonym of «generous».",
+          "type": "single",
+          "options": [
+            "mean",
+            "rich",
+            "polite",
+            "kind",
+            "friendly"
+          ],
+          "correctIndex": 0,
+          "explanation": "Generous (səxavətli) — mean (xəsis)."
+        },
+        {
+          "id": "g10-en-vocabulary-008",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "easy",
+          "text": "We are making good ___ with our project.",
+          "type": "single",
+          "options": [
+            "progress",
+            "research",
+            "exercise",
+            "homework",
+            "housework"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sabit birləşmə: make progress."
+        },
+        {
+          "id": "g10-en-vocabulary-009",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "easy",
+          "text": "Don't worry about the result. Just ___ your best.",
+          "type": "single",
+          "options": [
+            "make",
+            "take",
+            "get",
+            "do",
+            "put"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sabit birləşmə: do your best."
+        },
+        {
+          "id": "g10-en-vocabulary-010",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "medium",
+          "text": "It's important to ___ a balanced diet.",
+          "type": "single",
+          "options": [
+            "do",
+            "spend",
+            "win",
+            "make",
+            "follow"
+          ],
+          "correctIndex": 4,
+          "explanation": "Follow a diet — pəhrizə əməl etmək."
+        },
+        {
+          "id": "g10-en-vocabulary-011",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "easy",
+          "text": "Smoking is ___ to your health. (HARM)",
+          "type": "single",
+          "options": [
+            "harmed",
+            "harmless",
+            "harmful",
+            "harmfully",
+            "harm"
+          ],
+          "correctIndex": 2,
+          "explanation": "Harmful — zərərli."
+        },
+        {
+          "id": "g10-en-vocabulary-012",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "medium",
+          "text": "She showed great ___ during the competition. (CONFIDENT)",
+          "type": "single",
+          "options": [
+            "confide",
+            "confident",
+            "confidently",
+            "confidential",
+            "confidence"
+          ],
+          "correctIndex": 4,
+          "explanation": "Sifətdən sonra isim lazımdır: confidence (özünəinam)."
+        },
+        {
+          "id": "g10-en-vocabulary-013",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "easy",
+          "text": "Thank you for your ___. (KIND)",
+          "type": "single",
+          "options": [
+            "unkind",
+            "kind",
+            "kindness",
+            "kinder",
+            "kindly"
+          ],
+          "correctIndex": 2,
+          "explanation": "Your + isim: kindness."
+        },
+        {
+          "id": "g10-en-vocabulary-014",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "medium",
+          "text": "I ___ with you. I think you're wrong. (AGREE)",
+          "type": "single",
+          "options": [
+            "agreeable",
+            "disagreement",
+            "agree",
+            "agreement",
+            "disagree"
+          ],
+          "correctIndex": 4,
+          "explanation": "Məna inkardır və feil lazımdır: disagree."
+        },
+        {
+          "id": "g10-en-vocabulary-015",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "medium",
+          "text": "The film was ___; I couldn't stop laughing. (HUMOUR)",
+          "type": "single",
+          "options": [
+            "humorist",
+            "humourless",
+            "humorous",
+            "humour",
+            "humorously"
+          ],
+          "correctIndex": 2,
+          "explanation": "Humorous — gülməli, yumorlu."
+        },
+        {
+          "id": "g10-en-vocabulary-016",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "medium",
+          "text": "An ___ person hates waiting. (PATIENT)",
+          "type": "single",
+          "options": [
+            "patiently",
+            "patient",
+            "impatient",
+            "patience",
+            "unpatient"
+          ],
+          "correctIndex": 2,
+          "explanation": "Patient sözünün inkarı im- ilə düzəlir: impatient."
+        },
+        {
+          "id": "g10-en-vocabulary-017",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "People",
+          "difficulty": "easy",
+          "text": "A ___ is a person who travels to a place for pleasure.",
+          "type": "single",
+          "options": [
+            "pilot",
+            "tourist",
+            "driver",
+            "guide",
+            "resident"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tourist — turist."
+        },
+        {
+          "id": "g10-en-vocabulary-018",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Confusing Words",
+          "difficulty": "medium",
+          "text": "The doctor wrote me a ___ for some medicine.",
+          "type": "single",
+          "options": [
+            "recipe",
+            "subscription",
+            "receipt",
+            "prescription",
+            "description"
+          ],
+          "correctIndex": 3,
+          "explanation": "Prescription — resept (həkim)."
+        },
+        {
+          "id": "g10-en-vocabulary-019",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Confusing Words",
+          "difficulty": "medium",
+          "text": "Please keep the ___ in case you want to return the shirt.",
+          "type": "single",
+          "options": [
+            "receipt",
+            "review",
+            "prescription",
+            "menu",
+            "recipe"
+          ],
+          "correctIndex": 0,
+          "explanation": "Receipt — qəbz, çek."
+        },
+        {
+          "id": "g10-en-vocabulary-020",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Confusing Words",
+          "difficulty": "medium",
+          "text": "My mum gave me a ___ for chocolate cake.",
+          "type": "single",
+          "options": [
+            "menu",
+            "prescription",
+            "receipt",
+            "review",
+            "recipe"
+          ],
+          "correctIndex": 4,
+          "explanation": "Recipe — yemək resepti."
+        },
+        {
+          "id": "g10-en-vocabulary-021",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Meaning",
+          "difficulty": "medium",
+          "text": "«Ambitious» means ___.",
+          "type": "single",
+          "options": [
+            "being very shy",
+            "easily angry",
+            "having a strong wish to succeed",
+            "not interested",
+            "feeling sleepy"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ambitious — iddialı, məqsədyönlü."
+        },
+        {
+          "id": "g10-en-vocabulary-022",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Meaning",
+          "difficulty": "easy",
+          "text": "«Fragile» means ___.",
+          "type": "single",
+          "options": [
+            "easily broken",
+            "very heavy",
+            "quite old",
+            "very expensive",
+            "brightly coloured"
+          ],
+          "correctIndex": 0,
+          "explanation": "Fragile — kövrək, asan sınan."
+        },
+        {
+          "id": "g10-en-vocabulary-023",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Meaning",
+          "difficulty": "medium",
+          "text": "«To postpone» means ___.",
+          "type": "single",
+          "options": [
+            "to delay",
+            "to start",
+            "to cancel",
+            "to repeat",
+            "to finish"
+          ],
+          "correctIndex": 0,
+          "explanation": "Postpone — təxirə salmaq (ləğv etmək deyil)."
+        },
+        {
+          "id": "g10-en-vocabulary-024",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Synonyms",
+          "difficulty": "easy",
+          "text": "Which word is closest in meaning to «essential»?",
+          "type": "single",
+          "options": [
+            "boring",
+            "extra",
+            "optional",
+            "unusual",
+            "necessary"
+          ],
+          "correctIndex": 4,
+          "explanation": "Essential — vacib, zəruri."
+        },
+        {
+          "id": "g10-en-vocabulary-025",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Antonyms",
+          "difficulty": "easy",
+          "text": "The opposite of «increase» is ___.",
+          "type": "single",
+          "options": [
+            "expand",
+            "decrease",
+            "grow",
+            "rise",
+            "raise"
+          ],
+          "correctIndex": 1,
+          "explanation": "Increase (artmaq) — decrease (azalmaq)."
+        },
+        {
+          "id": "g10-en-vocabulary-026",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "easy",
+          "text": "I'd like to ___ a table for two at 7 p.m.",
+          "type": "single",
+          "options": [
+            "take",
+            "do",
+            "buy",
+            "order",
+            "book"
+          ],
+          "correctIndex": 4,
+          "explanation": "Book a table — stol sifariş etmək (rezerv)."
+        },
+        {
+          "id": "g10-en-vocabulary-027",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "easy",
+          "text": "Could you ___ me a favour?",
+          "type": "single",
+          "options": [
+            "make",
+            "give",
+            "take",
+            "have",
+            "do"
+          ],
+          "correctIndex": 4,
+          "explanation": "Sabit birləşmə: do somebody a favour."
+        },
+        {
+          "id": "g10-en-vocabulary-028",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "medium",
+          "text": "She ___ a speech at the conference.",
+          "type": "single",
+          "options": [
+            "did",
+            "said",
+            "gave",
+            "spoke",
+            "told"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sabit birləşmə: give a speech."
+        },
+        {
+          "id": "g10-en-vocabulary-029",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "Collocations",
+          "difficulty": "medium",
+          "text": "He has ___ a cold, so he's staying at home.",
+          "type": "single",
+          "options": [
+            "taken",
+            "kept",
+            "caught",
+            "held",
+            "made"
+          ],
+          "correctIndex": 2,
+          "explanation": "Catch a cold — soyuqlamaq."
+        },
+        {
+          "id": "g10-en-vocabulary-030",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "vocabulary",
+          "sectionTitle": "Vocabulary",
+          "topic": "So / Such",
+          "difficulty": "medium",
+          "text": "The bus was ___ crowded that we couldn't get on.",
+          "type": "single",
+          "options": [
+            "very",
+            "such",
+            "too",
+            "enough",
+            "so"
+          ],
+          "correctIndex": 4,
+          "explanation": "So + sifət + that."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "description": "Altı orijinal mətn üzrə detal, əsas fikir, söz mənası və nəticə çıxarma sualları.",
+      "questions": [
+        {
+          "id": "g10-en-reading-001",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Last summer Aysel got her first part-time job at a small café near her school. At first she found it difficult. She had to remember dozens of orders, and once she dropped a whole tray of glasses in front of the customers. She wanted to quit after the first week, but the owner, Mr Kamal, told her that everyone makes mistakes at the beginning. He taught her to write orders down and to carry fewer things at once. By the end of the summer, Aysel was one of the fastest waiters in the café. She says the job taught her more about responsibility than any lesson at school, and she used the money she earned to buy a laptop for her studies.",
+          "text": "Where did Aysel work last summer?",
+          "type": "single",
+          "options": [
+            "in a computer shop",
+            "at her father's office",
+            "in a library",
+            "at a café near her school",
+            "at a supermarket"
+          ],
+          "correctIndex": 3,
+          "explanation": "Birinci cümləyə baxın."
+        },
+        {
+          "id": "g10-en-reading-002",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Last summer Aysel got her first part-time job at a small café near her school. At first she found it difficult. She had to remember dozens of orders, and once she dropped a whole tray of glasses in front of the customers. She wanted to quit after the first week, but the owner, Mr Kamal, told her that everyone makes mistakes at the beginning. He taught her to write orders down and to carry fewer things at once. By the end of the summer, Aysel was one of the fastest waiters in the café. She says the job taught her more about responsibility than any lesson at school, and she used the money she earned to buy a laptop for her studies.",
+          "text": "Why did Aysel want to quit after the first week?",
+          "type": "single",
+          "options": [
+            "She was paid too little.",
+            "She found the job difficult and made mistakes.",
+            "She had too much homework.",
+            "The owner was unkind.",
+            "She was bored."
+          ],
+          "correctIndex": 1,
+          "explanation": "Çətinliklər və səhvlər (sınan stəkanlar) təsvir olunur."
+        },
+        {
+          "id": "g10-en-reading-003",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Last summer Aysel got her first part-time job at a small café near her school. At first she found it difficult. She had to remember dozens of orders, and once she dropped a whole tray of glasses in front of the customers. She wanted to quit after the first week, but the owner, Mr Kamal, told her that everyone makes mistakes at the beginning. He taught her to write orders down and to carry fewer things at once. By the end of the summer, Aysel was one of the fastest waiters in the café. She says the job taught her more about responsibility than any lesson at school, and she used the money she earned to buy a laptop for her studies.",
+          "text": "What advice did Mr Kamal give her?",
+          "type": "single",
+          "options": [
+            "to work only in the mornings",
+            "to write orders down and carry fewer things",
+            "to find a different job",
+            "to buy a laptop",
+            "to smile more at customers"
+          ],
+          "correctIndex": 1,
+          "explanation": "«He taught her to write orders down and to carry fewer things at once.»"
+        },
+        {
+          "id": "g10-en-reading-004",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Last summer Aysel got her first part-time job at a small café near her school. At first she found it difficult. She had to remember dozens of orders, and once she dropped a whole tray of glasses in front of the customers. She wanted to quit after the first week, but the owner, Mr Kamal, told her that everyone makes mistakes at the beginning. He taught her to write orders down and to carry fewer things at once. By the end of the summer, Aysel was one of the fastest waiters in the café. She says the job taught her more about responsibility than any lesson at school, and she used the money she earned to buy a laptop for her studies.",
+          "text": "What does the text suggest about Aysel by the end of the summer?",
+          "type": "single",
+          "options": [
+            "She still hated the job.",
+            "She stopped going to school.",
+            "She was dismissed.",
+            "She opened her own café.",
+            "She had become confident and skilled."
+          ],
+          "correctIndex": 4,
+          "explanation": "O, kafenin ən sürətli ofisiantlarından biri olmuşdu."
+        },
+        {
+          "id": "g10-en-reading-005",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Last summer Aysel got her first part-time job at a small café near her school. At first she found it difficult. She had to remember dozens of orders, and once she dropped a whole tray of glasses in front of the customers. She wanted to quit after the first week, but the owner, Mr Kamal, told her that everyone makes mistakes at the beginning. He taught her to write orders down and to carry fewer things at once. By the end of the summer, Aysel was one of the fastest waiters in the café. She says the job taught her more about responsibility than any lesson at school, and she used the money she earned to buy a laptop for her studies.",
+          "text": "What did Aysel buy with her money?",
+          "type": "single",
+          "options": [
+            "a tray",
+            "a laptop",
+            "a bicycle",
+            "a phone",
+            "new clothes"
+          ],
+          "correctIndex": 1,
+          "explanation": "Son cümləyə baxın."
+        },
+        {
+          "id": "g10-en-reading-006",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Every year millions of tonnes of plastic end up in the world's oceans. Most of it comes from land: bottles, bags and packaging are carried by rivers or blown by the wind into the sea. Plastic does not disappear; instead, it slowly breaks into tiny pieces called microplastics. Sea animals often mistake these pieces for food. Turtles, for example, sometimes eat plastic bags because they look like jellyfish. Some countries have banned single-use bags, and many beaches are now cleaned by volunteers. However, scientists say that the most effective solution is to produce and use less plastic in the first place.",
+          "text": "Where does most ocean plastic come from?",
+          "type": "single",
+          "options": [
+            "from sea animals",
+            "from the sky",
+            "from fishing nets only",
+            "from land",
+            "from ships"
+          ],
+          "correctIndex": 3,
+          "explanation": "«Most of it comes from land…»"
+        },
+        {
+          "id": "g10-en-reading-007",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every year millions of tonnes of plastic end up in the world's oceans. Most of it comes from land: bottles, bags and packaging are carried by rivers or blown by the wind into the sea. Plastic does not disappear; instead, it slowly breaks into tiny pieces called microplastics. Sea animals often mistake these pieces for food. Turtles, for example, sometimes eat plastic bags because they look like jellyfish. Some countries have banned single-use bags, and many beaches are now cleaned by volunteers. However, scientists say that the most effective solution is to produce and use less plastic in the first place.",
+          "text": "What are microplastics?",
+          "type": "single",
+          "options": [
+            "special fishing nets",
+            "new plastic bottles",
+            "a type of jellyfish",
+            "plastic bags",
+            "tiny pieces of broken plastic"
+          ],
+          "correctIndex": 4,
+          "explanation": "Plastik kiçik hissəciklərə parçalanır."
+        },
+        {
+          "id": "g10-en-reading-008",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every year millions of tonnes of plastic end up in the world's oceans. Most of it comes from land: bottles, bags and packaging are carried by rivers or blown by the wind into the sea. Plastic does not disappear; instead, it slowly breaks into tiny pieces called microplastics. Sea animals often mistake these pieces for food. Turtles, for example, sometimes eat plastic bags because they look like jellyfish. Some countries have banned single-use bags, and many beaches are now cleaned by volunteers. However, scientists say that the most effective solution is to produce and use less plastic in the first place.",
+          "text": "Why do turtles sometimes eat plastic bags?",
+          "type": "single",
+          "options": [
+            "They cannot see well.",
+            "The bags taste sweet.",
+            "They are very hungry.",
+            "They use them to build nests.",
+            "The bags look like jellyfish."
+          ],
+          "correctIndex": 4,
+          "explanation": "«…because they look like jellyfish.»"
+        },
+        {
+          "id": "g10-en-reading-009",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every year millions of tonnes of plastic end up in the world's oceans. Most of it comes from land: bottles, bags and packaging are carried by rivers or blown by the wind into the sea. Plastic does not disappear; instead, it slowly breaks into tiny pieces called microplastics. Sea animals often mistake these pieces for food. Turtles, for example, sometimes eat plastic bags because they look like jellyfish. Some countries have banned single-use bags, and many beaches are now cleaned by volunteers. However, scientists say that the most effective solution is to produce and use less plastic in the first place.",
+          "text": "According to scientists, what is the best solution?",
+          "type": "single",
+          "options": [
+            "banning all fishing",
+            "cleaning more beaches",
+            "building more rivers",
+            "feeding turtles",
+            "producing and using less plastic"
+          ],
+          "correctIndex": 4,
+          "explanation": "Son cümləyə baxın."
+        },
+        {
+          "id": "g10-en-reading-010",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Every year millions of tonnes of plastic end up in the world's oceans. Most of it comes from land: bottles, bags and packaging are carried by rivers or blown by the wind into the sea. Plastic does not disappear; instead, it slowly breaks into tiny pieces called microplastics. Sea animals often mistake these pieces for food. Turtles, for example, sometimes eat plastic bags because they look like jellyfish. Some countries have banned single-use bags, and many beaches are now cleaned by volunteers. However, scientists say that the most effective solution is to produce and use less plastic in the first place.",
+          "text": "The word «effective» in the text is closest in meaning to ___.",
+          "type": "single",
+          "options": [
+            "easy to forget",
+            "very expensive",
+            "successful in producing a result",
+            "difficult to understand",
+            "very fast"
+          ],
+          "correctIndex": 2,
+          "explanation": "Effective — səmərəli."
+        },
+        {
+          "id": "g10-en-reading-011",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "When Elvin was helping his grandfather clean the attic, he found an old wooden box. Inside there was a map of their village, drawn by hand more than sixty years ago. On the map, a small cross was marked next to the old mill. Elvin was sure it was hidden treasure. The next morning he and his sister walked to the mill with a shovel. After an hour of digging, they found a metal tin. There was no gold inside — only a letter and a black-and-white photo of a young man. The young man was their grandfather. In the letter, he had written about his dreams for the future. That evening the whole family read the letter together, and grandfather laughed until he cried.",
+          "text": "Where did Elvin find the box?",
+          "type": "single",
+          "options": [
+            "at school",
+            "in the attic",
+            "in a shop",
+            "near the mill",
+            "in the garden"
+          ],
+          "correctIndex": 1,
+          "explanation": "Birinci cümləyə baxın."
+        },
+        {
+          "id": "g10-en-reading-012",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "When Elvin was helping his grandfather clean the attic, he found an old wooden box. Inside there was a map of their village, drawn by hand more than sixty years ago. On the map, a small cross was marked next to the old mill. Elvin was sure it was hidden treasure. The next morning he and his sister walked to the mill with a shovel. After an hour of digging, they found a metal tin. There was no gold inside — only a letter and a black-and-white photo of a young man. The young man was their grandfather. In the letter, he had written about his dreams for the future. That evening the whole family read the letter together, and grandfather laughed until he cried.",
+          "text": "What did Elvin think the cross on the map meant?",
+          "type": "single",
+          "options": [
+            "a new house",
+            "a dangerous place",
+            "a well",
+            "a grave",
+            "hidden treasure"
+          ],
+          "correctIndex": 4,
+          "explanation": "«Elvin was sure it was hidden treasure.»"
+        },
+        {
+          "id": "g10-en-reading-013",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "When Elvin was helping his grandfather clean the attic, he found an old wooden box. Inside there was a map of their village, drawn by hand more than sixty years ago. On the map, a small cross was marked next to the old mill. Elvin was sure it was hidden treasure. The next morning he and his sister walked to the mill with a shovel. After an hour of digging, they found a metal tin. There was no gold inside — only a letter and a black-and-white photo of a young man. The young man was their grandfather. In the letter, he had written about his dreams for the future. That evening the whole family read the letter together, and grandfather laughed until he cried.",
+          "text": "What was inside the metal tin?",
+          "type": "single",
+          "options": [
+            "a new map",
+            "gold coins",
+            "a key",
+            "a letter and an old photo",
+            "nothing"
+          ],
+          "correctIndex": 3,
+          "explanation": "«…only a letter and a black-and-white photo…»"
+        },
+        {
+          "id": "g10-en-reading-014",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "When Elvin was helping his grandfather clean the attic, he found an old wooden box. Inside there was a map of their village, drawn by hand more than sixty years ago. On the map, a small cross was marked next to the old mill. Elvin was sure it was hidden treasure. The next morning he and his sister walked to the mill with a shovel. After an hour of digging, they found a metal tin. There was no gold inside — only a letter and a black-and-white photo of a young man. The young man was their grandfather. In the letter, he had written about his dreams for the future. That evening the whole family read the letter together, and grandfather laughed until he cried.",
+          "text": "Who was the young man in the photo?",
+          "type": "single",
+          "options": [
+            "a stranger",
+            "their father",
+            "a famous actor",
+            "the mill owner",
+            "their grandfather"
+          ],
+          "correctIndex": 4,
+          "explanation": "«The young man was their grandfather.»"
+        },
+        {
+          "id": "g10-en-reading-015",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "When Elvin was helping his grandfather clean the attic, he found an old wooden box. Inside there was a map of their village, drawn by hand more than sixty years ago. On the map, a small cross was marked next to the old mill. Elvin was sure it was hidden treasure. The next morning he and his sister walked to the mill with a shovel. After an hour of digging, they found a metal tin. There was no gold inside — only a letter and a black-and-white photo of a young man. The young man was their grandfather. In the letter, he had written about his dreams for the future. That evening the whole family read the letter together, and grandfather laughed until he cried.",
+          "text": "How did grandfather feel when the family read the letter?",
+          "type": "single",
+          "options": [
+            "He was angry.",
+            "He was confused.",
+            "He was bored.",
+            "He was amused and moved.",
+            "He was frightened."
+          ],
+          "correctIndex": 3,
+          "explanation": "«…laughed until he cried.»"
+        },
+        {
+          "id": "g10-en-reading-016",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Every Thursday afternoon a group of teenagers meets at the local community centre to teach older people how to use smartphones. The idea came from Leyla, a sixteen-year-old student, after her grandmother asked her for help with video calls for the tenth time. Now about fifteen pensioners come to each session. They learn how to send messages, take photos and pay bills online. The volunteers say patience is the most important skill. 'We explain the same thing many times, and that's fine,' says Leyla. The older learners, in return, share stories about their lives. Several of them have become good friends with the students.",
+          "text": "When do the sessions take place?",
+          "type": "single",
+          "options": [
+            "once a month",
+            "on Monday evenings",
+            "at weekends",
+            "every morning",
+            "on Thursday afternoons"
+          ],
+          "correctIndex": 4,
+          "explanation": "Birinci cümləyə baxın."
+        },
+        {
+          "id": "g10-en-reading-017",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every Thursday afternoon a group of teenagers meets at the local community centre to teach older people how to use smartphones. The idea came from Leyla, a sixteen-year-old student, after her grandmother asked her for help with video calls for the tenth time. Now about fifteen pensioners come to each session. They learn how to send messages, take photos and pay bills online. The volunteers say patience is the most important skill. 'We explain the same thing many times, and that's fine,' says Leyla. The older learners, in return, share stories about their lives. Several of them have become good friends with the students.",
+          "text": "How did the idea start?",
+          "type": "single",
+          "options": [
+            "A teacher suggested it.",
+            "The community centre paid students.",
+            "A phone company started it.",
+            "Leyla saw it on TV.",
+            "Leyla's grandmother often asked her for help."
+          ],
+          "correctIndex": 4,
+          "explanation": "Nənəsi video zənglər üçün dəfələrlə kömək istəmişdi."
+        },
+        {
+          "id": "g10-en-reading-018",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Every Thursday afternoon a group of teenagers meets at the local community centre to teach older people how to use smartphones. The idea came from Leyla, a sixteen-year-old student, after her grandmother asked her for help with video calls for the tenth time. Now about fifteen pensioners come to each session. They learn how to send messages, take photos and pay bills online. The volunteers say patience is the most important skill. 'We explain the same thing many times, and that's fine,' says Leyla. The older learners, in return, share stories about their lives. Several of them have become good friends with the students.",
+          "text": "About how many pensioners come to each session?",
+          "type": "single",
+          "options": [
+            "fifty",
+            "ten",
+            "five",
+            "twenty",
+            "fifteen"
+          ],
+          "correctIndex": 4,
+          "explanation": "«…about fifteen pensioners come to each session.»"
+        },
+        {
+          "id": "g10-en-reading-019",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Every Thursday afternoon a group of teenagers meets at the local community centre to teach older people how to use smartphones. The idea came from Leyla, a sixteen-year-old student, after her grandmother asked her for help with video calls for the tenth time. Now about fifteen pensioners come to each session. They learn how to send messages, take photos and pay bills online. The volunteers say patience is the most important skill. 'We explain the same thing many times, and that's fine,' says Leyla. The older learners, in return, share stories about their lives. Several of them have become good friends with the students.",
+          "text": "According to the volunteers, what is the most important skill?",
+          "type": "single",
+          "options": [
+            "technical knowledge",
+            "good English",
+            "strictness",
+            "patience",
+            "speed"
+          ],
+          "correctIndex": 3,
+          "explanation": "«…patience is the most important skill.»"
+        },
+        {
+          "id": "g10-en-reading-020",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Every Thursday afternoon a group of teenagers meets at the local community centre to teach older people how to use smartphones. The idea came from Leyla, a sixteen-year-old student, after her grandmother asked her for help with video calls for the tenth time. Now about fifteen pensioners come to each session. They learn how to send messages, take photos and pay bills online. The volunteers say patience is the most important skill. 'We explain the same thing many times, and that's fine,' says Leyla. The older learners, in return, share stories about their lives. Several of them have become good friends with the students.",
+          "text": "What do the older learners give the students in return?",
+          "type": "single",
+          "options": [
+            "lessons in maths",
+            "money",
+            "new phones",
+            "stories about their lives",
+            "food"
+          ],
+          "correctIndex": 3,
+          "explanation": "«…share stories about their lives.»"
+        },
+        {
+          "id": "g10-en-reading-021",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Honeybees are famous for making honey, but their most important job is pollination. When a bee visits a flower to collect nectar, tiny grains of pollen stick to its body. As it flies from flower to flower, it carries this pollen with it, which helps plants produce fruit and seeds. Many of the fruits and vegetables we eat depend on this process. Unfortunately, bee populations have fallen in many parts of the world. Scientists believe the main reasons are the use of certain pesticides, the loss of wild flowers and disease. Planting flowers in gardens and on balconies is one simple way that ordinary people can help bees.",
+          "text": "What is the bees' most important job, according to the text?",
+          "type": "single",
+          "options": [
+            "making honey",
+            "pollination",
+            "eating flowers",
+            "building hives",
+            "producing wax"
+          ],
+          "correctIndex": 1,
+          "explanation": "Birinci cümləyə baxın."
+        },
+        {
+          "id": "g10-en-reading-022",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Honeybees are famous for making honey, but their most important job is pollination. When a bee visits a flower to collect nectar, tiny grains of pollen stick to its body. As it flies from flower to flower, it carries this pollen with it, which helps plants produce fruit and seeds. Many of the fruits and vegetables we eat depend on this process. Unfortunately, bee populations have fallen in many parts of the world. Scientists believe the main reasons are the use of certain pesticides, the loss of wild flowers and disease. Planting flowers in gardens and on balconies is one simple way that ordinary people can help bees.",
+          "text": "How does pollen travel between flowers?",
+          "type": "single",
+          "options": [
+            "It sticks to bees' bodies.",
+            "It falls into the soil.",
+            "Bees eat it and grow it.",
+            "Gardeners move it by hand.",
+            "The wind always carries it."
+          ],
+          "correctIndex": 0,
+          "explanation": "«…tiny grains of pollen stick to its body.»"
+        },
+        {
+          "id": "g10-en-reading-023",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Honeybees are famous for making honey, but their most important job is pollination. When a bee visits a flower to collect nectar, tiny grains of pollen stick to its body. As it flies from flower to flower, it carries this pollen with it, which helps plants produce fruit and seeds. Many of the fruits and vegetables we eat depend on this process. Unfortunately, bee populations have fallen in many parts of the world. Scientists believe the main reasons are the use of certain pesticides, the loss of wild flowers and disease. Planting flowers in gardens and on balconies is one simple way that ordinary people can help bees.",
+          "text": "Which is NOT given as a reason for the fall in bee numbers?",
+          "type": "single",
+          "options": [
+            "certain pesticides",
+            "disease",
+            "use of chemicals on farms",
+            "cold winters",
+            "loss of wild flowers"
+          ],
+          "correctIndex": 3,
+          "explanation": "Mətndə soyuq qışlar səbəb kimi göstərilmir."
+        },
+        {
+          "id": "g10-en-reading-024",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Honeybees are famous for making honey, but their most important job is pollination. When a bee visits a flower to collect nectar, tiny grains of pollen stick to its body. As it flies from flower to flower, it carries this pollen with it, which helps plants produce fruit and seeds. Many of the fruits and vegetables we eat depend on this process. Unfortunately, bee populations have fallen in many parts of the world. Scientists believe the main reasons are the use of certain pesticides, the loss of wild flowers and disease. Planting flowers in gardens and on balconies is one simple way that ordinary people can help bees.",
+          "text": "How can ordinary people help bees?",
+          "type": "single",
+          "options": [
+            "by eating more honey",
+            "by planting flowers",
+            "by cutting grass often",
+            "by using more pesticides",
+            "by keeping bees at school"
+          ],
+          "correctIndex": 1,
+          "explanation": "Son cümləyə baxın."
+        },
+        {
+          "id": "g10-en-reading-025",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Honeybees are famous for making honey, but their most important job is pollination. When a bee visits a flower to collect nectar, tiny grains of pollen stick to its body. As it flies from flower to flower, it carries this pollen with it, which helps plants produce fruit and seeds. Many of the fruits and vegetables we eat depend on this process. Unfortunately, bee populations have fallen in many parts of the world. Scientists believe the main reasons are the use of certain pesticides, the loss of wild flowers and disease. Planting flowers in gardens and on balconies is one simple way that ordinary people can help bees.",
+          "text": "What is the main purpose of the text?",
+          "type": "single",
+          "options": [
+            "to describe different types of flowers",
+            "to compare bees and wasps",
+            "to explain why bees matter and why they are in danger",
+            "to teach how to make honey",
+            "to sell pesticides"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mətn arıların rolunu və təhlükələri izah edir."
+        },
+        {
+          "id": "g10-en-reading-026",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "easy",
+          "passage": "Since the pandemic, online learning has become a normal part of education. Supporters say it gives students freedom: they can watch lessons again, study at their own speed and learn from teachers in other cities or even other countries. Critics, however, point out that not every family has a fast internet connection or a quiet place to study. They also argue that students miss the social side of school — talking to friends, working in teams and asking questions face to face. Many experts now believe that the best approach is a mix of both: online materials for practice and classroom time for discussion and cooperation.",
+          "text": "What is one advantage of online learning mentioned in the text?",
+          "type": "single",
+          "options": [
+            "Exams are easier.",
+            "It needs no internet.",
+            "Teachers work less.",
+            "Students can study at their own speed.",
+            "It is always free."
+          ],
+          "correctIndex": 3,
+          "explanation": "Tərəfdarların fikirlərinə baxın."
+        },
+        {
+          "id": "g10-en-reading-027",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Since the pandemic, online learning has become a normal part of education. Supporters say it gives students freedom: they can watch lessons again, study at their own speed and learn from teachers in other cities or even other countries. Critics, however, point out that not every family has a fast internet connection or a quiet place to study. They also argue that students miss the social side of school — talking to friends, working in teams and asking questions face to face. Many experts now believe that the best approach is a mix of both: online materials for practice and classroom time for discussion and cooperation.",
+          "text": "What problem do critics point out?",
+          "type": "single",
+          "options": [
+            "Online lessons are too short.",
+            "Books are too expensive.",
+            "Not every family has a good internet connection.",
+            "Teachers cannot use computers.",
+            "Students learn too fast."
+          ],
+          "correctIndex": 2,
+          "explanation": "«…not every family has a fast internet connection…»"
+        },
+        {
+          "id": "g10-en-reading-028",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "medium",
+          "passage": "Since the pandemic, online learning has become a normal part of education. Supporters say it gives students freedom: they can watch lessons again, study at their own speed and learn from teachers in other cities or even other countries. Critics, however, point out that not every family has a fast internet connection or a quiet place to study. They also argue that students miss the social side of school — talking to friends, working in teams and asking questions face to face. Many experts now believe that the best approach is a mix of both: online materials for practice and classroom time for discussion and cooperation.",
+          "text": "What do students miss in online learning, according to critics?",
+          "type": "single",
+          "options": [
+            "homework",
+            "textbooks",
+            "school uniforms",
+            "exams",
+            "the social side of school"
+          ],
+          "correctIndex": 4,
+          "explanation": "«…students miss the social side of school…»"
+        },
+        {
+          "id": "g10-en-reading-029",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Since the pandemic, online learning has become a normal part of education. Supporters say it gives students freedom: they can watch lessons again, study at their own speed and learn from teachers in other cities or even other countries. Critics, however, point out that not every family has a fast internet connection or a quiet place to study. They also argue that students miss the social side of school — talking to friends, working in teams and asking questions face to face. Many experts now believe that the best approach is a mix of both: online materials for practice and classroom time for discussion and cooperation.",
+          "text": "What approach do many experts now recommend?",
+          "type": "single",
+          "options": [
+            "learning only at weekends",
+            "learning without teachers",
+            "only classroom learning",
+            "a mix of online and classroom learning",
+            "only online learning"
+          ],
+          "correctIndex": 3,
+          "explanation": "Son cümləyə baxın."
+        },
+        {
+          "id": "g10-en-reading-030",
+          "grade": 10,
+          "subject": "en",
+          "sectionId": "reading",
+          "sectionTitle": "Reading",
+          "topic": "Reading",
+          "difficulty": "hard",
+          "passage": "Since the pandemic, online learning has become a normal part of education. Supporters say it gives students freedom: they can watch lessons again, study at their own speed and learn from teachers in other cities or even other countries. Critics, however, point out that not every family has a fast internet connection or a quiet place to study. They also argue that students miss the social side of school — talking to friends, working in teams and asking questions face to face. Many experts now believe that the best approach is a mix of both: online materials for practice and classroom time for discussion and cooperation.",
+          "text": "What is the writer's attitude in the text?",
+          "type": "single",
+          "options": [
+            "balanced, showing both sides",
+            "strongly against online learning",
+            "strongly in favour of online learning",
+            "angry with teachers",
+            "not interested in education"
+          ],
+          "correctIndex": 0,
+          "explanation": "Müəllif hər iki tərəfin arqumentlərini verir."
+        }
+      ]
+    }
+  ]
+}
