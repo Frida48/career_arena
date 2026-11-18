@@ -1,4 +1,6 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
+import { getMyResults } from '../services/resultsService';
+import type { SavedResult } from '../services/resultsService';
 import { ArrowDown, ArrowUp, Crown, Minus, Send } from 'lucide-react';
 import type { AuthUser, ScreenType } from '../types';
 import { Avatar } from '../components/Avatar';
@@ -66,6 +68,15 @@ export const RankingScreen: React.FC<RankingScreenProps> = ({ user, onSelectScre
   const [stars, setStars] = useState(0);
   const [text, setText] = useState('');
   const [reviewError, setReviewError] = useState('');
+  const [myResults, setMyResults] = useState<SavedResult[] | null>(null);
+
+  // Öz nəticələrin serverdən gəlir; digər iştirakçılar hələlik nümunə datadır
+  useEffect(() => {
+    if (!user) return;
+    getMyResults()
+      .then(setMyResults)
+      .catch(() => setMyResults(null));
+  }, [user]);
 
   const rows = useMemo<Row[]>(() => {
     const subjectIndex = SUBJECT_FILTERS.findIndex((s) => s.id === subject);
@@ -75,20 +86,34 @@ export const RankingScreen: React.FC<RankingScreenProps> = ({ user, onSelectScre
       return { ...e, points: Math.round(e.points * PERIOD_FACTOR[period] * subjectFactor) };
     });
     if (user) {
+      const since = { week: 7, month: 30, all: Infinity }[period] * 86_400_000;
+      const mine = (myResults ?? []).filter(
+        (r) =>
+          (subject === 'all' || r.subjectId === subject) &&
+          Date.now() - new Date(r.createdAt).getTime() <= since,
+      );
+      const real = myResults !== null;
       scaled.push({
         id: 'me',
         name: user.fullName,
         school: 'Sən',
-        points: Math.round(MY_BASE_POINTS * PERIOD_FACTOR[period]),
-        tests: 14,
-        average: 85,
-        change: 2,
+        // Bal: hər düzgün cavab 10 bal
+        points: real
+          ? mine.reduce((sum, r) => sum + r.correct * 10, 0)
+          : Math.round(MY_BASE_POINTS * PERIOD_FACTOR[period]),
+        tests: real ? mine.length : 14,
+        average: real
+          ? mine.length
+            ? Math.round(mine.reduce((sum, r) => sum + r.percent, 0) / mine.length)
+            : 0
+          : 85,
+        change: real ? 0 : 2,
         isMe: true,
         avatarUrl: user.avatarUrl,
       });
     }
     return scaled.sort((a, b) => b.points - a.points);
-  }, [period, subject, user]);
+  }, [period, subject, user, myResults]);
 
   const myRank = rows.findIndex((r) => r.isMe) + 1;
   const podium = [rows[1], rows[0], rows[2]];

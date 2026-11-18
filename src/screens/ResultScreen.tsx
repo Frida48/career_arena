@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import {
   ChevronDown,
   CheckCircle2,
@@ -15,6 +15,7 @@ import { ProgressRing } from '../components/ProgressRing';
 import { PlagiarismReport } from '../components/PlagiarismReport';
 import { useExam } from '../context/ExamContext';
 import { buildDemoSession, evaluate, formatClock, MAX_VIOLATIONS } from '../utils/exam';
+import { saveResult } from '../services/resultsService';
 import type { AnswerStatus } from '../utils/exam';
 
 interface ResultScreenProps {
@@ -57,6 +58,11 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ onSelectScreen }) =>
     [session],
   );
   const ev = useMemo(() => evaluate(data), [data]);
+
+  // Nəticəni serverdə saxla (daxil olmuş istifadəçi üçün; eyni sessiya bir dəfə yazılır)
+  useEffect(() => {
+    if (!data.isDemo) void saveResult(data, ev).catch(() => undefined);
+  }, [data, ev]);
 
   const [filter, setFilter] = useState<Filter>('all');
   const [openIdx, setOpenIdx] = useState<number | null>(null);

@@ -3,7 +3,7 @@ import { CheckCircle2, Loader2, MailCheck } from 'lucide-react';
 import type { AuthUser, ScreenType } from '../types';
 import {
   AuthError,
-  DEMO_VERIFICATION_CODE,
+  getDevVerificationCode,
   VERIFICATION_CODE_LENGTH,
   resendVerificationCode,
   verifyEmail,
@@ -209,10 +209,11 @@ export const VerifyEmailScreen: React.FC<VerifyEmailScreenProps> = ({
               )}
             </div>
 
-            {import.meta.env.DEV && (
+            {getDevVerificationCode() && (
               <p className="text-xs rounded-lg bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/50 text-amber-800 dark:text-amber-200 p-2.5">
-                Demo rejimi: kod <b className="font-mono">{DEMO_VERIFICATION_CODE}</b> (yalnız{' '}
-                <code>npm run dev</code>-də göstərilir).
+                Test rejimi: kod <b className="font-mono">{getDevVerificationCode()}</b>. Real
+                e-poçt hələ qoşulmayıb, kod server konsolunda da görünür (yalnız{' '}
+                <code>npm run dev</code>-də).
               </p>
             )}
 

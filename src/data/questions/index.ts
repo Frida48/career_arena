@@ -56,9 +56,11 @@ const banks = Object.values(files).sort(
 
 /** Mövzu üzrə bilik səviyyəsi hələ hesablanmır — sabit nümunə dəyər (40–92) */
 function mockMastery(seed: string): number {
-  let h = 0;
-  for (const ch of seed) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-  return 40 + (h % 53);
+  let h = 2166136261; // FNV-1a
+  for (const ch of seed) h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0;
+  h ^= h >>> 13;
+  h = Math.imul(h, 0x5bd1e995) >>> 0;
+  return 40 + ((h ^ (h >>> 15)) % 53);
 }
 
 function majority(list: Difficulty[]): Difficulty {

@@ -54,7 +54,28 @@ export function pickQuestions(setup: ExamSetup): BankQuestion[] {
   const primary = shuffle(pool.filter(matches));
   const sameSection = shuffle(pool.filter((q) => inSection(q) && !primary.includes(q)));
   const rest = shuffle(pool.filter((q) => !inSection(q)));
-  return [...primary, ...sameSection, ...rest].slice(0, setup.questionCount);
+  const picked = [...primary, ...sameSection, ...rest].slice(0, setup.questionCount);
+  return groupByPassage(picked);
+}
+
+/** Eyni oxu mətninə aid suallar ardıcıl gəlsin (mətn bir dəfə oxunub bir neçə suala cavab verilir) */
+function groupByPassage(list: BankQuestion[]): BankQuestion[] {
+  const order: (BankQuestion | BankQuestion[])[] = [];
+  const groups = new Map<string, BankQuestion[]>();
+  for (const q of list) {
+    if (!q.passage) {
+      order.push(q);
+      continue;
+    }
+    const g = groups.get(q.passage);
+    if (g) g.push(q);
+    else {
+      const ng = [q];
+      groups.set(q.passage, ng);
+      order.push(ng);
+    }
+  }
+  return order.flat();
 }
 
 export type AnswerStatus = 'correct' | 'wrong' | 'blank';

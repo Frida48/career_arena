@@ -4,8 +4,11 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3000 --host=0.0.0.0",
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite --port=3000 --host=0.0.0.0",
+    "server": "node --disable-warning=ExperimentalWarning server/index.js",
     "build": "tsc --noEmit && vite build",
+    "start": "npm run build && node --disable-warning=ExperimentalWarning server/index.js --prod",
     "preview": "vite preview",
     "lint": "tsc --noEmit",
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
