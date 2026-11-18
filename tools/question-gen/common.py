@@ -132,12 +132,13 @@ def handwritten(grade, subject, section_id, section_title, items, seed):
 
 
 def save(grade, subject, sections):
-    """sections: [(section_id, title, [questions])]"""
+    """sections: [(section_id, title, [questions], description)]"""
     OUT.mkdir(exist_ok=True)
     data = {
         "grade": grade,
         "subject": subject,
-        "sections": [{"id": sid, "title": title, "questions": qs} for sid, title, qs in sections],
+        "sections": [{"id": sec[0], "title": sec[1], "description": sec[3] if len(sec) > 3 else "",
+                      "questions": sec[2]} for sec in sections],
     }
     path = OUT / f"grade{grade}-{subject}.json"
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

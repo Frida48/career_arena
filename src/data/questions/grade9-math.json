@@ -5,6 +5,7 @@
     {
       "id": "numbers",
       "title": "Ədədlər və hesablamalar",
+      "description": "ƏBOB və ƏKOB, kəsrlər, faiz, kvadrat köklər, qüvvət və nisbət.",
       "questions": [
         {
           "id": "g9-math-numbers-001",
@@ -583,6 +584,7 @@
     {
       "id": "algebra",
       "title": "Cəbri ifadələr, tənliklər və bərabərsizliklər",
+      "description": "Xətti və kvadrat tənliklər, Viyet teoremi, qısa vurma düsturları, sistemlər və bərabərsizliklər.",
       "questions": [
         {
           "id": "g9-math-algebra-001",
@@ -1154,6 +1156,7 @@
     {
       "id": "functions",
       "title": "Funksiyalar və silsilələr",
+      "description": "Xətti və kvadrat funksiya, ədədi və həndəsi silsilələr.",
       "questions": [
         {
           "id": "g9-math-functions-001",
@@ -1725,6 +1728,7 @@
     {
       "id": "geometry",
       "title": "Həndəsə, statistika və ehtimal",
+      "description": "Pifaqor teoremi, üçbucağın bucaqları, çevrə və dairə, trapesiya, statistika və ehtimal.",
       "questions": [
         {
           "id": "g9-math-geometry-001",

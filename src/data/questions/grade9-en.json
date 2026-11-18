@@ -5,6 +5,7 @@
     {
       "id": "grammar",
       "title": "Grammar",
+      "description": "Tenses, conditionals, passive voice, modals, articles və prepositions.",
       "questions": [
         {
           "id": "g9-en-grammar-001",
@@ -611,6 +612,7 @@
     {
       "id": "vocabulary",
       "title": "Vocabulary",
+      "description": "Synonyms, collocations, phrasal verbs və word formation.",
       "questions": [
         {
           "id": "g9-en-vocabulary-001",
@@ -1217,6 +1219,7 @@
     {
       "id": "reading",
       "title": "Reading",
+      "description": "Orijinal mətnlər üzrə əsas fikir, detal və nəticə çıxarma sualları.",
       "questions": [
         {
           "id": "g9-en-reading-001",

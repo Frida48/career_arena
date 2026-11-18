@@ -13,6 +13,7 @@ import {
 import type { ScreenType } from '../types';
 import { SUBJECTS_DATA } from '../data/examData';
 import { DIFFICULTY_META, getSection, getTopic } from '../data/catalog';
+import { gradeLabel, hasBank } from '../data/questions';
 import { useExam } from '../context/ExamContext';
 import { MAX_VIOLATIONS, examDurationMinutes, formatMinutes } from '../utils/exam';
 
@@ -32,6 +33,7 @@ export const ExamInfoScreen: React.FC<ExamInfoScreenProps> = ({ onSelectScreen, 
   const running = session?.status === 'running';
 
   const facts = [
+    { label: 'Sinif', value: `${gradeLabel(setup.grade)} sinif` },
     { label: 'Fənn', value: subject.name },
     { label: 'Bölmə', value: section?.name ?? 'Bütün bölmələr' },
     {
@@ -92,15 +94,15 @@ export const ExamInfoScreen: React.FC<ExamInfoScreenProps> = ({ onSelectScreen, 
           </div>
         )}
 
-        {setup.subjectId !== 'math' && (
+        {!hasBank(setup.grade, setup.subjectId) && (
           <div
             role="note"
             className="rounded-[16px] border border-amber-200 dark:border-amber-900/50 bg-amber-50 dark:bg-amber-950/30 p-4 flex gap-3 text-sm text-amber-800 dark:text-amber-200"
           >
             <AlertTriangle className="w-5 h-5 shrink-0 mt-0.5" />
             <p>
-              <b>Nümunə rejimi:</b> bu fənn üçün sual bazası hələ əlavə olunmayıb, interfeys
-              Riyaziyyat nümunə sualları ilə göstərilir.
+              <b>Suallar hazır deyil:</b> {gradeLabel(setup.grade)} sinif üçün bu fənn üzrə sual
+              bankı hələ əlavə olunmayıb. Başqa sinif və ya fənn seç.
             </p>
           </div>
         )}
@@ -172,7 +174,7 @@ export const ExamInfoScreen: React.FC<ExamInfoScreenProps> = ({ onSelectScreen, 
               Seçimi dəyiş
             </button>
             <button
-              disabled={!agreed}
+              disabled={!agreed || !hasBank(setup.grade, setup.subjectId)}
               onClick={onStartExam}
               className="btn-gold h-12 px-8 rounded-[12px] font-bold text-base flex items-center justify-center gap-2 disabled:opacity-50 disabled:filter-none"
             >

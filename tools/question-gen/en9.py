@@ -243,7 +243,7 @@ READING = [
 
 if __name__ == "__main__":
     save(9, "en", [
-        ("grammar", "Grammar", handwritten(9, "en", "grammar", "Grammar", GRAMMAR, 9201)),
-        ("vocabulary", "Vocabulary", handwritten(9, "en", "vocabulary", "Vocabulary", VOCAB, 9202)),
-        ("reading", "Reading", handwritten(9, "en", "reading", "Reading", READING, 9203)),
+        ("grammar", "Grammar", handwritten(9, "en", "grammar", "Grammar", GRAMMAR, 9201), "Tenses, conditionals, passive voice, modals, articles və prepositions."),
+        ("vocabulary", "Vocabulary", handwritten(9, "en", "vocabulary", "Vocabulary", VOCAB, 9202), "Synonyms, collocations, phrasal verbs və word formation."),
+        ("reading", "Reading", handwritten(9, "en", "reading", "Reading", READING, 9203), "Orijinal mətnlər üzrə əsas fikir, detal və nəticə çıxarma sualları."),
     ])

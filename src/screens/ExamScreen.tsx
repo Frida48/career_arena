@@ -8,7 +8,7 @@ import {
   LogOut,
   OctagonX,
 } from 'lucide-react';
-import type { OptionKey, ScreenType } from '../types';
+import type { ScreenType } from '../types';
 import { SUBJECTS_DATA } from '../data/examData';
 import { getQuestion } from '../data/questionBank';
 import { DifficultyBadge } from '../components/DifficultyBadge';
@@ -19,8 +19,6 @@ import { MAX_VIOLATIONS, formatClock } from '../utils/exam';
 interface ExamScreenProps {
   onSelectScreen: (screen: ScreenType) => void;
 }
-
-const OPTION_KEYS: OptionKey[] = ['A', 'B', 'C', 'D'];
 
 export const ExamScreen: React.FC<ExamScreenProps> = ({ onSelectScreen }) => {
   const { session, answer, toggleFlag, addViolation, finishExam, abandonExam } = useExam();
@@ -94,9 +92,13 @@ export const ExamScreen: React.FC<ExamScreenProps> = ({ onSelectScreen }) => {
     const onKey = (e: KeyboardEvent) => {
       const q = questions[current];
       if (!q) return;
+      // Açıq sualın xanasına yazanda qısayollar işləməsin
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA')) return;
       const idx =
-        '1234'.indexOf(e.key) >= 0 ? '1234'.indexOf(e.key) : 'abcd'.indexOf(e.key.toLowerCase());
-      if (idx >= 0 && e.key.length === 1) answer(q.id, OPTION_KEYS[idx]);
+        '12345'.indexOf(e.key) >= 0 ? '12345'.indexOf(e.key) : 'abcde'.indexOf(e.key.toLowerCase());
+      const opt = q.kind === 'open' ? undefined : q.options[idx];
+      if (idx >= 0 && e.key.length === 1 && opt) answer(q.id, opt.key);
       if (e.key === 'ArrowRight') setCurrent((c) => Math.min(c + 1, questions.length - 1));
       if (e.key === 'ArrowLeft') setCurrent((c) => Math.max(c - 1, 0));
     };
@@ -267,39 +269,74 @@ export const ExamScreen: React.FC<ExamScreenProps> = ({ onSelectScreen }) => {
               </button>
             </div>
 
+            {q.passage && (
+              <div className="max-h-72 overflow-y-auto rounded-[14px] bg-stone-50 dark:bg-inset-dark border border-stone-200 dark:border-stone-800 p-4 sm:p-5 text-[15px] leading-relaxed text-stone-700 dark:text-stone-300">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400 mb-2">
+                  Mətn
+                </div>
+                {q.passage}
+              </div>
+            )}
+
             <h1 className="text-xl sm:text-2xl font-bold text-ink dark:text-white leading-snug">
               {q.text}
             </h1>
 
-            <div role="radiogroup" aria-label="Cavab variantları" className="space-y-3">
-              {q.options.map((opt) => {
-                const selected = chosen === opt.key;
-                return (
-                  <button
-                    key={opt.key}
-                    role="radio"
-                    aria-checked={selected}
-                    onClick={() => answer(q.id, opt.key)}
-                    className={`w-full flex items-center gap-4 rounded-[14px] border p-4 text-left transition-all ${
-                      selected
-                        ? 'border-brand-fg bg-brand-soft dark:bg-brand-950/40 ring-1 ring-brand-fg'
-                        : 'border-stone-200 dark:border-stone-800 hover:border-stone-300 dark:hover:border-stone-600 hover:bg-stone-50 dark:hover:bg-surface-dark-alt'
-                    }`}
-                  >
-                    <span
-                      className={`w-9 h-9 shrink-0 rounded-[10px] flex items-center justify-center text-sm font-bold ${
+            {q.kind === 'open' ? (
+              <div className="space-y-2">
+                <label
+                  htmlFor={`open-${q.id}`}
+                  className="text-xs font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400"
+                >
+                  Cavabını yaz
+                </label>
+                <input
+                  id={`open-${q.id}`}
+                  key={q.id}
+                  type="text"
+                  inputMode="decimal"
+                  autoComplete="off"
+                  value={chosen ?? ''}
+                  onChange={(e) => answer(q.id, e.target.value)}
+                  placeholder="Məs.: 12, -3, 5/4 və ya 2,5"
+                  className="w-full sm:max-w-xs h-12 px-4 rounded-[12px] border border-stone-300 dark:border-stone-700 bg-surface dark:bg-inset-dark font-mono text-lg text-ink dark:text-white focus:outline-none focus:ring-2 focus:ring-brand-fg"
+                />
+                <p className="text-xs text-stone-500 dark:text-stone-400">
+                  Açıq sual: cavabı ədəd şəklində yaz. Kəsri «a/b», onluq kəsri vergüllə yaza
+                  bilərsən.
+                </p>
+              </div>
+            ) : (
+              <div role="radiogroup" aria-label="Cavab variantları" className="space-y-3">
+                {q.options.map((opt) => {
+                  const selected = chosen === opt.key;
+                  return (
+                    <button
+                      key={opt.key}
+                      role="radio"
+                      aria-checked={selected}
+                      onClick={() => answer(q.id, opt.key)}
+                      className={`w-full flex items-center gap-4 rounded-[14px] border p-4 text-left transition-all ${
                         selected
-                          ? 'bg-brand text-white dark:bg-brand-400 dark:text-ink'
-                          : 'bg-stone-100 dark:bg-inset-dark text-stone-600 dark:text-stone-300'
+                          ? 'border-brand-fg bg-brand-soft dark:bg-brand-950/40 ring-1 ring-brand-fg'
+                          : 'border-stone-200 dark:border-stone-800 hover:border-stone-300 dark:hover:border-stone-600 hover:bg-stone-50 dark:hover:bg-surface-dark-alt'
                       }`}
                     >
-                      {opt.key}
-                    </span>
-                    <span className="font-medium text-ink dark:text-paper">{opt.text}</span>
-                  </button>
-                );
-              })}
-            </div>
+                      <span
+                        className={`w-9 h-9 shrink-0 rounded-[10px] flex items-center justify-center text-sm font-bold ${
+                          selected
+                            ? 'bg-brand text-white dark:bg-brand-400 dark:text-ink'
+                            : 'bg-stone-100 dark:bg-inset-dark text-stone-600 dark:text-stone-300'
+                        }`}
+                      >
+                        {opt.key}
+                      </span>
+                      <span className="font-medium text-ink dark:text-paper">{opt.text}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            )}
 
             <div className="flex items-center justify-between gap-3 pt-5 border-t border-stone-200 dark:border-stone-800">
               <button
@@ -335,7 +372,7 @@ export const ExamScreen: React.FC<ExamScreenProps> = ({ onSelectScreen }) => {
             </div>
           </div>
           <p className="hidden lg:block text-xs text-stone-400 mt-3 text-center">
-            Klaviatura: A–D və ya 1–4 cavab seçir, ← → suallar arasında keçid edir.
+            Klaviatura: A–E və ya 1–5 cavab seçir, ← → suallar arasında keçid edir.
           </p>
         </main>
       </div>

@@ -316,9 +316,11 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ onSelectScreen }) =>
                             Sənin cavabın
                           </div>
                           <div className="font-bold mt-1">
-                            {item.chosen
-                              ? `${item.chosen}) ${q.options.find((o) => o.key === item.chosen)?.text}`
-                              : 'Cavab verilməyib'}
+                            {!item.chosen
+                              ? 'Cavab verilməyib'
+                              : q.kind === 'open'
+                                ? item.chosen
+                                : `${item.chosen}) ${q.options.find((o) => o.key === item.chosen)?.text}`}
                           </div>
                         </div>
                         <div className={`rounded-xl border p-3.5 ${STATUS_META.correct.chip}`}>
@@ -326,8 +328,14 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ onSelectScreen }) =>
                             Düzgün cavab
                           </div>
                           <div className="font-bold mt-1">
-                            {q.correctAnswer}){' '}
-                            {q.options.find((o) => o.key === q.correctAnswer)?.text}
+                            {q.kind === 'open' ? (
+                              q.openAnswer
+                            ) : (
+                              <>
+                                {q.correctAnswer}){' '}
+                                {q.options.find((o) => o.key === q.correctAnswer)?.text}
+                              </>
+                            )}
                           </div>
                         </div>
                       </div>
@@ -335,16 +343,20 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ onSelectScreen }) =>
                         <p className="font-semibold text-ink dark:text-white">
                           {q.explanation.summary}
                         </p>
-                        <ol className="list-decimal pl-5 space-y-1 text-stone-700 dark:text-stone-300">
-                          {q.explanation.steps.map((s) => (
-                            <li key={s} className="font-mono text-[13px]">
-                              {s}
-                            </li>
-                          ))}
-                        </ol>
-                        <p className="text-xs rounded-lg bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/50 text-amber-800 dark:text-amber-200 p-2.5">
-                          <b>Qızıl qayda:</b> {q.explanation.rule}
-                        </p>
+                        {q.explanation.steps.length > 0 && (
+                          <ol className="list-decimal pl-5 space-y-1 text-stone-700 dark:text-stone-300">
+                            {q.explanation.steps.map((s) => (
+                              <li key={s} className="font-mono text-[13px]">
+                                {s}
+                              </li>
+                            ))}
+                          </ol>
+                        )}
+                        {q.explanation.rule && (
+                          <p className="text-xs rounded-lg bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/50 text-amber-800 dark:text-amber-200 p-2.5">
+                            <b>Qızıl qayda:</b> {q.explanation.rule}
+                          </p>
+                        )}
                       </div>
                     </div>
                   )}

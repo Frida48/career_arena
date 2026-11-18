@@ -237,7 +237,7 @@ SINTAKSIS = [
 
 if __name__ == "__main__":
     save(9, "az", [
-        ("phonetics-lexis", "Fonetika, leksika və orfoqrafiya", handwritten(9, "az", "phonetics-lexis", "Fonetika, leksika və orfoqrafiya", FONETIKA, 9101)),
-        ("morphology", "Morfologiya", handwritten(9, "az", "morphology", "Morfologiya", MORFOLOGIYA, 9102)),
-        ("syntax", "Sintaksis və durğu işarələri", handwritten(9, "az", "syntax", "Sintaksis və durğu işarələri", SINTAKSIS, 9103)),
+        ("phonetics-lexis", "Fonetika, leksika və orfoqrafiya", handwritten(9, "az", "phonetics-lexis", "Fonetika, leksika və orfoqrafiya", FONETIKA, 9101), "Səslər, heca, vurğu, orfoqrafiya, sinonim, antonim, omonim və frazeologizmlər."),
+        ("morphology", "Morfologiya", handwritten(9, "az", "morphology", "Morfologiya", MORFOLOGIYA, 9102), "Əsas və köməkçi nitq hissələri, şəkilçilər, hallar, feilin zaman və növləri."),
+        ("syntax", "Sintaksis və durğu işarələri", handwritten(9, "az", "syntax", "Sintaksis və durğu işarələri", SINTAKSIS, 9103), "Cümlə üzvləri, cümlənin növləri, söz birləşmələri, mürəkkəb cümlə və durğu işarələri."),
     ])

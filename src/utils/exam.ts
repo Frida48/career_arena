@@ -1,5 +1,6 @@
-import type { BankQuestion, ExamSession, ExamSetup, OptionKey } from '../types';
-import { QUESTION_BANK, getQuestion } from '../data/questionBank';
+import type { BankQuestion, ExamSession, ExamSetup } from '../types';
+import { getQuestion } from '../data/questionBank';
+import { correctValue, isCorrect, questionsOf } from '../data/questions';
 
 /** İmtahan müddəti (dəqiqə) = sual sayı × 1,5. 30 sual → 45 dəqiqə. */
 export const MINUTES_PER_QUESTION = 1.5;
@@ -21,6 +22,7 @@ export const formatClock = (totalSec: number) => {
 };
 
 export const DEFAULT_SETUP: ExamSetup = {
+  grade: 9,
   subjectId: 'math',
   sectionId: undefined,
   topicIds: [],
@@ -28,18 +30,31 @@ export const DEFAULT_SETUP: ExamSetup = {
   questionCount: 30,
 };
 
+function shuffle<T>(list: T[]): T[] {
+  const a = [...list];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 /**
- * Seçilmiş mövzu və çətinliyə görə sualları seçir. Seçim kifayət etməzsə, qalanı bankdan tamamlanır.
- * Nümunə bank yalnız Riyaziyyat üçündür, ona görə digər fənlər də həmin suallarla göstərilir.
+ * Sinif, fənn, bölmə, mövzu və çətinliyə görə sualları seçir (təsadüfi sıra ilə).
+ * Seçim kifayət etməzsə, əvvəlcə həmin bölmədən, sonra fənnin digər bölmələrindən tamamlanır.
  */
 export function pickQuestions(setup: ExamSetup): BankQuestion[] {
+  const pool = questionsOf(setup.grade ?? 9, setup.subjectId);
+  const inSection = (q: BankQuestion) => !setup.sectionId || q.sectionId === setup.sectionId;
   const matches = (q: BankQuestion) =>
+    inSection(q) &&
     (setup.topicIds.length === 0 || setup.topicIds.includes(q.topicId)) &&
     (setup.difficulty === 'mixed' || q.difficulty === setup.difficulty);
 
-  const primary = QUESTION_BANK.filter(matches);
-  const rest = QUESTION_BANK.filter((q) => !primary.includes(q));
-  return [...primary, ...rest].slice(0, setup.questionCount);
+  const primary = shuffle(pool.filter(matches));
+  const sameSection = shuffle(pool.filter((q) => inSection(q) && !primary.includes(q)));
+  const rest = shuffle(pool.filter((q) => !inSection(q)));
+  return [...primary, ...sameSection, ...rest].slice(0, setup.questionCount);
 }
 
 export type AnswerStatus = 'correct' | 'wrong' | 'blank';
@@ -47,7 +62,7 @@ export type AnswerStatus = 'correct' | 'wrong' | 'blank';
 export interface EvaluatedQuestion {
   index: number;
   question: BankQuestion;
-  chosen?: OptionKey;
+  chosen?: string;
   status: AnswerStatus;
   flagged: boolean;
 }
@@ -71,7 +86,7 @@ export function evaluate(session: ExamSession): Evaluation {
     const chosen = session.answers[id];
     const status: AnswerStatus = !chosen
       ? 'blank'
-      : chosen === question.correctAnswer
+      : isCorrect(question, chosen)
         ? 'correct'
         : 'wrong';
     items.push({ index, question, chosen, status, flagged: session.flagged.includes(id) });
@@ -115,15 +130,16 @@ export function evaluate(session: ExamSession): Evaluation {
 export function buildDemoSession(): ExamSession {
   const setup: ExamSetup = { ...DEFAULT_SETUP };
   const questions = pickQuestions(setup);
-  const answers: Record<number, OptionKey> = {};
-  const keys: OptionKey[] = ['A', 'B', 'C', 'D'];
+  const answers: Record<number, string> = {};
   questions.forEach((q, i) => {
     if (i % 7 === 6) return; // boş
     if (i % 4 === 3) {
-      answers[q.id] = keys.find((k) => k !== q.correctAnswer) ?? 'A'; // yanlış
+      // yanlış
+      answers[q.id] =
+        q.kind === 'open' ? '0' : (q.options.find((o) => o.key !== q.correctAnswer)?.key ?? 'A');
       return;
     }
-    answers[q.id] = q.correctAnswer; // doğru
+    answers[q.id] = correctValue(q); // doğru
   });
   const durationSec = examDurationSec(setup.questionCount);
   const startedAt = Date.now() - 38 * 60 * 1000;

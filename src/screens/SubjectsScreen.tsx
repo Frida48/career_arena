@@ -4,6 +4,8 @@ import type { ScreenType, SubjectId } from '../types';
 import { SUBJECTS_DATA } from '../data/examData';
 import { ProgressRing } from '../components/ProgressRing';
 import { useExam } from '../context/ExamContext';
+import { GradePicker } from '../components/GradePicker';
+import { gradeLabel, questionsOf } from '../data/questions';
 
 interface SubjectsScreenProps {
   onSelectScreen: (screen: ScreenType) => void;
@@ -12,7 +14,7 @@ interface SubjectsScreenProps {
 const ICONS = { math: Calculator, aze: BookOpen, eng: Globe } as const;
 
 export const SubjectsScreen: React.FC<SubjectsScreenProps> = ({ onSelectScreen }) => {
-  const { updateSetup } = useExam();
+  const { setup, updateSetup } = useExam();
 
   const choose = (subjectId: SubjectId, next: ScreenType) => {
     updateSetup({ subjectId, sectionId: undefined, topicIds: [] });
@@ -32,14 +34,17 @@ export const SubjectsScreen: React.FC<SubjectsScreenProps> = ({ onSelectScreen }
             </h1>
           </div>
           <p className="text-sm text-stone-500 dark:text-stone-400 max-w-md">
-            Fənni seç, sonra bölmə və mövzuları müəyyən et. İstəsən, dərhal sürətli sınaq imtahanı
-            da verə bilərsən.
+            Sinfi və fənni seç, sonra bölmə və mövzuları müəyyən et. İstəsən, dərhal sürətli sınaq
+            imtahanı da verə bilərsən.
           </p>
         </div>
+
+        <GradePicker />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {SUBJECTS_DATA.map((subject) => {
             const Icon = ICONS[subject.id];
+            const bankSize = questionsOf(setup.grade, subject.id).length;
             return (
               <article
                 key={subject.id}
@@ -65,9 +70,11 @@ export const SubjectsScreen: React.FC<SubjectsScreenProps> = ({ onSelectScreen }
                   </div>
                   <dl className="grid grid-cols-2 gap-3 text-xs">
                     <div className="rounded-xl bg-stone-50 dark:bg-inset-dark border border-stone-200/70 dark:border-stone-800 p-3">
-                      <dt className="text-stone-500 dark:text-stone-400">Həll olunan</dt>
+                      <dt className="text-stone-500 dark:text-stone-400">
+                        Sual bankı · {gradeLabel(setup.grade)} sinif
+                      </dt>
                       <dd className="font-bold text-ink dark:text-white mt-0.5">
-                        {subject.completedQuestions} / {subject.totalQuestions}
+                        {bankSize ? `${bankSize} sual` : 'Tezliklə'}
                       </dd>
                     </div>
                     <div className="rounded-xl bg-stone-50 dark:bg-inset-dark border border-stone-200/70 dark:border-stone-800 p-3">

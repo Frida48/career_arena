@@ -330,8 +330,15 @@ SECTIONS = [
     ("geometry", "Həndəsə, statistika və ehtimal", [pythagoras, triangle_angles, circle, trapezoid, mean_median, probability]),
 ]
 
+DESC = {
+    "numbers": "ƏBOB və ƏKOB, kəsrlər, faiz, kvadrat köklər, qüvvət və nisbət.",
+    "algebra": "Xətti və kvadrat tənliklər, Viyet teoremi, qısa vurma düsturları, sistemlər və bərabərsizliklər.",
+    "functions": "Xətti və kvadrat funksiya, ədədi və həndəsi silsilələr.",
+    "geometry": "Pifaqor teoremi, üçbucağın bucaqları, çevrə və dairə, trapesiya, statistika və ehtimal.",
+}
+
 if __name__ == "__main__":
     out = []
     for k, (sid, title, tpls) in enumerate(SECTIONS):
-        out.append((sid, title, build_section(9, "math", sid, title, tpls, seed=900 + k)))
+        out.append((sid, title, build_section(9, "math", sid, title, tpls, seed=900 + k), DESC[sid]))
     save(9, "math", out)

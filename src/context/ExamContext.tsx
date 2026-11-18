@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import type { ReactNode } from 'react';
-import type { ExamEndReason, ExamSession, ExamSetup, OptionKey } from '../types';
+import type { ExamEndReason, ExamSession, ExamSetup } from '../types';
 import { DEFAULT_SETUP, examDurationSec, pickQuestions } from '../utils/exam';
 
 const SETUP_KEY = 'ca-exam-setup';
@@ -29,7 +29,8 @@ interface ExamContextValue {
   updateSetup: (patch: Partial<ExamSetup>) => void;
   session: ExamSession | null;
   startExam: () => void;
-  answer: (questionId: number, key: OptionKey | null) => void;
+  /** Variant hərfi və ya açıq sualın cavabı; null/boş — cavabı sil */
+  answer: (questionId: number, value: string | null) => void;
   toggleFlag: (questionId: number) => void;
   /** Pəncərədən çıxışı qeyd edir (say: session.violations.length) */
   addViolation: () => void;
@@ -40,7 +41,10 @@ interface ExamContextValue {
 const ExamContext = createContext<ExamContextValue | null>(null);
 
 export function ExamProvider({ children }: { children: ReactNode }) {
-  const [setup, setSetup] = useState<ExamSetup>(() => read<ExamSetup>(SETUP_KEY) ?? DEFAULT_SETUP);
+  const [setup, setSetup] = useState<ExamSetup>(() => ({
+    ...DEFAULT_SETUP,
+    ...read<Partial<ExamSetup>>(SETUP_KEY),
+  }));
   const [session, setSession] = useState<ExamSession | null>(() => read<ExamSession>(SESSION_KEY));
 
   useEffect(() => write(SETUP_KEY, setup), [setup]);
@@ -66,12 +70,12 @@ export function ExamProvider({ children }: { children: ReactNode }) {
     });
   }, [setup]);
 
-  const answer = useCallback((questionId: number, key: OptionKey | null) => {
+  const answer = useCallback((questionId: number, value: string | null) => {
     setSession((prev) => {
       if (!prev || prev.status !== 'running') return prev;
       const answers = { ...prev.answers };
-      if (key === null) delete answers[questionId];
-      else answers[questionId] = key;
+      if (value === null || value.trim() === '') delete answers[questionId];
+      else answers[questionId] = value;
       return { ...prev, answers };
     });
   }, []);

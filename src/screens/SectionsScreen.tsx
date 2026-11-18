@@ -2,7 +2,9 @@ import React from 'react';
 import { ArrowRight, Shuffle } from 'lucide-react';
 import type { Difficulty, ScreenType, SubjectId } from '../types';
 import { SUBJECTS_DATA } from '../data/examData';
-import { CATALOG_TOPICS, DIFFICULTY_META, sectionsOf, topicsOf } from '../data/catalog';
+import { DIFFICULTY_META, sectionsOf, topicsOf, topicsOfSubject } from '../data/catalog';
+import { gradeLabel } from '../data/questions';
+import { GradePicker } from '../components/GradePicker';
 import { useExam } from '../context/ExamContext';
 
 interface SectionsScreenProps {
@@ -12,7 +14,7 @@ interface SectionsScreenProps {
 export const SectionsScreen: React.FC<SectionsScreenProps> = ({ onSelectScreen }) => {
   const { setup, updateSetup } = useExam();
   const subject = SUBJECTS_DATA.find((s) => s.id === setup.subjectId) ?? SUBJECTS_DATA[0];
-  const sections = sectionsOf(subject.id);
+  const sections = sectionsOf(subject.id, setup.grade);
 
   const switchSubject = (subjectId: SubjectId) =>
     updateSetup({ subjectId, sectionId: undefined, topicIds: [] });
@@ -37,6 +39,10 @@ export const SectionsScreen: React.FC<SectionsScreenProps> = ({ onSelectScreen }
           <h1 className="text-3xl sm:text-4xl font-extrabold text-ink dark:text-white tracking-tight">
             {subject.name}: bölmələr
           </h1>
+          <p className="text-sm text-stone-500 dark:text-stone-400">
+            {gradeLabel(setup.grade)} sinif · buraxılış imtahanı formatında suallar
+          </p>
+          <GradePicker />
           <div role="tablist" aria-label="Fənn" className="flex flex-wrap gap-2">
             {SUBJECTS_DATA.map((s) => (
               <button
@@ -56,10 +62,19 @@ export const SectionsScreen: React.FC<SectionsScreenProps> = ({ onSelectScreen }
           </div>
         </div>
 
+        {sections.length === 0 && (
+          <p className="rounded-[16px] border border-dashed border-stone-300 dark:border-stone-700 p-6 text-sm text-stone-600 dark:text-stone-300">
+            {gradeLabel(setup.grade)} sinif üçün bu fənn üzrə suallar hələ əlavə olunmayıb.
+          </p>
+        )}
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {sections.map((section) => {
             const topics = topicsOf(section.id);
-            const avg = Math.round(topics.reduce((sum, t) => sum + t.mastery, 0) / topics.length);
+            const avg = topics.length
+              ? Math.round(topics.reduce((sum, t) => sum + t.mastery, 0) / topics.length)
+              : 0;
+            const qCount = topics.reduce((sum, t) => sum + t.questionCount, 0);
             const counts = (['easy', 'medium', 'hard'] as Difficulty[]).map((d) => ({
               d,
               n: topics.filter((t) => t.difficulty === d).length,
@@ -79,7 +94,7 @@ export const SectionsScreen: React.FC<SectionsScreenProps> = ({ onSelectScreen }
                   <div className="space-y-1.5">
                     <div className="flex items-center justify-between text-xs">
                       <span className="text-stone-500 dark:text-stone-400">
-                        Bilik səviyyəsi · {topics.length} mövzu
+                        Bilik səviyyəsi · {topics.length} mövzu · {qCount} sual
                       </span>
                       <span className="font-bold text-ink dark:text-white">{avg}%</span>
                     </div>
@@ -125,8 +140,8 @@ export const SectionsScreen: React.FC<SectionsScreenProps> = ({ onSelectScreen }
                 Bütün bölmələrdən qarışıq imtahan
               </h3>
               <p className="text-sm text-stone-600 dark:text-stone-400 mt-0.5">
-                {CATALOG_TOPICS.filter((t) => t.subjectId === subject.id).length} mövzu üzrə suallar
-                təsadüfi seçilir.
+                {topicsOfSubject(subject.id, setup.grade).length} mövzu üzrə suallar təsadüfi
+                seçilir.
               </p>
             </div>
           </div>

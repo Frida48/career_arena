@@ -5,6 +5,7 @@
     {
       "id": "phonetics-lexis",
       "title": "Fonetika, leksika və orfoqrafiya",
+      "description": "Səslər, heca, vurğu, orfoqrafiya, sinonim, antonim, omonim və frazeologizmlər.",
       "questions": [
         {
           "id": "g9-az-phonetics-lexis-001",
@@ -611,6 +612,7 @@
     {
       "id": "morphology",
       "title": "Morfologiya",
+      "description": "Əsas və köməkçi nitq hissələri, şəkilçilər, hallar, feilin zaman və növləri.",
       "questions": [
         {
           "id": "g9-az-morphology-001",
@@ -1217,6 +1219,7 @@
     {
       "id": "syntax",
       "title": "Sintaksis və durğu işarələri",
+      "description": "Cümlə üzvləri, cümlənin növləri, söz birləşmələri, mürəkkəb cümlə və durğu işarələri.",
       "questions": [
         {
           "id": "g9-az-syntax-001",

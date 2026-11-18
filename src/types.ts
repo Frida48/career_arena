@@ -61,12 +61,19 @@ export interface TestQuestion {
   id: number;
   subject: string;
   topic: string;
+  /** Oxu mətni (Reading sualları) */
+  passage?: string;
   text: string;
+  /** 'single' — variantlı sual (default), 'open' — cavab yazılır */
+  kind?: 'single' | 'open';
   options: {
-    key: 'A' | 'B' | 'C' | 'D';
+    key: OptionKey;
     text: string;
   }[];
-  correctAnswer: 'A' | 'B' | 'C' | 'D';
+  /** Variantlı sualda düzgün variant */
+  correctAnswer?: OptionKey;
+  /** Açıq sualda düzgün cavab */
+  openAnswer?: string;
   explanation: {
     summary: string;
     steps: string[];
@@ -121,13 +128,15 @@ export interface ResultMistake {
   };
 }
 
-export type OptionKey = 'A' | 'B' | 'C' | 'D';
+export type OptionKey = 'A' | 'B' | 'C' | 'D' | 'E';
+export type Grade = 9 | 10 | 11;
 export type Difficulty = 'easy' | 'medium' | 'hard';
 export type DifficultyChoice = Difficulty | 'mixed';
 
 export interface Section {
   id: string;
   subjectId: SubjectId;
+  grade?: Grade;
   name: string;
   description: string;
 }
@@ -144,11 +153,16 @@ export interface CatalogTopic {
 }
 
 export interface BankQuestion extends TestQuestion {
+  /** Sual bankındakı mətn id-si, məs. g9-math-algebra-004 */
+  code?: string;
+  grade?: Grade;
+  sectionId?: string;
   topicId: string;
   difficulty: Difficulty;
 }
 
 export interface ExamSetup {
+  grade: Grade;
   subjectId: SubjectId;
   sectionId?: string;
   topicIds: string[];
@@ -164,7 +178,8 @@ export interface ExamSession {
   questionIds: number[];
   startedAt: number;
   durationSec: number;
-  answers: Record<number, OptionKey>;
+  /** Variantlı sualda variant hərfi, açıq sualda yazılmış cavab */
+  answers: Record<number, string>;
   flagged: number[];
   /** Pəncərədən çıxma anları (ms timestamp) */
   violations: number[];
