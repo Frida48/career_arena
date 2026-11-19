@@ -1,8 +1,10 @@
 import React from 'react';
-import { ArrowRight, Check, Clock } from 'lucide-react';
+import { ArrowRight, BookOpen, Check, Clock, Play } from 'lucide-react';
 import type { Difficulty, DifficultyChoice, ScreenType } from '../types';
 import { DIFFICULTY_META, getSection, masteryStatus, topicsOf } from '../data/catalog';
 import { DifficultyBadge } from '../components/DifficultyBadge';
+import { GradePicker } from '../components/GradePicker';
+import { gradeLabel, quizQuestions, quizzesOf } from '../data/questions';
 import { useExam } from '../context/ExamContext';
 import { QUESTION_COUNT_OPTIONS, examDurationMinutes, formatMinutes } from '../utils/exam';
 
@@ -19,7 +21,8 @@ const STATUS_CLASS = {
     'bg-sage-50 dark:bg-sage-950/50 text-sage-700 dark:text-sage-300 border-sage-200 dark:border-sage-900/60',
 } as const;
 
-const DIFFICULTY_CHOICES: DifficultyChoice[] = ['easy', 'medium', 'hard', 'mixed'];
+// Bütün suallar orta-çətin səviyyədədir
+const DIFFICULTY_CHOICES: DifficultyChoice[] = ['medium', 'hard', 'mixed'];
 
 export const TopicsScreen: React.FC<TopicsScreenProps> = ({ onSelectScreen }) => {
   const { setup, updateSetup } = useExam();
@@ -48,10 +51,91 @@ export const TopicsScreen: React.FC<TopicsScreenProps> = ({ onSelectScreen }) =>
 
   const toggle = (id: string) =>
     updateSetup({
+      quiz: undefined,
       topicIds: selected.has(id) ? setup.topicIds.filter((x) => x !== id) : [...setup.topicIds, id],
     });
 
-  const toggleAll = () => updateSetup({ topicIds: allSelected ? [] : topics.map((t) => t.id) });
+  const toggleAll = () =>
+    updateSetup({ quiz: undefined, topicIds: allSelected ? [] : topics.map((t) => t.id) });
+
+  /** Konkret quizi başlat: mövzu + quiz nömrəsi, sual sayı quizin özündən götürülür */
+  const startQuiz = (topicId: string, quiz: number, count: number) => {
+    updateSetup({ topicIds: [topicId], quiz, questionCount: count, difficulty: 'mixed' });
+    onSelectScreen('exam-info');
+  };
+
+  const QuizButtons: React.FC<{ topicId: string }> = ({ topicId }) => {
+    const list = quizzesOf(setup.grade, topicId);
+    if (!list.length)
+      return <span className="text-xs text-stone-400">Bu sinif üçün quiz yoxdur</span>;
+    return (
+      <div className="flex flex-wrap gap-2">
+        {list.map(({ quiz, count }) => (
+          <button
+            key={quiz}
+            onClick={() => startQuiz(topicId, quiz, count)}
+            className="h-9 px-3.5 rounded-[10px] border border-stone-200 dark:border-stone-700 text-xs font-semibold text-ink dark:text-white hover:border-brand-fg hover:text-brand-fg transition-colors flex items-center gap-1.5"
+          >
+            <Play className="w-3.5 h-3.5" />
+            Quiz {quiz} · {count} sual
+          </button>
+        ))}
+      </div>
+    );
+  };
+
+  // Reading kimi mövzulara bölünməyən bölmə: quizlər birbaşa göstərilir
+  if (section.directQuizzes) {
+    const topic = topics[0];
+    const list = topic ? quizzesOf(setup.grade, topic.id) : [];
+    return (
+      <div className="w-full flex-1 bg-canvas dark:bg-canvas-dark text-ink dark:text-paper py-10 px-4 sm:px-6 lg:px-8 transition-colors">
+        <div className="max-w-[1100px] mx-auto space-y-8">
+          <div className="pb-4 border-b border-stone-200 dark:border-stone-800 space-y-3">
+            <div className="text-xs font-semibold text-brand-fg tracking-wider uppercase">
+              Addım 3 · Quiz seçimi
+            </div>
+            <h1 className="text-3xl sm:text-4xl font-extrabold text-ink dark:text-white tracking-tight">
+              {section.name}
+            </h1>
+            <p className="text-sm text-stone-500 dark:text-stone-400">{section.description}</p>
+            <GradePicker />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {list.map(({ quiz, count }) => {
+              const first = topic ? quizQuestions(setup.grade, topic.id, quiz)[0] : undefined;
+              const title = first?.passage?.split('\n')[0] ?? `Quiz ${quiz}`;
+              return (
+                <article
+                  key={quiz}
+                  className="bg-surface dark:bg-surface-dark rounded-[20px] border border-stone-200 dark:border-stone-800 shadow-calm p-6 flex flex-col justify-between gap-5"
+                >
+                  <div className="space-y-3">
+                    <span className="w-11 h-11 rounded-xl bg-brand-soft dark:bg-brand-950/60 text-brand-fg flex items-center justify-center">
+                      <BookOpen className="w-5 h-5" />
+                    </span>
+                    <div className="text-xs font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400">
+                      Quiz {quiz} · {gradeLabel(setup.grade)} sinif
+                    </div>
+                    <h2 className="text-lg font-bold text-ink dark:text-white">{title}</h2>
+                    <p className="text-sm text-stone-600 dark:text-stone-400">
+                      1 mətn · {count} sual · {formatMinutes(examDurationMinutes(count))} dəqiqə
+                    </p>
+                  </div>
+                  <button
+                    onClick={() => topic && startQuiz(topic.id, quiz, count)}
+                    className="h-11 rounded-[12px] bg-brand hover:bg-brand-700 dark:bg-brand-400 dark:hover:bg-brand-300 dark:text-ink text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2"
+                  >
+                    <Play className="w-4 h-4" /> Başla
+                  </button>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="w-full flex-1 bg-canvas dark:bg-canvas-dark text-ink dark:text-paper py-10 px-4 sm:px-6 lg:px-8 transition-colors">
@@ -64,6 +148,11 @@ export const TopicsScreen: React.FC<TopicsScreenProps> = ({ onSelectScreen }) =>
             {section.name}
           </h1>
           <p className="text-sm text-stone-500 dark:text-stone-400 mt-2">{section.description}</p>
+          <p className="text-sm text-stone-600 dark:text-stone-300 mt-3">
+            Hər mövzuda 3 quiz var (hərəsində 20 sual). Quizi birbaşa başlada və ya bir neçə mövzu
+            seçib qarışıq sınaq qura bilərsən.
+          </p>
+          <GradePicker className="mt-4" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -132,6 +221,9 @@ export const TopicsScreen: React.FC<TopicsScreenProps> = ({ onSelectScreen }) =>
                         {STATUS_LABEL[status]}
                       </span>
                     </label>
+                    <div className="mt-2 pl-4 sm:pl-[3.75rem]">
+                      <QuizButtons topicId={topic.id} />
+                    </div>
                   </li>
                 );
               })}
@@ -171,7 +263,7 @@ export const TopicsScreen: React.FC<TopicsScreenProps> = ({ onSelectScreen }) =>
                   })}
                 </div>
                 <ul className="mt-3 space-y-1.5 text-xs text-stone-500 dark:text-stone-400">
-                  {(['easy', 'medium', 'hard'] as Difficulty[]).map((d) => (
+                  {(['medium', 'hard'] as Difficulty[]).map((d) => (
                     <li key={d}>
                       <b className="text-stone-700 dark:text-stone-200">
                         {DIFFICULTY_META[d].label}:

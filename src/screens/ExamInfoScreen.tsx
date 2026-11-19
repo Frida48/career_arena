@@ -35,6 +35,7 @@ export const ExamInfoScreen: React.FC<ExamInfoScreenProps> = ({ onSelectScreen, 
   const facts = [
     { label: 'Sinif', value: `${gradeLabel(setup.grade)} sinif` },
     { label: 'Fənn', value: subject.name },
+    ...(setup.quiz ? [{ label: 'Quiz', value: `Quiz ${setup.quiz}` }] : []),
     { label: 'Bölmə', value: section?.name ?? 'Bütün bölmələr' },
     {
       label: 'Çətinlik',

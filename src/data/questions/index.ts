@@ -1,24 +1,12 @@
-// Sual bankı: 9–11-ci siniflər, riyaziyyat / Azərbaycan dili / ingilis dili.
+// Sual bankı: 9–11-ci siniflər × 31 mövzu × 3 quiz (Reading: 3 quiz × 10 sual, hər quiz bir mətn).
 // JSON faylları tools/question-gen/ skriptləri ilə yaradılır. Onları əl ilə redaktə etməyin,
 // skripti dəyişib yenidən işə salın. Yeni grade*-*.json faylı avtomatik qoşulur.
-import type {
-  BankQuestion,
-  CatalogTopic,
-  Difficulty,
-  Grade,
-  OptionKey,
-  Section,
-  SubjectId,
-} from '../../types';
+import type { BankQuestion, Difficulty, Grade, OptionKey, SubjectId } from '../../types';
+import { CATALOG_TOPICS } from '../catalog';
 
 /** JSON faylındakı sualın forması */
 interface RawQuestion {
   id: string;
-  grade: Grade;
-  subject: RawSubject;
-  sectionId: string;
-  sectionTitle: string;
-  topic: string;
   difficulty: Difficulty;
   passage?: string;
   text: string;
@@ -34,7 +22,7 @@ type RawSubject = 'math' | 'az' | 'en';
 interface RawBank {
   grade: Grade;
   subject: RawSubject;
-  sections: { id: string; title: string; description?: string; questions: RawQuestion[] }[];
+  topics: { topicId: string; quizzes: RawQuestion[][] }[];
 }
 
 const SUBJECT_ID: Record<RawSubject, SubjectId> = { math: 'math', az: 'aze', en: 'eng' };
@@ -53,96 +41,70 @@ const files = import.meta.glob<RawBank>('./grade*-*.json', { eager: true, import
 const banks = Object.values(files).sort(
   (a, b) => a.grade - b.grade || a.subject.localeCompare(b.subject),
 );
+const topicById = new Map(CATALOG_TOPICS.map((t) => [t.id, t]));
 
-/** Mövzu üzrə bilik səviyyəsi hələ hesablanmır — sabit nümunə dəyər (40–92) */
-function mockMastery(seed: string): number {
-  let h = 2166136261; // FNV-1a
-  for (const ch of seed) h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0;
-  h ^= h >>> 13;
-  h = Math.imul(h, 0x5bd1e995) >>> 0;
-  return 40 + ((h ^ (h >>> 15)) % 53);
-}
-
-function majority(list: Difficulty[]): Difficulty {
-  const count = { easy: 0, medium: 0, hard: 0 };
-  list.forEach((d) => (count[d] += 1));
-  return (Object.keys(count) as Difficulty[]).sort((a, b) => count[b] - count[a])[0];
-}
-
-const sections: Section[] = [];
-const topics: CatalogTopic[] = [];
 const questions: BankQuestion[] = [];
-
 let nextId = 1;
 for (const bank of banks) {
   const subjectId = SUBJECT_ID[bank.subject];
-  for (const sec of bank.sections) {
-    const sectionId = `g${bank.grade}-${bank.subject}-${sec.id}`;
-    sections.push({
-      id: sectionId,
-      subjectId,
-      grade: bank.grade,
-      name: sec.title,
-      description: sec.description ?? '',
+  for (const t of bank.topics) {
+    const topic = topicById.get(t.topicId);
+    t.quizzes.forEach((quiz, qi) => {
+      for (const q of quiz) {
+        const isOpen = q.type === 'open';
+        questions.push({
+          id: nextId++,
+          code: q.id,
+          grade: bank.grade,
+          quiz: qi + 1,
+          sectionId: topic?.sectionId,
+          topicId: t.topicId,
+          subject: SUBJECT_NAME[subjectId],
+          topic: topic?.name ?? t.topicId,
+          difficulty: q.difficulty,
+          passage: q.passage,
+          text: q.text,
+          kind: isOpen ? 'open' : 'single',
+          options: isOpen ? [] : (q.options ?? []).map((text, i) => ({ key: KEYS[i], text })),
+          correctAnswer: isOpen ? undefined : KEYS[q.correctIndex ?? 0],
+          openAnswer: isOpen ? q.answer : undefined,
+          explanation: { summary: q.explanation, steps: [], rule: '' },
+        });
+      }
     });
-
-    const topicIds = new Map<string, string>();
-    const topicDiffs = new Map<string, Difficulty[]>();
-    for (const q of sec.questions) {
-      if (!topicIds.has(q.topic)) topicIds.set(q.topic, `${sectionId}-t${topicIds.size + 1}`);
-      topicDiffs.set(q.topic, [...(topicDiffs.get(q.topic) ?? []), q.difficulty]);
-      const isOpen = q.type === 'open';
-      questions.push({
-        id: nextId++,
-        code: q.id,
-        grade: bank.grade,
-        sectionId,
-        topicId: topicIds.get(q.topic)!,
-        subject: SUBJECT_NAME[subjectId],
-        topic: q.topic,
-        difficulty: q.difficulty,
-        passage: q.passage,
-        text: q.text,
-        kind: isOpen ? 'open' : 'single',
-        options: isOpen ? [] : (q.options ?? []).map((text, i) => ({ key: KEYS[i], text })),
-        correctAnswer: isOpen ? undefined : KEYS[q.correctIndex ?? 0],
-        openAnswer: isOpen ? q.answer : undefined,
-        explanation: { summary: q.explanation, steps: [], rule: '' },
-      });
-    }
-
-    for (const [name, id] of topicIds) {
-      const diffs = topicDiffs.get(name)!;
-      topics.push({
-        id,
-        subjectId,
-        sectionId,
-        name,
-        difficulty: majority(diffs),
-        questionCount: diffs.length,
-        mastery: mockMastery(id),
-      });
-    }
   }
 }
 
-export const BANK_SECTIONS = sections;
-export const BANK_TOPICS = topics;
 export const BANK_QUESTIONS = questions;
 
 const byId = new Map(questions.map((q) => [q.id, q]));
 export const getBankQuestion = (id: number) => byId.get(id);
 
-export const questionsOf = (grade: Grade, subjectId: SubjectId) =>
-  questions.filter((q) => q.grade === grade && sectionSubject(q.sectionId) === subjectId);
+const subjectOfTopic = (topicId: string) => topicById.get(topicId)?.subjectId;
 
-const sectionSubjectMap = new Map(sections.map((s) => [s.id, s.subjectId]));
-function sectionSubject(sectionId?: string) {
-  return sectionId ? sectionSubjectMap.get(sectionId) : undefined;
+/** Sinif və fənn üzrə bütün suallar */
+export const questionsOf = (grade: Grade, subjectId: SubjectId) =>
+  questions.filter((q) => q.grade === grade && subjectOfTopic(q.topicId) === subjectId);
+
+/** Mövzunun konkret quizi (sabit sıra ilə) */
+export const quizQuestions = (grade: Grade, topicId: string, quiz: number) =>
+  questions.filter((q) => q.grade === grade && q.topicId === topicId && q.quiz === quiz);
+
+/** Mövzuda neçə quiz var və hər birində neçə sual */
+export function quizzesOf(grade: Grade, topicId: string): { quiz: number; count: number }[] {
+  const counts = new Map<number, number>();
+  for (const q of questions) {
+    if (q.grade === grade && q.topicId === topicId && q.quiz) {
+      counts.set(q.quiz, (counts.get(q.quiz) ?? 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .sort((a, b) => a[0] - b[0])
+    .map(([quiz, count]) => ({ quiz, count }));
 }
 
 export const hasBank = (grade: Grade, subjectId: SubjectId) =>
-  sections.some((s) => s.grade === grade && s.subjectId === subjectId);
+  questions.some((q) => q.grade === grade && subjectOfTopic(q.topicId) === subjectId);
 
 /** Sualın düzgün cavabı mətn kimi (variant hərfi və ya açıq cavab) */
 export const correctValue = (q: BankQuestion) =>

@@ -270,7 +270,7 @@ export const ExamScreen: React.FC<ExamScreenProps> = ({ onSelectScreen }) => {
             </div>
 
             {q.passage && (
-              <div className="max-h-72 overflow-y-auto rounded-[14px] bg-stone-50 dark:bg-inset-dark border border-stone-200 dark:border-stone-800 p-4 sm:p-5 text-[15px] leading-relaxed text-stone-700 dark:text-stone-300">
+              <div className="max-h-[26rem] overflow-y-auto whitespace-pre-line rounded-[14px] bg-stone-50 dark:bg-inset-dark border border-stone-200 dark:border-stone-800 p-4 sm:p-5 text-[15px] leading-relaxed text-stone-700 dark:text-stone-300">
                 <div className="text-[11px] font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400 mb-2">
                   Mətn
                 </div>

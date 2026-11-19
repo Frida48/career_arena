@@ -94,7 +94,9 @@ export const SectionsScreen: React.FC<SectionsScreenProps> = ({ onSelectScreen }
                   <div className="space-y-1.5">
                     <div className="flex items-center justify-between text-xs">
                       <span className="text-stone-500 dark:text-stone-400">
-                        Bilik səviyyəsi · {topics.length} mövzu · {qCount} sual
+                        {section.directQuizzes
+                          ? `3 quiz · hər quizdə bir mətn · ${qCount} sual`
+                          : `Bilik səviyyəsi · ${topics.length} mövzu · ${topics.length * 3} quiz`}
                       </span>
                       <span className="font-bold text-ink dark:text-white">{avg}%</span>
                     </div>
@@ -122,7 +124,7 @@ export const SectionsScreen: React.FC<SectionsScreenProps> = ({ onSelectScreen }
                   onClick={() => openSection(section.id)}
                   className="h-11 rounded-[12px] bg-brand hover:bg-brand-700 dark:bg-brand-400 dark:hover:bg-brand-300 dark:text-ink text-white text-sm font-semibold transition-colors flex items-center justify-center gap-2"
                 >
-                  Mövzuları seç
+                  {section.directQuizzes ? 'Quizlərə keç' : 'Mövzular və quizlər'}
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </article>

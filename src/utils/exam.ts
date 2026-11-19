@@ -1,6 +1,6 @@
 import type { BankQuestion, ExamSession, ExamSetup } from '../types';
 import { getQuestion } from '../data/questionBank';
-import { correctValue, isCorrect, questionsOf } from '../data/questions';
+import { correctValue, isCorrect, questionsOf, quizQuestions } from '../data/questions';
 
 /** İmtahan müddəti (dəqiqə) = sual sayı × 1,5. 30 sual → 45 dəqiqə. */
 export const MINUTES_PER_QUESTION = 1.5;
@@ -44,6 +44,10 @@ function shuffle<T>(list: T[]): T[] {
  * Seçim kifayət etməzsə, əvvəlcə həmin bölmədən, sonra fənnin digər bölmələrindən tamamlanır.
  */
 export function pickQuestions(setup: ExamSetup): BankQuestion[] {
+  // Konkret quiz seçilibsə — onun sabit sualları (Quiz 1/2/3)
+  if (setup.quiz && setup.topicIds.length === 1) {
+    return quizQuestions(setup.grade ?? 9, setup.topicIds[0], setup.quiz);
+  }
   const pool = questionsOf(setup.grade ?? 9, setup.subjectId);
   const inSection = (q: BankQuestion) => !setup.sectionId || q.sectionId === setup.sectionId;
   const matches = (q: BankQuestion) =>

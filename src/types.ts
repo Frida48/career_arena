@@ -139,6 +139,8 @@ export interface Section {
   grade?: Grade;
   name: string;
   description: string;
+  /** true — bölmə mövzulara bölünmür, quizlər birbaşa göstərilir (Reading) */
+  directQuizzes?: boolean;
 }
 
 export interface CatalogTopic {
@@ -156,6 +158,8 @@ export interface BankQuestion extends TestQuestion {
   /** Sual bankındakı mətn id-si, məs. g9-math-algebra-004 */
   code?: string;
   grade?: Grade;
+  /** Quiz nömrəsi (1–3) */
+  quiz?: number;
   sectionId?: string;
   topicId: string;
   difficulty: Difficulty;
@@ -163,6 +167,8 @@ export interface BankQuestion extends TestQuestion {
 
 export interface ExamSetup {
   grade: Grade;
+  /** Seçilmiş quiz (1–3). Təyin olunubsa, imtahan həmin quizin sabit suallarından ibarətdir */
+  quiz?: number;
   subjectId: SubjectId;
   sectionId?: string;
   topicIds: string[];

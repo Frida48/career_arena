@@ -55,40 +55,19 @@ tools/question-gen/        # sual bankının generatorları və validator (bax: 
 
 ## Sual bankı
 
-3 sinif × 3 fənn × 3–4 bölmə × 30 sual = **900 sual**, hamısı DİM buraxılış formatında yazılmış orijinal suallardır.
+**5310 sual**, hamısı orta-çətin səviyyədə yazılmış orijinal suallardır. Kataloqdakı bölmə və mövzular bütün siniflər üçün eynidir, suallar isə sinfə (9, 10, 11) görə fərqlənir.
 
-| Sinif | Riyaziyyat (4 bölmə) | Azərbaycan dili (3 bölmə) | İngilis dili (3 bölmə) |
-| --- | --- | --- | --- |
-| 9 | Ədədlər · Cəbr · Funksiyalar və silsilələr · Həndəsə, statistika | Fonetika və leksika · Morfologiya · Sintaksis | Grammar · Vocabulary · Reading |
-| 10 | Tənliklər · Funksiyalar · Triqonometriya · Həndəsə və kombinatorika | Leksika və üslubiyyat · Morfologiya · Sadə cümlə | Grammar · Vocabulary · Reading |
-| 11 | Üstlü və loqarifmik · Törəmə · İnteqral · Fəza həndəsəsi | Orfoqrafiya və nitq · Mürəkkəb cümlə · Mətn və durğu | Grammar · Vocabulary · Reading |
+| Fənn | Mövzular | Hər sinifdə |
+| --- | --- | --- |
+| Riyaziyyat | 16 mövzu (ədədlər, cəbr, həndəsə, statistika) | 16 × 3 quiz × 20 sual = 960 |
+| Azərbaycan dili | 8 mövzu (fonetika, leksika, morfologiya, sintaksis) | 8 × 3 quiz × 20 sual = 480 |
+| İngilis dili | 5 mövzu (Grammar, Vocabulary) + Reading | 5 × 3 × 20 + Reading 3 × 10 = 330 |
 
+- **Quizlər:** mövzu səhifəsində hər mövzunun altında «Quiz 1 / 2 / 3» düymələri var. Bir neçə mövzu seçib qarışıq sınaq da qurmaq olar.
+- **Reading** mövzulara bölünmür: hər sinif üçün 3 quiz, hər quizdə bir orijinal mətn və ona aid 10 sual.
 - Variantlı suallarda 5 variant (A–E) var, riyaziyyatda bəzi suallar açıqdır (cavab yazılır).
-- Reading suallarında oxu mətni (`passage`) var; eyni mətnin sualları imtahanda ardıcıl gəlir.
-- Riyaziyyat sualları şablonlardan kodla yaradılır, cavablar hesablanır. Dil sualları əl ilə yazılıb, yayımdan əvvəl fənn müəllimi yoxlasa yaxşı olar.
+- Riyaziyyat cavabları kodla hesablanır. Azərbaycan dilinin fonetik və morfoloji sualları qaydalarla (ahəng qanunu, şəkilçilər) qurulur, qalan dil sualları yoxlanılmış banklardandır. Yayımdan əvvəl fənn müəllimi baxsa yaxşı olar.
 - Sualları dəyişmək üçün JSON-u yox, `tools/question-gen/` skriptlərini dəyişib yenidən işə salın.
-
-## Səhifələr (URL-lər)
-
-| URL | Səhifə |
-| --- | --- |
-| `/` | Ana səhifə (dairəvi 5 addımlıq animasiya daxil) |
-| `/subjects` → `/sections` → `/topics` | Fənn → bölmə → mövzu və çətinlik seçimi |
-| `/exam-info` → `/exam` → `/result` | İmtahan məlumat səhifəsi → imtahan (taymer, 30 sual) → nəticə və plagiat hesabatı |
-| `/dashboard`, `/practice` | İnkişaf paneli, fərdi məşq |
-| `/login`, `/register`, `/verify-email` | Giriş, qeydiyyat, e-poçt təsdiq kodu |
-| `/profile` | Profil məlumatları, şəkil yükləmə, şifrə dəyişmə |
-| `/ranking` | Ümumi reytinq və imtahan üzrə reytinq (ulduz və şərh) |
-| `/packages` | Free, Premium və məktəb/kurs paketləri |
-| `/about`, `/contact`, `/privacy`, `/terms` | Haqqımızda, əlaqə, məxfilik, şərtlər |
-
-Hostinqdə (Vercel, Netlify) bütün yolların `index.html`-ə yönləndirilməsi lazımdır. `vercel.json` və `public/_redirects` bunun üçün hazırdır.
-
-## Kod qaydaları
-
-- **Palitra:** "Meşə yaşılı" (forest green + qızılı vurğu + isti krem fon). Rənglər `src/index.css`-də `@theme` tokenləri kimi saxlanır (`bg-brand`, `bg-ink`, `btn-gold`, `dark:bg-surface-dark` və s.). Rəngi dəyişmək üçün yalnız orada düzəliş edin, komponentlərdə `#hex` yazmayın.
-- **Data** komponentlərin içində yox, `src/data/`-da saxlanır, tiplər `src/types.ts`-dədir.
-- `npm run format`: Prettier ilə kodu formatlayır. `npm run lint`: TypeScript yoxlaması (`strict` rejim).
 
 ## Backend
 

@@ -62,7 +62,7 @@ export function ExamProvider({ children }: { children: ReactNode }) {
       setup,
       questionIds: questions.map((q) => q.id),
       startedAt: Date.now(),
-      durationSec: examDurationSec(setup.questionCount),
+      durationSec: examDurationSec(questions.length),
       answers: {},
       flagged: [],
       violations: [],
