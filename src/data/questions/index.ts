@@ -1,4 +1,4 @@
-// Sual bankı: 9–11-ci siniflər × 31 mövzu × 3 quiz (Reading: 3 quiz × 10 sual, hər quiz bir mətn).
+// Sual bankı: 9–11-ci siniflər × 31 mövzu × 3 quiz (riyaziyyatda «Orta qiymət və moda» 11-ci sinifdə yoxdur) (Reading: 3 quiz × 10 sual, hər quiz bir mətn).
 // JSON faylları tools/question-gen/ skriptləri ilə yaradılır. Onları əl ilə redaktə etməyin,
 // skripti dəyişib yenidən işə salın. Yeni grade*-*.json faylı avtomatik qoşulur.
 import type { BankQuestion, Difficulty, Grade, OptionKey, SubjectId } from '../../types';
@@ -10,6 +10,8 @@ interface RawQuestion {
   difficulty: Difficulty;
   passage?: string;
   text: string;
+  /** SVG çertyoj */
+  image?: string;
   type: 'single' | 'open';
   options?: string[];
   correctIndex?: number;
@@ -64,6 +66,7 @@ for (const bank of banks) {
           difficulty: q.difficulty,
           passage: q.passage,
           text: q.text,
+          image: q.image,
           kind: isOpen ? 'open' : 'single',
           options: isOpen ? [] : (q.options ?? []).map((text, i) => ({ key: KEYS[i], text })),
           correctAnswer: isOpen ? undefined : KEYS[q.correctIndex ?? 0],

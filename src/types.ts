@@ -64,6 +64,8 @@ export interface TestQuestion {
   /** Oxu mətni (Reading sualları) */
   passage?: string;
   text: string;
+  /** Çertyoj (SVG mətni, həndəsə sualları) */
+  image?: string;
   /** 'single' — variantlı sual (default), 'open' — cavab yazılır */
   kind?: 'single' | 'open';
   options: {
@@ -152,6 +154,8 @@ export interface CatalogTopic {
   questionCount: number;
   /** 0–100: istifadəçinin mövzu üzrə bilik səviyyəsi (mock) */
   mastery: number;
+  /** Mövzu yalnız bu siniflərdə var (verilməyibsə — bütün siniflərdə) */
+  grades?: Grade[];
 }
 
 export interface BankQuestion extends TestQuestion {

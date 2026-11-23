@@ -16,7 +16,7 @@ export const SECTIONS: Section[] = [
     id: 'math-alg',
     subjectId: 'math',
     name: 'Cəbr',
-    description: 'Tənliklər, tənliklər sistemi, kvadrat tənliklər, proqresiyalar və funksiyalar.',
+    description: 'Tənliklər, tənliklər sistemi, kvadrat tənliklər, ardıcıllıqlar və funksiyalar.',
   },
   {
     id: 'math-geo',
@@ -28,7 +28,7 @@ export const SECTIONS: Section[] = [
     id: 'math-stat',
     subjectId: 'math',
     name: 'Statistika və ehtimal',
-    description: 'Orta qiymət, moda və ehtimal nəzəriyyəsinin əsasları.',
+    description: 'Orta qiymət, moda, dispersiya və ehtimal nəzəriyyəsi (11-ci sinifdə yalnız ehtimal).',
   },
   {
     id: 'aze-phon',
@@ -84,7 +84,8 @@ const t = (
   difficulty: Difficulty,
   questionCount: number,
   mastery: number,
-): CatalogTopic => ({ id, subjectId, sectionId, name, difficulty, questionCount, mastery });
+  grades?: Grade[],
+): CatalogTopic => ({ id, subjectId, sectionId, name, difficulty, questionCount, mastery, grades });
 
 export const CATALOG_TOPICS: CatalogTopic[] = [
   // Riyaziyyat · Ədədlər
@@ -97,7 +98,7 @@ export const CATALOG_TOPICS: CatalogTopic[] = [
   t('alg-eq', 'math', 'math-alg', 'Tənliklər', 'medium', 60, 84),
   t('alg-sys', 'math', 'math-alg', 'Tənliklər sistemi', 'medium', 60, 54),
   t('alg-quad', 'math', 'math-alg', 'Kvadrat tənliklər', 'medium', 60, 70),
-  t('alg-prog', 'math', 'math-alg', 'Proqresiyalar', 'hard', 60, 47),
+  t('alg-prog', 'math', 'math-alg', 'Ardıcıllıqlar', 'hard', 60, 47),
   t('alg-func', 'math', 'math-alg', 'Funksiyalar', 'medium', 60, 76),
   // Riyaziyyat · Həndəsə
   t('geo-basic', 'math', 'math-geo', 'Üçbucaqlar və bucaqlar', 'medium', 60, 68),
@@ -105,8 +106,8 @@ export const CATALOG_TOPICS: CatalogTopic[] = [
   t('geo-circle', 'math', 'math-geo', 'Çevrə və dairə', 'hard', 60, 58),
   t('geo-trig', 'math', 'math-geo', 'Trigonometriya', 'hard', 60, 51),
   // Riyaziyyat · Statistika
-  t('stat-avg', 'math', 'math-stat', 'Orta qiymət və moda', 'medium', 60, 90),
-  t('stat-prob', 'math', 'math-stat', 'Ehtimal nəzəriyyəsi', 'medium', 60, 64),
+  t('stat-avg', 'math', 'math-stat', 'Orta qiymət və moda', 'medium', 60, 90, [9, 10]),
+  t('stat-prob', 'math', 'math-stat', 'Ehtimal nəzəriyyəsi', 'hard', 60, 64),
   // Azərbaycan dili
   t('aze-sound', 'aze', 'aze-phon', 'Səs və hərf', 'medium', 60, 86),
   t('aze-orth', 'aze', 'aze-phon', 'Orfoqrafiya qaydaları', 'medium', 60, 71),
@@ -127,13 +128,16 @@ export const CATALOG_TOPICS: CatalogTopic[] = [
 
 export const getSection = (id?: string) => SECTIONS.find((s) => s.id === id);
 export const getTopic = (id: string) => CATALOG_TOPICS.find((x) => x.id === id);
+/** Mövzu bu sinifdə varmı (grades verilməyibsə — bütün siniflərdə) */
+export const topicInGrade = (t: CatalogTopic, grade?: Grade) =>
+  grade === undefined || !t.grades || t.grades.includes(grade);
 /** Bölmələr bütün siniflər üçün eynidir (grade parametri gələcək üçün saxlanılıb) */
 export const sectionsOf = (subjectId: SubjectId, _grade?: Grade) =>
   SECTIONS.filter((s) => s.subjectId === subjectId);
-export const topicsOfSubject = (subjectId: SubjectId, _grade?: Grade) =>
-  CATALOG_TOPICS.filter((t) => t.subjectId === subjectId);
-export const topicsOf = (sectionId: string) =>
-  CATALOG_TOPICS.filter((x) => x.sectionId === sectionId);
+export const topicsOfSubject = (subjectId: SubjectId, grade?: Grade) =>
+  CATALOG_TOPICS.filter((t) => t.subjectId === subjectId && topicInGrade(t, grade));
+export const topicsOf = (sectionId: string, grade?: Grade) =>
+  CATALOG_TOPICS.filter((x) => x.sectionId === sectionId && topicInGrade(x, grade));
 
 export const DIFFICULTY_META: Record<
   Difficulty,
