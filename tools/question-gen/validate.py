@@ -12,7 +12,8 @@ DATA = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().pare
 EXPECTED = {
     "math": ["num-real", "num-frac", "num-pow", "num-abs", "num-pct", "alg-eq", "alg-sys", "alg-quad", "alg-prog", "alg-func",
              "geo-basic", "geo-poly", "geo-circle", "geo-trig", "stat-avg", "stat-prob"],
-    "az": ["aze-sound", "aze-orth", "aze-syn", "aze-idiom", "aze-noun", "aze-verb", "aze-member", "aze-complex"],
+    "az": ["aze-sound", "aze-orth", "aze-syn", "aze-idiom", "aze-isim", "aze-sifet", "aze-say", "aze-evez", "aze-feil",
+           "aze-zerf", "aze-qosma", "aze-bag", "aze-edat", "aze-modal", "aze-nida", "aze-member", "aze-complex", "aze-punct"],
     "en": ["eng-tense", "eng-cond", "eng-passive", "eng-word", "eng-phrasal", "eng-reading"],
 }
 PER_QUIZ = {"eng-reading": 10}
@@ -21,6 +22,7 @@ SKIP = {(11, "math"): {"stat-avg"}}
 
 errors, total, ids = [], 0, set()
 math_texts = set()
+az_keys = set()
 for grade in (9, 10, 11):
     for subject, topics in EXPECTED.items():
         f = DATA / f"grade{grade}-{subject}.json"
@@ -33,7 +35,7 @@ for grade in (9, 10, 11):
         if got != want:
             errors.append(f"{f.name}: mövzular uyğun deyil: {got}")
         for t in d["topics"]:
-            need = PER_QUIZ.get(t["topicId"], 20)
+            need = PER_QUIZ.get(t["topicId"], 30 if subject == "az" else 20)
             if len(t["quizzes"]) != 3:
                 errors.append(f"{f.name}/{t['topicId']}: {len(t['quizzes'])} quiz (3 olmalıdır)")
             seen_topic = set()
@@ -63,6 +65,12 @@ for grade in (9, 10, 11):
                         math_texts.add(q["text"])
                         if grade in (9, 11) and q["difficulty"] != "hard":
                             errors.append(f"{qid}: 9 və 11-ci sinifdə riyaziyyat sualları çətin olmalıdır")
+                    if subject == "az":
+                        if (q["text"], tuple(sorted(q.get("options", [])))) in az_keys:
+                            errors.append(f"{qid}: Azərbaycan dili sualı başqa sinifdə/mövzuda təkrarlanır")
+                        az_keys.add((q["text"], tuple(sorted(q.get("options", [])))))
+                        if grade in (9, 11) and q["difficulty"] != "hard":
+                            errors.append(f"{qid}: 9 və 11-ci sinifdə Azərbaycan dili sualları çətin olmalıdır")
                     if q["type"] == "single":
                         o = q["options"]
                         if len(o) != 5 or len(set(o)) != 5:

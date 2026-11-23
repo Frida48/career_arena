@@ -55,18 +55,19 @@ tools/question-gen/        # sual bankının generatorları və validator (bax: 
 
 ## Sual bankı
 
-**5250 sual**, hamısı orijinal suallardır. Riyaziyyat: 9 və 11-ci sinif — yalnız çətin, 10-cu sinif — orta və çətin. Kataloqdakı bölmə və mövzular bütün siniflər üçün eynidir, suallar isə sinfə (9, 10, 11) görə fərqlənir.
+**8670 sual**, hamısı orijinal suallardır. Riyaziyyat və Azərbaycan dili: 9 və 11-ci sinif — yalnız çətin, 10-cu sinif — orta və çətin. Kataloqdakı bölmə və mövzular bütün siniflər üçün eynidir, suallar isə sinfə (9, 10, 11) görə fərqlənir.
 
 | Fənn | Mövzular | Hər sinifdə |
 | --- | --- | --- |
 | Riyaziyyat | 16 mövzu (ədədlər, cəbr, həndəsə, statistika və ehtimal) | 16 × 3 × 20 = 960 (11-ci sinif: 15 mövzu, 900) |
-| Azərbaycan dili | 8 mövzu (fonetika, leksika, morfologiya, sintaksis) | 8 × 3 quiz × 20 sual = 480 |
+| Azərbaycan dili | 18 mövzu: fonetika, leksika, əsas nitq hissələri (6), köməkçi nitq hissələri (5), sintaksis, durğu işarələri | 18 × 3 quiz × 30 sual = 1620 |
 | İngilis dili | 5 mövzu (Grammar, Vocabulary) + Reading | 5 × 3 × 20 + Reading 3 × 10 = 330 |
 
 - **Quizlər:** mövzu səhifəsində hər mövzunun altında «Quiz 1 / 2 / 3» düymələri var. Bir neçə mövzu seçib qarışıq sınaq da qurmaq olar.
 - **Reading** mövzulara bölünmür: hər sinif üçün 3 quiz, hər quizdə bir orijinal mətn və ona aid 10 sual.
 - Variantlı suallarda 5 variant (A–E) var, riyaziyyatda bəzi suallar açıqdır (cavab yazılır).
 - Riyaziyyatda «Orta qiymət və moda» mövzusu 11-ci sinifdə yoxdur; həndəsə suallarının bir hissəsində çertyoj (SVG, JSON-da `image` sahəsi) var.
+- Azərbaycan dili sualları cümlə daxilindədir və çoxşərtlidir; cavablar işarələnmiş cümlə korpusundan (hər söz: nitq hissəsi, növ, hal, cümlə üzvü) və fonetika/orfoqrafiya qaydalarından hesablanır, şərt hər variantda yenidən yoxlanır.
 - Riyaziyyat cavabları kodla iki dəfə hesablanır: düsturla və müstəqil üsulla (sadalama, koordinatlar, ədədi yoxlama); uyğun gəlməsə generator dayanır. Azərbaycan dilinin fonetik və morfoloji sualları qaydalarla (ahəng qanunu, şəkilçilər) qurulur, qalan dil sualları yoxlanılmış banklardandır. Yayımdan əvvəl fənn müəllimi baxsa yaxşı olar.
 - Sualları dəyişmək üçün JSON-u yox, `tools/question-gen/` skriptlərini dəyişib yenidən işə salın.
 

@@ -2,7 +2,8 @@ import type { CatalogTopic, Difficulty, Grade, Section, SubjectId } from '../typ
 
 /**
  * Bölmələr: Fənn → Bölmə → Mövzu. Bölmə və mövzular hər sinif (9, 10, 11) üçün eynidir, suallar isə
- * sinfə görə fərqlənir (src/data/questions). Hər mövzuda 3 quiz × 20 sual var; Reading bölməsi
+ * sinfə görə fərqlənir (src/data/questions). Riyaziyyat və İngilis dilində hər mövzuda 3 quiz × 20 sual,
+ * Azərbaycan dilində 3 quiz × 30 sual var; Reading bölməsi
  * mövzulara bölünmür — orada 3 quiz × 10 sual (hər quiz bir mətn).
  */
 export const SECTIONS: Section[] = [
@@ -34,25 +35,37 @@ export const SECTIONS: Section[] = [
     id: 'aze-phon',
     subjectId: 'aze',
     name: 'Fonetika və orfoqrafiya',
-    description: 'Səs və hərf sistemi, düzgün yazı qaydaları.',
+    description: 'Fonetik təhlil, səs və hərf; tələffüzə görə sözlərin düzgün yazılışı.',
   },
   {
     id: 'aze-lex',
     subjectId: 'aze',
     name: 'Leksika',
-    description: 'Söz ehtiyatı, sinonim, antonim və frazeoloji birləşmələr.',
+    description: 'Sinonim, antonim, omonim və frazeoloji birləşmələr — cümlə daxilində.',
   },
   {
-    id: 'aze-morph',
+    id: 'aze-main',
     subjectId: 'aze',
-    name: 'Morfologiya',
-    description: 'Nitq hissələri və onların qrammatik xüsusiyyətləri.',
+    name: 'Əsas nitq hissələri',
+    description: 'İsim, sifət, say, əvəzlik, feil və zərf.',
+  },
+  {
+    id: 'aze-aux',
+    subjectId: 'aze',
+    name: 'Köməkçi nitq hissələri',
+    description: 'Qoşma, bağlayıcı, ədat, modal sözlər və nida.',
   },
   {
     id: 'aze-synt',
     subjectId: 'aze',
     name: 'Sintaksis',
-    description: 'Cümlə quruluşu, cümlə üzvləri və mürəkkəb cümlələr.',
+    description: 'Cümlə üzvləri, sadə və mürəkkəb cümlələrin təhlili.',
+  },
+  {
+    id: 'aze-punc',
+    subjectId: 'aze',
+    name: 'Durğu işarələri',
+    description: 'Sadə və mürəkkəb cümlədə vergül, nöqtə, sual və nida işarələri.',
   },
   {
     id: 'eng-gram',
@@ -109,14 +122,27 @@ export const CATALOG_TOPICS: CatalogTopic[] = [
   t('stat-avg', 'math', 'math-stat', 'Orta qiymət və moda', 'medium', 60, 90, [9, 10]),
   t('stat-prob', 'math', 'math-stat', 'Ehtimal nəzəriyyəsi', 'hard', 60, 64),
   // Azərbaycan dili
-  t('aze-sound', 'aze', 'aze-phon', 'Səs və hərf', 'medium', 60, 86),
-  t('aze-orth', 'aze', 'aze-phon', 'Orfoqrafiya qaydaları', 'medium', 60, 71),
-  t('aze-syn', 'aze', 'aze-lex', 'Sinonim və antonim', 'medium', 60, 84),
-  t('aze-idiom', 'aze', 'aze-lex', 'Frazeoloji birləşmələr', 'hard', 60, 55),
-  t('aze-noun', 'aze', 'aze-morph', 'İsim və sifət', 'medium', 60, 80),
-  t('aze-verb', 'aze', 'aze-morph', 'Feil və təsriflənməyən formalar', 'hard', 60, 52),
-  t('aze-member', 'aze', 'aze-synt', 'Cümlənin üzvləri', 'medium', 60, 69),
-  t('aze-complex', 'aze', 'aze-synt', 'Mürəkkəb cümlələr', 'hard', 60, 49),
+  t('aze-sound', 'aze', 'aze-phon', 'Səs və hərf (fonetik təhlil)', 'hard', 90, 86),
+  t('aze-orth', 'aze', 'aze-phon', 'Orfoqrafiya qaydaları', 'hard', 90, 71),
+  t('aze-syn', 'aze', 'aze-lex', 'Sinonim, antonim və omonim', 'hard', 90, 84),
+  t('aze-idiom', 'aze', 'aze-lex', 'Frazeoloji birləşmələr', 'hard', 90, 55),
+  // Azərbaycan dili · Əsas nitq hissələri
+  t('aze-isim', 'aze', 'aze-main', 'İsim', 'hard', 90, 80),
+  t('aze-sifet', 'aze', 'aze-main', 'Sifət', 'hard', 90, 74),
+  t('aze-say', 'aze', 'aze-main', 'Say', 'hard', 90, 70),
+  t('aze-evez', 'aze', 'aze-main', 'Əvəzlik', 'hard', 90, 66),
+  t('aze-feil', 'aze', 'aze-main', 'Feil', 'hard', 90, 52),
+  t('aze-zerf', 'aze', 'aze-main', 'Zərf', 'hard', 90, 61),
+  // Azərbaycan dili · Köməkçi nitq hissələri
+  t('aze-qosma', 'aze', 'aze-aux', 'Qoşma', 'hard', 90, 64),
+  t('aze-bag', 'aze', 'aze-aux', 'Bağlayıcı', 'hard', 90, 67),
+  t('aze-edat', 'aze', 'aze-aux', 'Ədat', 'hard', 90, 58),
+  t('aze-modal', 'aze', 'aze-aux', 'Modal sözlər', 'hard', 90, 63),
+  t('aze-nida', 'aze', 'aze-aux', 'Nida', 'hard', 90, 72),
+  // Azərbaycan dili · Sintaksis və durğu işarələri
+  t('aze-member', 'aze', 'aze-synt', 'Cümlənin üzvləri', 'hard', 90, 69),
+  t('aze-complex', 'aze', 'aze-synt', 'Mürəkkəb cümlələr', 'hard', 90, 49),
+  t('aze-punct', 'aze', 'aze-punc', 'Durğu işarələri', 'hard', 90, 57),
   // English
   t('eng-tense', 'eng', 'eng-gram', 'Tenses', 'medium', 60, 66),
   t('eng-cond', 'eng', 'eng-gram', 'Conditionals', 'hard', 60, 48),
