@@ -2,9 +2,9 @@ import type { CatalogTopic, Difficulty, Grade, Section, SubjectId } from '../typ
 
 /**
  * Bölmələr: Fənn → Bölmə → Mövzu. Bölmə və mövzular hər sinif (9, 10, 11) üçün eynidir, suallar isə
- * sinfə görə fərqlənir (src/data/questions). Riyaziyyat və İngilis dilində hər mövzuda 3 quiz × 20 sual,
- * Azərbaycan dilində 3 quiz × 30 sual var; Reading bölməsi
- * mövzulara bölünmür — orada 3 quiz × 10 sual (hər quiz bir mətn).
+ * sinfə görə fərqlənir (src/data/questions). Riyaziyyatda hər mövzuda 3 quiz × 20 sual,
+ * Azərbaycan və İngilis dilində 3 quiz × 30 sual var; Reading bölməsi
+ * mövzulara bölünmür — orada 10 quiz × 8 sual (hər quiz bir mətn).
  */
 export const SECTIONS: Section[] = [
   {
@@ -71,20 +71,21 @@ export const SECTIONS: Section[] = [
     id: 'eng-gram',
     subjectId: 'eng',
     name: 'Grammar',
-    description: 'Zamanlar, şərt cümlələri və məchul növ.',
+    description:
+      'Zamanlar, şərt cümlələri, məchul növ, artikllar, miqdar bildirən sözlər, isim, sifət, əvəzlik, say və zərf.',
   },
   {
     id: 'eng-vocab',
     subjectId: 'eng',
     name: 'Vocabulary',
-    description: 'Söz yaradıcılığı və frazal feillər.',
+    description: 'Söz yaradıcılığı, frazal feillər, önlüklər və önlüklü ifadələr.',
   },
   {
     id: 'eng-read',
     subjectId: 'eng',
     name: 'Reading',
     description:
-      'Hər quiz bir orijinal mətn və ona aid 10 sual: əsas fikir, detallar, söz mənası, nəticə çıxarma.',
+      'Hər quiz bir orijinal mətn və ona aid 8 sual: əsas fikir, detallar, söz mənası, nəticə çıxarma.',
     directQuizzes: true,
   },
 ];
@@ -144,12 +145,20 @@ export const CATALOG_TOPICS: CatalogTopic[] = [
   t('aze-complex', 'aze', 'aze-synt', 'Mürəkkəb cümlələr', 'hard', 90, 49),
   t('aze-punct', 'aze', 'aze-punc', 'Durğu işarələri', 'hard', 90, 57),
   // English
-  t('eng-tense', 'eng', 'eng-gram', 'Tenses', 'medium', 60, 66),
-  t('eng-cond', 'eng', 'eng-gram', 'Conditionals', 'hard', 60, 48),
-  t('eng-passive', 'eng', 'eng-gram', 'Passive voice', 'medium', 60, 61),
-  t('eng-word', 'eng', 'eng-vocab', 'Word formation', 'medium', 60, 70),
-  t('eng-phrasal', 'eng', 'eng-vocab', 'Phrasal verbs', 'hard', 60, 53),
-  t('eng-reading', 'eng', 'eng-read', 'Reading', 'hard', 30, 60),
+  t('eng-tense', 'eng', 'eng-gram', 'Tenses', 'hard', 90, 66),
+  t('eng-cond', 'eng', 'eng-gram', 'Conditionals', 'hard', 90, 48),
+  t('eng-passive', 'eng', 'eng-gram', 'Passive voice', 'hard', 90, 61),
+  t('eng-article', 'eng', 'eng-gram', 'Articles', 'hard', 90, 58),
+  t('eng-quant', 'eng', 'eng-gram', 'Quantifiers', 'hard', 90, 54),
+  t('eng-noun', 'eng', 'eng-gram', 'Nouns', 'hard', 90, 63),
+  t('eng-adj', 'eng', 'eng-gram', 'Adjectives', 'hard', 90, 67),
+  t('eng-pron', 'eng', 'eng-gram', 'Pronouns', 'hard', 90, 60),
+  t('eng-num', 'eng', 'eng-gram', 'Numerals', 'hard', 90, 57),
+  t('eng-adv', 'eng', 'eng-gram', 'Adverbs', 'hard', 90, 55),
+  t('eng-word', 'eng', 'eng-vocab', 'Word formation', 'hard', 90, 70),
+  t('eng-phrasal', 'eng', 'eng-vocab', 'Phrasal verbs', 'hard', 90, 53),
+  t('eng-prep', 'eng', 'eng-vocab', 'Prepositions and Prepositional Phrases', 'hard', 90, 50),
+  t('eng-reading', 'eng', 'eng-read', 'Reading', 'hard', 80, 60),
 ];
 
 export const getSection = (id?: string) => SECTIONS.find((s) => s.id === id);

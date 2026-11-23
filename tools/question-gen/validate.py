@@ -1,6 +1,6 @@
 """Sual bankının yoxlanması:
 - hər sinif × fənn faylında gözlənilən mövzular var
-- hər mövzuda 3 quiz × 20 sual (Reading: 3 × 10)
+- riyaziyyat: 3 quiz × 20; Azərbaycan və İngilis dili: 3 quiz × 30; Reading: 10 quiz × 8
 - unikal id, boş sahə yoxdur, çətinlik orta/çətin
 - variantlı suallarda 5 fərqli variant və düzgün cavab indeksi
 - quiz daxilində eyni sual təkrarlanmır"""
@@ -14,9 +14,11 @@ EXPECTED = {
              "geo-basic", "geo-poly", "geo-circle", "geo-trig", "stat-avg", "stat-prob"],
     "az": ["aze-sound", "aze-orth", "aze-syn", "aze-idiom", "aze-isim", "aze-sifet", "aze-say", "aze-evez", "aze-feil",
            "aze-zerf", "aze-qosma", "aze-bag", "aze-edat", "aze-modal", "aze-nida", "aze-member", "aze-complex", "aze-punct"],
-    "en": ["eng-tense", "eng-cond", "eng-passive", "eng-word", "eng-phrasal", "eng-reading"],
+    "en": ["eng-tense", "eng-cond", "eng-passive", "eng-article", "eng-quant", "eng-noun", "eng-adj", "eng-pron",
+           "eng-num", "eng-adv", "eng-word", "eng-phrasal", "eng-prep", "eng-reading"],
 }
-PER_QUIZ = {"eng-reading": 10}
+PER_QUIZ = {"eng-reading": 8}
+N_QUIZ = {"eng-reading": 10}
 # «Orta qiymət və moda» 11-ci sinifdə yoxdur
 SKIP = {(11, "math"): {"stat-avg"}}
 
@@ -35,9 +37,10 @@ for grade in (9, 10, 11):
         if got != want:
             errors.append(f"{f.name}: mövzular uyğun deyil: {got}")
         for t in d["topics"]:
-            need = PER_QUIZ.get(t["topicId"], 30 if subject == "az" else 20)
-            if len(t["quizzes"]) != 3:
-                errors.append(f"{f.name}/{t['topicId']}: {len(t['quizzes'])} quiz (3 olmalıdır)")
+            need = PER_QUIZ.get(t["topicId"], 20 if subject == "math" else 30)
+            nq = N_QUIZ.get(t["topicId"], 3)
+            if len(t["quizzes"]) != nq:
+                errors.append(f"{f.name}/{t['topicId']}: {len(t['quizzes'])} quiz ({nq} olmalıdır)")
             seen_topic = set()
             for qi, quiz in enumerate(t["quizzes"], 1):
                 if len(quiz) != need:
@@ -65,12 +68,13 @@ for grade in (9, 10, 11):
                         math_texts.add(q["text"])
                         if grade in (9, 11) and q["difficulty"] != "hard":
                             errors.append(f"{qid}: 9 və 11-ci sinifdə riyaziyyat sualları çətin olmalıdır")
-                    if subject == "az":
-                        if (q["text"], tuple(sorted(q.get("options", [])))) in az_keys:
-                            errors.append(f"{qid}: Azərbaycan dili sualı başqa sinifdə/mövzuda təkrarlanır")
-                        az_keys.add((q["text"], tuple(sorted(q.get("options", [])))))
+                    if subject in ("az", "en"):
+                        k = (subject, q["text"], q.get("passage"), tuple(sorted(q.get("options", []))))
+                        if k in az_keys:
+                            errors.append(f"{qid}: sual başqa sinifdə/mövzuda təkrarlanır")
+                        az_keys.add(k)
                         if grade in (9, 11) and q["difficulty"] != "hard":
-                            errors.append(f"{qid}: 9 və 11-ci sinifdə Azərbaycan dili sualları çətin olmalıdır")
+                            errors.append(f"{qid}: 9 və 11-ci sinifdə sual çətin olmalıdır")
                     if q["type"] == "single":
                         o = q["options"]
                         if len(o) != 5 or len(set(o)) != 5:

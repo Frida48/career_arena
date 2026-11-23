@@ -3,7 +3,7 @@ import { ArrowRight, Shuffle } from 'lucide-react';
 import type { Difficulty, ScreenType, SubjectId } from '../types';
 import { SUBJECTS_DATA } from '../data/examData';
 import { DIFFICULTY_META, sectionsOf, topicsOf, topicsOfSubject } from '../data/catalog';
-import { gradeLabel } from '../data/questions';
+import { gradeLabel, quizzesOf } from '../data/questions';
 import { GradePicker } from '../components/GradePicker';
 import { useExam } from '../context/ExamContext';
 
@@ -95,7 +95,7 @@ export const SectionsScreen: React.FC<SectionsScreenProps> = ({ onSelectScreen }
                     <div className="flex items-center justify-between text-xs">
                       <span className="text-stone-500 dark:text-stone-400">
                         {section.directQuizzes
-                          ? `3 quiz · hər quizdə bir mətn · ${qCount} sual`
+                          ? `${topics[0] ? quizzesOf(setup.grade, topics[0].id).length : 0} quiz · hər quizdə bir mətn · ${qCount} sual`
                           : `Bilik səviyyəsi · ${topics.length} mövzu · ${topics.length * 3} quiz`}
                       </span>
                       <span className="font-bold text-ink dark:text-white">{avg}%</span>

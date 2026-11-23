@@ -2,7 +2,7 @@
 
 `src/data/questions/grade{9,10,11}-{math,az,en}.json` faylları bu qovluqdakı skriptlərlə yaradılır. Bütün suallar orijinaldır. Riyaziyyatda 9 və 11-ci sinif yalnız çətin, 10-cu sinif orta və çətin suallardan ibarətdir; 11-ci sinif sualları çoxaddımlıdır.
 
-Quruluş: **sinif → mövzu → 3 quiz × 20 sual** (Azərbaycan dili: **3 quiz × 30 sual**). İstisna Reading-dir: **3 quiz × 10 sual**, hər quiz bir mətn.
+Quruluş: **sinif → mövzu → 3 quiz × 20 sual** (Azərbaycan və İngilis dili: **3 quiz × 30 sual**). İstisna Reading-dir: **10 quiz × 8 sual**, hər quiz bir mətn.
 
 | Fayl | Nə edir |
 | --- | --- |
@@ -13,8 +13,10 @@ Quruluş: **sinif → mövzu → 3 quiz × 20 sual** (Azərbaycan dili: **3 quiz
 | `az_corpus.py` | İşarələnmiş cümlə korpusu (hər sinif ayrı): nitq hissəsi, növ, hal, cümlə üzvü |
 | `az_forms.py`, `az_morph.py` | İsim (mənsubiyyət + hal) və feil (zaman, şəxs, inkar) formaları — qaydalarla |
 | `azbuild.py` | Azərbaycan dili qurucusu: şərt 5 variantda yenidən yoxlanır, düz bir variant doğru olmalıdır |
-| `q_en.py` | İngilis dili, 5 mövzu. Feil cədvəli ilə zaman/şərt/məchul növ, söz yaradıcılığı və frazal feil bankları |
-| `en_passages.py` | Reading mətnləri (hər sinif üçün 3 mətn × 10 sual) |
+| `q_en.py` | İngilis dili: 13 mövzu × 90 sual (3 × 30) + Reading (10 mətn × 8 sual) |
+| `en_core.py` | Boşluqlu bəndlər (`Gap`: düzgün forma + yalnız şübhəsiz səhv formalar) və çoxtələbli şablonlar: bir neçə boşluq, düzgün cümlə, iki cümləlik variant |
+| `en_gram.py`, `en_vocab.py` | Grammar (10 mövzu) və Vocabulary (söz yaradıcılığı, frazal feillər, önlüklər) bəndləri, səviyyələrlə (9: 1–2, 10: 1–3, 11: 2–3) |
+| `en_passages.py`, `en_read9.py`, `en_read10.py`, `en_read11.py` | Reading mətnləri (hər sinif üçün 10 mətn × 8 sual) |
 | `quiz.py` | Ümumi çərçivə: 60 unikal sual → 3 quiz (çətinlik qarışıq paylanır) |
 | `common.py` | Formatlama, variantların qarışdırılması, Azərbaycan şəkilçiləri (3-cü, 6-cı, 2-yə…) |
 | `validate.py` | Say, unikal id, 5 fərqli variant, cavab indeksi, çətinlik və təkrarların yoxlanması |

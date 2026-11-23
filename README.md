@@ -55,16 +55,17 @@ tools/question-gen/        # sual bankının generatorları və validator (bax: 
 
 ## Sual bankı
 
-**8670 sual**, hamısı orijinal suallardır. Riyaziyyat və Azərbaycan dili: 9 və 11-ci sinif — yalnız çətin, 10-cu sinif — orta və çətin. Kataloqdakı bölmə və mövzular bütün siniflər üçün eynidir, suallar isə sinfə (9, 10, 11) görə fərqlənir.
+**11430 sual**, hamısı orijinal suallardır. Bütün fənlərdə 9 və 11-ci sinif — yalnız çətin, 10-cu sinif — orta və çətin. Kataloqdakı bölmə və mövzular bütün siniflər üçün eynidir, suallar isə sinfə (9, 10, 11) görə fərqlənir.
 
 | Fənn | Mövzular | Hər sinifdə |
 | --- | --- | --- |
 | Riyaziyyat | 16 mövzu (ədədlər, cəbr, həndəsə, statistika və ehtimal) | 16 × 3 × 20 = 960 (11-ci sinif: 15 mövzu, 900) |
 | Azərbaycan dili | 18 mövzu: fonetika, leksika, əsas nitq hissələri (6), köməkçi nitq hissələri (5), sintaksis, durğu işarələri | 18 × 3 quiz × 30 sual = 1620 |
-| İngilis dili | 5 mövzu (Grammar, Vocabulary) + Reading | 5 × 3 × 20 + Reading 3 × 10 = 330 |
+| İngilis dili | Grammar (10 mövzu: tenses, conditionals, passive, articles, quantifiers, nouns, adjectives, pronouns, numerals, adverbs), Vocabulary (3 mövzu: word formation, phrasal verbs, prepositions and prepositional phrases) + Reading | 13 × 3 quiz × 30 sual + Reading 10 × 8 = 1250 |
 
 - **Quizlər:** mövzu səhifəsində hər mövzunun altında «Quiz 1 / 2 / 3» düymələri var. Bir neçə mövzu seçib qarışıq sınaq da qurmaq olar.
-- **Reading** mövzulara bölünmür: hər sinif üçün 3 quiz, hər quizdə bir orijinal mətn və ona aid 10 sual.
+- **Reading** mövzulara bölünmür: hər sinif üçün 10 quiz, hər quizdə bir orijinal mətn və ona aid 8 sual.
+- İngilis dili qrammatika və lüğət sualları çoxtələblidir (bir neçə boşluq birlikdə, düzgün cümlə, 11-ci sinifdə «hər iki cümləsi düzgün olan variant»); səhv variantların əksəriyyətində yalnız bir hissə səhvdir.
 - Variantlı suallarda 5 variant (A–E) var, riyaziyyatda bəzi suallar açıqdır (cavab yazılır).
 - Riyaziyyatda «Orta qiymət və moda» mövzusu 11-ci sinifdə yoxdur; həndəsə suallarının bir hissəsində çertyoj (SVG, JSON-da `image` sahəsi) var.
 - Azərbaycan dili sualları cümlə daxilindədir və çoxşərtlidir; cavablar işarələnmiş cümlə korpusundan (hər söz: nitq hissəsi, növ, hal, cümlə üzvü) və fonetika/orfoqrafiya qaydalarından hesablanır, şərt hər variantda yenidən yoxlanır.
