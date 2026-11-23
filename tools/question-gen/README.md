@@ -1,12 +1,14 @@
 # Sual bankının generatoru
 
-`src/data/questions/grade{9,10,11}-{math,az,en}.json` faylları bu qovluqdakı skriptlərlə yaradılır. Bütün suallar orijinaldır və orta-çətin səviyyədədir.
+`src/data/questions/grade{9,10,11}-{math,az,en}.json` faylları bu qovluqdakı skriptlərlə yaradılır. Bütün suallar orijinaldır. Riyaziyyatda 9 və 11-ci sinif yalnız çətin, 10-cu sinif orta və çətin suallardan ibarətdir; 11-ci sinif sualları çoxaddımlıdır.
 
 Quruluş: **sinif → mövzu → 3 quiz × 20 sual**. İstisna Reading-dir: **3 quiz × 10 sual**, hər quiz bir mətn.
 
 | Fayl | Nə edir |
 | --- | --- |
-| `q_math.py` | Riyaziyyat, 16 mövzu. Şablonlardan kodla yaradılır, bütün cavablar hesablanır |
+| `q_math.py` | Riyaziyyat: `m_num.py` (ədədlər), `m_alg.py` (cəbr, ardıcıllıqlar), `m_geo.py` (həndəsə + çertyojlar), `m_stat.py` (statistika, ehtimal) şablonlarını yığır |
+| `mbuild.py`, `mx.py` | Riyaziyyat qurucusu: hər cavab müstəqil üsulla (`chk`) yoxlanır, oxşar variantlar, siniflər arasında unikal mətn |
+| `svg.py` | Həndəsə çertyojları (real koordinatlardan, `currentColor`) |
 | `q_az.py` | Azərbaycan dili, 8 mövzu. Söz/cümlə bankları + `az_morph.py` qaydaları (ahəng, hallar, feil formaları) |
 | `q_en.py` | İngilis dili, 5 mövzu. Feil cədvəli ilə zaman/şərt/məchul növ, söz yaradıcılığı və frazal feil bankları |
 | `en_passages.py` | Reading mətnləri (hər sinif üçün 3 mətn × 10 sual) |
@@ -31,5 +33,6 @@ Python 3.10+ lazımdır, əlavə paket tələb olunmur. Generatorlar sabit `seed
 - `type: "single"` — `options` (5 variant) və `correctIndex` (0–4)
 - `type: "open"` — `answer` (rəqəm və ya ifadə, mətn kimi)
 - Reading suallarında `passage` sahəsi var.
+- Həndəsə suallarında `image` (SVG mətni) ola bilər.
 
 Mövzu id-ləri `src/data/catalog.ts`-dəki ilə eynidir. Loader: `src/data/questions/index.ts`.

@@ -16,8 +16,11 @@ EXPECTED = {
     "en": ["eng-tense", "eng-cond", "eng-passive", "eng-word", "eng-phrasal", "eng-reading"],
 }
 PER_QUIZ = {"eng-reading": 10}
+# «Orta qiymət və moda» 11-ci sinifdə yoxdur
+SKIP = {(11, "math"): {"stat-avg"}}
 
 errors, total, ids = [], 0, set()
+math_texts = set()
 for grade in (9, 10, 11):
     for subject, topics in EXPECTED.items():
         f = DATA / f"grade{grade}-{subject}.json"
@@ -26,7 +29,8 @@ for grade in (9, 10, 11):
             continue
         d = json.loads(f.read_text(encoding="utf-8"))
         got = [t["topicId"] for t in d["topics"]]
-        if got != topics:
+        want = [t for t in topics if t not in SKIP.get((grade, subject), set())]
+        if got != want:
             errors.append(f"{f.name}: mövzular uyğun deyil: {got}")
         for t in d["topics"]:
             need = PER_QUIZ.get(t["topicId"], 20)
@@ -51,6 +55,14 @@ for grade in (9, 10, 11):
                     if key in seen_topic:
                         errors.append(f"{qid}: mövzuda təkrarlanan sual")
                     seen_topic.add(key)
+                    if "image" in q and not (q["image"].startswith("<svg") and q["image"].endswith("</svg>")):
+                        errors.append(f"{qid}: image SVG deyil")
+                    if subject == "math":
+                        if q["text"] in math_texts:
+                            errors.append(f"{qid}: mətn başqa sinifdə/mövzuda təkrarlanır")
+                        math_texts.add(q["text"])
+                        if grade in (9, 11) and q["difficulty"] != "hard":
+                            errors.append(f"{qid}: 9 və 11-ci sinifdə riyaziyyat sualları çətin olmalıdır")
                     if q["type"] == "single":
                         o = q["options"]
                         if len(o) != 5 or len(set(o)) != 5:

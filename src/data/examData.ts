@@ -535,7 +535,7 @@ export const TEST_QUESTIONS: TestQuestion[] = [
   {
     id: 18,
     subject: 'Riyaziyyat',
-    topic: 'Proqresiyalar',
+    topic: 'Ardıcıllıqlar',
     text: 'Ədədi silsilədə a₁ = 3 və silsilə fərqi d = 4 olarsa, a₅-i tapın.',
     options: [
       { key: 'A', text: '15' },
